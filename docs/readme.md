@@ -1,4 +1,4 @@
-# Moca Client User Guide
+# Moca Client
 
 ## 2020.1.2
 
