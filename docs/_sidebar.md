@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/#moca-client)
+- [Home](/readme.md)
 - [Tools](tools.md)
 - [Apps](Apps.md)
 - [MTF](mtf.md)
