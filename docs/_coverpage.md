@@ -1,9 +1,11 @@
-![logo](_media/icon.svg)
+![logo](https://www.smart-is.com/wp-content/uploads/2019/09/moca-app-logo.png)
 
 # Moca Client <small>2020.1.2</small>
 
 > Smart MOCA Client
 
-- Simple and Intuitive Client for Moca
+- Simple and Intuitive Client for MOCA
+- Built-in CHange Management
+- All in one tool for development, prototyping, and troubleshooting
 
-[Getting Started](#moca-client)
+[User Guide](#moca-client)
