@@ -2,6 +2,8 @@
 
 ## 2020.1.2
 
+This is a test
+
 _IMPORTANT_ Copy moca.jar
 If you do not have moca.jar in C:\Program Files\Oracular MOCA Client (or wherever you installed the program), you must copy it from %MOCADIR%\lib from any working instance of RedPrairie. Without it, the program will not work. The version from 2005 is known not to work and the version from 2007 is known to work.
 
