@@ -6,4 +6,4 @@
 
 - Simple and Intuitive Client for Moca
 
-[Getting Started](#docsify)
+[Getting Started](#moca-client)
