@@ -27,3 +27,17 @@
 -  All files in the list are added to the rollout
 -  db/data files are followed by a LOADDATA statement
 -  db/ddl files are followed by a RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statement
+### Rollout Merger
+**Steps**:
+-  Open this from Oracular MOCA Client Tools menu
+-  If your current server does not contain the file $LESDIR/scripts/ossi_rollout.pl, report an error and close
+-   Drag and drop folders into the window that pops up
+-  Enter a destination directory into the text box
+-  Click the "Generate" button
+-  All files from the rollouts in the list are merged into one rollout according to the order of the list
+-  The script contains REPLACE statements for each file for each file that was not removed by the end of the list
+-  The script contains RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statements for each db/ddl file (based on the extension)
+-  The script contains LOADDATA *.csv for each db/data directory
+-  The script ends with MBUILD and REBUILD LES
+-  %LESDIR/scripts/ossi_rollout.pl is downloaded and saved as rollout.pl in the merged rollout directory
+-  The merged rollout directory opens
