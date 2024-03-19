@@ -18,3 +18,12 @@
 - **Generate CTL from CSV**: Enter the table name and the number of primary key columns, choose a CSV file, and a dialog will pop up with the text needed.
 - **Parse Seamles Log**: Parse logs produced by Integrator.
 - **Parse SLExp**: Parse .slexp files (Integrator exports).
+### Rollout Generator
+**Steps:**
+-  Open this from Oracular MOCA Client Tools menu
+-  Drag and drop files/folders into the window that pops up
+-  Enter a rollout name into the text box
+-  Click the "Generate" button
+-  All files in the list are added to the rollout
+-  db/data files are followed by a LOADDATA statement
+-  db/ddl files are followed by a RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statement
