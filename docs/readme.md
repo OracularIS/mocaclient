@@ -1,11 +1,9 @@
 # Moca Client
 
-## 2020.1.2
+## 2024.3.6
 
-_IMPORTANT_ Copy moca.jar
-If you do not have moca.jar in C:\Program Files\Oracular MOCA Client (or wherever you installed the program), you must copy it from %MOCADIR%\lib from any working instance of RedPrairie. Without it, the program will not work. The version from 2005 is known not to work and the version from 2007 is known to work.
-
-_New in 2010_ Copy MOCA/lib/moca-core.jar to C:\Program Files\Oracular MOCA Client\moca.jar (Yes, change the filename from moca-core.jar to moca.jar)
+**IMPORTANT: Copy moca.jar**
+If you do not have moca.jar in C:\Program Files\Oracular MOCA Client (or wherever you installed the program), you must copy it from %MOCADIR%\lib from any working instance of RedPrairie. Without it, the program will not work. The version from 2005 is known not to work and the version from 2007 and above is known to work.
 
 ### Purpose
 
@@ -51,7 +49,7 @@ Click the Cancel button in lower-right corner of the screen. This will also canc
 
 Command completion was developed for commands that get a lot of use and can be successfully guessed, saving the user from typing the entire command out. For example, if you begin your command with “[“, the program will guess that you typing a select query and will fill out the command as “[select * from where rownum < 99]”. If the guess is correct and you would like to accept the command as shown, hit TAB, and the caret will be moved to the position where you would enter the table name. These stored commands are defined in %appdata%\Oracular MOCA Client\MOCADev-Commands.txt. “START” defines the position the user is taken when he or she hits TAB.
 
-_NEW in 2010.6.0_
+**NEW in 2024.3.6**
 Place custom commands in the Usr-MOCADev-Commands.txt file.
 
 ### Trace Files
