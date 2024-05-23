@@ -9,4 +9,4 @@
 - All in one tool for development, prototyping, and troubleshooting
 
 [Download](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/)
-[User Guide](./readme.md))
+[User Guide](./readme.md)
