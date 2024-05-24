@@ -1,43 +1,177 @@
 ## Tools Menu
 
-- **Open Find Dialog**: Find commands, policies, DDAs by searching by filename or text.
-- **Open New Editor Window**: Open Oracular Editor (not tied to any server).
-- **Re-Cache Commands/Tables/Columns**: Reloads the lists used in the completion dialogs and other places.
-- **Clear History File**: Delete the file in the History folder containing saved command execution history.
-- **Reload Commands/Tables**: Reloads the lists used to generate the popup suggestions.
-- **Local RP Instances**: Shows all the local RP instances on your machine and allows you to open LES, a command prompt with env.bat, mtfdevice, or KevTerm.
-- **RF Picker**: Start Kevterm and pick everything on the wave with provided parameters.
-- **Automated Task Editor**: Write scripts to automate common tasks (open RF to a specific screen, open GUI to a specific screen, etc).
-- **New in 2010.4**: Write Groovy code within square brackets ([[String str = "abc"]]). To run a command, call edit.run(Command.<command>, params) (e.g. edit.run(Command.script, "putty")).
-- **DDA Wizard**: Easily create DDAs by generating the CSVs needed from the given information.
-- **DB Compare**: Allows comparison of a table between two servers. Options are available to ignore date/times, ignore certain columns, and generate the insert statements needed to move data from one environment to the other.
-- **Barcodes**: Enter a part number in the first box and hit enter to see all the alternate part numbers.
-- **Parse RDT from .dat**: Takes in a form name and the location of the .dat file (vehicle or handheld) and outputs the form in RDT format. This has not been put to practical use yet, so the output may not be 100% accurate.
-- **Zebra Emulator**: Open a .OUT file containing ZPL and this will attempt to render an approximation of the label.
-- **Rollout Generator**: Drag files from Windows Explorer to add to the rollout. Enter a name, press Generate, and a new rollout will be created in the Oracular MOCA Client\Rollouts folder.
-- **Generate CTL from CSV**: Enter the table name and the number of primary key columns, choose a CSV file, and a dialog will pop up with the text needed.
-- **Parse Seamles Log**: Parse logs produced by Integrator.
-- **Parse SLExp**: Parse .slexp files (Integrator exports).
-### Rollout Generator
-**Steps:**
--  Open this from Oracular MOCA Client Tools menu
--  Drag and drop files/folders into the window that pops up
--  Enter a rollout name into the text box
--  Click the "Generate" button
--  All files in the list are added to the rollout
--  db/data files are followed by a LOADDATA statement
--  db/ddl files are followed by a RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statement
-### Rollout Merger
-**Steps**:
--  Open this from Oracular MOCA Client Tools menu
--  If your current server does not contain the file $LESDIR/scripts/ossi_rollout.pl, report an error and close
--   Drag and drop folders into the window that pops up
--  Enter a destination directory into the text box
--  Click the "Generate" button
--  All files from the rollouts in the list are merged into one rollout according to the order of the list
--  The script contains REPLACE statements for each file for each file that was not removed by the end of the list
--  The script contains RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statements for each db/ddl file (based on the extension)
--  The script contains LOADDATA *.csv for each db/data directory
--  The script ends with MBUILD and REBUILD LES
--  %LESDIR/scripts/ossi_rollout.pl is downloaded and saved as rollout.pl in the merged rollout directory
--  The merged rollout directory opens
+The Tools menu in Smart MOCA Client provides a comprehensive set of utilities and functionalities to enhance productivity and streamline various tasks related to development, deployment, and integration. 
+
+![tool1](../.attachments/tool-menu/tool1.png)
+
+### Tools Menu Components
+
+Below are the components of the Tools menu along with their descriptions:
+
+<details>
+
+<summary> Open Find Dialog </summary>
+
+This option allows us to find commands, policies, ddas by searching by filename or text. To find anything simply go on tab and add the filename, or command name or dda id etc, and press find.
+
+</details>
+
+<details>
+
+<summary> Open New Editor Window </summary>
+
+The Open New Editor Window option in Smart MOCA Client allows you to open a MOCA Editor (not tied to any server). This feature provides a flexible and versatile environment for writing and testing your MOCA commands, scripts, and queries independently of any server connection.
+
+</details>
+
+<details>
+
+<summary> Re-Cache </summary>
+
+The Re-Cache feature in Smart MOCA Client is designed to enhance your productivity by ensuring that the most up-to-date information is available in the completion dialogs and other interactive components of the application. This functionality is essential for keeping your development environment synchronized with the latest database schema and command structures.
+
+1. Re-Cache Commands
+    
+    This option allows you to reload the list of available commands used in completion dialogs and other areas within the Smart MOCA Client. Keeping the command list updated ensures that you have access to the latest commands, including any new additions or modifications.
+
+- To use this feature, navigate to Re-Cache > Re-Cache Commands. The system will automatically refresh the list of commands, making sure you have the most current information at your fingertips.
+
+2. Re-Cache Tables
+    
+    This option allows you to reload the list of tables available in your database. Keeping the table list updated is crucial for accurately reflecting the current database schema, especially after making changes such as adding or removing tables.
+
+ - To refresh the list of tables, go to Re-Cache > Re-Cache Tables. The application will update the table list, ensuring that your completion dialogs and other tools display the most accurate and current table information.
+
+3. Re-Cache Table Columns
+    
+    This option allows you to reload the list of tables available in your database. Keeping the table list updated is crucial for accurately reflecting the current database schema, especially after making changes such as adding or removing tables.
+
+- To update the list of table columns, select Re-Cache > Re-Cache Table Columns. The system will refresh the column information, making sure your development tools have access to the latest column structures.
+
+</details>
+
+<details>
+
+<summary> Clear Server Information </summary>
+
+The Clear Server Information option in Smart MOCA Client enables you to clear cached information about the servers without affecting the cached commands, tables, or columns. This feature is particularly useful for maintaining an accurate and up-to-date connection with your servers, especially after making changes to server configurations or experiencing connection issues..
+
+</details>
+
+<details>
+
+<summary> Compare </summary>
+
+The Compare feature in Smart MOCA Client is designed to help you efficiently identify differences and similarities between datasets, whether they reside on different servers or within local files. This functionality is crucial for tasks such as data validation, synchronization, and troubleshooting.
+
+1. Compare Tables Between Instances
+    
+    This option allows you to compare data between two servers. By selecting two different server instances, you can quickly identify discrepancies and ensure data consistency across your environments.
+
+- To use this feature, navigate to Compare > Compare Tables Between Instances, and follow the prompts to select the tables and instances you wish to compare. The results will highlight any differences, allowing you to take corrective action as needed.
+
+2. Diff 2 Local Files
+    
+    This option allows you to compare data between two local files. Whether you need to check for changes in script versions, configuration files, or data exports, this tool provides a detailed comparison to help you understand the differences between the files.
+
+- To utilize this feature, go to Compare > Diff 2 Local Files, and select the two files you wish to compare. The tool will generate a detailed report of the differences, allowing you to review and address any discrepancies efficiently.
+
+</details>
+
+<details>
+
+<summary> Export Views </summary>
+
+The Export Views tool in Smart MOCA Client allows you to export database views to .sql script files. This functionality is essential for sharing, backing up, or deploying your database views across different environments.
+
+</details>
+
+<details>
+
+<summary> DDA Exports </summary>
+
+The DDA Export tool in Smart MOCA Client facilitates the export of DDA (Dynamic Data Access) data into CSV files. This feature enables you to extract and save DDA data in a format that is easily readable and usable in various applications and platforms.
+
+</details>
+
+<details>
+
+<summary> Wizards </summary>
+
+Wizards in Smart MOCA Client provide convenient and guided processes for performing specific tasks efficiently. These wizards streamline complex procedures and help users generate CSV files for various purposes with ease. Below are the wizards available:
+
+1. DDA Wizard
+    
+    The DDA Wizard enables users to generate CSV files for new DDAs (Dynamic Data Access). By adding required data in the fields and pressing "add", users can quickly create CSV files containing dynamic data sets. 
+
+2. Label Wizard
+    
+    The Label Wizard allows users to generate CSV files for new labels. With this tool, users can easily create CSV files containing label data for various purposes such as printing, labeling, or organizing items.
+
+3. Report Wizard
+    
+    The Report Wizard empowers users to generate CSV files for new reports. This tool simplifies the process of report generation by guiding users through the steps required to specify report parameters and generate corresponding CSV files.
+
+</details>
+
+<details>
+
+<summary> Rollouts </summary>
+
+Rollouts in Smart MOCA Client provide powerful tools for managing and organizing deployment tasks efficiently. These tools streamline the process of generating, merging, and analyzing rollout files. Below are the rollouts tools available:
+
+1. Rollout Generator
+    
+    The Rollout Generator tool allows users to create rollout files easily. Follow these steps:
+
+    > Steps for Rollout Generator
+
+    1. Add Files: Drag files from Windows Explorer and drop them into the Rollout Generator.
+    2. Name Rollout: Enter a name for the rollout.
+    3. Generate: Click the "Generate" button to create a new rollout in the Oracular MOCA Client\Rollouts folder.
+        -  All files in the list are added to the rollout
+        -  db/data files are followed by a LOADDATA statement
+        -  db/ddl files are followed by a RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statement
+
+2. Rollout Merger
+    
+    The Rollout Merger tool enables users to merge files into one rollout according to the specified order. Follow these steps:
+
+    > Steps for Rollout Merger
+
+    1. Open Tool: Access the Rollout Merger from the Oracular MOCA Client Tools menu.
+        - If the current server lacks the file $LESDIR/scripts/ossi_rollout.pl, an error will be reported, and the tool will close.
+    2. Add Folders: Drag and drop folders into the window that appears.
+    3. Specify Destination: Enter a destination directory into the text box.
+    4. Generate: Click the "Generate" button.
+        - All files from the rollouts in the list are merged into one rollout following the order specified.
+        - The generated script contains REPLACE statements for each file not removed by the end of the list.
+        - RUNSQL/RUNMSQL/RUNSQLIGNOREERRORS statements are included for each db/ddl file based on the extension.
+        - LOADDATA *.csv statements are added for each db/data directory.
+        - The script concludes with MBUILD and REBUILD LES.
+        - %LESDIR/scripts/ossi_rollout.pl is downloaded and saved as rollout.pl in the merged rollout directory.
+    5. Open Directory: The merged rollout directory opens.
+
+3. Rollout Log Parser
+    
+    The Rollout Log Parser tool in Smart MOCA Client enables users to parse log files generated during rollout processes, allowing them to identify and analyze errors and issues within rollout files. This feature is essential for troubleshooting and debugging rollout operations, ensuring the successful deployment of changes and updates.
+
+</details>
+
+<details>
+
+<summary> Seamles </summary>
+
+Seamles tools in Smart MOCA Client provide functionalities for parsing various types of files produced by the Integrator module. These tools streamline the process of analyzing and extracting information from Seamles logs and SLExp files. Below are the Seamles tools available:
+
+1. Parse Seamles Log
+    
+    The Parse Seamles Log tool enables users to parse log files produced by the Integrator module. This tool is essential for analyzing Seamles integration processes and diagnosing any issues or errors encountered during integration tasks.
+
+2. Parse SLExp
+    
+    The Parse SLExp tool allows users to parse .slexp files generated by the Integrator module. SLExp files contain exported data and configurations from Seamles integration tasks, and parsing these files enables users to extract and analyze the exported data and settings.
+
+</details>
+
+
