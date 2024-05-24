@@ -9,4 +9,8 @@
 - [Release updates](release_updates.md)
 
 **Menu Overview**
-- [File Menu](../docs/file-menu.md)
+- [File](../docs/file.md)
+- [Edit](../docs/edit.md)
+- [Tools](../docs/tools.md)
+- [MTF](../docs/mtf.md)
+- [Data](../docs/data.md)
