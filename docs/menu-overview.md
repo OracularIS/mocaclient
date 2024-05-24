@@ -6,11 +6,11 @@ The menu in the MOCA Client application provides access to a wide range of funct
 
 <summary> Main Components </summary>
 
-1. File
-2. Edit
-3. Tools
-4. MTF
-5. DATA
+1. [File](./file.md)
+2. [Edit](./edit.md)
+3. [Tools](./tools.md)
+4. [MTF](./mtf.md)
+5. [Data](../docs/data.md)
 6. Display
 7. Options
 8. Source Code
