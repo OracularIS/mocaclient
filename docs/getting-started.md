@@ -22,24 +22,24 @@ Welcome to Smart MOCA Client! This section will guide you through the initial st
        
       - Visit the Smart IS website and navigate to Our Products > MOCA Client.
        
-        ![Start In](../.attachments/StartIn.png)
+        ![Start In](./.attachments/StartIn.png)
 
       - Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer. The download will start automatically.
 
-        ![GetSmartISMocaClient](../.attachments/GetSmartISMocaClient.png)
+        ![GetSmartISMocaClient](./.attachments/GetSmartISMocaClient.png)
 
   2. Run the Installer
    
       - Locate the downloaded file (mocaclient20240594.exe) and double-click to run the installer.
 
-        ![Wizard1](../.attachments/Wizard1.png)
+        ![Wizard1](./.attachments/Wizard1.png)
 
       - Follow the on-screen instructions to complete the installation process.
         
-        ![Wizard2](../.attachments/Wizard2.png)
+        ![Wizard2](./.attachments/Wizard2.png)
   
   3. Launch the Application
    
       - Once installed, launch Smart MOCA Client by double-clicking the desktop icon or searching for it in the start menu. Once an application gets started, you will see below interface:
   
-        ![MocaLaunch](../.attachments/MocaLaunch.png)
+        ![MocaLaunch](./.attachments/MocaLaunch.png)
