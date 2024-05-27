@@ -1,5 +1,0 @@
-- [File](./menu-overview/file.md)
-- [Edit](./menu-overview/edit.md)
-- [Tools](./menu-overview/tools.md)
-- [MTF](./menu-overview/mtf.md) 
-- [Data](./menu-overview/data.md)  
