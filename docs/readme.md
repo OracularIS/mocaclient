@@ -24,22 +24,6 @@ Use menu option MOCA Log->Database Trace with Script
 
 Use menu option Options->Format in real-time?
 
-#### Adding Servers
-
-Choosing File -> Edit Servers brings up this dialog:
-
-If entering a 2010 server like "http://localhost:4500/service", enter that as the host. Port does not need to be entered.
-
-The servers already entered into RedPrairie are automatically loaded from the file C:\Documents and Settings\All Users\Application Data\RedPrairie\DLXClient\DLXClientConfig.xml
-
-Critical servers start with Auto-Commit turned off and the user is prompted to confirm each execution.
-
-#### Connecting
-
-Choose a server name from the list loaded by the server dialog and click the Connect button or hit Alt-C.
-
-If the server does not have a username or password defined, you will be prompted for it. The program now attempts to make a connection. This may take some time. If connection was successful, a new tab will be opened below. If not, a dialog will pop up indicating the error.
-
 #### Executing Commands
 
 Type a command in the text box and hit ENTER, Alt-E, F5, or click the Execute button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. If any text is selected, that will be the command executed and not the entire contents of the text editor.

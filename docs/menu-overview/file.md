@@ -1,16 +1,14 @@
-## File Menu
+## File Menu Overview
 
 The File Menu in Smart MOCA Client is designed to give you quick access to essential file operations and settings, ensuring efficient management of your projects and data.
 
 ![FileMenu](../.attachments/file-menu/FileMenu.png)
 
-### File Menu Components
+## Components
 
 Below is an overview of the components available under the File Menu, each serving a specific function to enhance your workflow.
 
-<details>
-
-<summary> Edit Connection Groups </summary>
+### [Edit Connection Groups
 
 This screen is used to maintain groups for connections.
 
@@ -49,101 +47,78 @@ e. Remove Selected from Group
 
     ![RemoveSelectedfromGroup](../.attachments/file-menu/RemoveSelectedfromGroup.png)
 
-</details>
+---
 
-<details>
-
-<summary> Edit Servers </summary>
+### Edit Servers
 
 This screen also allows us to manage connection information of servers. To edit, simply add your desired information and press “Add/Update” button.
 
 ![EditServers](../.attachments/file-menu/EditServers.png)
 
-</details>
+---
 
-<details>
-
-<summary> Load MSQL </summary>
+### Load MSQL
 
 This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in current tab.
 
-</details>
+---
 
-<details>
-
-<summary> Save MSQL </summary>
+### Save MSQL
 
 This option allows us to save MSQL files into Computer. To save a file just click this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
 
-</details>
+---
 
-<details>
-
-<summary> Load State </summary>
+### Load State
 
 This option allows us to load previously saved tabs from .dbs files. To load state, click this option and choose the previously saved states, and press open.
 
-</details>
+---
 
-<details>
-
-<summary> Save State </summary>
+### Save State
 This option allows us to save tabs in. dbs format. Simply click this option and press save.
 
-</details>
+---
 
-<details>
-
-<summary> Load Previous Session </summary>
+### Load Previous Session
 
 This option allows us to load previous sessions of MOCA, so you can easily jump into where you were previously. To load previous sessions, press this option and choose your session and click open button, your session will be loaded.
 
-</details>
+---
 
-<details>
-
-<summary> Open Smart MOCA and SQL client User Directory </summary>
+### Open Smart MOCA and SQL client User Directory
 
 By clicking this option, you can open the user directory of Smart MOCA client where all user files are placed.
 
 ![SQLClientUserDirectory](../.attachments/file-menu/SQLClientUserDirectory.png)
 
-</details>
+---
 
-<details>
-
-<summary> Open Smart MOCA and SQL client Shared Directory </summary>
+### Open Smart MOCA and SQL client Shared Directory
 
 By clicking this option, you can open the shared directory of Smart MOCA client. This contains Scripts, Variable Commands, Icons, etc.
 
 ![SQLClientSharedDirectory](../.attachments/file-menu/SQLClientSharedDirectory.png)
 
-</details>
+---
 
-<details>
-
-<summary> Print Table </summary>
+### Print Table
 
 This option allows us to print table results using printer.
 
 ![PrintTable](../.attachments/file-menu/PrintTable.png)
 
-</details>
+---
 
-<details>
-
-<summary> Save as a Script </summary>
+### Save as a Script
 
 This option allows us to save code used to retrieve data as script in script folder.
 
-</details>
+---
 
-<details>
-
-<summary> Save as MOCA Command </summary>
+### Save as MOCA Command
 
 This option allows us to save code used to retrieve data as MOCA command.
 
-</details>
 
 
