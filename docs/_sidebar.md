@@ -9,5 +9,8 @@
   - [Tools](./menu-overview/tools.md)
   - [MTF](./menu-overview/mtf.md) 
   - [Data](./menu-overview/data.md)  
+- [Connections](./connections.md)
+- [Smart Apps Connectivity](./smartapps.md)
+- [Adhoc Access](./adhoc-access.md)
 - [Addons](addons.md)
 - [Release updates](release-updates.md)

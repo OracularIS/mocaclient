@@ -1,173 +1,73 @@
-## Data Menu
+## Data Menu Overview
 
 The Data menu in Smart MOCA Client provides tools for managing and manipulating data at different levels. 
 
 ![data1](../.attachments/data-menu/data1.png)
 
-### Data Menu Components
+## Components
 
 Below are the components of the Data menu categorized based on their functionality:
 
-#### Instance Level
+## Instance Level
 
-<details>
+### Edit Server Files
 
-<summary> Edit Server Files </summary>
+### Load Grid from CSV
 
-</details>
+### Save Grid to CSV
 
-<details>
+### Save Grid to CSV w/PK
 
-<summary> Load Grid from CSV </summary>
+### Save Grid to Table CSVs by Table Columns
 
-</details>
-
-<details>
-
-<summary> Save Grid to CSV </summary>
-
-</details>
-
-<details>
-
-<summary> Save Grid to CSV w/PK </summary>
-
-</details>
-
-<details>
-
-<summary> Save Grid to Table CSVs by Table Columns </summary>
-
-</details>
-
-<details>
-
-<summary> Save Grid to Table CSVs by Content </summary>
-
-</details>
+### Save Grid to Table CSVs by Content
 
 ---
 
-#### Client-Side MLoad
+## Client-Side MLoad
 
-<details>
+### Insert into current tab
 
-<summary> Insert into current tab </summary>
+### Insert/Update into current tab
 
-</details>
+### MLoad current tab
 
-<details>
+### MUnLoad current tab
 
-<summary> Insert/Update into current tab </summary>
+### Load CSV with current tab as script
 
-</details>
+### Load CSV with local CTL script
 
-<details>
+### Get MLoad Commands
 
-<summary> MLoad current tab </summary>
-
-</details>
-
-<details>
-
-<summary> MUnLoad current tab </summary>
-
-</details>
-
-<details>
-
-<summary> Load CSV with current tab as script </summary>
-
-</details>
-
-<details>
-
-<summary> Load CSV with local CTL script </summary>
-
-</details>
-
-<details>
-
-<summary> Get MLoad Commands </summary>
-
-</details>
-
-<details>
-
-<summary> Get MUnLoad Commands </summary>
-
-</details>
+### Get MUnLoad Commands
 
 ---
 
-#### Server-Side MLoad
+## Server-Side MLoad
 
-<details>
+### Run MLoad cmd on current server
 
-<summary> Run MLoad cmd on current server </summary>
-
-</details>
-
-<details>
-
-<summary> Upload CSV and run Mload with CTL on current server </summary>
-
-</details>
+### Upload CSV and run Mload with CTL on current server
 
 ---
 
-#### Current Results
+## Current Results
 
-<details>
+### Get Inserts (SQL Format)
 
-<summary> Get Inserts (SQL Format) </summary>
+### Get Inserts
 
-</details>
+### Get Updates
 
-<details>
+### Get Result Set
 
-<summary> Get Inserts </summary>
+### DB Backup/Restore
 
-</details>
+### Generate CTL from CSV
 
-<details>
+### Generate CTL for table
 
-<summary> Get Updates </summary>
+### Generate Delete CTL for table
 
-</details>
-
-<details>
-
-<summary> Get Result Set </summary>
-
-</details>
-
-<details>
-
-<summary> DB Backup/Restore </summary>
-
-</details>
-
-<details>
-
-<summary> Generate CTL from CSV </summary>
-
-</details>
-
-<details>
-
-<summary> Generate CTL for table </summary>
-
-</details>
-
-<details>
-
-<summary> Generate Delete CTL for table </summary>
-
-</details>
-
-<details>
-
-<summary> Execute Scripts from File </summary>
-
-</details>
+### Execute Scripts from File
