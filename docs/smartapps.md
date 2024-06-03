@@ -1,4 +1,4 @@
-## Cloud Connect
+## Smart Apps Connectivity
 
 The **Cloud Connect** feature in Smart MOCA Client simplifies the process of managing licenses and accessing key information for add-ons. 
 
@@ -11,7 +11,9 @@ By following the steps outlined in this documentation, users can easily generate
 - **App Key Generation**: Generate an app key that includes all the license information for your user account and add-ons.
 - **License Management**: Keep track of licenses for different features and add-ons within Smart MOCA Client.
 
-## Register on SmartApps:
+---
+
+## Register on SmartApps
 
 - Visit the [SmartApps registration page](https://apps.smart-is.com/).
 - Fill out the registration form with the required information.
@@ -38,6 +40,8 @@ By following the steps outlined in this documentation, users can easily generate
   ![Register](./.attachments/smart6.png)
 
 - Smart MOCA Client will now have access to all the licensed features and add-ons associated with your account.
+
+---
 
 ## Troubleshooting
 

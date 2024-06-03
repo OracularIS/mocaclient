@@ -8,7 +8,7 @@ The File Menu in Smart MOCA Client is designed to give you quick access to essen
 
 Below is an overview of the components available under the File Menu, each serving a specific function to enhance your workflow.
 
-### [Edit Connection Groups
+### Edit Connection Groups
 
 This screen is used to maintain groups for connections.
 

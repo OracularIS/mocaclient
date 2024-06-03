@@ -44,6 +44,8 @@ Organize your connection groups to streamline the configuration and handling of 
 
 Follow [Connection Grouping](./menu-overview/file.md) to see complete section of connection grouping.
 
+---
+
 ## Password Security
 
 Smart MOCA Client ensures password security by prompting users to enter security key. 
