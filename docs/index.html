@@ -44,47 +44,11 @@
    <script>
       new Vue({
         el: "#app",
-        data: {
-          majorVersion: "",
-          minorVersion: "",
-          revision: "",
-          message: "Hello World",
-          installFile: "",
-        },
-        created() {
-          this.fetchXMLData();
-        },
-        methods: {
-          fetchXMLData() {
-            const proxyUrl = "https://api.allorigins.win/raw?url=";
-            const targetUrl =
-              "https://autoupdate.oracular.com/mocaclient/updates.xml";
-
-            fetch(proxyUrl + encodeURIComponent(targetUrl))
-              .then((response) => {
-                if (!response.ok) {
-                  throw new Error("Network response was not ok");
-                }
-                return response.text();
-              })
-              .then((data) => {
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(data, "application/xml");
-
-                this.majorVersion =
-                  xmlDoc.getElementsByTagName("MajorVersion")[0].textContent;
-                this.minorVersion =
-                  xmlDoc.getElementsByTagName("MinorVersion")[0].textContent;
-                this.revision =
-                  xmlDoc.getElementsByTagName("Revision")[0].textContent;
-                this.installFile =
-                  xmlDoc.getElementsByTagName("InstallFile")[0].textContent;
-              })
-              .catch((error) =>
-                console.error("Error fetching the XML file:", error)
-              );
-          },
-        },
+        data() {
+        return {
+          message: 'Hello, World!'
+        };
+      }
       });
     </script>
   <!-- Docsify v4 -->
