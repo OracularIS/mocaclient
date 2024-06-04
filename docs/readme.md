@@ -16,3 +16,12 @@ Smart Moca Client can perform several tasks in the most efficient manner possibl
 
 <div id="apptest" v-template>{{ markdownContent }}</div>
 - <span v-html="markdownContent"></span>
+
+<script>
+  new Vue({
+    el: '#apptest',
+    data: {
+      markdownContent: '<b>djsdjjsdsd</b>',
+    }
+  })
+</script>
