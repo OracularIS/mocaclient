@@ -41,17 +41,22 @@
   </script>
   <!-- Vue.js Production CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
-   <script>
-      new Vue({
-      el: '#apptest',
-      data: {
-        markdownContent: '# Hello, World!'
-      }
-    })
-    </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script>
+    // Initialize Vue instance after Docsify is ready
+    window.$docsify.plugins = [].concat(window.$docsify.plugins, function (hook, vm) {
+      hook.doneEach(function() {
+        new Vue({
+          el: '#apptest',
+          data: {
+            markdownContent: '# Hello, World!'
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
