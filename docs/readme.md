@@ -6,7 +6,7 @@ Congratulations on choosing **Smart MOCA Client** - your all-in-one solution. Th
 
 Whether you are a beginner or an experienced user, this comprehensive guide will walk you through the essential operations, from installation to mastering advanced features. 
 
-### Purpose1
+### Purpose
 
 Smart MOCA Client was initially developed to improve upon RedPrairie’s WinMSQL. At the time, WinMSQL could not open multiple tabs for connections and did not allow the user to cancel execution, which could force the user to close the window by force and start another, a time-consuming and unnecessary process. 
 
@@ -14,11 +14,4 @@ Moreover, Smart IS International realized that our developers need to be empower
 
 Smart Moca Client can perform several tasks in the most efficient manner possible and is more efficient and user-friendly.
 
-// JavaScript code snippet
-```js
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
-
-greet('John');
 
