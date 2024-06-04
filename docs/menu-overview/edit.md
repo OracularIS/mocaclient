@@ -12,9 +12,10 @@ Below are the components of the Edit menu along with their descriptions:
 
 The Find/Replace tool allows users to search for and replace specific words or phrases within their script. 
 
-To use this tool, input the word to find in the "Find" text field and the word to replace it with in the "Replace" text field, then click the "Find and Replace" button.
+- Enter the text you want to search for in the "Find" text field and navigate through the search results using the 'Find Next' and 'Find Previous' buttons.
+- Enter the replacement text in the 'Replace with' field and 'Replace' to replace the current instance or 'Replace All' to replace all instances of the search text within the document.
 
-![edit2](../.attachments/edit-menu/edit2.png)
+  ![edit2](../.attachments/edit-menu/edit2.png)
 
 ---
 
@@ -22,9 +23,15 @@ To use this tool, input the word to find in the "Find" text field and the word t
 
 The Load Command from History option enables users to load commands from the command history. To load a command from history, click the "Find" button in the dialogue box and select the desired command. 
 
-![edit3](../.attachments/edit-menu/edit3.png)
+![History](../.attachments/edit-menu/edit3.png)
 
----
+- To clear history from tabs, navigate to Clear from Tabs and select environment to delete history from tabs.
+
+    ![HistoryTabs](../.attachments/edit-menu/history2.png) 
+
+- To clear history from DB, navigate to Clear from DB --> Command History and select environment to delete history from DB.
+
+    ![HistoryDB](../.attachments/edit-menu/history3.png) 
 
 ##### Additional information:
 

@@ -15,7 +15,6 @@
 - **Socket Emulator:** Emulation tool for simulating socket connections and interactions.
 - **Convert Crystal Report to Active Report:** Conversion tool for transforming Crystal Reports into Active Reports format.
 - **Diff Slexp:** Tool for comparing and finding differences between Slexp (S-Expression) files.
-
 - **Open Find Dialog**: Find commands, policies, DDAs by searching by filename or text.
 - **Open New Editor Window**: Open Oracular Editor (not tied to any server).
 - **Re-Cache Commands/Tables/Columns**: Reloads the lists used in the completion dialogs and other places.
@@ -34,4 +33,5 @@
 - **Generate CTL from CSV**: Enter the table name and the number of primary key columns, choose a CSV file, and a dialog will pop up with the text needed.
 - **Parse Seamles Log**: Parse logs produced by Integrator.
 - **Parse SLExp**: Parse .slexp files (Integrator exports).
+
 

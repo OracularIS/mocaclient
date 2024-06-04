@@ -4,33 +4,82 @@ The **Adhoc Access** feature in Smart MOCA Client provides users with the abilit
 
 This documentation outlines the various functionalities and steps involved in using Adhoc Access.
 
-## Executing Commands
+## Command Execution
 
-- Type a command in the text box and hit **ENTER**, **Alt-E**, **F5**, or click the **Execute** button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. 
+Type a command in the text box and hit **ENTER**, **Alt-E**, **F5**, or click the **Execute** button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. 
 
-  ![EditServers](./.attachments/adhoc1.png)
+  ![Execution](./.attachments/adhoc1.png)
 
-- If any text is selected, that will be the command executed and not the entire contents of the text editor.
+If any text is selected, that will be the command executed and not the entire contents of the text editor.
 
 ### Queue Command
 
 Press **Queue Cmd** or **Ctrl-Q** to execute the next command immediately after the current one has ended.
 
-  ![EditServers](./.attachments/adhoc2.png)
+  ![Queue](./.attachments/adhoc2.png)
 
 ### Cancelling Execution
 
 Click the **Cancel** button in the lower-right corner of the screen. This will also cancel MLoad with CTL if running.
 
-  ![EditServers](./.attachments/adhoc3.png)
+  ![Cancellation](./.attachments/adhoc3.png)
 
-### Command Completion
+---
+
+## Command Completion
 
 Command completion was developed for commands that get a lot of use and can be successfully guessed, saving the user from typing the entire command out. 
 
 - For example, if you begin your command with “[“, the program will guess that you are typing a select query and will fill out the command as “[select * from where rownum < 99]”. 
+
+  ![Completion](./.attachments/adhoc5.png)
+
 - If the guess is correct and you would like to accept the command as shown, hit **TAB**, and the caret will be moved to the position where you would enter the table name. 
-- These stored commands are defined in `%ProgramData%\Oracular MOCA Client\MOCADev-Commands.txt`. 
+- These stored commands are defined in `%APPDATA%\Oracular MOCA Client\MOCADev-Commands.txt`. 
+
+---
+
+## Grid Functions
+
+- **Ctrl-R:** Copy results to clipboard as "publish data" commands
+- **Ctrl-I:** Copy results to clipboard as insert statements
+- **Ctrl-U:** Copy results to clipboard as "sl_change gen_maint" commands
+
+---
+
+## Variable Commands
+
+These are scripts that show up for use when right clicking the grid for certain variables.
+
+- Stored in `%appdata%\Oracular MOCA Client\Var Commands`
+- Actions for prtnum, ordnum, ship_id, etc are already defined.
+
+  ![Variable Commands](./.attachments/variablecommand.png)
+
+- When right-clicking in the grid, if there are scripts in Var Commands\<varnam>, they will show up as menu items as seen above. 
+- When you select the item, the tab’s text area will be filled in with the script, using the selected value.
+- Columns can be designated as aliases of a different column by creating a file named “alias.txt” in the directory and specifying the column name to look for the scripts. For example, the “dstsub” directory will have a alias.txt file containing “subnum”.
+
+---
+
+## Tracing
+
+- To turn on trace mode for a tab, hit **Alt-T** or click the **Start Trace** button in the center of the tab. Then, execute commands as normal until you are ready to stop tracing. Hit **Alt-T** again or click the **Stop Trace** button. 
+
+  ![StartTrace](./.attachments/trace1.png)
+
+- You will be asked if you want to get the trace file now. If you select yes, the table will be filled with the trace file. All trace levels are included in the file. 
+
+  ![GetTrace](./.attachments/trace3.png)
+  ![GetTrace1](./.attachments/trace4.png)
+
+- The index of a tab can be seen in the tooltip text of the “Start Trace” button.
+   
+  ![TraceIndex](./.attachments/trace2.png)
+
+- If the trace file is too large to be quickly opened, you will be given the option to retrieve the last X bytes of the file.
+
+---
 
 ## Controlling Adhoc Access
 
@@ -61,6 +110,8 @@ Restricting ad-hoc access in production environments is essential to prevent uni
 
 By effectively monitoring and controlling ad-hoc access, you can maintain a secure and stable production environment, minimize the risk of unauthorized activities, and ensure compliance with organizational policies and standards.
 
+---
+
 ## Scripts
 
 The Scripts Concept in Smart MOCA Client allows users to streamline their workflow by creating and executing custom scripts. This functionality enhances productivity by automating repetitive tasks and providing quick access to commonly used commands.
@@ -71,15 +122,16 @@ Below, we explore various aspects of the Scripts Concept, including running shor
 
 The Smart MOCA Client supports running predefined shortcuts for frequently used commands using the `#` symbol. This feature saves time by allowing users to execute complex commands with simple, memorable shortcuts.
 
-- To run a shortcut, type `#` followed by the shortcut name in the command text box and press ENTER. For example, typing #myShortcut will execute the command associated with myShortcut. 
+- To run a shortcut, type `#` followed by the shortcut name in the command text box and press ENTER (i.e. to run Find_Command#cmd.msql, type #cmd <command_name>, run #mbuild.msql by typing #mbuild). 
   
   ![script](./.attachments/script1.png)
 
 ### Where are the Scripts stored?
 
-Scripts are stored in the `%ProgramData%\Oracular MOCA Client\Scripts` directory.
+Scripts are stored in the `%APPDATA%\Oracular MOCA Client\Scripts` directory.
 
-- This directory contains all user-created scripts and any predefined scripts provided with the application. Users can navigate to this directory to view, edit, or delete existing scripts.
+- The directory contains all user-created scripts and any predefined scripts provided with the application. Users can navigate to this directory to view, edit, or delete existing scripts.
+- Place custom scripts in the Usr-Scripts folder. If a custom script has the same path as a script in the Scripts folder, it will override it (just like RP's usrint cmd lvl).
 
 ### Adding New Scripts
 
@@ -128,42 +180,64 @@ The Script Editor enables users to save their scripts as macros, making them eas
   
 - Macros can be executed using the assigned shortcut or by selecting them from the macros menu.
 
+---
+
 ## Command History
 
-### Normal History
+The Command History feature in Smart MOCA Client provides an efficient way to track, manage, and re-execute previously run commands. This tool enhances productivity by allowing users to easily access their command history, view resultsets, and leverage advanced history storage options.
 
-- Access a list of previously executed commands for reference and re-execution.
+1. Normal History
 
-### Advanced History - Database
+   The Normal History functionality allows users to quickly access a list of commands they have previously executed. This is particularly useful for re-executing common commands or referencing past commands for troubleshooting.
 
-- A detailed guide on storing and retrieving command history from a database.
+  - Navigate to the History combobox within the Smart MOCA Client interface. The drown down will get open with list of executed queries.
 
-### Resultsets
+    ![Normal History](./.attachments/history1.png)
 
-- Manage and view the results of executed commands for analysis and reporting.
+  - Select any command from the list to view its details or to re-execute it with a single click.
+
+2. Advanced History
+
+   The Smart MOCA Client enables users to see advanced history of executed commands and load commands directly from the command history. This feature streamlines the process of finding and re-executing past commands from database.
+
+   ![Advance History](./.attachments/edit-menu/edit3.png)
+
+   You can also add [Additional Information](./menu-overview/file.md) to search data accordingly in History Search window.
+
+3. Resultsets
+
+   The Resultsets allows users to manage and view the results of executed commands. This is crucial for analyzing command outputs, generating reports, and making data-driven decisions.
+
+  - After executing a command, the resultset is automatically saved and can be accessed from the Resultsets column in window grid by double clicking on it.
+
+    ![Resultsets](./.attachments/history4.png)
+
+---
 
 ## Find Dialogs
 
-### Main Find
+The Find Dialogs feature in Smart MOCA Client provides powerful search capabilities to enhance user productivity by allowing efficient navigation and modification of text and files within the application. 
 
-- Use the main find dialog to search for commands, policies, and DDAs by filename or text content.
+1. Find/Replace
 
-### Advanced Find
+   This feature is designed to help users quickly locate and replace text within the text editor.
 
-- Utilize advanced options to refine searches and locate specific commands or files.
+  - Navigate to Edit --> [Find/Replace](./menu-overview/edit.md) or use the shortcut Ctrl+F.
 
-### Right-click on File
+    ![Find/Replace](./.attachments/find1.png)
 
-- Find commands and options by right-clicking on files within the application.
+2. Advanced Find
 
-## Trace Files
+   The Advanced Find functionality, accessible via the 'Open Find Dialog' option, provides comprehensive search capabilities across various file types, commands, policies, and more.
 
-To turn on trace mode for a tab, hit **Alt-T** or click the **Start Trace** button in the center of the tab. Then, execute commands as normal until you are ready to stop tracing. Hit **Alt-T** again or click the **Stop Trace** button. You will be asked if you want to get the trace file now. If you select yes, the table will be filled with the trace file. All trace levels are included in the file. The index of a tab can be seen in the tooltip text of the “Start Trace” button. If the trace file is too large to be quickly opened, you will be given the option to retrieve the last X bytes of the file.
+  - Navigate to Tools --> [Open Find Dialog](./menu-overview/tools.md) to open Find window.
 
-### Insert Trace into DB
+    ![Open Find Dialogue](./.attachments/find2.png)
+    ![Search](./.attachments/find3.png)
 
-Use the menu option **MOCA Log -> Database Trace with Script** to insert the trace into the database.
+3. Right-click on File
 
-## Real-time Formatting
+   Find commands and their path by right-clicking on files within the application.
 
-Use the menu option **Options -> Format in real-time?** to enable real-time formatting of c
+   ![Open Find Dialogue](./.attachments/find4.png)
+
