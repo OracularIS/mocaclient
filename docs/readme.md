@@ -22,4 +22,11 @@ Smart Moca Client can perform several tasks in the most efficient manner possibl
 ```
 </div>
 </div>
+<script>
+  Vue.createApp({
+   data: {
+    markdownContent: '# Hello, World!'
+  }
+  }).mount('#app');
+</script>
 
