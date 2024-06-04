@@ -14,4 +14,10 @@ Moreover, Smart IS International realized that our developers need to be empower
 
 Smart Moca Client can perform several tasks in the most efficient manner possible and is more efficient and user-friendly.
 
+<div v-template>
+```
+{{ message}}
+```
+</div>
+
 
