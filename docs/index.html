@@ -31,10 +31,7 @@
       },
       vueGlobalOptions: {
         data: {
-          majorVersion: "",
-          minorVersion: "",
-          revision: "",
-          installFile: "",
+          mocaData: "",
         },
         created() {
           this.fetchXMLData();
@@ -56,14 +53,12 @@
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(data, "application/xml");
 
-                this.majorVersion =
-                  xmlDoc.getElementsByTagName("MajorVersion")[0].textContent;
-                this.minorVersion =
-                  xmlDoc.getElementsByTagName("MinorVersion")[0].textContent;
-                this.revision =
+                this.mocaData =
+                  xmlDoc.getElementsByTagName("MajorVersion")[0].textContent +
+                  `.` +
+                  xmlDoc.getElementsByTagName("MinorVersion")[0].textContent +
+                  `.` +
                   xmlDoc.getElementsByTagName("Revision")[0].textContent;
-                this.installFile =
-                  xmlDoc.getElementsByTagName("InstallFile")[0].textContent;
               })
               .catch((error) =>
                 console.error("Error fetching the XML file:", error)
