@@ -30,15 +30,7 @@
         namespace: 'moca-client',
       },
       vueGlobalOptions: {
-        data() {
-          return {
-            globalMsg: 'Hello from vueGlobalOptions!',
-          };
-        },
-      },
-      vueMounts: {
-        '#test': {
-          data: {
+        data: {
           majorVersion: "",
           minorVersion: "",
           revision: "",
@@ -78,8 +70,8 @@
               );
           },
         },
-        },
       },
+      
     }
   </script>
   <!-- Vue.js Production CDN -->
