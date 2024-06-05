@@ -75,6 +75,22 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  
+  <script>
+    // Initialize Vue instance after Docsify is ready
+    window.$docsify.plugins = [].concat(window.$docsify.plugins, function(hook, vm) {
+      hook.doneEach(function() {
+        // Ensure Vue only initializes once
+        if (!window.vueApp) {
+          window.vueApp = new Vue({
+            el: '#app',
+            data: window.$docsify.vueGlobalOptions.data,
+            created: window.$docsify.vueGlobalOptions.created,
+            methods: window.$docsify.vueGlobalOptions.methods
+          });
+        }
+      });
+    });
+  </script>
+</body>
 </body>
 </html>
