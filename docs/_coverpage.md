@@ -1,6 +1,6 @@
 ![logo](https://www.smart-is.com/wp-content/uploads/2019/09/moca-app-logo.png)
 
-# Moca Client <small>2024.3.6</small>
+# Moca Client <small>{{ mocaMMR }}</small>
 
 > Smart MOCA Client
 
