@@ -1,6 +1,6 @@
 # Moca Client
 
-## {{ mocaData }}
+## {{ mocaMMR }}
 
 Congratulations on choosing **Smart MOCA Client** - your all-in-one solution. This user guide is designed to help you make the most out of our powerful and intuitive software, guiding you through its features and functionality.
 
