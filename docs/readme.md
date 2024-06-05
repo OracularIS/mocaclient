@@ -1,6 +1,6 @@
 # Moca Client
 
-## 2024.5.1
+## {{ mocaData }}
 
 Congratulations on choosing **Smart MOCA Client** - your all-in-one solution. This user guide is designed to help you make the most out of our powerful and intuitive software, guiding you through its features and functionality.
 
@@ -14,11 +14,5 @@ Moreover, Smart IS International realized that our developers need to be empower
 
 Smart Moca Client can perform several tasks in the most efficient manner possible and is more efficient and user-friendly.
 
-<p>{{ globalMsg }}</p>
-<h1>Update Information</h1>
-<p>Major Version: {{ majorVersion }}</p>
-<p>Minor Version: {{ minorVersion }}</p>
-<p>Revision: {{ revision }}</p>
-<p>Install File: {{ installFile }}</p>
 
 
