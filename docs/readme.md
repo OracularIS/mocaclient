@@ -15,6 +15,10 @@ Moreover, Smart IS International realized that our developers need to be empower
 Smart Moca Client can perform several tasks in the most efficient manner possible and is more efficient and user-friendly.
 
 <p>{{ globalMsg }}</p>
-<p id="test">{{ mountMsg }}</p>
+<p id="test"><h1>Update Information</h1>
+      <p>Major Version: {{ majorVersion }}</p>
+      <p>Minor Version: {{ minorVersion }}</p>
+      <p>Revision: {{ revision }}</p>
+      <p>Install File: {{ installFile }}</p></p>
 
 
