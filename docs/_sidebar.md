@@ -1,11 +1,12 @@
 <!-- docs/_sidebar.md -->
 
 - [Home](./readme.md)
-- [Getting Started](./getting-started.md)
 - [Why Use Moca Client?](./why-mocaclient.md)
+- [Getting Started](./getting-started.md)
 - [Connections](./connections.md)
 - [Smart Apps Connectivity](./smartapps.md)
 - [Advance System Operations](./advance-operations.md)
+- [Keyboard Shortcuts](./moca_client_shortcuts.md)
 - [Adhoc Access](./adhoc-access.md)
 - [DevOps](./devops.md)
 - [Release updates](release-updates.md)
