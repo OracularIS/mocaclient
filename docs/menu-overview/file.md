@@ -57,15 +57,15 @@ This screen also allows us to manage connection information of servers. To edit,
 
 ---
 
-### Load MSQL
+### Open MSQL in new tab
 
-This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in current tab.
+This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in new tab.
 
 ---
 
-### Save MSQL
+### Save MSQL in current tab
 
-This option allows us to save MSQL files into Computer. To save a file just click this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
+This option allows us to save current tab MSQL into Computer. To save a file just click this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
 
 ---
 
