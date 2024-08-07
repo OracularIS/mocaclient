@@ -48,9 +48,25 @@ Use menu option Options->Format in real-time?
 
 ## Issue Assignment
 
-This feature helps to assign, track, and manage issues throughout the development and deployment process. Users can assign issues to team members, set priorities, and monitor progress to ensure timely resolution.
+The **Issue Assignment** feature in Smart MOCA Client is a comprehensive tool designed to helps to assign, track, and manage issues throughout the development and deployment process. Users can assign issues to team members, set priorities, and monitor progress to ensure timely resolution.
 
 ![IssueAssignment](./.attachments/issue.png)
+
+![Issue1](./.attachments/issue1.png)
+
+Following are the main components of Issue Assignment screen:
+
+1.  **Input**: It is used to give input while create/change issue having user ID, issue sequence, status, and description etc.
+
+2.  **Data**: It is used to track changes to database tables. It provides a detailed view of all modifications, ensuring that data-related issues are managed effectively.
+
+3.  **Files**: It is used to track changes to files. This includes source code, configuration files, and any other file types relevant to the project. It helps in maintaining a clear history of changes and facilitates easy rollback if necessary.
+
+    ![Issue2](./.attachments/issue2.png)
+
+4.  **Seamles**: It is specifically designed to track changes related to the Integrator module. It helps in managing and monitoring integration tasks.
+
+5.  **Commit Changes**: It allows users to commit files associated with an issue, ensuring that changes are properly recorded and versioned.
 
 ---
 

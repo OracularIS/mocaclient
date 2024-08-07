@@ -15,29 +15,34 @@ By following the steps outlined in this documentation, users can easily generate
 
 ## Register on SmartApps
 
-- Visit the [SmartApps registration page](https://apps.smart-is.com/).
-- Fill out the registration form with the required information.
-- Verify your email address to complete the registration process.
+- Visit [Smart Apps Portal](https://apps.smart-is.com/).
+- Now "Sign Up, if you don't have an account or log in with Microsoft or Google". 
 
   ![Register](./.attachments/smart1.png)
 
 ### Generating Your App Key
 
-- From the Smart Connect menu, select the "Cloud Connect" option and press **Open in Browser** button. This will open a new browser tab and redirect you to the Smart Apps website.
+- From the Smart Connect menu, select the "Cloud Connect" option and press **Open in Browser** button. This will open a new browser tab and redirect you to the Smart Apps portal.
   
-  ![Register](./.attachments/smart7.png)
+  ![SmartApp](./.attachments/smart7.png)
 
 - Now enter your login credentials to access your smart app account.
+
+  ![ProfilePage](./.attachments/profile.png)
+
 - Once logged in, navigate to your profile page. This is usually found in the user menu, accessible by clicking on your username or profile icon.
+
+  ![ProfileNavigation](./.attachments/ProfileNavigation.png)
+
 - Click the "Generate App Key" button. This action will create a new app key containing all your license information. Once the app key is generated, copy it to your clipboard.
 
-  ![Register](./.attachments/smart2.png)
+  ![GenerateAppKey](./.attachments/smart2.png)
 
 ### Using the App Key in Smart MOCA Client
 
 - Go to the Smart Connect --> Cloud Connect from dropdown menu and enter key which is generated from website and press **Save Key** button.
 
-  ![Register](./.attachments/smart6.png)
+  ![AppKeyUsage](./.attachments/smart6.png)
 
 - Smart MOCA Client will now have access to all the licensed features and add-ons associated with your account.
 
@@ -45,8 +50,8 @@ By following the steps outlined in this documentation, users can easily generate
 
 ## Troubleshooting
 
-- **Unable to Access AppSmart**: Ensure you have an active internet connection and that the AppSmart website is not experiencing downtime.
-- **App Key Generation Issues**: If you encounter errors while generating the app key, contact AppSmart support for assistance.
+- **Unable to Access Smart Apps**: Ensure you have an active internet connection and that the Smart Apps portal is not experiencing downtime.
+- **App Key Generation Issues**: If you encounter errors while generating the app key, contact Smart Apps support for assistance.
 - **License Activation Problems**: If the app key does not activate the expected features, verify that the key was copied correctly and try again.
 
 Note: For further assistance, please refer to the Smart MOCA Client support resources or contact our support team.
