@@ -29,13 +29,15 @@ Before you begin, make sure your system meets the following minimum requirements
 
       - Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
 
-        ![GetSmartISMocaClient](./.attachments/GetSmartISMocaClient.png)
+        ![Install1](./.attachments/install1.png)
 
       - After filling out the form, you will receive an email with a link to the download page.
 
-      - Now open an email you received from Smart IS and click the link provided in the email to navigate to the download page.
+        ![Install2](./.attachments/install2.png)
 
-      - Finally download the latest version of the installer from the download page.
+      - Now open an email you received from Smart IS and click the **Download MOCA Client** link provided in the email to navigate to the download page download the latest version of the installer by clicking Download Moca Client button.
+
+        ![Install3](./.attachments/install3.png)
 
   2. Run the Installer
    
