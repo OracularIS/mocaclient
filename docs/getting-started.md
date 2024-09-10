@@ -59,19 +59,19 @@ Before you begin, make sure your system meets the following minimum requirements
 
 ## Managing moca.jar files in Smart MOCA Client
 
-In latest versions of Blueyonder, by default we don't require **`moca.jar`** anymore. Therefore, when you install the Smart MOCA Client, the installer will place **`ossimoca.jar`** file in `C:\Program Files (x86)\Oracular MOCA Client\lib` instead of moca.jar.
+In latest versions of Blueyonder, by default **`moca.jar`** is not required. Therefore, on Smart MOCA Client installation, the installer will place **`ossimoca.jar`** file in `C:\Program Files (x86)\Oracular MOCA Client\lib` instead of moca.jar.
 
 ![OSSIMOCAJAR](./.attachments/mocajar1.png)
 
-However, if you need to use your own moca.jar file, then we recommend using BlueYonder's moca.jar.
+However, it is recommended that you use BlueYonder's moca.jar instead of ossimoca.jar
 
 ### Replacing `ossimoca.jar` with `moca.jar`
 
-In certain scenarios, such as accessing **WH Migrator** or working with older versions of Blue Yonder, you may need to use moca.jar. In such cases, we recommend the following steps:
+Follow the steps below to replace ossimoca.jar with BlueYonder's moca.jar:
 
-1. Navigate to the `lib` folder located at C:\Program Files (x86)\Oracular MOCA Client\lib.
+1. Navigate to the 'lib' folder located in your Moca Installation folder. It is generally found at C:\Program Files (x86)\Oracular MOCA Client\lib but could be found at other places based on the install preferences.
 2. Remove the existing `ossimoca.jar` file.
-3. Place your `moca.jar` file (such as Blue Yonder's moca.jar) in the same location.
+3. Place your `moca.jar` file in the same location.
 
     ![OSSIMOCAJAR1](./.attachments/mocajar2.png)
 
@@ -79,7 +79,7 @@ This process will allow you to use the necessary moca.jar file with the Smart MO
 
 ### Important Note on Reinstallation
 
-On Smart MOCA Client reinstallation, the installer will not place ossimoca.jar file in the directory `C:\Program Files (x86)\Oracular MOCA Client\lib` if already found moca.jar. However, if moca.jar file is not found, then the installer will place **`ossimoca.jar`** in same directory.
+During the reinstallation of Smart MOCA Client, the installer will not place the `ossimoca.jar` file in the `lib` folder if a moca.jar file is already present. However, if no moca.jar file is found, the installer will automatically add ossimoca.jar to the directory.
 
 By managing these files correctly, you can ensure compatibility with various versions of Blue Yonder and other systems.
 
