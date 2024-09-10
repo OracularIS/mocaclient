@@ -46,6 +46,9 @@ By following the steps outlined in this documentation, users can easily generate
 
 - Smart MOCA Client will now have access to all the licensed features and add-ons associated with your account.
 
+- Without key or wrong key, you may seem below error on accessing some addon features like WH Migrator:
+
+  ![AppKeyError](./.attachments/smart8.png)
 ---
 
 ## Troubleshooting
