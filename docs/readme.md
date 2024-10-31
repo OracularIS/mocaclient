@@ -6,7 +6,7 @@ Congratulations on choosing **Smart MOCA Client** - your all-in-one solution.
 
 This user guide is designed to help you with our powerful and intuitive software, guiding you through its features and functionality.
 
-Whether you are a beginner or an experienced user, this comprehensive guide will walk you through the essential operations of Smart Moca Client latest version i.e. `2024.5.3`, from installation to mastering advanced features. 
+Whether you are a beginner or an experienced user, this comprehensive guide will walk you through the essential operations of Smart Moca Client latest version i.e. `2024.5.3`, {{ mocaMMR }} from installation to mastering advanced features. 
 
 ## Purpose
 
