@@ -57,31 +57,40 @@ Before you begin, make sure your system meets the following minimum requirements
 
 ---
 
-## Managing moca.jar files in Smart MOCA Client
+## Handling moca.jar in Smart MOCA Client
 
-In latest versions of Blueyonder, by default **`moca.jar`** is not required. Therefore, on Smart MOCA Client installation, the installer will place **`ossimoca.jar`** file in `C:\Program Files (x86)\Oracular MOCA Client\lib` instead of moca.jar.
+On initial Smart MOCA Client installation, by default system includes **`ossimoca.jar`** in the `C:\Program Files (x86)\Oracular MOCA Client\lib` directory instead of moca.jar. 
 
-![OSSIMOCAJAR](./.attachments/mocajar1.png)
+  ![OSSIMOCAJAR](./.attachments/mocajar1.png)
 
-However, it is recommended that you use BlueYonder's moca.jar instead of ossimoca.jar
+However, it is recommended to use BlueYonder's moca.jar instead of ossimoca.jar.
 
-### Replacing `ossimoca.jar` with `moca.jar`
+### Downloading the moca.jar file
 
-Follow the steps below to replace ossimoca.jar with BlueYonder's moca.jar:
+Below are the two methods to download the official moca.jar file:
 
-1. Navigate to the 'lib' folder located in your Moca Installation folder. It is generally found at C:\Program Files (x86)\Oracular MOCA Client\lib but could be found at other places based on the install preferences.
-2. Remove the existing `ossimoca.jar` file.
-3. Place your `moca.jar` file in the same location.
+#### **Method 1:** Download During Initial Connection
 
-    ![OSSIMOCAJAR1](./.attachments/mocajar2.png)
+Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and uses ossimoca.jar temporarily with following message appear as a popup:
 
-This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
+![OSSIMOCAJAR1](./.attachments/mocajar6.png)
 
-### Important Note on Reinstallation
+When you click the button, the system begins downloading the moca.jar file into the $MOCADIR/lib directory. 
 
-During the reinstallation of Smart MOCA Client, the installer will not place the `ossimoca.jar` file in the `lib` folder if a moca.jar file is already present. However, if no moca.jar file is found, the installer will automatically add ossimoca.jar to the directory.
+![OSSIMOCAJAR2](./.attachments/mocajar7.png)
 
-By managing these files correctly, you can ensure compatibility with various versions of Blue Yonder and other systems.
+After the download completes, the moca.jar file replaces ossimoca.jar in the $MOCADIR/lib directory.
+
+#### **Method 2:** Download via Tools Menu
+
+If you skip the initial download or need to download the moca.jar later, then navigate to Tools --> Download moca.jar.
+
+The download process will start immediately by displaying the following dialog:
+
+![OSSIMOCAJAR3](./.attachments/mocajar4.png)
+
+This method provides a convenient alternative to ensure the moca.jar file is downloaded and installed properly.
+
 
 
 
