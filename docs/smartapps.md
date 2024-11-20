@@ -34,9 +34,17 @@ By following the steps outlined in this documentation, users can easily generate
 
   ![ProfileNavigation](./.attachments/ProfileNavigation.png)
 
-- Click the "Generate App Key" button. This action will create a new app key containing all your license information. Once the app key is generated, copy it to your clipboard.
+- Click on "Add" button to generate key. 
+  
+  ![GenerateAppKey](./.attachments/appkey1.png)
 
-  ![GenerateAppKey](./.attachments/smart2.png)
+- Now give description to your app key and click on "Generate" button. 
+
+  ![GenerateAppKey1](./.attachments/appkey2.png)
+
+- This action will generate a new one-time generated app key containing all your license information. Once the app key is generated, copy it to your clipboard.
+
+  ![GenerateAppKey2](./.attachments/appkey3.png)
 
 ### Using the App Key in Smart MOCA Client
 
