@@ -65,31 +65,65 @@ On initial Smart MOCA Client installation, by default system includes **`ossimoc
 
 However, it is recommended to use BlueYonder's moca.jar instead of ossimoca.jar.
 
-### Downloading the moca.jar file
+Following are the methods to use an official moca.jar:
 
-Below are the two methods to download the official moca.jar file:
+### 1. Get moca.jar from Smart Moca Client
 
-#### **Method 1:** Download During Initial Connection
+There are two methods to download moca.jar from Smart Moca Client as: 
 
-Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and uses ossimoca.jar temporarily with following message appear as a popup:
+- **Method 1:** Download During Initial Connection
 
-![OSSIMOCAJAR1](./.attachments/mocajar6.png)
+  - Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and uses ossimoca.jar temporarily with a following message appear as a popup:
 
-When you click the button, the system begins downloading the moca.jar file into the $MOCADIR/lib directory. 
+    ![OSSIMOCAJAR1](./.attachments/mocajar6.png)
 
-![OSSIMOCAJAR2](./.attachments/mocajar7.png)
+  - When you will click the button, the system will begin downloading the moca.pending_jar file into the $MOCADIR. 
 
-After the download completes, the moca.jar file replaces ossimoca.jar in the $MOCADIR/lib directory.
+    ![OSSIMOCAJAR2](./.attachments/mocajar7.png)
+    ![OSSIMOCAJAR3](./.attachments/mocajar8.png)
+    ![OSSIMOCAJAR4](./.attachments/mocajar10.png)
 
-#### **Method 2:** Download via Tools Menu
+  <mark>**Note:** *Please launch Smart Moca Client as an Administrator to download moca.jar successfully.*</mark>
 
-If you skip the initial download or need to download the moca.jar later, then navigate to Tools --> Download moca.jar.
+- **Method 2:** Download via Tools Menu
 
-The download process will start immediately by displaying the following dialog:
+  - If you skip the initial download then you can download the moca.jar later by navigating to Tools --> Download moca.jar.
 
-![OSSIMOCAJAR3](./.attachments/mocajar4.png)
+    ![OSSIMOCAJAR5](./.attachments/mocajar3.png)
 
-This method provides a convenient alternative to ensure the moca.jar file is downloaded and installed properly.
+  - On click, the download process will start immediately by displaying the following dialog:
+
+    ![OSSIMOCAJAR6](./.attachments/mocajar7.png)
+    ![OSSIMOCAJAR7](./.attachments/mocajar8.png)
+    ![OSSIMOCAJAR8](./.attachments/mocajar10.png)
+
+  - After the download completes, close Moca Client and reopen it as an administrator. Now system will automatically rename moca.pending_jar to moca.jar and show following popup:
+
+    ![OSSIMOCAJAR9](./.attachments/mocajar11.png)
+    ![OSSIMOCAJAR10](./.attachments/mocajar12.png)
+
+  - Now when you will restart an application, the sytem will use `moca.jar` instead of ossimoca.jar.
+
+  This method provides a convenient alternative to ensure the moca.jar file is downloaded and installed properly.
+
+### 2. Manual placement of 'moca.jar'
+
+Follow the steps below to manually place moca.jar:
+
+1. Navigate to the $MOCADIR/lib, located in your Moca Installation folder.
+2. Remove the existing `ossimoca.jar` file.
+3. Place Blueyonder's `moca.jar` file in the same location.
+
+    ![OSSIMOCAJAR1](./.attachments/mocajar2.png)
+
+This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
+
+#### **Important Note on Reinstallation**
+
+During the reinstallation of Smart MOCA Client, the installer will not place the `ossimoca.jar` file in the `lib` folder if the moca.jar file is already present. However, if no moca.jar file is found, the installer will automatically add ossimoca.jar to the directory.
+
+By managing these files correctly, you can ensure compatibility with various versions of Blue Yonder and other systems.
+
 
 
 
