@@ -229,8 +229,3 @@ By managing these files correctly, you can ensure compatibility with various ver
     **Solution:**
 
      - Restart moca client and again add server information.
-
-
-
-
-
