@@ -21,45 +21,83 @@ Before you begin, make sure your system meets the following minimum requirements
 
 ## Installation
 
-  1. Download the Installer
+### Download the Installer
        
-      - Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
+- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
        
-        ![Start In](./.attachments/StartIn.png)
+  ![Start In](./.attachments/StartIn.png)
 
-      - Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
+- Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
 
-        ![Install1](./.attachments/install1.png)
+  ![Install1](./.attachments/install1.png)
 
-      - After filling out the form, you will receive an email with a link to the download page.
+- After filling out the form, you will receive an email with a link to the download page.
 
-        ![Install2](./.attachments/install2.png)
+  ![Install2](./.attachments/install2.png)
 
-      - Now open an email you received from Smart IS and click the **Download MOCA Client** link provided in the email to navigate to the download page download the latest version of the installer by clicking Download Moca Client button.
+- Now open an email you received from Smart IS and click the **Download MOCA Client** link provided in the email to navigate to the download page and click on **Download Moca Client** button.
 
-        ![Install3](./.attachments/install3.png)
+  ![Install3](./.attachments/install3.png)
 
-  2. Run the Installer
+### Run the Installer
    
-      - Locate the downloaded file (mocaclient<**version**>.exe) and double-click to run the installer.
+- Unzip the downloaded zip folder (mocaclient<**version**>.zip) and open it. 
+ 
+  ![](./.attachments/dhl008.png)
+ 
+- Now right click on (mocaclient<**version**>.exe) file and run this installer by clicking on **Run as Administrator**.
 
-        ![Wizard1](./.attachments/Wizard1.png)
+  ![](./.attachments/dhl001.png)
 
-      - Follow the on-screen instructions to complete the installation process.
-        
-        ![Wizard2](./.attachments/Wizard2.png)
+### Installation Options
+
+Following are the two options for an installation: 
+
+1. Install for all users (Recommended)
+2. Install for me only
+
+#### 1. **Install for all users (Recommended)**
+
+- Choose an option `Install for all users(recommended)` and it will be installed at the location `C:\Program Files (x86)` to be accessible for all users.
+      
+  ![](./.attachments/dhl004.png)
+
+- Now follow the on-screen instructions to complete the installation process.
+
+  ![](./.attachments/dhl009.png)
+  ![](./.attachments/dhl010.png)
+  ![](./.attachments/dhl011.png)
+  ![](./.attachments/dhl012.png)
+  ![](./.attachments/dhl013.png)
+  ![](./.attachments/dhl014.png)
+  ![](./.attachments/dhl015.png) 
+  ![](./.attachments/dhl006.png) 
+
+  **Verify Installation**
+
+  The folder named as `Oracular MOCA Client` should be created at following paths:
+
+  ![](./.attachments/dhl016.png)
+  ![](./.attachments/dhl017.png)
+  ![](./.attachments/dhl022.png)
   
-  3. Launch the Application
+### Launch Smart Moca Client
    
-      - Once installed, launch Smart MOCA Client by double-clicking the desktop icon or searching for it in the start menu. Once an application gets started, you will see below interface:
-  
-        ![MocaLaunch](./.attachments/MocaLaunch.png)
+- Once installed, launch Smart Moca client by double-clicking on desktop icon or search for it in the start menu.
 
----
+- Once an application gets started, you will see below interface:
+
+  ![](./.attachments/dhl018.png)
+
+- Follow [Password Security](./connections.md) for an information about **Security** popup.
+
+## Add Server
+
+Follow [Add/Update/Remove Server](./connections.md) to add server in Smart Moca Client.
 
 ## Handling moca.jar in Smart MOCA Client
 
-On initial Smart MOCA Client installation, by default system includes **`ossimoca.jar`** in the `C:\Program Files (x86)\Oracular MOCA Client\lib` directory instead of moca.jar. 
+On first Smart MOCA Client installation, by default system includes **`labelzoom-ossi.jar`** in the `C:\Program Files (x86)\Oracular MOCA Client\lib` directory instead of moca.jar. 
 
   ![OSSIMOCAJAR](./.attachments/mocajar1.png)
 
@@ -69,58 +107,64 @@ Following are the methods to use an official moca.jar:
 
 ### 1. Get moca.jar from Smart Moca Client
 
-There are two methods to download moca.jar from Smart Moca Client as: 
+- Right-click on moca client launcher from desktop or start menu and click on **Run as adminstrator**.
 
-- **Method 1:** Download During Initial Connection
+  ![](./.attachments/dhl007.png)
 
-  - Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and uses ossimoca.jar temporarily with a following message appear as a popup:
+There are two methods to download `moca.jar` from Smart Moca Client as: 
 
-    ![OSSIMOCAJAR1](./.attachments/mocajar6.png)
+**Method 1:** Download upon Server Connection
 
-  - When you will click the button, the system will begin downloading the moca.pending_jar file into the $MOCADIR. 
+- Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and uses ossimoca.jar temporarily with a following message appear as a popup:
 
-    ![OSSIMOCAJAR2](./.attachments/mocajar7.png)
-    ![OSSIMOCAJAR3](./.attachments/mocajar8.png)
-    ![OSSIMOCAJAR4](./.attachments/mocajar10.png)
+  ![OSSIMOCAJAR1](./.attachments/mocajar6.png)
 
-  <mark>**Note:** *Please launch Smart Moca Client as an Administrator to download moca.jar successfully.*</mark>
+- When you will click the button, the system will begin downloading the moca.pending_jar file into the $MOCADIR. 
 
-- **Method 2:** Download via Tools Menu
+  ![OSSIMOCAJAR2](./.attachments/mocajar7.png)
+  ![OSSIMOCAJAR3](./.attachments/mocajar8.png)
+  ![OSSIMOCAJAR4](./.attachments/mocajar10.png)
 
-  - If you skip the initial download then you can download the moca.jar later by navigating to Tools --> Download moca.jar.
+**Method 2:** Download via Tools Menu
 
-    ![OSSIMOCAJAR5](./.attachments/mocajar3.png)
+- If you have skipped [Get moca.jar from Smart Moca Client](#1-get-mocajar-from-smart-moca-client), then you can download the moca.jar later by navigating to **Tools --> Download moca.jar**.
 
-  - On click, the download process will start immediately by displaying the following dialog:
+  ![OSSIMOCAJAR5](./.attachments/mocajar3.png)
 
-    ![OSSIMOCAJAR6](./.attachments/mocajar7.png)
-    ![OSSIMOCAJAR7](./.attachments/mocajar8.png)
-    ![OSSIMOCAJAR8](./.attachments/mocajar10.png)
+- On click, the download process will start immediately by displaying the following dialog:
 
-  - After the download completes, close Moca Client and reopen it as an administrator. Now system will automatically rename moca.pending_jar to moca.jar and show following popup:
+  ![OSSIMOCAJAR6](./.attachments/mocajar7.png)
+  ![OSSIMOCAJAR7](./.attachments/mocajar8.png)
+  ![OSSIMOCAJAR8](./.attachments/mocajar10.png)
 
-    ![OSSIMOCAJAR9](./.attachments/mocajar11.png)
-    ![OSSIMOCAJAR10](./.attachments/mocajar12.png)
+- After the download completes, close Moca Client and reopen it as an **administrator**. Now system will automatically rename moca.pending_jar to moca.jar and show following popup:
 
-  - Now when you will restart an application, the sytem will use `moca.jar` instead of ossimoca.jar.
+  ![OSSIMOCAJAR9](./.attachments/mocajar11.png)
+  ![OSSIMOCAJAR10](./.attachments/mocajar12.png)
 
-  This method provides a convenient alternative to ensure the moca.jar file is downloaded and installed properly.
+- Now when you will restart an application, the sytem will use `moca.jar` instead of ossimoca.jar.
+
+This method provides a convenient alternative to ensure the moca.jar file is downloaded and installed properly.
+
+<mark>**Note:** *Please launch Smart Moca Client as an Administrator and connect to server to download moca.jar successfully.*</mark>
 
 ### 2. Manual placement of 'moca.jar'
 
 Follow the steps below to manually place moca.jar:
 
-1. Navigate to the $MOCADIR/lib, located in your Moca Installation folder.
-2. Remove the existing `ossimoca.jar` file.
-3. Place Blueyonder's `moca.jar` file in the same location.
+1. Navigate to the `C:\Program Files (x86)\Oracular MOCA Client/lib` and remove the existing `ossimoca.jar` file.
 
-    ![OSSIMOCAJAR1](./.attachments/mocajar2.png)
+    ![](./.attachments/dhl027.png)
+
+2. Now place Blueyonder's `moca.jar` file at `C:\Program Files (x86)\Oracular MOCA Client`.
+
+    ![](./.attachments/dhl026.png)
 
 This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
 
-#### **Important Note on Reinstallation**
+**Important Note on Reinstallation**
 
-During the reinstallation of Smart MOCA Client, the installer will not place the `ossimoca.jar` file in the `lib` folder if the moca.jar file is already present. However, if no moca.jar file is found, the installer will automatically add ossimoca.jar to the directory.
+During the reinstallation of Smart MOCA Client, the installer will not place the `labelzoom-ossi.jar` file in the `lib` folder if the moca.jar file is already present. However, if no moca.jar file is found, the installer will automatically add labelzoom-ossi.jar to the directory.
 
 By managing these files correctly, you can ensure compatibility with various versions of Blue Yonder and other systems.
 
@@ -185,8 +229,3 @@ By managing these files correctly, you can ensure compatibility with various ver
     **Solution:**
 
      - Restart moca client and again add server information.
-
-
-
-
-
