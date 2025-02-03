@@ -124,12 +124,67 @@ During the reinstallation of Smart MOCA Client, the installer will not place the
 
 By managing these files correctly, you can ensure compatibility with various versions of Blue Yonder and other systems.
 
+## Typical Installation Issues - Smart Moca Client 
 
+1. Download moca.jar without launching moca client as an administrator and get following error:
 
+    ![](./.attachments/dhl025.png)
 
+    **Solution:**
 
+     - Right-click on moca client launcher from desktop or start menu and click on **Run as adminstrator** to download moca.jar.
 
+2. Download moca.jar by navigating `Tools->Download moca.jar` without adding server connections and get following error:
 
+    ![](./.attachments/dhl028.png)
+
+    **Solution:**
+
+     - Follow [Add/Update/Remove Server](./connections.md) to add server information for the connection in Smart Moca Client.
+
+3. Get following error while downloading moca.jar:
+
+    ![](./.attachments/dhl029.png)
+
+    **Solution:**
+
+     - It is needed to restart Moca Client twice as `Run as administrator` as mentioned in [Get moca.jar from Smart Moca Client](#1-get-mocajar-from-smart-moca-client). 
+
+4. moca.jar is downloaded but moca client is not using it and you are getting issues related moca.jar like tracing etc.
+
+    ![](./.attachments/dhl031.png)
+
+    **Solution:**
+
+     - Restart moca client as an Administrator atleast once to use moca.jar and verify by navigating **Help -> About Smart MOCA and SQL Client**. 
+
+    ![](./.attachments/dhl031.png)
+
+5. Moca client launcher shortcut is not created at desktop/start menu or it is throwing an error.
+
+    **Solution:**
+
+     - Create shortcut using mocadev.jar or launch directly. 
+
+      ![](./.attachments/dhl032.png)
+
+6. Navigate to Addons -> Warehouse Migrator and get following error:
+
+    ![](./.attachments/dhl033.png)
+
+    **Solution:**
+
+     - Follow [Smart Apps](https://apps.smart-is.com/profile) to save gnerated appkey in moca client by navigating **Smart Connect -> Cloud Connect**.
+
+      ![](./.attachments/dhl034.png)
+
+7. Get following error on adding server:
+
+    ![](./.attachments/dhl023.png)
+
+    **Solution:**
+
+     - Restart moca client and again add server information.
 
 
 
