@@ -24,19 +24,34 @@ This section will guide you through adding servers, and connecting to them.
 
   ![EditServers](./.attachments/server3.png)
 
-### Adding Servers
+### Add/Update/Remove Server
 
-Add, remove, or modify server details to ensure seamless access to your Blue Yonder data and other connected resources.
+Add, remove or modify server details by following below steps:
 
-- Select File -> Edit Servers to open the server configuration dialog. This screen also allows us to manage connection information of servers. To edit, simply add your desired information and press “Add/Update” button.
+- Navigate to File -> Edit Servers to open the server configuration dialog. 
 
-  ![EditServers](./.attachments/file-menu/EditServers.png)
+  ![EditServers](./.attachments/dhl019.png)
+ 
+- This screen allows to manage connection information of servers. 
+  
+  ![](./.attachments/dhl020.png)
+  
+- To add/edit, simply choose Level as **User**, add server details and press “Add/Update” button.
+
+  ![](./.attachments/file-menu/EditServers.png)
+
+- The server will be added successfully and it will be available in Server dropdown for connection.
+
+  ![](./.attachments/dhl021.png)
+
+**Example:**
 
 - For a 2010 server (e.g., "http://localhost:4500/service"), enter the URL as the host. The port does not need to be entered.
 
-- Servers already configured in RedPrairie are automatically loaded from the file C:\Users\\%AppData%\RedPrairie\DLXClientConfig.xml
+**Note:** 
 
-**Note:** Critical servers start with Auto-Commit turned off and the user is prompted to confirm each execution.
+- Servers already configured in RedPrairie will automatically load from the file C:\Users\\%AppData%\RedPrairie\DLXClientConfig.xml
+- Critical servers start with Auto-Commit turned off and the user is prompted to confirm each execution.
 
 ### Connection Grouping
 
