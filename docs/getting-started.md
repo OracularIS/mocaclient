@@ -202,7 +202,7 @@ By managing these files correctly, you can ensure compatibility with various ver
 
      - Restart moca client as an Administrator atleast once to use moca.jar and verify by navigating **Help -> About Smart MOCA and SQL Client**. 
 
-    ![](./.attachments/dhl031.png)
+    ![](./.attachments/dhl035.png)
 
 5. Moca client launcher shortcut is not created at desktop/start menu or it is throwing an error.
 
@@ -228,9 +228,4 @@ By managing these files correctly, you can ensure compatibility with various ver
 
     **Solution:**
 
-     - Restart moca clinet and again add server information.
-
-
-
-
-
+     - Restart moca client and again add server information.
