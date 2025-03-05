@@ -3,6 +3,7 @@
 - [Home](./readme.md)
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
+- [Legacy](./Legacy.md)
 - [Connections](./connections.md)
 - [Smart Apps Connectivity](./smartapps.md)
 - [Advance System Operations](./advance-operations.md)
