@@ -104,7 +104,7 @@ Following are the methods to use `moca.jar` in Smart MOCA Client:
 
   ![](./.attachments/mocajar6.png)
 
-- Click on the **Download and Use the moca.jar from this environment** button and the system will begin downloading the moca.pending_jar file .
+- Click on the **Download and Use the moca.jar from this environment** button and the system will begin downloading the moca.pending_jar file.
 
   ![](./.attachments/mocajar7.png)
   ![](./.attachments/mocajar8.png)
@@ -112,7 +112,7 @@ Following are the methods to use `moca.jar` in Smart MOCA Client:
 
 - After the download completes, close Moca Client and reopen it as an **administrator**. Now system will automatically rename moca.pending_jar to moca.jar and show following popup:
 
-  ![OSSIMOCAJAR9](./.attachments/mocajar11.png)
+  ![OSSIMOCAJAR9](./.attachments/mocajar11.PNG)
   ![OSSIMOCAJAR10](./.attachments/mocajar12.png)
 
 - Now when you will restart an application, the sytem will use `moca.jar` instead of ossimoca.jar.

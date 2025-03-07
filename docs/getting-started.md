@@ -25,7 +25,7 @@ Before you begin, make sure your system meets the following minimum requirements
        
   ![Start In](./.attachments/StartIn.png)
 
-- Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
+- Click the **Get MOCA Client** button and complete the form that appears with your information to download the latest version of the installer.
 
   ![Install1](./.attachments/install1.png)
 
@@ -113,7 +113,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
   ![](./.attachments/run013.png)
 
-  <mark>**Note:** *In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client.*</mark>
+  <mark>**Note:** In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client.</mark>
 
    ![](./.attachments/run026.png)
 
@@ -121,7 +121,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
   ![](./.attachments/run014.png)
 
-Note: Follow [Password Security](./connections.md) for an information about **Security** popup.
+Note: *Follow [Password Security](./connections.md) for an information about **Security** popup*.
 
 ## Add Server
 
@@ -174,5 +174,7 @@ Follow the steps below to manually place moca.jar:
 This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
 
 <mark>**Note:** *moca.jar should be compatible with current java version.*</mark>
+
+
 
 
