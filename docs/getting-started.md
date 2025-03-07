@@ -2,7 +2,7 @@
 
 This section will guide you through the initial steps to get you up and running with our powerful and intuitive software. 
 
-Follow these instructions to ensure a smooth installation and setup process.
+Follow these instructions to ensure a smooth installation and setup process:
 
 ## System Requirements
 
@@ -19,233 +19,160 @@ Before you begin, make sure your system meets the following minimum requirements
 - Internet Connection: 
     <dd>- Required for initial setup and updates</dd>
 
-## Installation Options
+## Download Smart Moca Client
+       
+- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
+       
+  ![Start In](./.attachments/StartIn.png)
 
+- Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
+
+  ![Install1](./.attachments/install1.png)
+
+- After filling out the form, you will receive an email with a link to the download page.
+
+  ![Install2](./.attachments/install2.png)
+
+- Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page.
+
+  ![](./.attachments/run027.png)
+
+**Installation Options**
+  
 Following are the two options for an installation: 
 
-1. Installer Package
-2. Portable Version
-
+1. Installer
+2. Portable 
 
 ### Download the Installer
-       
-- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
-       
-  ![Start In](./.attachments/StartIn.png)
-
-- Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
-
-  ![Install1](./.attachments/install1.png)
-
-- After filling out the form, you will receive an email with a link to the download page.
-
-  ![Install2](./.attachments/install2.png)
-
-- Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page and then select **Installer** and click on **Download Moca Client** button.
+  
+- On download page, select **Installer** and click on **Download** button.
 
   ![Install3](./.attachments/Installerwebview.png)
-- After Clicking on download Moca Installer will be downloaded.
-  ![Install4](./.attachments/Webviewdownloaded.png)
 
-### Run the Installer
+- After clicking **"Download"**, the Installion setup will begin downloading.
+
+  ![Install4](./.attachments/install4.png)
+
+#### Run the Installer
    
-- Move towards the location where Installer file is downloaded.
+- Unzip the downloaded zip folder (mocaclient-setup<**version**>.zip) and open it.
  
-  ![](./.attachments/Installerfile.png)
+  ![](./.attachments/run001.png)
  
-- Now Double Click on the setup and Install MOCA.
+- Now double click on (mocaclient<**version**>.exe) file and run this installer.
+
+  ![](./.attachments/run002.png)
+
 - Now follow the on-screen instructions to complete the installation process.
 
-  ![](./.attachments/Aggrement1.png)    
-  ![](./.attachments/Aggrement2.png)
-  ![](./.attachments/Pathinstaller.png)
-  ![](./.attachments/Path2Installer.png)
-  ![](./.attachments/ShortcutsInstaller.png)
-  ![](./.attachments/Installbutton.png)
-  ![](./.attachments/InstallLoadInstaller.png)
-  ![](./.attachments/FinishScreenInstaller.png)
+  ![](./.attachments/run003.png)
+  ![](./.attachments/run004.png)
+  ![](./.attachments/run005.png)
+  ![](./.attachments/run006.png)
+  ![](./.attachments/run007.png)
+  ![](./.attachments/run008.png)
+  ![](./.attachments/run009.png) 
+  ![](./.attachments/run010.png) 
  
+#### Verify Installation
 
-  **Verify Installation**
+- The folder named as `Oracular MOCA Client` and `SmartMOCAClient` should be created at following path:
 
-  The folder named as `Oracular MOCA Client` and `SmartMOCAClient` should be created at following path:
-
-  ![](./.attachments/Installerfolderintalled.png)
-  ![](./.attachments/SMCInstaller.png)
-  
-### Launch Smart Moca Client
-   
-- Once installed, launch Smart Moca client by double-clicking on desktop icon or search for it in the start menu.
-
-- Once an application gets started, you will see below interface:
-
-  ![](./.attachments/Passwordinstaller.png)
-
-- Follow [Password Security](./connections.md) for an information about **Security** popup.
-
-## Add Server
-
-Follow [Add/Update/Remove Server](./connections.md) to add server in Smart Moca Client.
-
-## Downloading moca.jar in Smart MOCA Client
-
-### 1. Download upon Server Connection
-
-- After **Completing installation** and Run **Smart MOCA Client** their is a popup for downloading moca.jar
-
-  ![OSSIMOCAJAR](./.attachments/DownloadMOCA.png)
-
-- Click on the Download and a moca.pending_jar is downloaded.
-
-  ![OSSIMOCAJAR](./.attachments/MOCAPendingdownloaded.png)
-
-- Please Close **Smart MOCA client** and Restart it you will see moca.jar is downloaded.
-
-  ![OSSIMOCAJAR](./.attachments/MOCADownloaded.png)
-
-
-### 2. Manual placement of 'moca.jar'
-
-Follow [Manual placement of 'moca.jar'](./Legacy.md#2-manual-placement-of-mocajar) for manual placement of moca.jar
-
+  ![](./.attachments/run011.png)
+  ![](./.attachments/run012.png)
 
 ### Download the Portable 
-- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
-       
-  ![Start In](./.attachments/StartIn.png)
 
-- Click the "Get MOCA Client" button. Complete the form that appears with your information to download the latest version of the installer.
+- On download page, select **Portable** and click on **Download** button.
 
-  ![Install1](./.attachments/install1.png)
+  ![Install5](./.attachments/Portablewebview.png)
 
-- After filling out the form, you will receive an email with a link to the download page.
-
-  ![Install2](./.attachments/install2.png)
-
-- Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page and then select **Portable** and click on **Download Moca Client** button.
-
-  ![Install3](./.attachments/Portablewebview.png)
-- After Clicking on download Moca Installer will be downloaded.
-  ![Install4](./.attachments/Webviewdownloaded.png)
-
-
-### Run the Portable
-
-- Move towards the location where Portable.zip file is downloaded.
- 
-  ![](./.attachments/Folderportable.png)
- 
-- Now Extract the zip file for Downloading **Smart MOCA Client**.
-
-  ![extraction](./.attachments/ExtractPortable.png)
-
-- Extracted folder will be open and files are ready to use.
-
-  ![Install4](./.attachments/Runsteup.png)
-
-- Click on Run setup it will Download **Smart MOCA Client** using powershell
-
-  ![Install4](./.attachments/Powershell.png)
-
-  **Verify Installation**
-
-  The folder named as `Oracular MOCA Client` and `SmartMOCAClient` should be created at following path:
-
-  ![](./.attachments/Installerfolderintalled.png)
-  ![](./.attachments/SMCInstaller.png)
+- After clicking **"Download"**, the portable setup will begin downloading.
   
-### Launch Smart Moca Client
+  ![Install6](./.attachments/run022.png)
+
+#### Run the Portable
+
+- Unzip the downloaded zip folder (mocaclient-portable<**version**>.zip) and open it.
+   
+  ![](./.attachments/run023.png)
+
+- Now double click on Run Setup and it will Download **Smart MOCA Client** using powershell.
+
+  ![](./.attachments/run024.png)
+  ![](./.attachments/run025.png)
+
+#### Verify Installation
+
+Follow [Verify Installation](#verify-installation) to verify correct installation of Smart MOCA Client.
+  
+## Launch Smart MOCA Client
    
 - Once installed, launch Smart Moca client by double-clicking on desktop icon or search for it in the start menu.
 
+  ![](./.attachments/run013.png)
+
+  <mark>**Note:** *In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client.*</mark>
+
+   ![](./.attachments/run026.png)
+
 - Once an application gets started, you will see below interface:
 
-  ![](./.attachments/Passwordinstaller.png)
+  ![](./.attachments/run014.png)
 
-- Follow [Password Security](./connections.md) for an information about **Security** popup.
+Note: Follow [Password Security](./connections.md) for an information about **Security** popup.
 
 ## Add Server
 
 Follow [Add/Update/Remove Server](./connections.md) to add server in Smart Moca Client.
 
-## Downloading moca.jar in Smart MOCA Client
+## Use moca.jar instead of labelzoom.jar
 
-### 1. Download upon Server Connection
+It is recommended to use BlueYonder's moca.jar instead of labelzoom.jar.
 
-- After **Completing installation** and Run **Smart MOCA Client** their is a popup for downloading moca.jar
+Following are the methods to use `moca.jar` in Smart MOCA Client:
 
-  ![OSSIMOCAJAR](./.attachments/DownloadMOCA.png)
+1. Download upon Server Connection
+2. Download via Tools Menu
+3. Manual placement of 'moca.jar' file
 
-- Click on the Download and a moca.pending_jar is downloaded.
+### Download upon Server Connection
 
-  ![OSSIMOCAJAR](./.attachments/MOCAPendingdownloaded.png)
+- Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and following popup appears:
 
-- Please Close **Smart MOCA client** and Restart it you will see moca.jar is downloaded.
+  ![](./.attachments/run015.png)
 
-  ![OSSIMOCAJAR](./.attachments/MOCADownloaded.png)
+- Click on the **Download and Use the moca.jar from this environment** button and the system will begin downloading the moca.pending_jar file .
 
-### 2. Manual placement of 'moca.jar'
+  ![](./.attachments/run016.png)
+  ![](./.attachments/run017.png)
+  ![](./.attachments/run018.png)
 
-Follow [Manual placement of 'moca.jar'](./Legacy.md#2-manual-placement-of-mocajar) for manual placement of moca.jar
+- Now click on **OK** button and **restart** Smart MOCA Client. The system will automatically rename **moca.pending_jar** to **moca.jar** and will use moca.jar instead of labelzoom.jar.
 
-## Typical Installation Issues - Smart Moca Client 
+  ![](./.attachments/run020.png)
 
-1. Download moca.jar without launching moca client as an administrator and get following error:
+- Finally verify the usage of moca.jar by navigating **Help --> About Smart MOCA and SQL Client**.
 
-    ![](./.attachments/dhl025.png)
+  ![](./.attachments/run019.png)
 
-    **Solution:**
+### Download via Tools Menu
 
-     - Right-click on moca client launcher from desktop or start menu and click on **Run as adminstrator** to download moca.jar.
+- If you have skipped [Download upon Server Connection](#download-upon-server-connection), then you can download the moca.jar later by navigating to **Tools --> Download moca.jar**.
 
-2. Download moca.jar by navigating `Tools->Download moca.jar` without adding server connections and get following error:
+  ![](./.attachments/run021.png)
 
-    ![](./.attachments/dhl028.png)
+### Manual placement of 'moca.jar'
 
-    **Solution:**
+Follow the steps below to manually place moca.jar:
 
-     - Follow [Add/Update/Remove Server](./connections.md) to add server information for the connection in Smart Moca Client.
+1. Close Smart MOCA Client application and place Blueyonder's `moca.jar` in `C:\Users\\AppData\Roaming\SmartMOCAClient\sw\smc`.
 
-3. Get following error while downloading moca.jar:
+    ![](./.attachments/run020.png)
 
-    ![](./.attachments/dhl029.png)
+This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
 
-    **Solution:**
+<mark>**Note:** *moca.jar should be compatible with current java version.*</mark>
 
-     - It is needed to restart Moca Client twice as `Run as administrator` as mentioned in [Get moca.jar from Smart Moca Client](#1-get-mocajar-from-smart-moca-client). 
 
-4. moca.jar is downloaded but moca client is not using it and you are getting issues related moca.jar like tracing etc.
-
-    ![](./.attachments/dhl031.png)
-
-    **Solution:**
-
-     - Restart moca client as an Administrator atleast once to use moca.jar and verify by navigating **Help -> About Smart MOCA and SQL Client**. 
-
-    ![](./.attachments/dhl035.png)
-
-5. Moca client launcher shortcut is not created at desktop/start menu or it is throwing an error.
-
-    **Solution:**
-
-     - Create shortcut using mocadev.jar or launch directly. 
-
-      ![](./.attachments/dhl032.png)
-
-6. Navigate to Addons -> Warehouse Migrator and get following error:
-
-    ![](./.attachments/dhl033.png)
-
-    **Solution:**
-
-     - Follow [Smart Apps](https://apps.smart-is.com/profile) to save gnerated appkey in moca client by navigating **Smart Connect -> Cloud Connect**.
-
-      ![](./.attachments/dhl034.png)
-
-7. Get following error on adding server:
-
-    ![](./.attachments/dhl023.png)
-
-    **Solution:**
-
-     - Restart moca client and again add server information.
