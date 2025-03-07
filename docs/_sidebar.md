@@ -3,7 +3,7 @@
 - [Home](./readme.md)
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
-- [Legacy](./Legacy.md)
+- [Smart MOCA Client_Legacy](./Legacy.md)
 - [Connections](./connections.md)
 - [Smart Apps Connectivity](./smartapps.md)
 - [Advance System Operations](./advance-operations.md)
@@ -11,6 +11,7 @@
 - [Adhoc Access](./adhoc-access.md)
 - [DevOps](./devops.md)
 - [Release updates](release-updates.md)
+- [FAQs](./faqs.md)
 - [Menu Overview](./menu-overview.md)
   - [File](./menu-overview/file.md)
   - [Edit](./menu-overview/edit.md)
@@ -18,3 +19,4 @@
   - [MTF](./menu-overview/mtf.md) 
   - [Data](./menu-overview/data.md)
   - [Addons](./menu-overview/addons.md)  
+  
