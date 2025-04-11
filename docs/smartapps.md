@@ -24,7 +24,7 @@ By following the steps outlined in this documentation, users can easily generate
 
 - From the Smart Connect menu, select the "Cloud Connect" option and press **Open in Browser** button. This will open a new browser tab and redirect you to the Smart Apps portal.
   
-  ![SmartApp](./.attachments/smart7.png)
+  ![SmartApp](./.attachments/SmartMOCAConnect.png)
 
 - Now enter your login credentials to access your smart app account.
 
@@ -50,7 +50,7 @@ By following the steps outlined in this documentation, users can easily generate
 
 - Go to the Smart Connect --> Cloud Connect from dropdown menu and enter key which is generated from website and press **Save Key** button.
 
-  ![AppKeyUsage](./.attachments/smart6.png)
+  ![AppKeyUsage](./.attachments/SmartMOCAConnect1.png)
 
 - Smart MOCA Client will now have access to all the licensed features and add-ons associated with your account.
 

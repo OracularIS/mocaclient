@@ -102,7 +102,7 @@ The [Print Label Operations](./advance-operations.md) feature provides functiona
 
 ## Trace
 
-Follow [Tracing](./adhoc-access.md) to enable tracing.
+Follow [Smart MOCA Trace](./MOCA_Trace.md) to enable tracing.
 
 ---
 

@@ -130,6 +130,7 @@ Follow [Add/Update/Remove Server](./connections.md) to add server in Smart Moca 
 ## Use moca.jar instead of labelzoom.jar
 
 It is recommended to use BlueYonder's moca.jar instead of labelzoom.jar.
+In latest moca client, if we will already have moca.jar and we try to update our moca client version then it will copy existing moca.jar and no popup will appear on server connection as well as no option will be there in Tools menu. But if we don't have moca.jar then it will give a popup on first time server connection and also option will be there in Tools menu.
 
 Following are the methods to use `moca.jar` in Smart MOCA Client:
 

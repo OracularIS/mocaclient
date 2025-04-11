@@ -10,6 +10,7 @@
 - [Keyboard Shortcuts](./moca_client_shortcuts.md)
 - [Adhoc Access](./adhoc-access.md)
 - [DevOps](./devops.md)
+- [MOCA Trace](./MOCA_Trace.md)
 - [Release updates](release-updates.md)
 - [FAQs](./faqs.md)
 - [Menu Overview](./menu-overview.md)

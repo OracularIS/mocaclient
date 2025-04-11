@@ -139,24 +139,10 @@ These are scripts that show up for use when right clicking the grid for certain 
 - When you select the item, the tab’s text area will be filled in with the script, using the selected value.
 - Columns can be designated as aliases of a different column by creating a file named “alias.txt” in the directory and specifying the column name to look for the scripts. For example, the “dstsub” directory will have a alias.txt file containing “subnum”.
 
----
 
 ## Tracing
 
-- To turn on trace mode for a tab, hit **Alt-T** or click the **Start Trace** button in the center of the tab. Then, execute commands as normal until you are ready to stop tracing. Hit **Alt-T** again or click the **Stop Trace** button. 
-
-  ![StartTrace](./.attachments/trace1.png)
-
-- You will be asked if you want to get the trace file now. If you select yes, the table will be filled with the trace file. All trace levels are included in the file. 
-
-  ![GetTrace](./.attachments/trace3.png)
-  ![GetTrace1](./.attachments/trace4.png)
-
-- The index of a tab can be seen in the tooltip text of the “Start Trace” button.
-   
-  ![TraceIndex](./.attachments/trace2.png)
-
-- If the trace file is too large to be quickly opened, you will be given the option to retrieve the last X bytes of the file.
+Follow [Smart MOCA Trace](./MOCA_Trace.md) to enable tracing.
 
 ---
 

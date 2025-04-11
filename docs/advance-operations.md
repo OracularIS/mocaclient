@@ -123,7 +123,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> DB Compare. The DB Compare window will get open.
 
-      ![Compare](./.attachments/compare1.png)
+      ![Compare](./.attachments/DBCompare_1.png)
 
     - Now choose both servers and specify information on the basis of which you want comparison.
 
@@ -135,7 +135,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Cmdsrc Compare. The Command Compare window will get open.
 
-      ![Compare2](./.attachments/compare3.png) 
+      ![Compare2](./.attachments/DBCompare_2.png) 
 
     - Now choose both servers and press 'Find' button. It will show the missing files on both servers in comparison to each other.
 
@@ -147,7 +147,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Compare. The Integrator Compare window will get open.
 
-      ![Compare4](./.attachments/compare5.png) 
+      ![Compare4](./.attachments/DBCompare_3.png) 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will show the missing objects on both servers in comparison to each other.
 
@@ -159,7 +159,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Migrator. The Integrator Migrator window will get open.
 
-      ![Compare6](./.attachments/compare7.png) 
+      ![Compare6](./.attachments/DBCompare_4.png) 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will migrate object from one server to another server.
 
@@ -175,7 +175,7 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 - Navigate to Addons --> Smart Innovations --> RP Console Tools. The Console window will get open.
 
- ![RPConsole](./.attachments/RPConsole2.png)
+ ![RPConsole](./.attachments/RpConsole.png)
 
 - The RP Console has an information regarding several segments: Connections, Sessions, DB Connections, and Native Processes.
 
@@ -191,7 +191,7 @@ This functionality ensures that users can review and validate report content, la
 
 - Navigate to Addons --> Smart Innovations --> Report Preview. The report Preview window will get open.
 
-  ![ReportPreview](./.attachments/reportpreview.png)
+  ![ReportPreview](./.attachments/ReportPreview_1.png)
 
 - Select the report you want to preview from the list of reports and press 'Preview' button. Also enter report parameters if any.
 
@@ -209,7 +209,7 @@ The Print Label Operations feature provides functionality for printing labels wi
 
 - Navigate to Addons --> Smart Innovations --> Print Label Operations. The 'Labels' window will get open containing all labels along with their formats, descriptions, and default printers.
   
-  ![PrintLabel](./.attachments/printlabel.png)
+  ![PrintLabel](./.attachments/printlabel_1.png)
 
 - Double-click on any label to open the Print Label Operations window.
 
