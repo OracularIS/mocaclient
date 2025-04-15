@@ -4,55 +4,13 @@ The Advanced System Operations in the Smart MOCA Client offer a comprehensive su
 
 ## File Browser
 
-The File Browser is an essential tool for navigating and managing files within the Smart MOCA Client.
-
-- Navigate to Data --> Edit Server Files or press F2 to open file browser. 
-
-  ![FileBrowser](./.attachments/filebrowser.png)
-
-- File Browser will get open where you can see all the directories and files.
-
-  ![FileBrowser1](./.attachments/filebrowser1.png)
-
-### Key Features of file browser
-
-- Browse directories and files seamlessly.
-- Perform various file operations such as opening, editing, deleting, and moving files.
-- Access detailed file information and properties.
-- Execute file-related commands directly from the browser.
-
-This feature provides an intuitive interface for users to efficiently manage their files and directories, ensuring easy access and organization.
+To enable the File Browser, please refer to the instructions provided in the [File Browser](./File-browser.md)
 
 ---
 
 ## Database Trace
 
-Database Tracing is a powerful feature for monitoring and debugging database operations. It enables users to track SQL queries and other database interactions in real-time, identify performance bottlenecks, and capture detailed logs of database activities for troubleshooting and analysis.
-
-- Navigate to MOCALog --> Database Trace Console to open Trace Analysis window.
-  
-  ![DBTrace](./.attachments/trace5.png)
-
-- **Insert into DB**: Click 'Insert' button on Trace Analysis window and then enter a trace filename (the full path to the log directory is not necessary). Finally click "Insert into DB".
-
-  ![DBTrace1](./.attachments/trace6.png)
-
-  ![DBTrace2](./.attachments/trace8.png)
-
-  - It runs the script "Log/Load into DB" to create the tables usr_temp_sql_trace_analysis and usr_temp_cmd_trace_analysis and load them with the lines of the given trace file. 
-
-- **Load Recent**: Click the button to load the combo box with recent traces (defaulted to the current day)
-   
-  ![DBTrace](./.attachments/trace7.png)
-
-- **Search**: Check the SQL? box to search usr_temp_sql_trace_analysis or usr_temp_cmd_trace_analysis.
-
-    - **Command:** usr_temp_cmd_trace_analysis.uc_cmd
-    - **Command Arguments:** usr_temp_cmd_trace_analysis.uc_args
-    - **Bound SQL:** usr_temp_sql_trace_analysis.uc_bound_sql
-    - **Unbound SQL:** usr_temp_sql_trace_analysis.uc_unbound_sql
-
-By leveraging these advanced DevOps features, users can efficiently manage files, maintain source code, handle change management, and perform comprehensive tracing and debugging within the Smart MOCA Client.
+To enable the Database Trace, please refer to the instructions provided in the [Database Trace](./Database-Trace.md)
 
 ---
 
@@ -123,7 +81,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> DB Compare. The DB Compare window will get open.
 
-      ![Compare](./.attachments/compare1.png)
+      ![Compare](./.attachments/DBCompare_1.png)
 
     - Now choose both servers and specify information on the basis of which you want comparison.
 
@@ -135,7 +93,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Cmdsrc Compare. The Command Compare window will get open.
 
-      ![Compare2](./.attachments/compare3.png) 
+      ![Compare2](./.attachments/DBCompare_2.png) 
 
     - Now choose both servers and press 'Find' button. It will show the missing files on both servers in comparison to each other.
 
@@ -147,7 +105,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Compare. The Integrator Compare window will get open.
 
-      ![Compare4](./.attachments/compare5.png) 
+      ![Compare4](./.attachments/DBCompare_3.png) 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will show the missing objects on both servers in comparison to each other.
 
@@ -159,7 +117,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Migrator. The Integrator Migrator window will get open.
 
-      ![Compare6](./.attachments/compare7.png) 
+      ![Compare6](./.attachments/DBCompare_4.png) 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will migrate object from one server to another server.
 
@@ -175,49 +133,20 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 - Navigate to Addons --> Smart Innovations --> RP Console Tools. The Console window will get open.
 
- ![RPConsole](./.attachments/RPConsole2.png)
+ ![RPConsole](./.attachments/RpConsole.png)
 
 - The RP Console has an information regarding several segments: Connections, Sessions, DB Connections, and Native Processes.
 
  ![RPConsole](./.attachments/RPConsole1.png)
 
- ---
+---
 
 ## Report Preview
 
-The Report Viewer in the Smart MOCA Client is a versatile tool designed for previewing generated reports like in report operations before they are finalized. 
-   
-This functionality ensures that users can review and validate report content, layout, and accuracy before publishing or distributing the final version.
+To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./Report-Preview.md).
 
-- Navigate to Addons --> Smart Innovations --> Report Preview. The report Preview window will get open.
-
-  ![ReportPreview](./.attachments/reportpreview.png)
-
-- Select the report you want to preview from the list of reports and press 'Preview' button. Also enter report parameters if any.
-
-  ![ReportPreview1](./.attachments/reportpreview2.png)
-
-- The report will be displayed in the preview window, allowing you to scroll through and examine the content in detail.
-
-  ![ReportPreview2](./.attachments/reportpreview1.png)
-
----
 
 ## Print Label Operations
 
-The Print Label Operations feature provides functionality for printing labels with specified content. 
-
-- Navigate to Addons --> Smart Innovations --> Print Label Operations. The 'Labels' window will get open containing all labels along with their formats, descriptions, and default printers.
-  
-  ![PrintLabel](./.attachments/printlabel.png)
-
-- Double-click on any label to open the Print Label Operations window.
-
-  ![PrintLabel1](./.attachments/printlabel2.png)
-
-- In the Print Label Operations window, enter the required arguments or commands to generate the label. The label's image will be displayed, allowing you to verify the output before printing.
-
-  ![PrintLabel2](./.attachments/printlabel1.png)
-
-This feature ensures accurate and efficient label printing by providing a comprehensive interface for defining, generating, and previewing labels.
+To enable the Print Label Operations, please refer to the instructions provided in the [Print Label Operations](./Print-Label-Operations.md).
 
