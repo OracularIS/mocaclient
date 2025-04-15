@@ -8,21 +8,13 @@ This document outlines these features and their functionalities.
 
 ### File Navigation
 
-File navigation can be done via [File Browser](./advance-operations.md) which is developed to provide a way of reading the files on a remote server if we did not have telnet access. 
+To enable the File Browser, please refer to the instructions provided in the [File-browser](./File-browser.md)
 
-- The start directory is $LESDIR/src/cmdsrc.
-
-![FileNavigation](./.attachments/filenavigation.png)
+---
 
 ### Edit Server Files
 
-Editing files in the Smart MOCA Client is straightforward. Users can open files from the Edit Server Files and make changes using the built-in text editor. 
-
-The editor provides syntax highlighting, line numbers, and other features to facilitate efficient editing. Changes can be saved directly back to the file system.
-
-![FileEdit](./.attachments/editfile.png)
-
-- **Upload/Download File**: These functions were developed to send files back and forth between a remote server if we did not have FTP access.
+To enable the Edit Server Files, please refer to the instructions provided in the [Edit-Server-Files](./Edit-Server-Files.md)
 
 ---
 
@@ -108,5 +100,5 @@ Follow [Smart MOCA Trace](./MOCA_Trace.md) to enable tracing.
 
 ## DB Trace
 
-Follow [DB Tracing](./advance-operations.md) for trace analysis .
+Follow [DataBase Trace](./Database-Trace.md) for trace analysis .
 

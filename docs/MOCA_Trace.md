@@ -1,53 +1,58 @@
 # Smart MOCA Trace
 
-This section will guide you how to get Trace in MOCA. It helps us understand what’s happening in the system when a command runs. It shows step-by-step details, making it easier to find issues and fix them.
+This section provides a step-by-step guide on how to generate and interpret a MOCA Trace. MOCA Trace is a powerful tool that allows developers and testers to understand the behavior of the system when a command is executed. It provides detailed, sequential logs which make it easier to identify issues, debug problems, and ensure system reliability.
 
-Following are the three steps for MOCA Trace.
+There are three primary ways to generate a MOCA Trace:
+
 1. By Clicking on **Start Trace** Button.
-2. By Entering **Command**.
-3. By **Log** Button.
+2. By entering the **Command** with the trace file name.
+3. By using the **Log** button to open an existing trace file.
 
 ## Using Start Trace Button
 
-- Click on the **Start Trace** Button and execute Command for taking it's Trace.
+- Click the **Start Trace** button to initiate trace recording. After that, execute the desired command that you want to trace.
 
-    ![Start In](./.attachments/Trace%20startbutton.png)
+    ![Moca Trace](./.attachments/Trace%20startbutton.png)
 
-- Once your Command executes succesfully then **End Trace**.
+- Once the command has been executed successfully, click on the **End Trace** button to stop trace.
+    ![Moca Trace1](./.attachments/End%20Tracebutton.png)
 
-    ![Start In](./.attachments/End%20Tracebutton.png)
+- A confirmation dialog will appear. Click the **Yes** button to proceed. Your trace will now be generated and opened automatically.
 
-- A Dialog box will appear. Click on **Yes** button and your trace will be open.
+    ![Moca Trace2](./.attachments/Trace%20Openbutton.png)
 
-    ![Start In](./.attachments/Trace%20Openbutton.png)
+### Understanding the Trace Output
 
-### Steps for Trace Understading
-- You can then uncheck the checkboxes and **clear** them using **clear** button on both dialog boxes.
+- Uncheck all enabled **checkboxes** in both dialog windows.
 
-    ![Start In](./.attachments/traceenabled.png)
-    ![Start In](./.attachments/Traceenabled2.png)
+- Click on the **Clear** button to remove previously stored data or settings.
 
-- After clearing all of these, click on the **OK** button.
+    ![Moca Trace3](./.attachments/traceenabled.png)
+    ![Moca Trace4](./.attachments/Traceenabled2.png)
 
-    ![Start In](./.attachments/OpenTracepage.png)
+- After clearing the checkboxes, click **OK** to proceed to the main trace view.
 
-- There are three main components for explaining Trace.
+    ![Moca Trace5](./.attachments/OpenTracepage.png)
+
+### Main Components of the Trace Window
+
+1. **Console Trace (Left Panel):** Displays a sequential log of console events and asynchronous calls. This helps in debugging and understanding the backend activity.
+
+2. **Command Hierarchy (Top Right Grid):** Shows the list of executed commands in a hierarchical structure along with their execution status. Commands can be expanded to view nested executions.
+
+3. **Detailed Tabs (Bottom Right Grid):** This section includes several tabs:
+    - **Format Syntax:** Displays the formatted syntax of the command.
+    - **Arguments:** Lists all the arguments passed in the command.
+    - **Arguments (Not Null):** Shows only those arguments which have assigned values.
+    - **All Messages:** Displays all system messages generated during execution.
+
+    ![Moca Trace6](./.attachments/Explainopentracepage.png)
 
 
-    - On left side we have console trace which outputs the sequence of calls and asynchronous events leading to the current console used for debugging and understanding what is happening in your code.
+### Additional Trace Tools
 
-    - On the right top grid, there is hierarchy of executed commands with execution status which can be expanded.
+- At the bottom of the Trace window, you’ll find additional buttons for in-depth analysis:
 
-    - On the right bottom grid, we have below tabs:
-        - Format syntax: Used for Formating syntax of the command.
-        - Arguments: Shows all the Arguments that are used in it.
-        - Arguments (Not-Null): Shows Arguments that have some value stored in it which are not null.
-        - All Messages: Shows All the messages.
-
-    ![Start In](./.attachments/Explainopentracepage.png)
-
-
-- Then we have some other functions at the bottom like:
     - Comp Lvl
     - RF
     - T_PERF
@@ -56,53 +61,56 @@ Following are the three steps for MOCA Trace.
     - Search Functionality
     - Parse
     - Find Clause
-    - Select in Tree etc.
+    - Select in Tree
 
-    ![Start In](./.attachments/opentracepagebuttons.png)
+    ![Moca Trace7](./.attachments/opentracepagebuttons.png)
 
-- **CMDs** button can have the commands that are executed and the number of counts of these commands.
+**Examples:**
+- **CMDs:** Displays all executed commands and the number of times each was called.
 
-    ![Start In](./.attachments/opentracepagebuttonexplain.png)
+    ![Moca Trace8](./.attachments/opentracepagebuttonexplain.png)
 
-- **Comp lvls** button can have the levels for checking Trace check or uncheck levels that you want.
+- **Comp lvls:** Allows you to check or uncheck trace levels based on your analysis needs.
 
-    ![Start In](./.attachments/opentracepagebuttonexplain2.png)
+    ![Moca Trace9](./.attachments/opentracepagebuttonexplain2.png)
 
-- **Errors** and **Top-lvl Error** buttons can show the errors in a log which are generated in the execution of commands.
+- **Errors** and **Top-lvl Error:** Lists all errors and top-level failures that occurred during execution.
 
-    ![Start In](./.attachments/opentracepagebuttonexplain3.png)
+    ![Moca Trace10](./.attachments/opentracepagebuttonexplain3.png)
 
-- The **Parse** button will show you the Parse log where you have to uncheck the checked boxes.
-- The **Find Cause** button will show you the exact cause of failure.
-- **Select Tree** button will show you the execution tree in the log window.
+- Parse, Find Cause & Select Tree:
 
-    ![Start In](./.attachments/opentracepagebuttonexplain4.png)
+    - Parse: Opens parse logs with configurable checkboxes.
+    - Find Cause: Pinpoints the exact cause of failure.
+    - Select Tree: Displays the command's execution tree in the log window.
+
+    ![Moca Trace11](./.attachments/opentracepagebuttonexplain4.png)
 
 
 
-## Using Command
+## Using the Command line
 
-- Write Command and place Trace filename inside it for opening Trace.
+- You can manually write and execute a MOCA command that includes the trace file name to directly open the trace log.
 
-    ![Start In](./.attachments/MocaCommandtrace.png)
+    ![Moca Trace12](./.attachments/MocaCommandtrace.png)
 
-- After writing command and execute it Trace will be open.
+- Once the command is executed, the trace will open automatically.
 
-- Follow [Steps for Trace Understading](./MOCA_Trace.md) again for understading of MOCA Trace.
+- For understanding the trace layout and tools, follow the same steps explained earlier in [Steps for Trace Understading](./MOCA_Trace.md).
 
-## Using Log Button
+## Using the Log Button
 
-- Click on the **log** button.
+- Click on the **Log** button to open an existing trace file from your system.
 
-    ![Start In](./.attachments/Logbuttonfortrace.png)
+    ![Moca Trace13](./.attachments/Logbuttonfortrace.png)
 
-- A dialog box appears, Select your file and click on **Open**.
+- A file dialog will appear. Browse and select the desired trace file, then click **Open**.
 
-    ![Start In](./.attachments/Logfilesfortrace.png)
+    ![Moca Trace14](./.attachments/Logfilesfortrace.png)
 
-- After opening Log file Trace will be open.
+- Once the log file is opened, the trace view will load.
 
-- Follow [Steps for Trace Understading](./MOCA_Trace.md) again for understading of MOCA Trace.
+- Refer again to the [Steps for Trace Understading](./MOCA_Trace.md) for detailed instructions on navigating and analyzing the trace.
 
 
 
