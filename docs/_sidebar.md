@@ -18,7 +18,7 @@
 - [Edit Server Files](./edit-server-files.md)
 - [Report Preview](./report-preview.md)
 - [Print Label Operations](./print-label-operations.md)
-- [Release updates](release-updates.md)
+- [Release updates](./release-updates.md)
 - [FAQs](./faqs.md)
 - [Menu Overview](./menu-overview.md)
   - [File](./menu-overview/file.md)
