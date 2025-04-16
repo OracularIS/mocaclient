@@ -38,7 +38,7 @@ Add, remove or modify server details by following below steps:
   
 - To add/edit, simply choose Level as **User**, add server details and press “Add/Update” button.
 
-  ![](./.attachments/file-menu/EditServers.png)
+  ![](./.attachments/editserver1.png)
 
 - The server will be added successfully and it will be available in Server dropdown for connection.
 
