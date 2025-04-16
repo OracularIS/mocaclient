@@ -10,7 +10,6 @@ The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool de
 - This action will open the **Report Preview** window, where you can access and interact with available reports in your environment.
 
   ![ReportPreview](./.attachments/ReportPreview_1.png)
-  
 
 ## Selecting and Previewing Reports
 
