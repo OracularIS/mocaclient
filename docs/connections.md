@@ -38,19 +38,17 @@ Add, remove or modify server details by following below steps:
   
 - To add/edit, simply choose Level as **User**, add server details and press “Add/Update” button.
 
-  ![](./.attachments/file-menu/EditServers.png)
+  ![](./.attachments/editserver1.png)
 
 - The server will be added successfully and it will be available in Server dropdown for connection.
 
   ![](./.attachments/dhl021.png)
 
-**Example:**
+**Important Note:** 
 
-- For a 2010 server (e.g., "http://localhost:4500/service"), enter the URL as the host. The port does not need to be entered.
-
-**Note:** 
-
-- Servers already configured in RedPrairie will automatically load from the file C:\Users\\%AppData%\RedPrairie\DLXClientConfig.xml
+- The host URL structure should be in the proper format: `http(s)://<base BY instance>/service` (**/service** is mendatory).
+- If a non-standard HTTP/HTTPS port is used, it must be included in the host URL (e.g., http://example.com:8080/service). If using standard ports, the port does not need to be entered.
+- Servers already configured in RedPrairie will automatically load from the file `C:\Users\\%AppData%\Roaming\Oracular MOCA Client\DLXClientConfig.xml`
 - Critical servers start with Auto-Commit turned off and the user is prompted to confirm each execution.
 
 ### Connection Grouping
