@@ -10,7 +10,7 @@
 - [Keyboard Shortcuts](./moca_client_shortcuts.md)
 - [Adhoc Access](./adhoc-access.md)
 - [DevOps](./devops.md)
-- [MOCA Trace](./moca_trace.md)
+- [Moca Trace](./moca-trace.md)
 - [Issue Assignment](./issue-assignment.md)
 - [Rollouts](./rollouts.md)
 - [File Browser](./file-browser.md)

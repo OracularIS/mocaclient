@@ -6,9 +6,9 @@ This interface plays a critical role in maintaining accountability and streamlin
 
 ![IssueAssignment](./.attachments/issue.png)
 
-![Issue1](./.attachments/issue1.png)
+![Issue1](./.attachments/newissue1.png)
 
-## Main Components of the Issue Assignment Screen
+## Main Components
 
 Each tab within the Issue Assignment window provides specialized functionalities to help users effectively track and manage different aspects of an issue:
 
@@ -42,7 +42,7 @@ The Files tab enables tracking of any file-level changes relevant to the issue. 
 
 Users can compare changes, maintain version control, and document all file modifications in one place. This ensures that development efforts are clearly recorded and facilitates rollback or audit when necessary.
 
-![Issue2](./.attachments/issue2.png)
+![Issue2](./.attachments/newissue2.png)
 
 
 ### 4. Seamles
