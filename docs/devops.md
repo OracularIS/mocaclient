@@ -28,7 +28,7 @@ This feature helps maintain clean and standardized code, reducing errors and imp
 
 - **SQL Format**: SQL format can be switch using this option.
 
-  ![CodeFormat1](./.attachments/codeformat1.png)
+![CodeFormat1](./.attachments/codeformat1.png)
 
 ### Real-time formatting
 
@@ -40,25 +40,7 @@ Use menu option Options->Format in real-time?
 
 ## Issue Assignment
 
-The **Issue Assignment** feature in Smart MOCA Client is a comprehensive tool designed to helps to assign, track, and manage issues throughout the development and deployment process. Users can assign issues to team members, set priorities, and monitor progress to ensure timely resolution.
-
-![IssueAssignment](./.attachments/issue.png)
-
-![Issue1](./.attachments/issue1.png)
-
-Following are the main components of Issue Assignment screen:
-
-1.  **Input**: It is used to give input while create/change issue having user ID, issue sequence, status, and description etc.
-
-2.  **Data**: It is used to track changes to database tables. It provides a detailed view of all modifications, ensuring that data-related issues are managed effectively.
-
-3.  **Files**: It is used to track changes to files. This includes source code, configuration files, and any other file types relevant to the project. It helps in maintaining a clear history of changes and facilitates easy rollback if necessary.
-
-    ![Issue2](./.attachments/issue2.png)
-
-4.  **Seamles**: It is specifically designed to track changes related to the Integrator module. It helps in managing and monitoring integration tasks.
-
-5.  **Commit Changes**: It allows users to commit files associated with an issue, ensuring that changes are properly recorded and versioned.
+To enable the Issue Assignment, please refer to the instructions provided in the [Issue-Assignment](./Issue-Assignment.md)
 
 ---
 
@@ -82,23 +64,22 @@ Feature to view the hierarchy of MOCA commands.
 
 ## Report Preview
 
-[Report Preview](./advance-operations.md) ensures that users can review and validate report content, layout, and accuracy before publishing or distributing the final version.
+To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./Report-Preview.md)
 
 ---
 
 ## Label Viewer
 
-The [Print Label Operations](./advance-operations.md) feature provides functionality for printing labels with specified content.
+To enable the Label Viewer, please refer to the instructions provided in the [Print Label Operations](./Print-Label-Operations.md)
 
 ---
 
 ## Trace
 
-Follow [Smart MOCA Trace](./MOCA_Trace.md) to enable tracing.
+To enable the Moca Trace, please refer to the instructions provided in the [Smart MOCA Trace](./MOCA_Trace.md)
 
 ---
 
 ## DB Trace
 
-Follow [DataBase Trace](./Database-Trace.md) for trace analysis .
-
+To enable the DB Trace, please refer to the instructions provided in the [DataBase Trace](./Database-Trace.md)
