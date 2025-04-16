@@ -53,17 +53,18 @@ There are three primary ways to generate a MOCA Trace:
 
 - At the bottom of the Trace window, you’ll find additional buttons for in-depth analysis:
 
-    - Comp Lvl
-    - RF
-    - T_PERF
-    - Cmds
-    - Error
-    - Search Functionality
-    - Parse
-    - Find Clause
-    - Select in Tree
+    - Comp Lvl: View or adjust trace component levels.
+    - RF: Related to RF functionality.
+    - T_PERF: Displays performance-related metrics.
+    - Cmds: Lists all executed commands and their execution count.
+    - Error/Top-lvl Error: Displays error messages generated during execution.
+    - Search Functionality: Allows you to search within trace data.
+    - Parse: Opens the parse log; you may need to uncheck default selections here.
+    - Find Clause: Helps locate the root cause of failure.
+    - Select in Tree: Highlights the selected command in the execution hierarchy tree.
 
-    ![Moca Trace7](./.attachments/opentracepagebuttons.png)
+    ![Moca Trace6](./.attachments/Opentracepagebuttons.png)
+
 
 **Examples:**
 - **CMDs:** Displays all executed commands and the number of times each was called.
@@ -96,7 +97,7 @@ There are three primary ways to generate a MOCA Trace:
 
 - Once the command is executed, the trace will open automatically.
 
-- For understanding the trace layout and tools, follow the same steps explained earlier in [Steps for Trace Understading](./MOCA_Trace.md).
+- For understanding the trace layout and tools, follow the same steps explained earlier in [Steps for Trace Understading](#understanding-the-trace-output).
 
 ## Using the Log Button
 
@@ -110,7 +111,7 @@ There are three primary ways to generate a MOCA Trace:
 
 - Once the log file is opened, the trace view will load.
 
-- Refer again to the [Steps for Trace Understading](./MOCA_Trace.md) for detailed instructions on navigating and analyzing the trace.
+- Refer again to the [Steps for Trace Understading](#understanding-the-trace-output) for detailed instructions on navigating and analyzing the trace.
 
 
 
