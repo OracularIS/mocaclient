@@ -9,7 +9,7 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
 - File Browser will get open where you can see all the directories and files.
 
-- Refer to the [File-Browser](./File-browser.md) for a comprehensive guide on navigating and utilizing the File Browser effectively.
+- Refer to the [File-Browser](./file-browser.md) for a comprehensive guide on navigating and utilizing the File Browser effectively.
 
     ![FileNavigation](./.attachments/File-browser_3.png)
 

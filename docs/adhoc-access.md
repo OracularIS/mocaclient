@@ -142,7 +142,7 @@ These are scripts that show up for use when right clicking the grid for certain 
 
 ## Tracing
 
-Follow [Smart MOCA Trace](./MOCA_Trace.md) to enable tracing.
+Follow [Smart MOCA Trace](./moca-trace.md) to enable tracing.
 
 ---
 
