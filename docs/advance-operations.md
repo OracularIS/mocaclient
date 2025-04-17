@@ -4,13 +4,13 @@ The Advanced System Operations in the Smart MOCA Client offer a comprehensive su
 
 ## File Browser
 
-To enable the File Browser, please refer to the instructions provided in the [File Browser](./File-browser.md)
+To enable the File Browser, please refer to the instructions provided in the [File Browser](./file-browser.md)
 
 ---
 
 ## Database Trace
 
-To enable the Database Trace, please refer to the instructions provided in the [Database Trace](./Database-Trace.md)
+To enable the Database Trace, please refer to the instructions provided in the [Database Trace](./database-trace.md)
 
 ---
 
@@ -143,10 +143,10 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 ## Report Preview
 
-To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./Report-Preview.md).
+To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./report-preview.md).
 
 
 ## Print Label Operations
 
-To enable the Print Label Operations, please refer to the instructions provided in the [Print Label Operations](./Print-Label-Operations.md).
+To enable the Print Label Operations, please refer to the instructions provided in the [Print Label Operations](./print-label-operations.md).
 

@@ -8,13 +8,13 @@ This document outlines these features and their functionalities.
 
 ### File Navigation
 
-To enable the File Browser, please refer to the instructions provided in the [File-browser](./File-browser.md)
+To enable the File Browser, please refer to the instructions provided in the [File-browser](./file-browser.md)
 
 ---
 
 ### Edit Server Files
 
-To enable the Edit Server Files, please refer to the instructions provided in the [Edit-Server-Files](./Edit-Server-Files.md)
+To enable the Edit Server Files, please refer to the instructions provided in the [Edit-Server-Files](./edit-server-files.md)
 
 ---
 
@@ -40,7 +40,7 @@ Use menu option Options->Format in real-time?
 
 ## Issue Assignment
 
-To enable the Issue Assignment, please refer to the instructions provided in the [Issue-Assignment](./Issue-Assignment.md)
+To enable the Issue Assignment, please refer to the instructions provided in the [Issue-Assignment](./issue-assignment.md)
 
 ---
 
@@ -64,22 +64,22 @@ Feature to view the hierarchy of MOCA commands.
 
 ## Report Preview
 
-To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./Report-Preview.md)
+To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./report-preview.md)
 
 ---
 
 ## Label Viewer
 
-To enable the Label Viewer, please refer to the instructions provided in the [Print Label Operations](./Print-Label-Operations.md)
+To enable the Label Viewer, please refer to the instructions provided in the [Print Label Operations](./print-label-operations.md)
 
 ---
 
 ## Trace
 
-To enable the Moca Trace, please refer to the instructions provided in the [Smart MOCA Trace](./MOCA_Trace.md)
+To enable the Moca Trace, please refer to the instructions provided in the [Smart MOCA Trace](./moca-trace.md)
 
 ---
 
 ## DB Trace
 
-To enable the DB Trace, please refer to the instructions provided in the [DataBase Trace](./Database-Trace.md)
+To enable the DB Trace, please refer to the instructions provided in the [DataBase Trace](./database-trace.md)
