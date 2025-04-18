@@ -21,7 +21,7 @@ Before you begin, make sure your system meets the following minimum requirements
 
 ## Download Smart Moca Client
        
-- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
+- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
        
   ![Start In](./.attachments/StartIn.png)
 
@@ -81,6 +81,8 @@ Following are the two options for an installation:
 
   ![](./.attachments/run011.png)
   ![](./.attachments/run012.png)
+
+- Once the installation process via the Installer is complete, you can verify it by checking the designated installation directory.
 
 ### Download the Portable 
 
@@ -148,6 +150,9 @@ Following are the methods to use `moca.jar` in Smart MOCA Client:
 
   ![](./.attachments/run016.png)
   ![](./.attachments/run017.png)
+
+- Navigate to the directory and ensure that the **moca.pending_jar** file has been successfully downloaded.
+
   ![](./.attachments/run018.png)
 
 - Now click on **OK** button and **restart** Smart MOCA Client. The system will automatically rename **moca.pending_jar** to **moca.jar** and will use moca.jar instead of labelzoom.jar.

@@ -7,7 +7,7 @@ It is especially useful in manufacturing, logistics, and inventory environments 
 ## Accessing the Print Label Operations
 
 - To access the label printing interface, navigate to the top menu:
-    - Addons → Smart Innovations → Print Label Operations
+    - **Addons** → **Smart Innovations** → **Print Label Operations**
 
 - This will open the Labels window, where you can see a list of all available labels along with their:
 
