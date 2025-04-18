@@ -79,11 +79,11 @@ The Rollout DB interface allows for direct management of rollout entries, includ
 
 ### Available Actions in Rollout DB:
 
-- Add: Manually add a new rollout by providing a rollout name and confirming with the OK button.
-- Delete: Remove selected rollouts from the list.
+- **Add:** Manually add a new rollout by providing a rollout name and confirming with the OK button.
+- **Delete:** Remove selected rollouts from the list.
 - Build Local: Compile and apply rollout changes locally within the environment.
-- Build Remote: Deploy rollout changes to a remote environment.
-- Remove Selected: Unlink or delete selected rollout entries from the system.
+- **Build Remote:** Deploy rollout changes to a remote environment.
+- **Remove Selected:** Unlink or delete selected rollout entries from the system.
 
     ![Rollout7](./.attachments/Rollouts_6.png)
 

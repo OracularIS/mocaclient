@@ -53,15 +53,15 @@ There are three primary ways to generate a MOCA Trace:
 
 - At the bottom of the Trace window, you’ll find additional buttons for in-depth analysis:
 
-    - Comp Lvl: View or adjust trace component levels.
-    - RF: Related to RF functionality.
-    - T_PERF: Displays performance-related metrics.
-    - Cmds: Lists all executed commands and their execution count.
-    - Error/Top-lvl Error: Displays error messages generated during execution.
-    - Search Functionality: Allows you to search within trace data.
-    - Parse: Opens the parse log; you may need to uncheck default selections here.
-    - Find Clause: Helps locate the root cause of failure.
-    - Select in Tree: Highlights the selected command in the execution hierarchy tree.
+    - **Comp Lvl:** View or adjust trace component levels.
+    - **RF:** Related to RF functionality.
+    - **T_PERF:** Displays performance-related metrics.
+    - **Cmds:** Lists all executed commands and their execution count.
+    - **Error/Top-lvl Error:** Displays error messages generated during execution.
+    - **Search Functionality:** Allows you to search within trace data.
+    - **Parse:** Opens the parse log; you may need to uncheck default selections here.
+    - **Find Clause:** Helps locate the root cause of failure.
+    - **Select in Tree:** Highlights the selected command in the execution hierarchy tree.
 
     ![Moca Trace6](./.attachments/Opentracepagebuttons.png)
 
@@ -79,7 +79,7 @@ There are three primary ways to generate a MOCA Trace:
 
     ![Moca Trace10](./.attachments/opentracepagebuttonexplain3.png)
 
-- Parse, Find Cause & Select Tree:
+- **Parse**, **Find Cause** & **Select Tree:**
 
     - Parse: Opens parse logs with configurable checkboxes.
     - Find Cause: Pinpoints the exact cause of failure.
