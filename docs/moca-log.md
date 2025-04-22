@@ -10,7 +10,8 @@ The **Database Trace Console** allows users to parse trace files located on the 
 
 - This functionality is especially useful when dealing with large or complex trace logs, where manual inspection would be inefficient.
 
-    ![Moca Trace14](./.attachments/moca_log_2.png)
+    ![Moca Log](./.attachments/moca_log_2.png)
+
 
 **Key Features:**
 - Supports parsing of server-side trace files.
@@ -22,20 +23,20 @@ The **Database Trace Console** allows users to parse trace files located on the 
 The **Show End of Trace** function allows users to quickly view the tail end of a trace file.
 - This is particularly useful when monitoring the most recent entries in a log to troubleshoot live or recent events.
 
-    ![Moca Trace14](./.attachments/moca_log_3.png)
+    ![Moca Log](./.attachments/moca_log_3.png)
+
 
 **How to Use:**
 - Enter the name of the trace file in the input field.
 - Click on OK to load and view the most recent portion of the file.
 
-    ![Moca Trace14](./.attachments/moca_log_7.png)
-
+    ![Moca Log](./.attachments/moca_log_7.png)
 
 ## Parse Log
 The **Parse Log** tool opens a dedicated window for parsing a selected trace or log file. 
 - Within this interface, users can configure parsing options, such as excluding certain default selections, to tailor the analysis output.
 
-    ![Moca Trace14](./.attachments/moca_log_4.png)
+    ![Moca Log](./.attachments/moca_log_4.png)
 
 **Steps:**
 - Uncheck default selections (e.g., unnecessary checkboxes) to refine the parsing criteria.
@@ -56,7 +57,7 @@ The **Open Web Zip File** option enables users to open a .zip file containing lo
 
 - Opens ZIP files with logs or traces from external sources.
 
-    ![Moca Trace14](./.attachments/moca_log_5.png)
+    ![Moca Log](./.attachments/moca_log_5.png)
 
 **Usage:**
 
@@ -74,14 +75,14 @@ The Change Trace Prefix tool allows users to modify the prefix of a trace file.
 
 - This feature is helpful for organizing trace files by naming conventions or distinguishing between multiple logs during troubleshooting.
 
-    ![Moca Trace14](./.attachments/moca_log_6.png)
+    ![Moca Log](./.attachments/moca_log_6.png)
 
 **How to Use:**
 
 - Enter the name of the trace file for which the prefix needs to be changed.
 - Click on OK to apply the new prefix.
 
-    ![Moca Trace14](./.attachments/moca_log_7.png)
+    ![Moca Log](./.attachments/moca_log_7.png)
 
 **Advantages:**
 
