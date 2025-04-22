@@ -1,4 +1,4 @@
-# Smart MOCA Trace
+# MOCA Trace
 
 This section provides a step-by-step guide on how to generate and interpret a MOCA Trace. MOCA Trace is a powerful tool that allows developers and testers to understand the behavior of the system when a command is executed. It provides detailed, sequential logs which make it easier to identify issues, debug problems, and ensure system reliability.
 
@@ -59,7 +59,7 @@ There are three primary ways to generate a MOCA Trace:
     - **Cmds:** Lists all executed commands and their execution count.
     - **Error/Top-lvl Error:** Displays error messages generated during execution.
     - **Search Functionality:** Allows you to search within trace data.
-    - **Parse:** Opens the parse log; you may need to uncheck default selections here.
+    - **Parse:** Opens the parse log, you may need to uncheck default selections here.
     - **Find Clause:** Helps locate the root cause of failure.
     - **Select in Tree:** Highlights the selected command in the execution hierarchy tree.
 
@@ -112,6 +112,9 @@ There are three primary ways to generate a MOCA Trace:
 - Once the log file is opened, the trace view will load.
 
 - Refer again to the [Steps for Trace Understading](#understanding-the-trace-output) for detailed instructions on navigating and analyzing the trace.
+
+
+
 
 
 
