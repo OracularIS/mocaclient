@@ -37,13 +37,13 @@ The Java Properties Generator is a graphical user interface (GUI)-based utility 
 
 ### Steps for Properties Generator
 
-- Start by entering the frm_id in the text field on top, then select Add -> Entry Field for each entry field on the form.
-- Select Add -> Label for each label on the form.
-- Position the entry fields and labels by clicking on the blue box (hold Ctrl to select multiple fields).
-- Drag to move the fields; use the left key to reduce width and the right key to increase width.
-- Use Edit -> Justify to change the justification of the text to Left, Center, or Right.
+- Start by entering the **frm_id** in the text field on top, then select **Add** -> **Entry Field for each entry field** on the form.
+- Select **Add** -> **Label for each label** on the form.
+- Position the entry **fields** and **labels** by clicking on the **blue box** (hold Ctrl to select multiple fields).
+- Drag to move the fields, use the left key to reduce width and the right key to increase width.
+- Use **Edit** -> **Justify** to change the justification of the text to **Left**, **Center**, or **Right**.
 - If a field is dragged outside the form bounds, edit the .properties file manually.
-- Select File -> Save when done to save it to a .properties file.
+- Select **File** -> **Save** when done to save it to a .properties file.
 
 
 
