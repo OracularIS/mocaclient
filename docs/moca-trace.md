@@ -79,7 +79,7 @@ There are three primary ways to generate a MOCA Trace:
 
     ![Moca Trace10](./.attachments/opentracepagebuttonexplain3.png)
 
-- **Parse**, **Find Cause** & **Select Tree:**
+- **Parse**, **Find Cause** and **Select Tree:**
 
     - Parse: Opens parse logs with configurable checkboxes.
     - Find Cause: Pinpoints the exact cause of failure.

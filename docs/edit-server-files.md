@@ -9,7 +9,7 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
 - File Browser will get open where you can see all the directories and files.
 
-- Refer to the [File-Browser](./file-browser.md) for a comprehensive guide on navigating and utilizing the File Browser effectively.
+- Refer to the [Oracular File Manager](./oracular-file-manager.md) for a comprehensive guide on navigating and utilizing the File Manager effectively.
 
     ![FileNavigation](./.attachments/File-browser_3.png)
 
@@ -23,7 +23,7 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
     ![FileEdit](./.attachments/editfile.png)
 
-### Functions in the File Browser
+### Functions in the Oracular File Manager
 
 - At the top of the File Browser, several tabs are available to enhance user productivity:
 

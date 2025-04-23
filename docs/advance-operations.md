@@ -2,15 +2,35 @@
 
 The Advanced System Operations in the Smart MOCA Client offer a comprehensive suite of tools designed to enhance productivity, improve data management, and streamline various tasks. This section outlines the key features available under Advanced System Operations.
 
-## File Browser
+## Oracular File Manager
 
-To enable the File Browser, please refer to the instructions provided in the [File Browser](./file-browser.md)
+- **Centralized File Management:** The File Browser allows users to navigate and manage various file system objects like commands, reports, logs, and scripts from a centralized interface.
+
+- **Structured Directory Access:** Key directories such as usrint (for custom commands) and varint (for system commands) are organized for easy access and proper separation of user-created and system-defined files.
+
+- **Rich Editing & Development Tools:** Integrated tools and tabs support file operations (open, edit, save), command validation, schema modifications, text formatting, and MOCA-specific development actions.
+
+- **Execution Level Control:** Users can define and control execution levels and sequences using directories like usrint.mlvl and varint.mlvl, which dictate the order of command execution during triggers or transactions.
+
+- **User-Friendly Interface:** Offers an intuitive, tab-driven environment with powerful features for browsing, editing, and organizing files, making it easier to maintain and extend MOCA-based applications.
+
+To learn more about Oracular File Manager, follow [Oracular File Manager](./oracular-file-manager.md)
 
 ---
 
 ## Database Trace
 
-To enable the Database Trace, please refer to the instructions provided in the [Database Trace](./database-trace.md)
+- **Real-Time Trace Analysis:** The Database Trace feature enables users to monitor and analyze live database operations, including SQL queries and command execution, aiding in performance tuning and troubleshooting.
+
+- **Easy Access via MOCA Log:** Users can access the Trace Analysis window through the **MOCA Log → Database Trace Console**, allowing seamless integration with Smart MOCA’s diagnostic tools.
+
+- **Automatic Data Insertion:** By specifying a trace filename and clicking **Insert into DB**, Smart MOCA creates and populates temporary tables with relevant trace data for detailed analysis.
+
+- **Quick Access to Recent Logs:** The **Load Recent** option allows users to instantly view traces generated on the current day, improving efficiency in locating recent activities.
+
+- **Advanced Search Capabilities:** Users can search trace data using fields such as Command, Command Arguments, Bound SQL, and Unbound SQL—facilitating deep analysis of database behavior and debugging.
+
+To learn more about Database Trace, follow [Database Trace](./moca-log.md#database-trace-console)
 
 ---
 
@@ -143,10 +163,31 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 ## Report Preview
 
-To enable the Report Preview, please refer to the instructions provided in the [Report Preview](./report-preview.md).
+
+- **Purposeful Report Validation:** The Report Preview tool allows users to visually review reports before finalization, ensuring accuracy in layout, data, and formatting to minimize errors.
+
+- **Easy Access:** Users can launch the tool via **Addons → Smart Innovations → Report Preview**, opening a dedicated window to manage and preview reports.
+
+- **Interactive Parameter Input:** For reports that require user input (e.g., date ranges, IDs), parameter fields are available to customize the data being displayed.
+
+- **Live Rendering of Reports:** After selection and parameter input, clicking **Preview** displays the report in real-time, allowing thorough examination of each section.
+
+- **Efficient Review and Revisions:** Users can scroll, inspect formatting and data, and return to make edits as needed—offering a flexible, iterative way to perfect reports before export or distribution.
+
+To learn more about Report Preview, follow [Report Preview](./report-preview.md).
 
 
 ## Print Label Operations
 
-To enable the Print Label Operations, please refer to the instructions provided in the [Print Label Operations](./print-label-operations.md).
+- **Streamlined Label Printing Interface:** Accessed via Addons → Smart Innovations → Print Label Operations, this tool offers a centralized window to manage and print various predefined label formats.
+
+- **Detailed Label List View:** Users can view and select from a list of available labels, each with its name, format, description, and default printer, helping quickly identify the right label for printing.
+
+- **User-Guided Data Input:** Upon selecting a label, users are prompted to enter specific arguments (like item code, quantity, batch number, etc.), ensuring accurate data population.
+
+- **Live Label Preview:** A real-time preview displays the label layout and content, allowing users to validate positioning and formatting before printing to avoid errors.
+
+- **Optimized for Operational Efficiency:** Designed for high-accuracy environments like manufacturing and logistics, the feature supports various printers and formats, enhancing speed, reliability, and output quality.
+
+To learn more about Print Label Operations, follow [Print Label Operations](./print-label-operations.md).
 
