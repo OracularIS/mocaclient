@@ -4,7 +4,7 @@ The **Adhoc Access** feature in Smart MOCA Client provides users with the abilit
 
 This documentation outlines the various functionalities and steps involved in using Adhoc Access.
 
-## Command Execution
+## Command Execution and Formatting
 
 Type a command in the text box and hit **ENTER**, **Alt-E**, **F5**, or click the **Execute** button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. 
 
@@ -23,6 +23,22 @@ Press **Queue Cmd** or **Ctrl-Q** to execute the next command immediately after 
 Click the **Cancel** button in the lower-right corner of the screen. This will also cancel MLoad with CTL if running.
 
   ![Cancellation](./.attachments/adhoc3.png)
+
+### Command Formatting
+
+This feature helps maintain clean and standardized code, reducing errors and improving collaboration among developers. Users can format their code automatically according to predefined style guidelines. 
+
+![CodeFormat](./.attachments/codeformat.png)
+
+- **SQL Format**: SQL format can be switch using this option.
+
+![CodeFormat1](./.attachments/codeformat1.png)
+
+### Real-time formatting
+
+Use menu option Options->Format in real-time?
+
+![CodeFormatReal](./.attachments/formatreal.png)
 
 ---
 
@@ -142,18 +158,9 @@ These are scripts that show up for use when right clicking the grid for certain 
 
 ## Tracing
 
-- **Multiple Ways to Generate a Trace:** You can start a MOCA Trace by using the Start Trace button, running a command with a trace filename, or by opening an existing log using the Log button.
+MOCA Trace provides a detailed, step-by-step log of system activity during command execution. It’s used for debugging, analyzing performance, and understanding system behavior through an interactive interface with powerful diagnostic tools.
 
-- **Step-by-Step Recording and Execution:** Tracing involves starting the trace, executing a command, and stopping it to automatically generate a detailed execution log for debugging.
-
-- **Interactive Trace Window:** The trace viewer shows logs in real time with panels for command hierarchy, argument details, formatted syntax, and system messages—making it easier to analyze the system's behavior.
-
-- **Powerful Diagnostic Tools:** The bottom toolbar includes tools like Comp Lvl, T_PERF, Errors, Parse, and Find Cause to help identify issues, measure performance, and explore command executions.
-
-- **Command-Line and Manual File Access:** Traces can also be generated or accessed using command-line input or by selecting an existing trace file from your system, offering flexibility for advanced users.
-
-
-To learn more about Moca Trace, follow [Smart MOCA Trace](./moca-trace.md)
+To learn more about Moca Trace, follow [Database Trace](./database-trace.md)
 
 ---
 

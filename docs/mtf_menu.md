@@ -1,6 +1,6 @@
-# MTF Menu
+# MTF
 
-The MTF menu in Smart MOCA Client provides tools for managing various tasks related to MTF (Multi-Tasking Facility) operations. 
+The MTF in Smart MOCA Client provides tools for managing various tasks related to MTF (Multi-Tasking Facility) operations. 
 
 ![Wizard_1](./.attachments/mtf_1.png)
 

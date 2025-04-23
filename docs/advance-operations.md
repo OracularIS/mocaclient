@@ -2,66 +2,75 @@
 
 The Advanced System Operations in the Smart MOCA Client offer a comprehensive suite of tools designed to enhance productivity, improve data management, and streamline various tasks. This section outlines the key features available under Advanced System Operations.
 
-## Oracular File Manager
+## File Browser
 
-- **Centralized File Management:** The File Browser allows users to navigate and manage various file system objects like commands, reports, logs, and scripts from a centralized interface.
+### File Navigation
 
-- **Structured Directory Access:** Key directories such as usrint (for custom commands) and varint (for system commands) are organized for easy access and proper separation of user-created and system-defined files.
+- Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser**. 
 
-- **Rich Editing & Development Tools:** Integrated tools and tabs support file operations (open, edit, save), command validation, schema modifications, text formatting, and MOCA-specific development actions.
+  ![FileBrowser](./.attachments/filebrowser.png)
 
-- **Execution Level Control:** Users can define and control execution levels and sequences using directories like usrint.mlvl and varint.mlvl, which dictate the order of command execution during triggers or transactions.
+- File Browser will get open where you can see all the directories and files.
 
-- **User-Friendly Interface:** Offers an intuitive, tab-driven environment with powerful features for browsing, editing, and organizing files, making it easier to maintain and extend MOCA-based applications.
+- Within this window, users can easily view and manage **Files**, **Folders**, **Commands**, **Reports**, **Logs**, and more.
 
-To learn more about Oracular File Manager, follow [Oracular File Manager](./oracular-file-manager.md)
+  ![FileBrowser1](./.attachments/filebrowser1.png)
+
+### Directories and File Structure.
+
+- The start directory is $LESDIR/src/cmdsrc.
+- Within this directory, you’ll find key subfolders such as: 
+
+    - **usrint:** Contains all custom commands developed by users for project-specific enhancements or extensions.
+
+    - **varint:** Standard system commands provided by the application or created by system administrators. This directory should generally remain unmodified to maintain system stability.
+
+    - **usrint.mlvl / varint.mlvl:** These define the command levels and execution sequences. For example, you can determine which custom or standard command runs first during a transaction or trigger.
+
+    ![FileNavigation](./.attachments/filenavigation.png)
+
+To learn more about File browser, follow [File Browser](./file-browser.md)
 
 ---
 
-## Database Trace
+## Oracular Editor
 
-- **Real-Time Trace Analysis:** The Database Trace feature enables users to monitor and analyze live database operations, including SQL queries and command execution, aiding in performance tuning and troubleshooting.
+The Oracular Editor provides multiple ways to access and edit server-side files efficiently within the Smart MOCA Client. Below are three methods to open files:
 
-- **Easy Access via MOCA Log:** Users can access the Trace Analysis window through the **MOCA Log → Database Trace Console**, allowing seamless integration with Smart MOCA’s diagnostic tools.
+- **Using the Command Prompt:** Enter #cmd followed by the file name. Once the file appears, right-click and select **"Open as file on server"** to launch it in the editor.
 
-- **Automatic Data Insertion:** By specifying a trace filename and clicking **Insert into DB**, Smart MOCA creates and populates temporary tables with relevant trace data for detailed analysis.
+    ![Oracular editor](./.attachments/cmd-command.png)
 
-- **Quick Access to Recent Logs:** The **Load Recent** option allows users to instantly view traces generated on the current day, improving efficiency in locating recent activities.
+- **Using the Edit Server Files Option:** Navigate to Data → Edit Server Files or press F2 to open the File Browser.
 
-- **Advanced Search Capabilities:** Users can search trace data using fields such as Command, Command Arguments, Bound SQL, and Unbound SQL—facilitating deep analysis of database behavior and debugging.
+    ![FileBrowser](./.attachments/filebrowser.png)
 
-To learn more about Database Trace, follow [Database Trace](./moca-log.md#database-trace-console)
+  - In the File Browser, browse through the directories and double-click on any command to open it in the editor.
 
----
+      ![FileNavigation](./.attachments/File-browser_3.png)
 
-## ZPL Preview
+- **Using the Tools Menu:** Go to **Tools → Open Find Dialog.**
 
-The ZPL Viewer in the Smart MOCA Client is a powerful feature designed to help users preview the display of ZPL (Zebra Programming Language) label .out files. 
+    ![Tools server](./.attachments/tools-server-file.png)
 
-This tool allows for the visualization and adjustment of label output before sending it to a printer, ensuring accuracy and efficiency in label printing processes.
+  - In the dialog box, search by **command name**, **path**, or **file name**, then click **Find** to locate and open the file.
 
-###  Accessing the ZPL Viewer
+To learn more about Oracular Editor, follow [Edit server file](./file-browser.md)
 
-The ZPL Viewer can be accessed through multiple avenues within the Smart MOCA Client, providing flexibility and convenience for users. 
+## Database Tracing
 
-- Navigate to the location of the .out file using the File Browser/Find Dialog/#cmd.
-- Right-click on the .out file. Select the 'View ZPL as label' option from the context menu to open the ZPL Viewer.
+- Click the **Start Trace** button to initiate trace recording. After that, execute the desired command that you want to trace.
 
-    ![ZPLViewer](./.attachments/zpl1.png)
+    ![Moca Trace](./.attachments/Trace%20startbutton.png)
 
-- Before previewing the label, the ZPL Viewer prompts you to send the file to a printer.
+- Once the command has been executed successfully, click on the **End Trace** button to stop trace.
+    ![Moca Trace1](./.attachments/End%20Tracebutton.png)
 
-    ![ZPLViewer1](./.attachments/zpl2.png)
+- A confirmation dialog will appear. Click the **Yes** button to proceed. Your trace will now be generated and opened automatically.
 
-- By clicking 'No', ZPL viewer window will get open where you can see label output. You can also click the 'Display' button to generate and view the label preview.
+    ![Moca Trace2](./.attachments/Trace%20Openbutton.png)
 
-    ![ZPLViewer2](./.attachments/zpl3.png)
-
-By utilizing the ZPL Viewer, users can efficiently preview and adjust ZPL label outputs, reducing errors and ensuring high-quality label printing in their workflows.
-
-Note: You can also use any online ZPL viewer like `Labelary` where you can see preview by pasting .out content in text window.
-
-![ZPLViewer4](./.attachments/zpl4.png)
+To learn more about Database Trace, follow [Database Trace](./database-trace.md)
 
 ---
 
@@ -147,7 +156,7 @@ The Compare feature includes several specific options for different types of com
   
 ---
 
-## RP Console
+## RP Console Tools
    
 The RP Console in the Smart MOCA Client is a powerful tool designed for managing and interacting with the Reporting (RP) Console across multiple nodes of a cluster. It allows users to fetch console data from various nodes and consolidate it for comprehensive analysis and management.
 
@@ -163,31 +172,125 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 ## Report Preview
 
+The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool designed to facilitate the previewing of reports generated during report operations. This functionality allows users to review, verify, and validate the report’s layout, data content, and formatting before finalizing, publishing, or sharing it. By enabling a thorough preview, users can ensure accuracy and completeness, minimizing the risk of errors in the final output.
 
-- **Purposeful Report Validation:** The Report Preview tool allows users to visually review reports before finalization, ensuring accuracy in layout, data, and formatting to minimize errors.
+### Accessing Report Preview
 
-- **Easy Access:** Users can launch the tool via **Addons → Smart Innovations → Report Preview**, opening a dedicated window to manage and preview reports.
+- To open the Report Preview tool, navigate to the top menu and select:
+    - Addons → Smart Innovations → Report Preview.
 
-- **Interactive Parameter Input:** For reports that require user input (e.g., date ranges, IDs), parameter fields are available to customize the data being displayed.
+- This action will open the **Report Preview** window, where you can access and interact with available reports in your environment.
 
-- **Live Rendering of Reports:** After selection and parameter input, clicking **Preview** displays the report in real-time, allowing thorough examination of each section.
+  ![ReportPreview](./.attachments/ReportPreview_1.png)
 
-- **Efficient Review and Revisions:** Users can scroll, inspect formatting and data, and return to make edits as needed—offering a flexible, iterative way to perfect reports before export or distribution.
+### Selecting and Previewing Reports
 
-To learn more about Report Preview, follow [Report Preview](./report-preview.md).
+- In the Report Preview window, you will see a list of available reports.
 
+- Select the report you wish to view by clicking on it from the list.
+
+- If the report requires parameters (e.g., date range, document ID, or user input), fill in the necessary values in the designated fields.
+
+- Once your selection and parameters are complete, click the **Preview** button.
+
+  ![ReportPreview1](./.attachments/reportpreview2.png)
+
+### Viewing the Report
+
+- After clicking Preview, the selected report will be rendered and displayed within the same window.
+
+- You can scroll through the report using the vertical and horizontal scroll bars to examine each page and section in detail.
+
+- This preview allows you to carefully review formatting, headers, footers, pagination, and the accuracy of the included data.
+
+- If any adjustments are needed—such as correcting parameters, modifying layout, or updating content—you can return to the configuration screen, make changes, and re-preview the report before final submission or export.
+
+  ![ReportPreview2](./.attachments/reportpreview1.png)
+
+---
 
 ## Print Label Operations
 
-- **Streamlined Label Printing Interface:** Accessed via Addons → Smart Innovations → Print Label Operations, this tool offers a centralized window to manage and print various predefined label formats.
+The Print Label Operations feature in the Smart MOCA Client enables users to generate and print labels with specified data, formats, and configurations. This functionality streamlines the label printing process by providing a user-friendly interface to define input parameters, preview the output, and ensure print accuracy before finalization.
 
-- **Detailed Label List View:** Users can view and select from a list of available labels, each with its name, format, description, and default printer, helping quickly identify the right label for printing.
+It is especially useful in manufacturing, logistics, and inventory environments where label generation is frequent and accuracy is critical. 
 
-- **User-Guided Data Input:** Upon selecting a label, users are prompted to enter specific arguments (like item code, quantity, batch number, etc.), ensuring accurate data population.
+### Accessing the Print Label Operations
 
-- **Live Label Preview:** A real-time preview displays the label layout and content, allowing users to validate positioning and formatting before printing to avoid errors.
+- To access the label printing interface, navigate to the top menu:
+    - **Addons** → **Smart Innovations** → **Print Label Operations**
 
-- **Optimized for Operational Efficiency:** Designed for high-accuracy environments like manufacturing and logistics, the feature supports various printers and formats, enhancing speed, reliability, and output quality.
+- This will open the Labels window, where you can see a list of all available labels along with their:
 
-To learn more about Print Label Operations, follow [Print Label Operations](./print-label-operations.md).
+    - Label Name
+    - Format
+    - Description
+    - Default Printer
 
+  ![PrintLabel](./.attachments/printlabel_1.png)
+
+### Opening a Label for Printing
+
+- In the Labels window, double-click on any label you wish to print.
+
+- This will open the Print Label Operations window specific to that label.
+
+  ![PrintLabel1](./.attachments/printlabel2.png)
+
+### Generating and Previewing a Label
+
+- In the Print Label Operations window, you’ll be prompted to enter specific arguments or commands required for generating the label. These arguments may include data such as:
+
+    - Item codes
+    - Batch numbers
+    - Serial numbers
+    - Quantities
+    - Location codes
+
+- After entering the necessary details, the corresponding label preview image will be displayed in the window.
+
+  ![PrintLabel2](./.attachments/printlabel1.png)
+
+- This preview helps you visually confirm that all data is placed correctly and formatted as expected, reducing the chance of errors during printing.
+
+### Benefits of Print Label Operations
+
+- Ensures accurate and consistent label printing
+- Provides a live preview to verify label layout and content before printing
+- Supports multiple formats and printers
+- Simplifies the process of inputting required arguments through a clean and guided interface
+
+This feature ensures high efficiency and accuracy in label printing workflows, allowing users to confidently generate and print labels with the correct information every time.
+
+---
+
+## ZPL Preview
+
+The ZPL Viewer in the Smart MOCA Client is a powerful feature designed to help users preview the display of ZPL (Zebra Programming Language) label .out files. 
+
+This tool allows for the visualization and adjustment of label output before sending it to a printer, ensuring accuracy and efficiency in label printing processes.
+
+###  Accessing the ZPL Viewer
+
+The ZPL Viewer can be accessed through multiple avenues within the Smart MOCA Client, providing flexibility and convenience for users. 
+
+- Navigate to the location of the .out file using the File Browser/Find Dialog/#cmd.
+- Right-click on the .out file. Select the 'View ZPL as label' option from the context menu to open the ZPL Viewer.
+
+    ![ZPLViewer](./.attachments/zpl1.png)
+
+- Before previewing the label, the ZPL Viewer prompts you to send the file to a printer.
+
+    ![ZPLViewer1](./.attachments/zpl2.png)
+
+- By clicking 'No', ZPL viewer window will get open where you can see label output. You can also click the 'Display' button to generate and view the label preview.
+
+    ![ZPLViewer2](./.attachments/zpl3.png)
+
+By utilizing the ZPL Viewer, users can efficiently preview and adjust ZPL label outputs, reducing errors and ensuring high-quality label printing in their workflows.
+
+Note: You can also use any online ZPL viewer like `Labelary` where you can see preview by pasting .out content in text window.
+
+![ZPLViewer4](./.attachments/zpl4.png)
+
+---
