@@ -142,7 +142,18 @@ These are scripts that show up for use when right clicking the grid for certain 
 
 ## Tracing
 
-Follow [Smart MOCA Trace](./moca-trace.md) to enable tracing.
+- **Multiple Ways to Generate a Trace:** You can start a MOCA Trace by using the Start Trace button, running a command with a trace filename, or by opening an existing log using the Log button.
+
+- **Step-by-Step Recording and Execution:** Tracing involves starting the trace, executing a command, and stopping it to automatically generate a detailed execution log for debugging.
+
+- **Interactive Trace Window:** The trace viewer shows logs in real time with panels for command hierarchy, argument details, formatted syntax, and system messages—making it easier to analyze the system's behavior.
+
+- **Powerful Diagnostic Tools:** The bottom toolbar includes tools like Comp Lvl, T_PERF, Errors, Parse, and Find Cause to help identify issues, measure performance, and explore command executions.
+
+- **Command-Line and Manual File Access:** Traces can also be generated or accessed using command-line input or by selecting an existing trace file from your system, offering flexibility for advanced users.
+
+
+To learn more about Moca Trace, follow [Smart MOCA Trace](./moca-trace.md)
 
 ---
 

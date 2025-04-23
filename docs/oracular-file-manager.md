@@ -1,5 +1,5 @@
-# File Browser
-The File Browser in the Smart MOCA Client provides a comprehensive set of functionalities that support efficient file navigation, organization, and management.
+# Oracular File Manager
+The Oracular File Manager in the Smart MOCA Client provides a comprehensive set of functionalities that support efficient file navigation, organization, and management.
 
 ## Maintaining File System Objects
 This section outlines how users can effectively utilize the File Browser for accessing and managing file system objects like commands, reports, logs, and custom scripts.
@@ -65,7 +65,7 @@ This section outlines how users can effectively utilize the File Browser for acc
 - usrint and varint lvls can define the levels for command and trigger execution, which command to be executed first and which is next.
 
 
-### Key Features of file browser
+### Key Features 
 
 - Browse directories and files seamlessly.
 - Perform various file operations such as opening, editing, deleting, and moving files.
