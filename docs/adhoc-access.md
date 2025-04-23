@@ -160,7 +160,7 @@ These are scripts that show up for use when right clicking the grid for certain 
 
 MOCA Trace provides a detailed, step-by-step log of system activity during command execution. It’s used for debugging, analyzing performance, and understanding system behavior through an interactive interface with powerful diagnostic tools.
 
-To learn more about Moca Trace, follow [Database Trace](./database-trace.md)
+To learn more about Tracing, follow [Database Trace](./database-trace.md).
 
 ---
 
