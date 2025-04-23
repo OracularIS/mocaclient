@@ -11,6 +11,7 @@
 - [Advance System Operations](./advance-operations.md)
 - [DevOps](./devops.md)
 - [Database Trace](./database-trace.md)
+- [Moca Log](./moca-log.md)
 - [File Browser](./file-browser.md)
 - [Issue Assignment](./issue-assignment.md)
 - [Rollouts](./rollouts.md)
