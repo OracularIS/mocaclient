@@ -16,7 +16,7 @@
 - [Issue Assignment](./issue-assignment.md)
 - [Rollouts](./rollouts.md)
 - [Wizards](./wizards.md)
-- [MFT](./mtf_menu.md)
+- [MTF](./mtf_menu.md)
 - [Release updates](./release-updates.md)
 - [FAQs](./faqs.md)
 - [Menu Overview](./menu-overview.md)
