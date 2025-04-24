@@ -129,16 +129,14 @@ Note: *Follow [Password Security](./connections.md) for an information about **S
 
 Follow [Add/Update/Remove Server](./connections.md) to add server in Smart Moca Client.
 
-## Use moca.jar instead of labelzoom.jar
 
-It is recommended to use BlueYonder's moca.jar instead of labelzoom.jar.
-In latest moca client, if we will already have moca.jar and we try to update our moca client version then it will copy existing moca.jar and no popup will appear on server connection as well as no option will be there in Tools menu. But if we don't have moca.jar then it will give a popup on first time server connection and also option will be there in Tools menu.
+## Download moca.jar
 
-Following are the methods to use `moca.jar` in Smart MOCA Client:
+Following are the methods to download `moca.jar` in Smart MOCA Client:
 
 1. Download upon Server Connection
 2. Download via Tools Menu
-3. Manual placement of 'moca.jar' file
+
 
 ### Download upon Server Connection
 
@@ -169,18 +167,4 @@ Following are the methods to use `moca.jar` in Smart MOCA Client:
 
   ![](./.attachments/run021.png)
 
-### Manual placement of 'moca.jar'
-
-Follow the steps below to manually place moca.jar:
-
-1. Close Smart MOCA Client application and place Blueyonder's `moca.jar` in `C:\Users\\AppData\Roaming\SmartMOCAClient\sw\smc`.
-
-    ![](./.attachments/run020.png)
-
-This process will allow you to use the necessary moca.jar file with the Smart MOCA Client.
-
 <mark>**Note:** *moca.jar should be compatible with current java version.*</mark>
-
-
-
-

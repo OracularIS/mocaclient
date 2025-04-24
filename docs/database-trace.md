@@ -81,9 +81,9 @@ There are three primary ways to generate and read the MOCA Trace:
 
 - **Parse**, **Find Cause** and **Select Tree:**
 
-    - Parse: Opens parse logs with configurable checkboxes.
-    - Find Cause: Pinpoints the exact cause of failure.
-    - Select Tree: Displays the command's execution tree in the log window.
+    - **Parse:** Opens parse logs with configurable checkboxes.
+    - **Find Cause:** Pinpoints the exact cause of failure.
+    - **Select Tree:** Displays the command's execution tree in the log window.
 
     ![Moca Trace11](./.attachments/opentracepagebuttonexplain4.png)
 

@@ -14,12 +14,13 @@ To learn more about Database Trace Console, follow [Database Trace Console](./de
 
 ### Show End of Trace:
 The **Show End of Trace** function allows users to quickly view the tail end of a trace file.
+
 - This is particularly useful when monitoring the most recent entries in a log to troubleshoot live or recent events.
 
     ![Moca Log](./.attachments/moca_log_3.png)
 
-
     **How to Use:**
+    
     - Enter the name of the trace file in the input field.
     - Click on OK to load and view the most recent portion of the file.
 

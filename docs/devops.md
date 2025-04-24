@@ -81,7 +81,7 @@ To learn more about Print Label Operations, follow [Label Viewer](./advance-oper
 
 Feature to view the hierarchy of MOCA commands. 
 
-- Navigate to Addons --> Smart Innovations --> View Moca Command Tree. The 'Command Tree Viewer' containing text area to enter code and 'Generate' button to generate tree.
+- Navigate to **Addons --> Smart Innovations --> View Moca Command Tree**. The 'Command Tree Viewer' containing text area to enter code and 'Generate' button to generate tree.
 
   ![CommandTree](./.attachments/commandtree.png)
 
