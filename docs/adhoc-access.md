@@ -6,7 +6,7 @@ This documentation outlines the various functionalities and steps involved in us
 
 ## Command Execution and Formatting
 
-Type a command in the text box and hit **ENTER**, **Alt-E**, **F5**, or click the **Execute** button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. 
+Type a command in the text box and hit **ENTER**, **Alt+E**, **F5**, or click the **Execute** button to execute. The status bar below will change to “Executing…” and will change again when execution is complete. 
 
   ![Execution](./.attachments/adhoc1.png)
 
@@ -14,7 +14,7 @@ If any text is selected, that will be the command executed and not the entire co
 
 ### Queue Command
 
-Press **Queue Cmd** or **Ctrl-Q** to execute the next command immediately after the current one has ended.
+Press **Queue Cmd** or **Ctrl+Q** to execute the next command immediately after the current one has ended.
 
   ![Queue](./.attachments/adhoc2.png)
 
@@ -57,9 +57,9 @@ Command completion was developed for commands that get a lot of use and can be s
 
 ## Grid Functions
 
-- **Ctrl-R:** Copy results to clipboard as "publish data" commands
-- **Ctrl-I:** Copy results to clipboard as insert statements
-- **Ctrl-U:** Copy results to clipboard as "sl_change gen_maint" commands
+- **Ctrl+R:** Copy results to clipboard as "publish data" commands
+- **Ctrl+I:** Copy results to clipboard as insert statements
+- **Ctrl+U:** Copy results to clipboard as "sl_change gen_maint" commands
 
 ---
 
@@ -71,8 +71,8 @@ Smart Moca Client Editor" feature, details the keybindings and the functionaliti
 
 ### Keys
 
-- **Ctrl-Left**: Shift Left
-- **Ctrl-Right**: Shift Right
+- **Ctrl+Left**: Shift Left
+- **Ctrl+Right**: Shift Right
 
 ### Popup Menu
 
@@ -269,7 +269,7 @@ The Script Editor enables users to save their scripts as macros, making them eas
 
 The Command History feature in Smart MOCA Client provides an efficient way to track, manage, and re-execute previously run commands. This tool enhances productivity by allowing users to easily access their command history, view resultsets, and leverage advanced history storage options.
 
-1. Normal History
+1. **Normal History**
 
    The Normal History functionality allows users to quickly access a list of commands they have previously executed. This is particularly useful for re-executing common commands or referencing past commands for troubleshooting.
 
@@ -279,7 +279,7 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
   - Select any command from the list to view its details or to re-execute it with a single click.
 
-2. Advanced History
+2. **Advanced History**
 
    The Smart MOCA Client enables users to see advanced history of executed commands and load commands directly from the command history. This feature streamlines the process of finding and re-executing past commands from database.
 
@@ -287,7 +287,7 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
    You can also add [Additional Information](./menu-overview/file.md) to search data accordingly in History Search window.
 
-3. Resultsets
+3. **Resultsets**
 
    The Resultsets allows users to manage and view the results of executed commands. This is crucial for analyzing command outputs, generating reports, and making data-driven decisions.
 
@@ -301,7 +301,7 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
 The Find Dialogs feature in Smart MOCA Client provides powerful search capabilities to enhance user productivity by allowing efficient navigation and modification of text and files within the application. 
 
-1. Find/Replace
+1. **Find/Replace**
 
    This feature is designed to help users quickly locate and replace text within the text editor.
 
@@ -309,7 +309,7 @@ The Find Dialogs feature in Smart MOCA Client provides powerful search capabilit
 
     ![Find/Replace](./.attachments/find1.png)
 
-2. Advanced Find
+2. **Advanced Find**
 
    The Advanced Find functionality, accessible via the 'Open Find Dialog' option, provides comprehensive search capabilities across various file types, commands, policies, and more.
 
@@ -318,7 +318,7 @@ The Find Dialogs feature in Smart MOCA Client provides powerful search capabilit
     ![Open Find Dialogue](./.attachments/find2.png)
     ![Search](./.attachments/find3.png)
 
-3. Right-click on File
+3. **Right-click on File**
 
    Find commands and their path by right-clicking on files within the application.
 

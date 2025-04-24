@@ -42,13 +42,13 @@ The Oracular Editor provides multiple ways to access and edit server-side files 
 Below are three methods to open files:
 
 1. **Using the Command Prompt** 
-    - Enter #cmd followed by the file name. 
+    - Enter **#cmd** followed by the file name. 
     - Once the file appears, right-click and select **"Open as file on server"** to launch it in the editor.
 
     ![Oracular editor](./.attachments/cmd-command.png)
 
 2. **Using the Edit Server Files Option** 
-    - Navigate to Data → Edit Server Files or press F2 to open the File Browser.
+    - Navigate to **Data → Edit Server Files** or press **F2** to open the File Browser.
 
     ![FileBrowser](./.attachments/filebrowser.png)
 
@@ -64,7 +64,7 @@ Below are three methods to open files:
 
   - In the dialog box, search by **command name**, **path**, or **file name**, then click **Find** to locate and open the file.
 
-To learn more about Oracular Editor, follow [Edit server file](./file-browser.md).
+To learn more about Oracular Editor, follow [Edit server file](./file-browser.md#edit-server-files).
 
 ## Database Tracing
 
@@ -171,7 +171,7 @@ The Compare feature includes several specific options for different types of com
    
 The RP Console in the Smart MOCA Client is a powerful tool designed for managing and interacting with the Reporting (RP) Console across multiple nodes of a cluster. It allows users to fetch console data from various nodes and consolidate it for comprehensive analysis and management.
 
-- Navigate to Addons --> Smart Innovations --> RP Console Tools. The Console window will get open.
+- Navigate to **Addons --> Smart Innovations --> RP Console Tools**. The Console window will get open.
 
  ![RPConsole](./.attachments/RpConsole.png)
 
@@ -188,7 +188,7 @@ The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool de
 ### Accessing Report Preview
 
 - To open the Report Preview tool, navigate to the top menu and select:
-    - Addons → Smart Innovations → Report Preview.
+    - **Addons → Smart Innovations → Report Preview**.
 
 - This action will open the **Report Preview** window, where you can access and interact with available reports in your environment.
 
