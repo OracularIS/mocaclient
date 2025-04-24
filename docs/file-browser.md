@@ -77,7 +77,7 @@ This section outlines how users can effectively utilize the File Browser for acc
     - **Help:**
         - Provides assistance and reference material related to File Browser usage.
 
-## Understanding Directories and File Structure.
+## File Structure
 
 - The start directory is $LESDIR/src/cmdsrc.
 - Within this directory, you’ll find key subfolders such as: 

@@ -4,6 +4,8 @@ The Advanced System Operations in the Smart MOCA Client offer a comprehensive su
 
 ## File Browser
 
+The File Browser in the Smart MOCA Client provides a comprehensive set of functionalities that support efficient file navigation, organization, and management.
+
 ### File Navigation
 
 - Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser**. 
@@ -16,7 +18,7 @@ The Advanced System Operations in the Smart MOCA Client offer a comprehensive su
 
   ![FileBrowser1](./.attachments/filebrowser1.png)
 
-### Directories and File Structure.
+### File Structure
 
 - The start directory is $LESDIR/src/cmdsrc.
 - Within this directory, you’ll find key subfolders such as: 
@@ -29,35 +31,44 @@ The Advanced System Operations in the Smart MOCA Client offer a comprehensive su
 
     ![FileNavigation](./.attachments/filenavigation.png)
 
-To learn more about File browser, follow [File Browser](./file-browser.md)
+To learn more about File browser, follow [File Browser](./file-browser.md).
 
 ---
 
 ## Oracular Editor
 
-The Oracular Editor provides multiple ways to access and edit server-side files efficiently within the Smart MOCA Client. Below are three methods to open files:
+The Oracular Editor provides multiple ways to access and edit server-side files efficiently within the Smart MOCA Client. 
 
-- **Using the Command Prompt:** Enter #cmd followed by the file name. Once the file appears, right-click and select **"Open as file on server"** to launch it in the editor.
+Below are three methods to open files:
+
+1. **Using the Command Prompt** 
+    - Enter #cmd followed by the file name. 
+    - Once the file appears, right-click and select **"Open as file on server"** to launch it in the editor.
 
     ![Oracular editor](./.attachments/cmd-command.png)
 
-- **Using the Edit Server Files Option:** Navigate to Data → Edit Server Files or press F2 to open the File Browser.
+2. **Using the Edit Server Files Option** 
+    - Navigate to Data → Edit Server Files or press F2 to open the File Browser.
 
     ![FileBrowser](./.attachments/filebrowser.png)
 
-  - In the File Browser, browse through the directories and double-click on any command to open it in the editor.
+    - In the File Browser, browse through the directories and double-click on any command to open it in the editor.
 
-      ![FileNavigation](./.attachments/File-browser_3.png)
+    ![FileNavigation](./.attachments/File-browser_3.png)
 
-- **Using the Tools Menu:** Go to **Tools → Open Find Dialog.**
+3. **Using the Tools Menu** 
+
+    - Go to **Tools → Open Find Dialog.**
 
     ![Tools server](./.attachments/tools-server-file.png)
 
   - In the dialog box, search by **command name**, **path**, or **file name**, then click **Find** to locate and open the file.
 
-To learn more about Oracular Editor, follow [Edit server file](./file-browser.md)
+To learn more about Oracular Editor, follow [Edit server file](./file-browser.md).
 
 ## Database Tracing
+
+Database Tracing helps you track SQL activity in real time, making it easier to identify performance issues and troubleshoot database operations.
 
 - Click the **Start Trace** button to initiate trace recording. After that, execute the desired command that you want to trace.
 
@@ -70,7 +81,7 @@ To learn more about Oracular Editor, follow [Edit server file](./file-browser.md
 
     ![Moca Trace2](./.attachments/Trace%20Openbutton.png)
 
-To learn more about Database Trace, follow [Database Trace](./database-trace.md)
+To learn more about Tracing, follow [Database Trace](./database-trace.md).
 
 ---
 
