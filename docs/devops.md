@@ -63,11 +63,11 @@ To learn more about Rollouts, follow [Rollout](./rollouts.md)
 
 ---
 
-## Report Preview
+## Report Viewer
 
 The Report Viewer in the Smart MOCA Client allows users to preview and validate reports for layout, data accuracy, and formatting before finalizing or sharing, ensuring error-free output.
 
-To learn more about Report Preview, follow [Report Preview](./advance-operations.md#report-preview)
+To learn more about Report Viewer, follow [Report Preview](./advance-operations.md#report-preview)
 
 ---
 
@@ -75,7 +75,7 @@ To learn more about Report Preview, follow [Report Preview](./advance-operations
 
 The Print Label Operations feature in the Smart MOCA Client simplifies label generation by allowing users to define inputs, preview output, and ensure print accuracy—ideal for manufacturing, logistics, and inventory use.
 
-To learn more about Print Label Operations, follow [Label Viewer](./advance-operations.md#print-label-operations)
+To learn more about Label Viewer, follow [Print Label Operations](./advance-operations.md#print-label-operations)
 
 ## MOCA Command Tree
 
