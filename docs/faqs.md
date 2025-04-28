@@ -26,7 +26,6 @@ If moca.pending_jar is not renaming after restarting Smart MOCA Client, try the 
 - **Ensure No Active MOCA Processes** – Close all instances of Smart MOCA Client before restarting.
 - **Check File Permissions** – Verify that you have necessary permissions to rename files in the installation directory.
 - **Manually Rename the File** – If the issue persists, manually rename moca.pending_jar to moca.jar and restart the client.
-- **Manually place the File** – If the issue persists after renaming file, follow [Manual placement of 'moca.jar'](./getting-started.md) to manually place moca.jar and restart the client.
 
 **4. After upgrading to Smart MOCA Client, changes made to files during development are not registering in the Issue Assignment. Why?**
 

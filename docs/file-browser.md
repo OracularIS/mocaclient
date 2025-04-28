@@ -1,10 +1,10 @@
-# File Browser
+## File Browser
 The File Browser in the Smart MOCA Client provides a comprehensive set of functionalities that support efficient file navigation, organization, and management.
 
-## Maintaining File System Objects
+### Maintaining File System Objects
 This section outlines how users can effectively utilize the File Browser for accessing and managing file system objects like commands, reports, logs, and custom scripts.
 
-### File Navigation
+#### File Navigation
 
 - Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser**. 
 
@@ -16,68 +16,77 @@ This section outlines how users can effectively utilize the File Browser for acc
 
   ![FileBrowser1](./.attachments/filebrowser1.png)
 
-### Buttons in File Browser
+#### Buttons Functionality
 
 - **Find:** This button is used to find File using path.
 - **Open:** This button is used to open File.
 - **Save:** This button is used to save the file.
 - **Remove:** This button is used to Remove the file from Directory.
 
-    ![FileBrowser1](./.attachments/Buttom-buttons.png)
+#### Menu in the File Browser
+
+The File Browser in the Smart MOCA Client provides essential operations to support efficient file maintenance.
+
+![FileBrowser1](./.attachments/File-browser_5.png)
+
+#### File Operations
+
+The following operations are available for managing files and directories:
+
+- **Upload File:** It is used for uploading Existing file from the system and Opens it.
+
+    ![FileBrowser1](./.attachments/Filebrowser-File.png)
+
+- **Upload Text:** Upload plain text files to the server from System.
+
+- **Upload Text w/Directories:** Upload text files along with their directory structure.
+
+- **Upload Binary:** Upload binary files to the server from System.
+
+    ![FileBrowser1](./.attachments/Uploadfile.png)
+
+- **Download Text:** Download files as plain text.
+
+- **Download Binary:** Download files in binary format.
+
+    ![FileBrowser1](./.attachments/Uploadfile.png)
+
+- **Create Directory:** It is used for creating directory.
+
+    ![FileBrowser1](./.attachments/CreateDirectory.png)
+
+       
+- **Create New:** It is used for creating new command, triggers, tables and columns.
+
+    ![FileBrowser1](./.attachments/Filebrowser-New.png)
+
+    - **Create New Command:** It is used for creating new commands into System.
+
+        ![FileBrowser1](./.attachments/CommandCreation.png)
+
+    - **Create New Trigger:** It is used for creating new Triggers into System.
+
+        ![FileBrowser1](./.attachments/CreateTrigger.png)
+
+    - **Create New Table:** It is used for creating new Tables into System.
+
+        ![FileBrowser1](./.attachments/Createtable.png)
+
+    - **Create New Column:** It is used for creating new Columns into Tables.
+
+        ![FileBrowser1](./.attachments/CreateColumn.png)
+
+    - **Drop Column:** It is used for Dropping Columns from tables.
+
+        ![FileBrowser1](./.attachments/DropColumn.png)
+
+    - **Sequence:** Create a new sequence for database objects.
+
+        ![FileBrowser1](./.attachments/CreateSequence.png)
 
 
 
-### Menu in the File Browser
-
-- At the top of the File Browser, several tabs are available to enhance user productivity:
-
-    ![FileBrowser1](./.attachments/File-browser_5.png)
-
-    - **File:** 
-        - **Open:** It is used for opening file.
-        - **Close:** It is used for closing of the file.
-        - **Save new and existing files:** It is used for saving the new file created and the existing file in which you have done changes.
-        - **Compare to Local File:** It is used for comapring the file with the local file.
-        - **Add to Issue Tracking:** It is used for Adding into the issue tracking.
-        - **Upload text and Download text:** It is used for uploading the text into the file and also for downloading text from the file.
-
-        ![FileBrowser1](./.attachments/Filebrowser-File.png)
-
-    - **Edit:** 
-        - Perform standard editing operations such as cut, copy, paste, convert text to uppercase or lowercase into the file.
-
-        ![FileBrowser1](./.attachments/Filebrowser-edit.png)
-
-    - **Tools:** 
-        - Used for actions such as creating new directories.
-
-        ![FileBrowser1](./.attachments/Filebrowser-tools.png)
-
-    - **Source:** 
-        - Allows users to shift text, convert character sets, or remove non-ASCII characters from the file content.
-
-    - **MOCA Tools:** 
-        - Offers options to add arguments, define exceptions, validate, and format MOCA commands into the file.
-        - Also for **Appending filename to Path** in file browser.
-
-        ![FileBrowser1](./.attachments/Filebrowser-mocatools.png)
-
-    - **New:** 
-        - **New Commands:** It is used for creating new Command files.
-        - **New Triggers:** It is used for creating new Trigger files.
-        - **New Tables:** It is used for creating new tables into database.
-        - **Modify schema by adding or dropping columns:** It is used for adding or dropping tables and columns from database schema.
-        - **Sequence:** It is used for providing sequence.
-
-        ![FileBrowser1](./.attachments/Filebrowser-New.png)
-
-    - **Options:**
-        - Modify interface settings such as enabling enter key modifiers or adjusting font size multipliers.
-
-    - **Help:**
-        - Provides assistance and reference material related to File Browser usage.
-
-## File Structure
+### File Structure
 
 - The start directory is $LESDIR/src/cmdsrc.
 - Within this directory, you’ll find key subfolders such as: 
@@ -90,7 +99,7 @@ This section outlines how users can effectively utilize the File Browser for acc
 
     ![FileNavigation](./.attachments/filenavigation.png)
 
-### Working with usrint Directory
+#### Working with usrint Directory
 
 - For any customizations or new command development, the usrint directory is used.
 
@@ -98,7 +107,7 @@ This section outlines how users can effectively utilize the File Browser for acc
 
     ![FileNavigation](./.attachments/File-browser_3.png)
 
-### Working with varint Directory
+#### Working with varint Directory
 
 - varint directory serves as the location for all predefined system commands
 
@@ -111,7 +120,7 @@ This section outlines how users can effectively utilize the File Browser for acc
 - usrint and varint lvls can define the levels for command and trigger execution, which command to be executed first and which is next.
 
 
-## Edit Server Files
+### Edit Server Files
 
 Editing files within the Smart MOCA Client is a seamless process. Users can access files through the Edit Server Files option and modify them directly using the integrated text editor, which offers a user-friendly and efficient environment for file editing.
 
@@ -126,64 +135,74 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
 - You can then Open Command By Double Click on it.
 
-- Key Features of the Built-in File Editor:
-    - Provides syntax highlighting for improved readability and code clarity.
-    - Displays line numbers to assist with navigation and referencing.
-    - Supports efficient editing through a user-friendly interface.
-    - Allows direct saving of changes to the file system without needing external tools.
+#### Key Features of the Built-in File Editor
+
+- Provides syntax highlighting for improved readability and code clarity.
+- Displays line numbers to assist with navigation and referencing.
+- Supports efficient editing through a user-friendly interface.
+- Allows direct saving of changes to the file system without needing external tools.
 
     ![FileEdit](./.attachments/editfile.png)
 
 
-### Menu in the File Browser
+#### Menu in the File Browser
 
-- At the top of the File Browser, several tabs are available to enhance user productivity:
+The File Browser in the Smart MOCA Client provides essential operations to support efficient file maintenance.
 
-    ![FileBrowser1](./.attachments/editserverfile-command.png)
+![FileBrowser1](./.attachments/editserverfile-command.png)
 
-    - **File:** 
-        - **Open:** It is used for opening file.
-        - **Close:** It is used for closing of the file.
-        - **Save new and existing files:** It is used for saving the new file created and the existing file in which you have done changes.
-        - **Compare to Local File:** It is used for comapring the file with the local file.
-        - **Add to Issue Tracking:** It is used for Adding into the issue tracking.
-        - **Upload text and Download text:** It is used for uploading the text into the file and also for downloading text from the file.
+#### Edit File Operations
+The following operations are available for managing files and directories:
 
-        ![FileBrowser1](./.attachments/editserverfile-file.png)
+- **Find/Replace:** It is used for finding any word inside the command or trigger.
 
-    - **Edit:** 
-        - **Cut:** It is used to cut something inside command.
-        - **Copy:** It is used for copying something into the command
-        - **Paste:** It is used for paste something into the command.
-        - **Convert text to uppercase or lowercase:** It is used for converting the letters into uppercase and lowercase.
+    ![FileBrowser1](./.attachments/Findreplaceeditfile.png)
 
-        ![FileBrowser1](./.attachments/editserverfile-edit.png)
 
-    - **Tools:** 
-        - Used for actions such as creating new directories.
+- **Cut:** It is used to cut something inside command.
 
-    - **Source:** 
-        - **Shift text:** It is used for shifting command left and right and also set shift ammount.
-        - **Convert character sets:** It is used for converting Character sets in command
-        - **Remove non-ASCII characters:** It is used for removing non-ASCII characters from the command.
+    ![FileBrowser1](./.attachments/CutEditFile.png)
+
+
+- **Copy:** It is used for copying something into the command.
+
+    ![FileBrowser1](./.attachments/CopyEditFile.png)
+
+- **Paste:** It is used for paste something into the command.
+
+    ![FileBrowser1](./.attachments/PasteEditFile.png)
+
+- **Convert text to uppercase or lowercase:** It is used for converting the letters into uppercase and lowercase.
+
+    ![FileBrowser1](./.attachments/UpperLowerEditfile.png)
+
+- **Source:** 
+    - **Shift text:** Move lines left or right with a defined shift amount.
+    - **Convert character sets:** Transform text encoding between different character sets as needed.
+    - **Remove non-ASCII characters:** Clean files by removing any non-ASCII (special/unreadable) characters.
         
-        ![FileBrowser1](./.attachments/editserverfile-source.png)
+    ![FileBrowser1](./.attachments/editserverfile-source.png)
         
 
-    - **MOCA Tools:** 
-        - **Add arguments:** It is used for adding arguments into the command and save it.
-        - **Define exceptions:** It is used for adding exceptions into the command.
-        - **Validate and format MOCA commands:** It is used for validating and providing format to the command.
-        - Also for **Appending filename to Path** in file browser.
+- **MOCA Tools:** It is used for adding arguments, documentation, retcol and exceptions.
 
-        ![FileBrowser1](./.attachments/editserverfile-mocatools.png)
+    - **Add arguments:** It is used for adding arguments into the command.
+            ![FileBrowser1](./.attachments/Argumentseditfile.png)
 
-    - **Options:**
-        - Modify interface settings such as enabling enter key modifiers or adjusting font size multipliers.
+    - **Define exceptions:** It is used for adding exceptions into the command.
+            ![FileBrowser1](./.attachments/Exceptioneditfile.png)
 
-        ![FileBrowser1](./.attachments/editserverfile-options.png)
+    - **Add Documentation:** It is used for Adding Documentations into the command.
+            ![FileBrowser1](./.attachments/Documentationeditfile.png)
 
-    - **Help:**
-        - Provides assistance and reference material related to File Browser usage.
+    - **Add Retcol:** It is used for Adding Retcol name and type into the command.
+            ![FileBrowser1](./.attachments/Retcoleditfile.png)
 
----
+    - **Format:** It is used for formatting of the command.
+
+- **Options:** Modify interface settings such as enabling enter key modifiers or adjusting font size multipliers.
+        
+    ![FileBrowser1](./.attachments/Optionseditfile.png)
+
+- **Help:** Provides assistance and reference material related to File Browser usage.
+

@@ -1,8 +1,8 @@
-# Wizards
+## Wizards
 
 Smart MOCA Wizards enable the creation of **Data Driven Applications (DDAs)** for tasks like exporting data to CSV. Using a guided, no-code interface, users can define queries, configure output fields, and generate CSV files directly from the application simplifying data extraction without custom development.
 
-## Accessing Wizards from MOCA
+### Accessing Wizards from MOCA
 - To begin working with Wizard in MOCA:
 
     - Navigate to **Tools** in the menu bar.
@@ -14,12 +14,12 @@ Smart MOCA Wizards enable the creation of **Data Driven Applications (DDAs)** fo
     ![Wizard_1](./.attachments/wizards_1.png)
 
 
-## DDA Wizard
+### DDA Wizard
 
 Facilitates the creation of CSV files for new Data Driven Applications by entering the necessary details and submitting the form.
 
 
-### Steps for DDA Wizard:
+#### Steps for DDA Wizard
 
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **DDA Wizard**.
@@ -39,11 +39,11 @@ Facilitates the creation of CSV files for new Data Driven Applications by enteri
 - **Add the DDA:**
     - Once all the required fields are filled out, click on the **Add** button to generate the CSV file and create the DDA entry.
 
-## Label Wizard
+### Label Wizard
 
 Designed to export structured CSVs for defining new labels within the application.
 
-### Steps for Label Wizard:
+#### Steps for Label Wizard
 
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **Label Wizard**.
@@ -64,11 +64,11 @@ Designed to export structured CSVs for defining new labels within the applicatio
     - After entering the information and attaching the relevant files, click the Upload button to create the CSV file and import the label definitions into the system.
 
 
-## Report Wizard
+### Report Wizard
 
 Streamlines the setup of new reports by generating corresponding CSV files for easy configuration and import.
 
-### Steps for Report Wizard:
+#### Steps for Report Wizard
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **Report Wizard**.
         ![Wizard_7](./.attachments/wizards_7.png)

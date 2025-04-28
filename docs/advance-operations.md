@@ -89,7 +89,7 @@ To learn more about Tracing, follow [Database Trace](./database-trace.md).
 
 The Smart MOCA Client provides robust features for loading data, accommodating both server-side and client-side operations. These features are designed to ensure efficient and seamless data loading processes.
 
-### Server-Side MLoad (using mload.exe on the server):
+### Server-Side MLoad (using mload.exe on the server)
 
 The Server-side MLoad feature allows users to load data directly on the server using MLoad os commands. 
 
@@ -97,7 +97,7 @@ The .csv and .ctl file must reside on the server in db/data/load
 
 - **Get Inserts/Updates/Result Set**: Get Inserts/Updates was developed to facilitate the moving of data from one environment to another. Get Inserts uses the active table to create an insert statement for each row of the table. Get Updates creates a sl_change gen_maint command for each row. All functions place the result in the clipboard for easy pasting to another window.
 
-### Client-Side MLoad (NOT using mload.exe on the server): 
+### Client-Side MLoad (NOT using mload.exe on the server) 
 
 The Client-side Load feature provides several options for inserting, updating, loading, and unloading data within the current tab of the client interface.
 
