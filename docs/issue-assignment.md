@@ -1,4 +1,4 @@
-# Issue Assignment
+## Issue Assignment
 
 The **Issue Assignment** feature in the Smart MOCA Client is a powerful and structured tool designed to facilitate the assignment, tracking, and resolution of issues throughout the software development and deployment lifecycle. It enables users to assign specific tasks or bugs to team members, define priorities, and monitor the status and progress of each issue ensuring timely delivery and improved project management.
 
@@ -8,11 +8,11 @@ This interface plays a critical role in maintaining accountability and streamlin
 
 ![Issue1](./.attachments/newissue1.png)
 
-## Main Components
+### Main Components
 
 Each tab within the Issue Assignment window provides specialized functionalities to help users effectively track and manage different aspects of an issue:
 
-### 1. Input 
+#### 1. Input 
 
 The Input tab is used for entering key details when creating or updating an issue. Users can specify:
 
@@ -24,7 +24,7 @@ The Input tab is used for entering key details when creating or updating an issu
 This section forms the foundational information of an issue and is essential for proper assignment, documentation, and filtering.
 
 
-### 2. Data
+#### 2. Data
 The Data tab provides a robust interface to track and review changes made to database tables that are associated with the issue. It allows users to:
 
 - View inserted, updated, or deleted records.
@@ -33,7 +33,7 @@ The Data tab provides a robust interface to track and review changes made to dat
 
 This is particularly valuable for troubleshooting data integrity issues and validating whether database transactions are aligned with expected application behavior.
 
-### 3. Files
+#### 3. Files
 The Files tab enables tracking of any file-level changes relevant to the issue. This may include:
 
 - Source code files.
@@ -45,7 +45,7 @@ Users can compare changes, maintain version control, and document all file modif
 ![Issue2](./.attachments/newissue2.png)
 
 
-### 4. Seamles
+#### 4. Seamles
 The Seamles tab (typically associated with Seamless Integrations) is specifically tailored to capture changes made within the Integrator module of the application. It is used to:
 
 - Monitor integration-specific changes or transformations.
@@ -54,7 +54,7 @@ The Seamles tab (typically associated with Seamless Integrations) is specificall
 
 This is especially useful in environments where Smart MOCA is integrated with external applications, helping teams manage those interfaces effectively.
 
-### 5. Commit Changes
+#### 5. Commit Changes
 The Commit Changes functionality is crucial for finalizing updates associated with an issue. It allows users to:
 
 - Commit all related files or data updates in a single, traceable action.

@@ -1,8 +1,8 @@
-# Rollouts
+## Rollouts
 
 A **Rollout** in the **Smart MOCA Client** is a structured package that consolidates all essential elements such as commands, files, tables, triggers, and configurations—that are required to be deployed as part of a release or system update.
 
-## Accessing Rollouts from MOCA
+### Accessing Rollouts from MOCA
 - To begin working with rollouts in MOCA:
 
     - Navigate to Tools in the menu bar.
@@ -13,11 +13,11 @@ A **Rollout** in the **Smart MOCA Client** is a structured package that consolid
 
     ![Rollout1](./.attachments/Rollout.png)
 
-## Rollout Generator
+### Rollout Generator
 
 The Rollout Generator provides a user-friendly interface to create rollout packages from selected development components.
 
-### Steps to Generate a Rollout:
+#### Steps to Generate a Rollout
 - **Drag & Drop Files:**
     - Open Windows Explorer and drag the required files (commands, scripts, configurations, etc.) into the Rollout Generator window.
 
@@ -31,11 +31,11 @@ The Rollout Generator provides a user-friendly interface to create rollout packa
 
     ![Rollout3](./.attachments/Rollouts_2.png)
 
-## Rollout Merger
+### Rollout Merger
 
 The Rollout Merger tool is used to consolidate multiple rollout files into a single, well-structured rollout package.
 
-### Steps to Merge Rollouts:
+#### Steps to Merge Rollouts
 
 - Open this from Oracular MOCA Client Tools menu.
     - If the server does not contain the required file $LESDIR/scripts/ossi_rollout.pl, the tool will display an error and exit.
@@ -58,7 +58,7 @@ The Rollout Merger tool is used to consolidate multiple rollout files into a sin
         - Downloads and saves the script %LESDIR/scripts/ossi_rollout.pl as rollout.pl in the merged rollout directory.
 - Once completed, the merged rollout directory will automatically open for review and further actions.
 
-## Rollout Log Parser
+### Rollout Log Parser
 - The Rollout Log Parser is a diagnostic utility used to parse and examine log files generated during rollout execution.
 
     - It helps in identifying any errors, skipped commands, or processing issues that occurred during the rollout.
@@ -67,17 +67,17 @@ The Rollout Merger tool is used to consolidate multiple rollout files into a sin
 
     ![Rollout5](./.attachments/Rollouts_4.png)
 
-## Rollout DB 
+### Rollout DB 
 
 The Rollout DB interface allows for direct management of rollout entries, including the manual addition of rollouts and version control operations.
 
-### Accessing Rollout DB:
+#### Accessing Rollout DB
 
 - Navigate to Addons → Smart Innovations → Rollouts to open the Rollout DB management window.
 
     ![Rollout6](./.attachments/Rollouts_5.png)
 
-### Available Actions in Rollout DB:
+#### Available Actions in Rollout DB
 
 - **Add:** Manually add a new rollout by providing a rollout name and confirming with the OK button.
 - **Delete:** Remove selected rollouts from the list.
@@ -87,7 +87,7 @@ The Rollout DB interface allows for direct management of rollout entries, includ
 
     ![Rollout7](./.attachments/Rollouts_6.png)
 
-### Manual Rollout Creation:
+#### Manual Rollout Creation
 
 - Enter the **Name** of the new rollout in the input field.
 - Click **OK** to save and add it to the rollout database.
