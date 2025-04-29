@@ -20,18 +20,14 @@ This section outlines how users can effectively utilize the File Browser for acc
 
 - **Find:** This button is used to find File using path.
 - **Open:** This button is used to open File.
-- **Save:** This button is used to save the file.
-- **Remove:** This button is used to Remove the file from Directory.
-
-#### Menu in the File Browser
-
-The File Browser in the Smart MOCA Client provides essential operations to support efficient file maintenance.
-
-![FileBrowser1](./.attachments/File-browser_5.png)
+- **Save:** This button is used to save the File.
+- **Remove:** This button is used to Remove the File from Directory.
 
 #### File Operations
 
-The following operations are available for managing files and directories:
+The following operations are available for managing files and directories.
+
+![FileBrowser1](./.attachments/File-browser_5.png)
 
 - **Upload File:** It is used for uploading Existing file from the system and Opens it.
 
@@ -144,71 +140,61 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
     ![FileEdit](./.attachments/editfile.png)
 
-
-#### Menu in the File Browser
-
-The File Browser in the Smart MOCA Client provides essential operations to support efficient file maintenance.
+#### Edit File Operations
+The following operations are available for managing files and directories.
 
 ![FileBrowser1](./.attachments/editserverfile-command.png)
-
-#### Edit File Operations
-The following operations are available for managing files and directories:
 
 - **Find/Replace:** It is used for finding any word inside the command or trigger.
 
     ![FileBrowser1](./.attachments/Findreplaceeditfile.png)
 
-
-- **Cut:** It is used to cut something inside command.
-
-    ![FileBrowser1](./.attachments/CutEditFile.png)
-
-
-- **Copy:** It is used for copying something into the command.
-
-    ![FileBrowser1](./.attachments/CopyEditFile.png)
-
-- **Paste:** It is used for paste something into the command.
-
-    ![FileBrowser1](./.attachments/PasteEditFile.png)
-
 - **Convert text to uppercase or lowercase:** It is used for converting the letters into uppercase and lowercase.
 
     ![FileBrowser1](./.attachments/UpperLowerEditfile.png)
 
-- **Source:** 
-    - **Shift text:** Move lines left or right with a defined shift amount.
-    - **Convert character sets:** Transform text encoding between different character sets as needed.
-    - **Remove non-ASCII characters:** Clean files by removing any non-ASCII (special/unreadable) characters.
+- **Shift text:** To adjust the indentation of command lines, navigate to the Source menu.
+    - Select **Shift Left** to move the selected lines to the left.
+    - Select **Shift Right** to move the lines to the right.
+    - To specify a custom shift distance, click **Set Shift Amount**, enter the desired value, and confirm by clicking **OK**.
+
+    ![FileBrowser1](./.attachments/Shifttext.png)
+
+- **Convert tabs to shift:** Replaces tab characters with individual spaces to maintain proper indentation and prevent misalignment in the command structure.
+
+    ![FileBrowser1](./.attachments/Converttabs.png)
+
+- **Remove non-ASCII characters:** Clean files by removing any non-ASCII (special/unreadable) characters.
         
-    ![FileBrowser1](./.attachments/editserverfile-source.png)
+    ![FileBrowser1](./.attachments/RemovenonAscii.png)
         
 
-- **MOCA Tools:** It is used for adding arguments, documentation, retcol and exceptions.
+- **MOCA Tools:** The **MOCA Tools** menu provides a set of features to enhance and standardize command development by allowing users to add arguments, documentation, return columns (retcols), and exceptions, as well as format the command structure for consistency.
 
     ![FileBrowser1](./.attachments/Filebrowser-mocatools.png)
 
-    - **Add arguments:** It is used for adding arguments into the command.
+    - **Add arguments:** Enables users to define and add input arguments required for the command’s execution.
 
         ![FileBrowser1](./.attachments/Argumentseditfile.png)
 
-    - **Define exceptions:** It is used for adding exceptions into the command.
+    - **Define exceptions:** Allows users to add exception handling within the command to manage errors.
 
         ![FileBrowser1](./.attachments/Exceptioneditfile.png)
 
-    - **Add Documentation:** It is used for Adding Documentations into the command.
+    - **Add Documentation:** Facilitates the inclusion of detailed documentation to describe the purpose, functionality, and usage of the command.
 
         ![FileBrowser1](./.attachments/Documentationeditfile.png)
 
-    - **Add Retcol:** It is used for Adding Retcol name and type into the command.
+    - **Add Retcol:** Used to define return columns (retcols) by specifying their names and data types, ensuring proper output structure.
 
         ![FileBrowser1](./.attachments/Retcoleditfile.png)
 
-    - **Format:** It is used for formatting of the command.
+- **Format:** Automatically formats the command script to enhance readability and maintain coding standards.
 
-- **Options:** Modify interface settings such as enabling enter key modifiers or adjusting font size multipliers.
+    ![FileBrowser1](./.attachments/Formateditfile.png)
+
+- **Font Size Multiplier:** Allows users to increase or decrease the font size of the command editor for improved readability and comfort during editing.
         
     ![FileBrowser1](./.attachments/Optionseditfile.png)
 
 - **Help:** Provides assistance and reference material related to File Browser usage.
-
