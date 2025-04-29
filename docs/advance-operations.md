@@ -64,6 +64,8 @@ Below are three methods to open files:
 
   - In the dialog box, search by **command name**, **path**, or **file name**, then click **Find** to locate and open the file.
 
+    ![Search](./.attachments/find3.png)
+
 To learn more about Oracular Editor, follow [Edit server file](./file-browser.md#edit-server-files).
 
 ## Database Tracing
