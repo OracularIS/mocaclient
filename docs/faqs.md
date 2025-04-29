@@ -1,7 +1,6 @@
 ## Smart MOCA Client FAQs
 
 + Question 1: +
-
 ahsdghsvdhvshd
 
 + Question 2: +
