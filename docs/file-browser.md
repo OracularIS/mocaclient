@@ -187,16 +187,16 @@ The following operations are available for managing files and directories:
 - **MOCA Tools:** It is used for adding arguments, documentation, retcol and exceptions.
 
     - **Add arguments:** It is used for adding arguments into the command.
-            ![FileBrowser1](./.attachments/Argumentseditfile.png)
+        ![FileBrowser1](./.attachments/Argumentseditfile.png)
 
     - **Define exceptions:** It is used for adding exceptions into the command.
-            ![FileBrowser1](./.attachments/Exceptioneditfile.png)
+        ![FileBrowser1](./.attachments/Exceptioneditfile.png)
 
     - **Add Documentation:** It is used for Adding Documentations into the command.
-            ![FileBrowser1](./.attachments/Documentationeditfile.png)
+        ![FileBrowser1](./.attachments/Documentationeditfile.png)
 
     - **Add Retcol:** It is used for Adding Retcol name and type into the command.
-            ![FileBrowser1](./.attachments/Retcoleditfile.png)
+        ![FileBrowser1](./.attachments/Retcoleditfile.png)
 
     - **Format:** It is used for formatting of the command.
 
