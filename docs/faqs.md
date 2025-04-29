@@ -6,7 +6,7 @@ In case shortcuts are not created, following shortcut can be used to launch Smar
 ![](./.attachments/run026.png)
 
 
-+ How can I download the moca.jar file in the Smart MOCA Client? +
++ 2. How can I download the moca.jar file in the Smart MOCA Client? +
 
 Following are the methods to download `moca.jar` in Smart MOCA Client:
 1. **Download upon Server Connection:** Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and following popup appears:
