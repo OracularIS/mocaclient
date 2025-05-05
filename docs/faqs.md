@@ -1,12 +1,6 @@
 ## Smart MOCA Client FAQs
 
-+ **Question 1:** The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this? +
-
-  In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client:
-  
-  ![](./.attachments/run026.png)
-
-+ **Question 2:** How can I download the moca.jar file in the Smart MOCA Client? +
++ **Question 1:** How can I download the moca.jar file in the Smart MOCA Client? +
 
   Following are the methods to download `moca.jar` in Smart MOCA Client:
   
@@ -18,7 +12,7 @@
      
       ![](./.attachments/run021.png)
 
-+ **Question 3:** `moca.pending_jar` is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this?** +
++ **Question 2:** `moca.pending_jar` is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this?** +
 
   If moca.pending_jar is not renaming after restarting Smart MOCA Client, try the following steps:
   
@@ -28,7 +22,7 @@
   
     - **Manually Rename the File** – If the issue persists, manually rename moca.pending_jar to moca.jar and restart the client.
 
-+ **Question 4:** After upgrading to Smart MOCA Client, changes made to files during development are not registering in the Issue Assignment. Why?** +
++ **Question 3:** After upgrading to Smart MOCA Client, changes made to files during development are not registering in the Issue Assignment. Why?** +
 
   In older versions, **MOCAExecute.isIssueManagementInstalled()** could return an incorrect value of false if it was called before establishing a proper connection to the environment.
   To resolve this:
@@ -40,6 +34,12 @@
   This will update the configuration, and the correct value (IssueMgmt=true) will be written to: %APPDATA%\Roaming\Oracular MOCA Client\Environments\<Environment>\moca.properties.
 
   If above solution does not work, then manually change the moca.properties file from **IssueMgmt=false** to **IssueMgmt=true**.
+
++ **Question 4:** The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this? +
+
+  In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client:
+  
+  ![](./.attachments/run026.png)
 
 
 
