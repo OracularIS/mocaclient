@@ -1,8 +1,8 @@
-## Rollouts
+# Rollouts
 
 A **Rollout** in the **Smart MOCA Client** is a structured package that consolidates all essential elements such as commands, files, tables, triggers, and configurations—that are required to be deployed as part of a release or system update.
 
-### Accessing Rollouts from MOCA
+## Accessing Rollouts from MOCA
 - To begin working with rollouts in MOCA:
 
     - Navigate to Tools in the menu bar.

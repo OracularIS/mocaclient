@@ -1,10 +1,10 @@
-## MTF
+# MTF
 
 The MTF in Smart MOCA Client provides tools for managing various tasks related to MTF (Multi-Tasking Facility) operations. 
 
 ![Wizard_1](./.attachments/mtf_1.png)
 
-### MTF Menu Components
+## MTF Menu Components
 
 Below are the components of the MTF menu along with their descriptions:
 - **Open Java MTF Log**
@@ -44,8 +44,6 @@ The Java Properties Generator is a graphical user interface (GUI)-based utility 
 - Use **Edit** -> **Justify** to change the justification of the text to **Left**, **Center**, or **Right**.
 - If a field is dragged outside the form bounds, edit the .properties file manually.
 - Select **File** -> **Save** when done to save it to a .properties file.
-
-
 
 ### Telnet MTF
 

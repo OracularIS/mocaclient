@@ -1,8 +1,8 @@
-## Wizards
+# Wizards
 
 Smart MOCA Wizards enable the creation of **Data Driven Applications (DDAs)** for tasks like exporting data to CSV. Using a guided, no-code interface, users can define queries, configure output fields, and generate CSV files directly from the application simplifying data extraction without custom development.
 
-### Accessing Wizards from MOCA
+## Accessing Wizards from MOCA
 - To begin working with Wizard in MOCA:
 
     - Navigate to **Tools** in the menu bar.

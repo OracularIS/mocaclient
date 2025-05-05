@@ -1,4 +1,4 @@
-## Adhoc Access
+# Adhoc Access
 
 The **Adhoc Access** feature in Smart MOCA Client provides users with the ability to execute commands, trace activities, and manage scripts efficiently. 
 
