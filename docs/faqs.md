@@ -6,19 +6,13 @@
   
   ![](./.attachments/run026.png)
 
++ How can I download the moca.jar file in the Smart MOCA Client? +
 
-1. The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this?
-
-    In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client.
-    ![](./.attachments/run026.png)
-
-
-2. How can I download the moca.jar file in the Smart MOCA Client?
-
-    Following are the methods to download `moca.jar` in Smart MOCA Client:
-   1. **Download upon Server Connection:** Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and following popup appears:
+  Following are the methods to download `moca.jar` in Smart MOCA Client:
+  
+  1. **Download upon Server Connection:** Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and following popup appears:
       ![](./.attachments/run015.png)
-   2. **Download via Tools Menu:** If you have skipped **Download upon Server Connection**, then you can download the moca.jar later by navigating to **Tools --> Download moca.jar**.
+  2. **Download via Tools Menu:** If you have skipped **Download upon Server Connection**, then you can download the moca.jar later by navigating to **Tools --> Download moca.jar**.
       ![](./.attachments/run021.png)
 
 3. moca.pending_jar is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this?**
