@@ -1,6 +1,6 @@
 ## Smart MOCA Client FAQs
 
-+ This is my first question +
++ The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this? +
 
   This is my first answer.
 
