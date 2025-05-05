@@ -1,4 +1,4 @@
-## Keyboard Shortcuts
+# Keyboard Shortcuts
 
 Below is a table of keyboard shortcuts for Smart MOCA Client and their corresponding functions:
 

@@ -1,4 +1,4 @@
-## DevOps
+# DevOps
 
 The Smart MOCA Client offers a robust set of DevOps features designed to streamline file system management, source code maintenance, change management, and more. 
 
