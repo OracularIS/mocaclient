@@ -1,10 +1,10 @@
-## Smart Apps Connectivity
+# Smart Apps Connectivity
 
 The **Cloud Connect** feature in Smart MOCA Client simplifies the process of managing licenses and accessing key information for add-ons. 
 
 By following the steps outlined in this documentation, users can easily generate and use app keys to ensure their software is fully licensed and up-to-date.
 
-### Key Features
+## Key Features
 
 - **Seamless Integration**: Direct access to the AppSmart website from within Smart MOCA Client.
 - **Profile Management**: Navigate to your profile page on AppSmart to view and update your information.

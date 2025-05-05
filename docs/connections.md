@@ -1,10 +1,10 @@
-## Connections
+# Connections
 
 Managing your connections efficiently is crucial for seamless access to your Blue Yonder data and other connected resources. 
 
 This section will guide you through adding servers, and connecting to them.
 
-### How to Connect?
+## How to Connect?
 
 - Choose a server name from the list loaded by the server dialog. 
 

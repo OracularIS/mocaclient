@@ -1,4 +1,4 @@
-## Get started with Smart Moca Client
+# Get started with Smart Moca Client
 
 This section will guide you through the initial steps to get you up and running with our powerful and intuitive software. 
 
