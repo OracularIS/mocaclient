@@ -1,4 +1,4 @@
-## Get started with Smart Moca Client Legacy Version
+# Get started with Smart Moca Client_Legacy Version
 
 This section will guide you through the initial steps to get you up and running with our powerful and intuitive software. 
 
