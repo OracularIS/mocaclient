@@ -1,6 +1,6 @@
 ## Smart MOCA Client FAQs
 
-+ This is my first question +
++ 1. This is my first question +
 
   Answer 1
 
