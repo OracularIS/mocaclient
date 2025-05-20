@@ -1,6 +1,14 @@
 ## Smart MOCA Client FAQs
 
-+ **Question 1:** How can I download the moca.jar file in the Smart MOCA Client? +
++ **Question 1:** What is MOCA Client? +
+
+  MOCA Client is a developer productivity tool designed specifically for Blue Yonder development. It allows you to connect to Blue Yonder databases, execute queries, and manage multiple connections simultaneously without having to close and restart the application.
+
++ **Question 2:** How is MOCA Client different from WinMSQL? +
+
+  Unlike WinMSQL, MOCA Client allows you to open multiple connection tabs simultaneously, cancel query execution without closing the window, and provides a more modern, intuitive interface designed for developer productivity.  
+
++ **Question 3:** How can I download the moca.jar file in the Smart MOCA Client? +
 
   Following are the methods to download `moca.jar` in Smart MOCA Client:
   
@@ -12,7 +20,7 @@
      
       ![](./.attachments/run021.png)
 
-+ **Question 2:** `moca.pending_jar` is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this?** +
++ **Question 4:** `moca.pending_jar` is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this? +
 
   If moca.pending_jar is not renaming after restarting Smart MOCA Client, try the following steps:
   
@@ -22,7 +30,7 @@
   
     - **Manually Rename the File** – If the issue persists, manually rename moca.pending_jar to moca.jar and restart the client.
 
-+ **Question 3:** After upgrading to Smart MOCA Client, changes made to files during development are not registering in the Issue Assignment. Why?** +
++ **Question 5:** After upgrading to Smart MOCA Client, changes made to files during development are not registering in the Issue Assignment. Why? +
 
   In older versions, **MOCAExecute.isIssueManagementInstalled()** could return an incorrect value of false if it was called before establishing a proper connection to the environment.
   To resolve this:
@@ -35,7 +43,7 @@
 
   If above solution does not work, then manually change the moca.properties file from **IssueMgmt=false** to **IssueMgmt=true**.
 
-+ **Question 4:** The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this? +
++ **Question 6:** The Moca Client Launcher shortcut is not being created on the desktop or Start Menu, or an error is occurring during the process. How can I fix this? +
 
   In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client:
   
