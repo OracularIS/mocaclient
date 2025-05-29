@@ -8,8 +8,8 @@ Follow these instructions to ensure a smooth installation and setup process.
 
 Before you begin, make sure your system meets the following minimum requirements:
 
-| Requirement         | Minimum Specification                        |
-|---------------------|----------------------------------------------|
+| Requirement     | Minimum Specification                        |
+|-----------------|----------------------------------------------|
 | **Operating System**| Windows 7 or later                           |
 | **Processor**       | Intel Core i3 or equivalent                  |
 | **Memory**          | 4 GB RAM                                     |
@@ -18,7 +18,7 @@ Before you begin, make sure your system meets the following minimum requirements
 
 ## Download Smart Moca Client
        
-- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to Our Products > MOCA Client.
+- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
        
   ![Start In](./.attachments/StartIn.png)
 
