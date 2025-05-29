@@ -8,16 +8,13 @@ Follow these instructions to ensure a smooth installation and setup process.
 
 Before you begin, make sure your system meets the following minimum requirements:
 
-- Operating System:
-    <dd>- Windows 7 or later</dd>
-- Processor:
-    <dd>- Intel Core i3 or equivalent
-- Memory:
-    <dd>- 4 GB RAM</dd>
-- Storage:
-    <dd>- 500 MB available space</dd>
-- Internet Connection: 
-    <dd>- Required for initial setup and updates</dd>
+| Requirement         | Minimum Specification                        |
+|---------------------|----------------------------------------------|
+| **Operating System**| Windows 7 or later                           |
+| **Processor**       | Intel Core i3 or equivalent                  |
+| **Memory**          | 4 GB RAM                                     |
+| **Storage**         | 500 MB available space                       |
+| **Java Version**    | Java SE 8                                    |
 
 ## Download Smart Moca Client
        
