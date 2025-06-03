@@ -7,14 +7,14 @@ Choose the setup guide that matches your version:
 - [Legacy Version Setup](./getting-started/getting-started-legacy.md)
 - [Current Version Setup](./getting-started/getting-started-current.md)
 
-## System Requirements
+# System Requirements
 
 Before you begin, make sure your system meets the following minimum requirements:
 
 | Requirement     | Minimum Specification                        |
 |-----------------|----------------------------------------------|
-| **Operating System**| Windows 7 or later                           |
-| **Processor**       | Intel Core i3 or equivalent                  |
-| **Memory**          | 4 GB RAM                                     |
-| **Storage**         | 500 MB available space                       |
-| **Java Version**    | Java SE 8                                    |
+    | **Operating System**| Windows 7 or later                           |
+    | **Processor**       | Intel Core i3 or equivalent                  |
+    | **Memory**          | 4 GB RAM                                     |
+    | **Storage**         | 500 MB available space                       |
+    | **Java Version**    | Java SE 8                                    |
