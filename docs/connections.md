@@ -8,7 +8,7 @@ This section will guide you through adding servers, and connecting to them.
 - [How to Connect?](./connections/connect-server.md)
 - [Secure Server Connections](./connections/secure-server-connections.md)
 
-## Connection Grouping
+# Connection Grouping
 
 Organize your connection groups to streamline the configuration and handling of multiple server connections. This ensures that you can easily manage your servers, perform necessary updates, and maintain consistent access to your data.
 
