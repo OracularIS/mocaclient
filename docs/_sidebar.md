@@ -3,15 +3,28 @@
 - [Home](./readme.md)
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
-  - [Legacy Version Setup](./getting-started/getting-started-legacy.md)
-  - [Current Version Setup](./getting-started/getting-started-current.md)
+  - [Current Version](./getting-started/getting-started-current.md)
+  - [Legacy Version](./getting-started/getting-started-legacy.md)
 - [Connections](./connections.md)
-  - [Add/Update/Remove Server](.//connections/add-connect-remoteserver.md)
+  - [Add/Update/Remove Server](./connections/add-connect-remoteserver.md)
   - [Connect server](./connections/connect-server.md)
   - [Secure Server Connections](./connections/secure-server-connections.md)
-- [Connections](./connections.md)
 - [Smart Apps Connectivity](./smartapps.md)
 - [Adhoc Access](./adhoc-access.md)
+  - [Command Execution and Formatting](./adhoc-access/command-execution.md)
+  - [Command Auto Completion](./adhoc-access/command-completion.md)
+  
+  - [Moca Client Editor](./adhoc-access/moca-editor.md)
+  
+  - [Command History](./adhoc-access/command-history.md)
+  
+  - [Find Dialogs](./adhoc-access/find-dialogs.md)
+  
+  - [Scripts](./adhoc-access/scripts.md)
+  
+  - [Tracing](./database-trace.md)
+  
+  - [Controlling Adhoc Access](./adhoc-access/controlling-adhocaccess.md)
 - [Keyboard Shortcuts](./moca_client_shortcuts.md)
 - [Advance System Operations](./advance-operations.md)
 - [DevOps](./devops.md)
