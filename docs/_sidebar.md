@@ -7,7 +7,7 @@
   - [Legacy Version](./getting-started/getting-started-legacy.md)
 - [Connections](./connections.md)
   - [Add/Update/Remove Server](./connections/add-connect-remoteserver.md)
-  - [Connect server](./connections/connect-server.md)
+  - [Connect Server](./connections/connect-server.md)
   - [Secure Server Connections](./connections/secure-server-connections.md)
 - [Smart Apps Connectivity](./smartapps.md)
 - [Adhoc Access](./adhoc-access.md)
