@@ -12,7 +12,6 @@
 - [Smart Apps Connectivity](./smartapps.md)
 - [Adhoc Access](./adhoc-access.md)
   - [Command Execution and Formatting](./adhoc-access/command-execution.md)
-  - [Command Auto Completion](./adhoc-access/comman-autocompletion.md)
   - [Moca Client Editor](./adhoc-access/moca-editor.md)
   - [Command History](./adhoc-access/command-history.md)
   - [Find Dialogs](./adhoc-access/find-dialogs.md)

@@ -18,7 +18,7 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
    ![Advance History](../.attachments/edit-menu/edit3.png)
 
-   You can also add an additional to search data accordingly in History Search window.
+   You can also add an additional information to search data accordingly in History Search window.
 
 3. **Resultsets**
 
