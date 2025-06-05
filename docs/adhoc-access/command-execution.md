@@ -6,6 +6,16 @@ Type a command in the text box and hit **ENTER**, **Alt+E**, **F5**, or click th
 
 If any text is selected, that will be the command executed and not the entire contents of the text editor.
 
+## Executing Shortcuts
+
+The Smart MOCA Client supports running predefined shortcuts for frequently used commands using the `#` symbol. This feature saves time by allowing users to execute complex commands with simple, memorable shortcuts.
+
+- To run a shortcut, type `#` followed by the shortcut name in the command text box and press ENTER (i.e. to run Find_Command#cmd.msql, type #cmd <command_name>, run #mbuild.msql by typing #mbuild). 
+  
+  ![script](../.attachments/script1.png)
+
+---
+
 ## Queue Command
 
 Press **Queue Cmd** or **Ctrl+Q** to execute the next command immediately after the current one has ended.
@@ -18,18 +28,3 @@ Click the **Cancel** button in the lower-right corner of the screen. This will a
 
   ![Cancellation](../.attachments/adhoc3.png)
 
-# Command Formatting
-
-This feature helps maintain clean and standardized code, reducing errors and improving collaboration among developers. Users can format their code automatically according to predefined style guidelines. 
-
-![CodeFormat](../.attachments/codeformat.png)
-
-- **SQL Format**: SQL format can be switch using this option.
-
-![CodeFormat1](../.attachments/codeformat1.png)
-
-## Real-time formatting
-
-Use menu option Options->Format in real-time?
-
-![CodeFormatReal](../.attachments/formatreal.png)

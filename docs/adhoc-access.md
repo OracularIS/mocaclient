@@ -4,8 +4,9 @@ The **Adhoc Access** feature in Smart MOCA Client provides users with the abilit
 
 This section provides a comprehensive guide to its key functionalities:
 
-- [Command Execution and Formatting](./adhoc-access/command-execution.md)
-- [Moca Client Editor](./adhoc-access/moca-editor.md)
+- [Command Execution](./adhoc-access/command-execution.md)
+- [Command Formatting](./adhoc-access/command-formatting.md)
+- [Smart Moca Client Editor](./adhoc-access/moca-editor.md)
 - [Command History](./adhoc-access/command-history.md)
 - [Find Dialogs](./adhoc-access/find-dialogs.md)
 - [Scripts](./adhoc-access/scripts.md)
