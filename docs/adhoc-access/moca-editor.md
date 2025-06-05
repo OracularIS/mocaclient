@@ -11,22 +11,6 @@ Smart Moca Client Editor" feature, details the keybindings and the functionaliti
 | **Ctrl+Left**       | Shift Left                               |
 | **Ctrl+Right**      | Shift Right                              |
 
-### TAB Key
-
-- Before a where clause:
-  - Adds ` = '' and `
-  - If Shift is held, adds ` like '%' and `
-  
-- At the end of a single-quote terminated string:
-  - Adds ` and = ''`
-  - If Shift is held, adds ` and like '%'`
-  
-- String handling:
-  - If there is a string like `''` or `'%'` ahead on the line, places the caret inside the string
-  
-- Shift held at the end of a column name (e.g., dtlnum| = ''):
-  - Turns into `dtlnum = @dtlnum|`
-
 ## Functional Keys for Grid
 
 | Key             | Function                                     |
