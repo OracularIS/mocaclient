@@ -4,14 +4,6 @@ The Scripts Concept in Smart MOCA Client allows users to streamline their workfl
 
 Below, we explore various aspects of the Scripts Concept, including running shortcuts via #, script storage, and adding new scripts.
 
-## Executing Shortcuts
-
-The Smart MOCA Client supports running predefined shortcuts for frequently used commands using the `#` symbol. This feature saves time by allowing users to execute complex commands with simple, memorable shortcuts.
-
-- To run a shortcut, type `#` followed by the shortcut name in the command text box and press ENTER (i.e. to run Find_Command#cmd.msql, type #cmd <command_name>, run #mbuild.msql by typing #mbuild). 
-  
-  ![script](../.attachments/script1.png)
-
 ## Where are the Scripts stored?
 
 Scripts are stored in the `%APPDATA%\Oracular MOCA Client\Scripts` directory.
