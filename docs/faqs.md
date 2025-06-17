@@ -49,5 +49,9 @@
   
   ![](./.attachments/run026.png)
 
++ **Question 7:** User is receiving a 403 error when connecting to the BY SaaS environment on 1.8 Java version. What could be the issue? +
 
+  The error typically indicates that the server is refusing the connection, which may be due to compatibility issues with the Java version in use. The BY SaaS environment requires Java 17 or newer for successful connectivity. Please upgrade your Java version to 17 or later and try connecting again.
+  
+  ![](./.attachments/403_Error.png)
 
