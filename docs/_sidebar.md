@@ -31,6 +31,7 @@
 - [Wizards](./wizards.md)
 - [MTF](./mtf_menu.md)
 - [Release updates](./release-updates.md)
+- [Settings](./settings.md)
 - [FAQs](./faqs.md)
 - [Menu Overview](./menu-overview.md)
   - [File](./menu-overview/file.md)
