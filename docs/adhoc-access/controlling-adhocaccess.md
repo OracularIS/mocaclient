@@ -6,13 +6,13 @@ This section outlines how to use sys_audit and other security measures to monito
 
 ## Monitoring Access with 'sys_audit'
 
-The sys_audit system is designed to log and monitor all ad-hoc commands executed by users. This helps in keeping track of who is executing which commands, and when. 
+The sys_audit system is designed to log and monitor all ad-hoc commands executed by users. This helps in keeping track of who is executing which commands, and when. This is directly supported by the `LOG_TO_SYS_AUDIT` setting, which forces audit logging even if auditing is disabled at the policy level.
 
   ![sysaudit](../.attachments/adhoc4.png)
 
 Here's how you can utilize sys_audit for monitoring:
 
-- **Enable Auditing:** Ensure that auditing is enabled in your system. This can usually be configured in the system settings or via specific configuration files.
+- **Enable Auditing:** Enable `LOG_TO_SYS_AUDIT` to ensure every command execution is recorded.
 - **Log Entries:** Each ad-hoc command executed is logged with details such as the username, command text, timestamp, and execution status. These logs can be reviewed to track user activities.
 - **Regular Reviews:** Set up regular reviews of the audit logs to identify any suspicious or unauthorized activities. Automated alerts can also be configured for certain types of commands or access patterns.
 
