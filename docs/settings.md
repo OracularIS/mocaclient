@@ -1,10 +1,21 @@
 # MOCA Client Settings
-This page lists all configurable features and roles for MOCA Client, grouped by category for easy reference.
+The MOCA Client Settings enable administrators to define operational rules, security restrictions, and workflow safeguards for all users connecting through the MOCA Client.
+These settings are stored in a feature file and can be used to:
+
+- Control how commands are executed.
+
+- Restrict which files can be modified.
+
+- Enforce confirmation prompts for sensitive operations.
+
+- Enable detailed logging for compliance and troubleshooting.
+
+In production environments, these settings are typically used to enforce safe practices, prevent accidental or unauthorized changes, and protect critical system data.
 
 ## Feature File Settings
 
-The Feature File Settings define the behavior of the MOCA Client at runtime.
-These settings are read from the feature file at startup (or before each execution if configured) and are enforced automatically.
+Feature file settings determine the MOCA Client’s runtime behavior.
+They are read from the `MOCADEV_FEATURES.txt` at startup, or before each execution if configured via READ_SETTINGS_EVERY_TIME.
 
 | Category               | Feature Name               | Description                                                                                                                                             | Default / Notes                                  |
 | ---------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -34,10 +45,8 @@ These settings are read from the feature file at startup (or before each executi
 
 ## Role Based Settings
 
-Roles define the permissions assigned to individual users in the MOCA Client.
-They control which files a user can edit, whether they can perform unsafe operations, and if certain safeguards (like read-only mode) should apply to them.
-
-Roles are typically granted by system administrators to match a user’s responsibilities, ensuring that only authorized individuals can perform critical or high-risk operations.
+Roles determine what actions a user can perform within the MOCA Client.
+They are assigned by system administrators to align with user responsibilities, ensuring only authorized users can perform high-risk operations.
 
 | Role Name                         | Permission / Description                                                                |
 | --------------------------------- | --------------------------------------------------------------------------------------- |
