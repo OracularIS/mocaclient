@@ -22,7 +22,7 @@ Guide for connecting to a server using the latest MOCA Client interface.
 
 **Installation Options**
   
-Following are the two options for an installation: 
+The following are the two options for installation: 
 
 1. Installer
 2. Portable 
@@ -60,7 +60,7 @@ Following are the two options for an installation:
  
 #### Verify Installation
 
-- The folder named as `Oracular MOCA Client` and `SmartMOCAClient` should be created at following path:
+- The folder named `Oracular MOCA Client` and `SmartMOCAClient` should be created at the following path:
 
   ![](../.attachments/run011.png)
   ![](../.attachments/run012.png)
@@ -102,7 +102,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
    ![](../.attachments/run026.png)
 
-- Once an application gets started, you will see below interface:
+- Once the application starts, you will see the interface:
 
   ![](../.attachments/run014.png)
 
@@ -140,7 +140,7 @@ Following are the methods to download `moca.jar` in Smart MOCA Client:
 
   ![](../.attachments/run020.png)
 
-- Finally verify the usage of moca.jar by navigating **Help --> About Smart MOCA and SQL Client**.
+- Finally, verify the usage of moca.jar by navigating **Help --> About Smart MOCA and SQL Client**.
 
   ![](../.attachments/run019.png)
 
