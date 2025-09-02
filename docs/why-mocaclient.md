@@ -1,6 +1,6 @@
 # Why Use Moca Client?
 
-**Unified Development Platform**: Single tool/ interface for development, prototyping, troubleshooting, and building applications.
+**Unified Development Platform**: Single tool/interface for development, prototyping, troubleshooting, and building applications.
 
 **Ease of Use**: The developer can access environments through a multi-tab layout making it easy to navigate between them as well as data tools to easily manage and manipulate data.
 
