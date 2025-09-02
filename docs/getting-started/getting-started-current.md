@@ -1,8 +1,8 @@
-# Get started with Smart Moca Client-Current
+# Get started with Smart MOCA Client-Current
 
 Guide for connecting to a server using the latest MOCA Client interface.
 
-## Download Smart Moca Client
+## Download Smart MOCA Client
        
 - Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
        
@@ -94,7 +94,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
   
 ## Launch Smart MOCA Client
    
-- Once installed, launch Smart Moca client by double-clicking on desktop icon or search for it in the start menu.
+- Once installed, launch Smart MOCA Client by double-clicking on desktop icon or search for it in the start menu.
 
   ![](../.attachments/run013.png)
 
@@ -102,7 +102,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
    ![](../.attachments/run026.png)
 
-- Once the application starts, you will see the interface:
+- Once the application starts, you will see the following interface:
 
   ![](../.attachments/run014.png)
 
@@ -110,10 +110,10 @@ Note: *Follow [Password Security](../connections.md) for an information about **
 
 ## Add Server
 
-Follow [Add/Update/Remove Server](../connections.md) to add server in Smart Moca Client.
+Follow [Add/Update/Remove Server](../connections.md) to add server in Smart MOCA Client.
 
 
-## Download moca.jar
+## Download `moca.jar`
 
 Following are the methods to download `moca.jar` in Smart MOCA Client:
 
@@ -123,11 +123,11 @@ Following are the methods to download `moca.jar` in Smart MOCA Client:
 
 ### Download upon Server Connection
 
-- Upon the first server connection, the Smart MOCA Client detects the absence of moca.jar and following popup appears:
+- Upon the first server connection, the Smart MOCA Client detects the absence of `moca.jar` and following popup appears:
 
   ![](../.attachments/run015.png)
 
-- Click on the **Download and Use the moca.jar from this environment** button and the system will begin downloading the moca.pending_jar file .
+- Click on the **Download and Use the `moca.jar` from this environment** button and the system will begin downloading the moca.pending_jar file .
 
   ![](../.attachments/run016.png)
   ![](../.attachments/run017.png)
@@ -136,17 +136,17 @@ Following are the methods to download `moca.jar` in Smart MOCA Client:
 
   ![](../.attachments/run018.png)
 
-- Now click on **OK** button and **restart** Smart MOCA Client. The system will automatically rename **moca.pending_jar** to **moca.jar** and will use moca.jar instead of labelzoom.jar.
+- Now click on **OK** button and **restart** Smart MOCA Client. The system will automatically rename **moca.pending_jar** to **moca.jar** and will use `moca.jar` instead of labelzoom.jar.
 
   ![](../.attachments/run020.png)
 
-- Finally, verify the usage of moca.jar by navigating **Help --> About Smart MOCA and SQL Client**.
+- Finally, verify the usage of `moca.jar` by navigating **Help --> About Smart MOCA and SQL Client**.
 
   ![](../.attachments/run019.png)
 
 ### Download via Tools Menu
 
-- If you have skipped [Download upon Server Connection](#download-upon-server-connection), then you can download the moca.jar later by navigating to **Tools --> Download moca.jar**.
+- If you have skipped [Download upon Server Connection](#download-upon-server-connection), then you can download the `moca.jar` later by navigating to **Tools --> Download moca.jar**.
 
   ![](../.attachments/run021.png)
 
