@@ -20,6 +20,7 @@
   - [Scripts](./adhoc-access/scripts.md)
   - [Tracing](./database-trace.md)
   - [Controlling Adhoc Access](./adhoc-access/controlling-adhocaccess.md)
+  - [Use Cases](./adhoc-access/use-cases.md)
 - [Keyboard Shortcuts](./moca_client_shortcuts.md)
 - [Advance System Operations](./advance-operations.md)
 - [DevOps](./devops.md)
