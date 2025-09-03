@@ -13,3 +13,4 @@ This section provides a comprehensive guide to its key functionalities:
 - [Scripts](./adhoc-access/scripts.md)
 - [Tracing](./database-trace.md)
 - [Controlling Adhoc Access](./adhoc-access/controlling-adhocaccess.md)
+- [Use Cases](./adhoc-access/use-cases.md)
