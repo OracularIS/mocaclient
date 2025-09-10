@@ -37,11 +37,9 @@ This section outlines how users can effectively utilize the File Browser for acc
 
 ### File Navigation
 
-- Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser**. 
+- Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser** where you can see all the directories and files.
 
   ![FileBrowser](./.attachments/filebrowser.png)
-
-- File Browser will get open where you can see all the directories and files.
 
 - Within this window, users can easily view and manage **Files**, **Folders**, **Commands**, **Reports**, **Logs**, and more.
 
@@ -117,11 +115,11 @@ Editing files within the Smart MOCA Client is a seamless process. Users can acce
 
   ![FileBrowser](./.attachments/filebrowser.png)
 
-- File Browser will get open where you can see all the directories and files.
+- File Browser will open where you can see all the directories and files.
 
     ![FileNavigation](./.attachments/File-browser_3.png)
 
-- You can then Open Command By Double Click on it.
+- You can then open command by double clicking on it.
 
 ### Key Features of the Built-in File Editor
 

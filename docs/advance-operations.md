@@ -103,7 +103,7 @@ The .csv and .ctl file must reside on the server in db/data/load
 
 The Client-side Load feature provides several options for inserting, updating, loading, and unloading data within the current tab of the client interface.
 
-- **MLoad current tab**: Allows you to load the data in the .csv’s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will displayed in a popup box.
+- **MLoad current tab**: Allows you to load the data in the .csv’s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will displayed in a pop-up box.
 
 - **MUnload current tab**: This works the same as MLoad, but removes the data instead.
 
@@ -121,11 +121,11 @@ The Compare feature includes several specific options for different types of com
 
 1. **DB Compare**: DB Compare allows users to compare missing or different data between two servers.
        
-    - Navigate to Addons --> Smart Innovations --> Compare --> DB Compare. The DB Compare window will get open.
+    - Navigate to Addons --> Smart Innovations --> Compare --> DB Compare. The DB Compare window will open.
 
       ![Compare](./.attachments/DBCompare_1.png)
 
-    - Now choose both servers and specify information on the basis of which you want comparison.
+    - Now choose both servers and specify the information on the basis of which you want the comparison.
 
       ![Compare1](./.attachments/compare2.png)
 
@@ -133,7 +133,7 @@ The Compare feature includes several specific options for different types of com
   
 2. **Cmdsrc Compare**: CmdSrc Compare allows users to compare commands between two servers. This helps in identifying differences in command definitions and ensuring uniformity across environments.
        
-    - Navigate to Addons --> Smart Innovations --> Compare --> Cmdsrc Compare. The Command Compare window will get open.
+    - Navigate to Addons --> Smart Innovations --> Compare --> Cmdsrc Compare. The Command Compare window will open.
 
       ![Compare2](./.attachments/DBCompare_2.png) 
 
@@ -145,7 +145,7 @@ The Compare feature includes several specific options for different types of com
 
 3. **Integrator Compare**: Integrator Compare allows users to compare integrator data between two environments. This is useful for ensuring that integrator configurations and data are consistent across different setups.
        
-    - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Compare. The Integrator Compare window will get open.
+    - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Compare. The Integrator Compare window will open.
 
       ![Compare4](./.attachments/DBCompare_3.png) 
 
@@ -157,7 +157,7 @@ The Compare feature includes several specific options for different types of com
 
 4. **Integrator Migrator**: Integrator Migrator allows users to migrate integrator objects from one environment to another. This feature facilitates the transfer of integrator configurations and objects, ensuring that environments can be synchronized effectively.
        
-    - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Migrator. The Integrator Migrator window will get open.
+    - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Migrator. The Integrator Migrator window will open.
 
       ![Compare6](./.attachments/DBCompare_4.png) 
 
@@ -173,7 +173,7 @@ The Compare feature includes several specific options for different types of com
    
 The RP Console in the Smart MOCA Client is a powerful tool designed for managing and interacting with the Reporting (RP) Console across multiple nodes of a cluster. It allows users to fetch console data from various nodes and consolidate it for comprehensive analysis and management.
 
-- Navigate to **Addons --> Smart Innovations --> RP Console Tools**. The Console window will get open.
+- Navigate to **Addons --> Smart Innovations --> RP Console Tools**. The Console window will open.
 
  ![RPConsole](./.attachments/RpConsole.png)
 
@@ -200,7 +200,7 @@ The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool de
 
 - In the Report Preview window, you will see a list of available reports.
 
-- Select the report you wish to view by clicking on it from the list.
+- Select the report you wish to view by clicking on it.
 
 - If the report requires parameters (e.g., date range, document ID, or user input), fill in the necessary values in the designated fields.
 
@@ -216,7 +216,7 @@ The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool de
 
 - This preview allows you to carefully review formatting, headers, footers, pagination, and the accuracy of the included data.
 
-- If any adjustments are needed—such as correcting parameters, modifying layout, or updating content—you can return to the configuration screen, make changes, and re-preview the report before final submission or export.
+- If any adjustments are needed—such as correcting parameters, modifying layout, or updating content—you can return to the configuration screen, make changes, and preview the report again before final submission or export.
 
   ![ReportPreview2](./.attachments/reportpreview1.png)
 
@@ -296,7 +296,7 @@ The ZPL Viewer can be accessed through multiple avenues within the Smart MOCA Cl
 
     ![ZPLViewer1](./.attachments/zpl2.png)
 
-- By clicking 'No', ZPL viewer window will get open where you can see label output. You can also click the 'Display' button to generate and view the label preview.
+- By clicking 'No', ZPL viewer window will open where you can see label output. You can also click the 'Display' button to generate and view the label preview.
 
     ![ZPLViewer2](./.attachments/zpl3.png)
 

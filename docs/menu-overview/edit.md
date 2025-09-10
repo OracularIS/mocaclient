@@ -45,13 +45,13 @@ The Load Command from History option enables users to load commands from the com
 
 ### To UPPERCASE
 
-The To UPPERCASE option converts selected text to uppercase. To perform this action, select the text from the script and choose this option.
+To UPPERCASE option converts selected text to uppercase. To perform this action, select the text from the script and choose this option.
 
 ---
 
 ### To LOWERCASE 
 
-The To LOWERCASE option converts selected text to lowercase. To perform this action, select the text from the script and choose this option.
+To LOWERCASE option converts selected text to lowercase. To perform this action, select the text from the script and choose this option.
 
 ---
 

@@ -4,7 +4,7 @@ Type a command in the text box and hit **ENTER**, **Alt+E**, **F5**, or click th
 
   ![Execution](../.attachments/adhoc1.png)
 
-If any text is selected, that will be the command executed and not the entire contents of the text editor.
+If any text is selected, that text will be executed as the command, and not the entire contents of the text editor.
 
 ## Executing Shortcuts
 

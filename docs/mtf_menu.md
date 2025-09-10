@@ -30,7 +30,7 @@ This tool is invaluable for developers and support teams needing deep insight in
 
 ### Java Properties Generator
 
-The Java Properties Generator is a graphical user interface (GUI)-based utility that allows users to create and manage the layout of UI forms within a .properties file. This file format is used to define how entry fields and labels are visually arranged on forms used in Smart MOCA applications.
+The Java Properties Generator is a graphical user interface (GUI) based utility that allows users to create and manage the layout of UI forms within a .properties file. This file format is used to define how entry fields and labels are visually arranged on forms used in Smart MOCA applications.
 
 ![Wizard_1](./.attachments/mtf_2.png)
 

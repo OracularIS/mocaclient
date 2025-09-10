@@ -51,8 +51,8 @@ This allows you to quickly edit existing scripts or review their content.
 
 The Script Editor enables users to save their scripts as macros, making them easily accessible for repeated use.
 
-- Write your script in the editor.and press "Save as Macro" button to save script as macro.
-- Assign a shortcut key or a macro name for quick execution in pop up.
+- Write your script in the editor and press "Save as Macro" button to save script as macro.
+- Assign a shortcut key or a macro name for quick execution in pop-up.
 
   ![script](../.attachments/script4.png)
   

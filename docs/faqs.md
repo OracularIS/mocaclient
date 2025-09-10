@@ -20,9 +20,9 @@
      
       ![](./.attachments/run021.png)
 
-+ **Question 4:** `moca.pending_jar` is downloaded but did not rename after restarting Smart MOCA Client. How can I fix this? +
++ **Question 4:** `moca.pending_jar` is downloaded but does not rename after restarting Smart MOCA Client. How can I fix this? +
 
-  If moca.pending_jar is not renaming after restarting Smart MOCA Client, try the following steps:
+  If moca.pending_jar is not renaming after you restart Smart MOCA Client, try the following steps:
   
     - **Ensure No Active MOCA Processes** – Close all instances of Smart MOCA Client before restarting.
   
