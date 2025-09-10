@@ -6,7 +6,7 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
    The Normal History functionality allows users to quickly access a list of commands they have previously executed. This is particularly useful for re-executing common commands or referencing past commands for troubleshooting.
 
-  - Navigate to the History combobox within the Smart MOCA Client interface. The drown down will get open with list of executed queries.
+  - Navigate to the History combo box in the Smart MOCA Client interface. The drop-down will open with a list of executed queries.
 
     ![Normal History](../.attachments/history1.png)
 
@@ -22,8 +22,8 @@ The Command History feature in Smart MOCA Client provides an efficient way to tr
 
 3. **Resultsets**
 
-   The Resultsets allows users to manage and view the results of executed commands. This is crucial for analyzing command outputs, generating reports, and making data-driven decisions.
+   Resultsets allows users to manage and view the results of executed commands. This is crucial for analyzing command outputs, generating reports, and making data-driven decisions.
 
-  - After executing a command, the resultset is automatically saved and can be accessed from the Resultsets column in window grid by double clicking on it.
+  - After executing a command, the resultset is automatically saved and can be accessed from the Resultsets column in window grid by double clicking.
 
     ![Resultsets](../.attachments/history4.png)

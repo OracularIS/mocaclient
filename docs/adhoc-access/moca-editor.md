@@ -1,6 +1,6 @@
 # Smart MOCA Client Editor
 
-Smart Moca Client Editor" feature, details the keybindings and the functionalities available through the right-click popup menu within the text editor. Each menu option is explained with its behavior and conditions for usage.
+The "Smart Moca Client Editor" feature, details the key bindings and functionalities available through the right-click pop-up menu within the text editor. Each menu option is explained with its behavior and usage conditions.
 
 ![SmartEditor](../.attachments/editor.png)
 

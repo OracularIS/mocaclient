@@ -10,13 +10,13 @@ This document outlines these features and their functionalities.
 
 ### Database Trace Console
 
-- Navigate to **MOCALog** --> **Database Trace Console** to open **Trace Analysis** window.
+- Navigate to **MOCA Log** --> **Database Trace Console** to open **Trace Analysis** window.
   
   ![DBTrace](./.attachments/trace5.png)
 
 - **Insert into DB**: 
   - Click on the **Insert** button in the **Trace Analysis** window.
-  - Enter a **trace filename** (note: providing the full path to the log directory is not required).
+  - Enter a **trace filename** (Note: providing the full path to the log directory is not required).
   - After entering the filename, click **Insert into DB**.
 
   ![DBTrace1](./.attachments/trace6.png)
@@ -85,7 +85,7 @@ Feature to view the hierarchy of MOCA commands.
 
   ![CommandTree](./.attachments/commandtree.png)
 
-- Now enter block of code and press 'Generate' button. At bottom window, tree will be generated.
+- Now enter block of code and press 'Generate' button. The tree will be generated in the bottom window.
 
   ![CommandTree1](./.attachments/commandtree1.png)
 
