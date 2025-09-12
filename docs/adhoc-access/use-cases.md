@@ -11,7 +11,14 @@ Following features are supported
 | Feature                 | Description              | What type of value we set        | Example                                 |
 |-------------------------|--------------------------|----------------------------------|-----------------------------------------|
 | MIN_VERSION             | Earliest moca version    | A moca version                   | xxx                                     |
-|-------------------------|--------------------------|----------------------------------|-----------------------------------------|
+
+## Options (les_mnu_opt) respected by Smart MOCA Client
+Smart MOCA Client respects some menu options (entries in les_mnu_opt table) to control some pieces of functionality.  When these options
+exist, then MOCA Client checks that the logged in user has access to that option
+
+| Option                     | Description                                        | Comments                                                                       |
+|----------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
+| USROSSIORACULARMOCACLIENT  | Control access to smart moca client explicitlyt    | If option exists, then we enforce that logged in user should have accesss to it|
 
 
 
