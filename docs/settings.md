@@ -43,6 +43,13 @@ They are read from the `MOCADEV_FEATURES.txt` at startup, or before each executi
 
 ---
 
+## Option Based Settings
+We respect following options (as defined in les_mnu_opt).
+| Option                     | Description                                        | Comments                                                                       |
+|----------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
+| USROSSIORACULARMOCACLIENT  | Control access to smart moca client explicitly     | If option exists, then we enforce that logged in user should have accesss to it|
+
+
 ## Role Based Settings
 
 Roles determine what actions a user can perform within the MOCA Client.
