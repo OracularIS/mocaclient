@@ -1,35 +1,113 @@
 # Use Cases
 
-## Setup Smart MOCA Client Feature File
-We can place a file on the MOCA server in "data" folder called MOCADEV_FEATURES.txt.  This file can control certain features and functionality of the Smart MOCA Client when it is connected to 
-that environment.  The overall syntax of this file is as follows:
+## Use Case: I want to restrict access to LexEdit in my organization
+Lexedit respects option ORBITAL-SERVICES-LEXTEDIT.  If this option exists then users must have this option.  You can create the option using following:
 ```
-ADD <feature>=<value>
+    create option 
+    where opt_nam = 'ORBITAL-SERVICES-LEXTEDIT' 
+    and opt_typ = 'O'
+    and pmsn_mask = -1
+    and ena_flg = 1
+    and mls_text = 'Option-Allow access to Lexedit'
+    and exec_nam = 'LEXEDIT'
+    and locale_id = nvl(@@LOCALE_ID,'US_ENGLISH')
+    and uc_force_inhibit_version_control = '1'
 ```
-Following features are supported
+And then assign to users.  If you do not assign to anyone then access to Lexedit will be blocked completely.
 
-| Feature                 | Description              | What type of value we set        | Example                                 |
-|-------------------------|--------------------------|----------------------------------|-----------------------------------------|
-| MIN_VERSION             | Earliest moca version    | A moca version                   | xxx                                     |
+## Use Case: I want to control who can access Smart MOCA Client in my organization
+Smart MOCA Cliend respects option USROSSIORACULARMOCACLIENT.  If this option exists then users with this option are allowed to access Smart MOCA Client.  You can create the option using:
 
-## Options (les_mnu_opt) respected by Smart MOCA Client
-Smart MOCA Client respects some menu options (entries in les_mnu_opt table) to control some pieces of functionality.  When these options
-exist, then MOCA Client checks that the logged in user has access to that option
+```
+    create option 
+    where opt_nam = 'USROSSIORACULARMOCACLIENT' 
+    and opt_typ = 'O'
+    and pmsn_mask = -1
+    and ena_flg = 1
+    and mls_text = 'Option-Smart MOCA Client'
+    and exec_nam = 'ORACULAR-MOCA-CLIENT'
+    and locale_id = nvl(@@LOCALE_ID,'US_ENGLISH')
+    and uc_force_inhibit_version_control = '1'
+```
+You can then assign this option to the users who can access Smart MOCA Client.
 
-| Option                     | Description                                        | Comments                                                                       |
-|----------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
-| USROSSIORACULARMOCACLIENT  | Control access to smart moca client explicitlyt    | If option exists, then we enforce that logged in user should have accesss to it|
+## Use Case: I want to log all activity done by Smart MOCA Client to SYS_AUDIT table
+MOCA supports this functionality via policy 
 
+| Policy Column | Value                |
+|---------------|----------------------|
+| Polcod        | SYSTEM-AUDITING      |
+| polvar        | INTERACTIVE-AUDITING |
+| polval        | APPS-TO-AUDIT        |
+| wh_id         | ----                 |
+| srtseq        | Use next sequence    |
+| rtstr1        | ORACMSQL             |
+| rtnum1        | 1                    |
 
-
-## Restricting MOCA Client Connectivity
-Content to be added
+You can use following snippet to add it
+```
+create policy
+where wh_id = '----'
+and polcod = 'SYSTEM-AUDITING'
+and polvar = 'INTERACTIVE-AUDITING'
+and polval = 'APPS-TO-AUDIT'
+and rtnum1 = 1
+and rtstr1 = 'ORACMSQL'
+and uc_force_inhibit_version_control = '1'
+```
 
 ## Controlling File Editing Permissions
+We have following types of files and for each type of file has a specific role that controls who can access it.  Generally if the role does not exist at all then that access is not contolled.
+
+| Type of Files                          | Role that controls it |
+| ---------------------------------------|-----------------------|
+| Source Code (files under $LESDIR/src)  | UC_OSSI_SRC_FILE      |
+| DB files (files under $LESDIR/db)      | UC_OSSI_DB_FILE       |
+| Data files (files under $LESDIR/data)  | UC_OSSI_DATA_FILE     |
+| Feature file itself                    | UC_OSSI_FEATURE_FILE  |
+
+To add all of these roles, use the following snippet
+
+```
+convert list
+where string = 'UC_OSSI_SRC_FILE,UC_OSSI_DB_FILE,UC_OSSI_DATA_FILE'
+and type = 'L'
+|
+{
+    create role
+    where role_id = @retstr
+    and ena_flg = 1
+    and grp_nam = 'SMART-MOCA-CLIENT-ROLE'
+    and mls_text = @retstr
+    and par_role_id = 'SUPER'
+    and locale_id = nvl(@@LOCALE_ID,'US_ENGLISH')
+    and uc_force_inhibit_version_control = '1'
+}
+```
+
 Content to be added
 
-## Managing DML Access by User Role
-Content to be added
+## Managing DML (Data Manipulation Language) Access by User Role
+Using MOCA we can run SQL statements that change data - such as delete, update, insert statements.  Data can be changed through MOCA commands as well.  We can control who is allowed to run DML statements through role.  
+So to achieve this you will need to follow following steps:
+
+* Create a file to be used to define DML.  See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
+* Add setting DML_FILTER_FILE to the fearture file and point to this file.  See [Defining Feature File](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#feature-file-settings)
+
 
 ## Enforcing Ticket-Based Change Control
-Content to be added
+We can enforce a rule that will ask the user to enter a ticket when performing an unsafe operation in a production environment.  Follow following steps:
+
+* Set REQUIRE_INFO_FOR_UNSAFE to 1.  See [Defining Feature File](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#feature-file-settings)
+* Define SAFE_FILTER_FILE filter file.  This has regular expressions for safe commands.  See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
+* Define SAFE_SQL_FILTER_FILE filter file. This has regular expressions for safe SQL comamnds. See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
+* The two settings will be added to the feature file
+* The user should have access to run unsafe commads.  So UC_OSSI_ALLOW_UNSAFE role should be created and assigned to the user.  See [Roles](https://oracularis.github.io/mocaclient/#/./settings?id=role-based-settings)
+
+## General Best Bractices for production systems
+Following are general best practices:
+
+* Set READ_SETTINGS_EVERY_TIME=1 
+
+ 
+
