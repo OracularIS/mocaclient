@@ -15,7 +15,10 @@ In production environments, these settings are typically used to enforce safe pr
 ## Feature File Settings
 
 Feature file settings determine the MOCA Client’s runtime behavior.
-They are read from the `MOCADEV_FEATURES.txt` at startup, or before each execution if configured via READ_SETTINGS_EVERY_TIME.
+They are read from the `MOCADEV_FEATURES.txt` at startup, or before each execution if configured via READ_SETTINGS_EVERY_TIME.  The overall syntax of this file is as follows:
+```
+ADD <feature>=<value>
+```
 
 | Category               | Feature Name               | Description                                                                                                                                             | Default / Notes                                  |
 | ---------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -40,6 +43,26 @@ They are read from the `MOCADEV_FEATURES.txt` at startup, or before each executi
 |                        | REQUIRE_INFO_FOR_UNSAFE    | Before running unsafe commands, request a comment to append at the top of the execution.                                                                | —                                                |
 | **Logging & Refresh**  | READ_SETTINGS_EVERY_TIME   | Read these features before each execution.                                                                                                              | —                                                |
 |                        | LOG_TO_SYS_AUDIT           | Forces logging to `sys_audit` even if policy is disabled.                                                                                               | —                                                |
+
+## Filter Files (defined by featrure file)
+The feature file has some settings to detect the type of command that is run so that we can then control it.  The general syntax of this file is:
+```
+ADD <regular expression>
+```
+For example following can be used to find insert, update, delete, truncate statements
+```
+ADD insert\s+.*
+ADD update\s+.*
+ADD delete\s+.*
+ADD truncate\s+.*
+```
+
+Once you have created the filter files then the feature file will add refernce to it.  For example, following will add tyo files:
+```
+ADD DML_FILTER_FILE=$LESDIR/data/dmlblock_all.txt
+ADD DDL_FILTER_FILE=$LESDIR/data/ddlblock_all.txt
+```
+
 
 ---
 
