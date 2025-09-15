@@ -91,18 +91,19 @@ Content to be added
 Using MOCA we can run SQL statements that change data - such as delete, update, insert statements.  Data can be changed through MOCA commands as well.  We can control who is allowed to run DML statements through role.  
 So to achieve this you will need to follow following steps:
 
-* Create a file to be used to define DML.  See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
-* Add setting DML_FILTER_FILE to the fearture file and point to this file.  See [Defining Feature File](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#feature-file-settings)
+* Create a file to be used to define DML.  See [Defining Filter Files](../settings.md)
+
+* Add setting DML_FILTER_FILE to the fearture file and point to this file.  See [Defining Feature File][Defining Filter Files](../settings.md)
 
 
 ## Enforcing Ticket-Based Change Control
 We can enforce a rule that will ask the user to enter a ticket when performing an unsafe operation in a production environment.  Follow following steps:
 
-* Set REQUIRE_INFO_FOR_UNSAFE to 1.  See [Defining Feature File](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#feature-file-settings)
-* Define SAFE_FILTER_FILE filter file.  This has regular expressions for safe commands.  See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
-* Define SAFE_SQL_FILTER_FILE filter file. This has regular expressions for safe SQL comamnds. See [Defining Filter Files](https://github.com/OracularIS/mocaclient/blob/main/docs/settings.md#filter-files-defined-by-featrure-file)
+* Set REQUIRE_INFO_FOR_UNSAFE to 1.  See [Defining Filter Files](../settings.md)
+* Define SAFE_FILTER_FILE filter file.  This has regular expressions for safe commands.  See [Defining Filter Files](../settings.md)
+* Define SAFE_SQL_FILTER_FILE filter file. This has regular expressions for safe SQL comamnds.See [Defining Filter Files](../settings.md)
 * The two settings will be added to the feature file
-* The user should have access to run unsafe commads.  So UC_OSSI_ALLOW_UNSAFE role should be created and assigned to the user.  See [Roles](https://oracularis.github.io/mocaclient/#/./settings?id=role-based-settings)
+* The user should have access to run unsafe commads.  So UC_OSSI_ALLOW_UNSAFE role should be created and assigned to the user.  See [Role Based Settings](https://oracularis.github.io/mocaclient/#/./settings?id=role-based-settings)
 
 ## General Best Bractices for production systems
 Following are general best practices:
