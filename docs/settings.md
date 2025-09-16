@@ -44,7 +44,7 @@ ADD <feature>=<value>
 | **Logging & Refresh**  | READ_SETTINGS_EVERY_TIME   | Read these features before each execution.                                                                                                              | —                                                |
 |                        | LOG_TO_SYS_AUDIT           | Forces logging to `sys_audit` even if policy is disabled.                                                                                               | —                                                |
 
-## Filter Files (defined by featrure file)
+## Filter Files (defined by feature file)
 The feature file has some settings to detect the type of command that is run so that we can then control it.  The general syntax of this file is:
 ```
 ADD <regular expression>
@@ -67,10 +67,12 @@ ADD DDL_FILTER_FILE=$LESDIR/data/ddlblock_all.txt
 ---
 
 ## Option Based Settings
+
 We respect following options (as defined in les_mnu_opt).
-| Option                     | Description                                        | Comments                                                                       |
-|----------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
-| USROSSIORACULARMOCACLIENT  | Control access to smart moca client explicitly     | If option exists, then we enforce that logged in user should have accesss to it|
+
+| Option                    | Description                                    | Comments                                                                       |
+|---------------------------|------------------------------------------------|--------------------------------------------------------------------------------|
+| USROSSIORACULARMOCACLIENT | Control access to smart moca client explicitly | If option exists, then we enforce that logged in user should have access to it |
 
 
 ## Role Based Settings
@@ -92,3 +94,6 @@ They are assigned by system administrators to align with user responsibilities, 
 | **UC_OSSI_OVERRIDE_DML**          | Overrides `FORCE_READONLY` for the user.                                                |
 
 
+<br>
+
+---
