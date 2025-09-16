@@ -85,8 +85,6 @@ and type = 'L'
 }
 ```
 
-Content to be added
-
 ## Managing DML (Data Manipulation Language) Access by User Role
 Using MOCA we can run SQL statements that change data - such as delete, update, insert statements.  Data can be changed through MOCA commands as well.  We can control who is allowed to run DML statements through role.  
 So to achieve this you will need to follow following steps:
