@@ -1,6 +1,6 @@
 # Use Cases
 
-## Use Case: I want to restrict access to LexEdit in my organization
+## 1. Restrict access to LexEdit in my organization
 Lexedit respects option ORBITAL-SERVICES-LEXTEDIT.  If this option exists then users must have this option.  You can create the option using following:
 ```
     create option 
@@ -15,7 +15,7 @@ Lexedit respects option ORBITAL-SERVICES-LEXTEDIT.  If this option exists then u
 ```
 And then assign to users.  If you do not assign to anyone then access to Lexedit will be blocked completely.
 
-## Use Case: I want to control who can access Smart MOCA Client in my organization
+## 2. Control who can access Smart MOCA Client in my organization
 Smart MOCA Cliend respects option USROSSIORACULARMOCACLIENT.  If this option exists then users with this option are allowed to access Smart MOCA Client.  You can create the option using:
 
 ```
@@ -31,7 +31,7 @@ Smart MOCA Cliend respects option USROSSIORACULARMOCACLIENT.  If this option exi
 ```
 You can then assign this option to the users who can access Smart MOCA Client.
 
-## Use Case: I want to log all activity done by Smart MOCA Client to SYS_AUDIT table
+## 3. Log all activity done by Smart MOCA Client to SYS_AUDIT table
 MOCA supports this functionality via policy 
 
 | Policy Column | Value                |
@@ -56,7 +56,7 @@ and rtstr1 = 'ORACMSQL'
 and uc_force_inhibit_version_control = '1'
 ```
 
-## Controlling File Editing Permissions
+## 4. Controlling File Editing Permissions
 We have following types of files and for each type of file has a specific role that controls who can access it.  Generally if the role does not exist at all then that access is not contolled.
 
 | Type of Files                          | Role that controls it |
@@ -91,24 +91,28 @@ Content to be added
 Using MOCA we can run SQL statements that change data - such as delete, update, insert statements.  Data can be changed through MOCA commands as well.  We can control who is allowed to run DML statements through role.  
 So to achieve this you will need to follow following steps:
 
-* Create a file to be used to define DML.  See [Defining Filter Files](../settings.md)
+* Create a file to be used to define DML.  See [Defining Filter Files](settings.md#feature-file-settings)
 
-* Add setting DML_FILTER_FILE to the fearture file and point to this file.  See [Defining Feature File][Defining Filter Files](../settings.md)
+* Add setting DML_FILTER_FILE to the fearture file and point to this file.  See [Defining Feature File](settings.md#feature-file-settings)
 
 
 ## Enforcing Ticket-Based Change Control
 We can enforce a rule that will ask the user to enter a ticket when performing an unsafe operation in a production environment.  Follow following steps:
 
-* Set REQUIRE_INFO_FOR_UNSAFE to 1.  See [Defining Filter Files](../settings.md)
-* Define SAFE_FILTER_FILE filter file.  This has regular expressions for safe commands.  See [Defining Filter Files](../settings.md)
-* Define SAFE_SQL_FILTER_FILE filter file. This has regular expressions for safe SQL comamnds.See [Defining Filter Files](../settings.md)
+* Set REQUIRE_INFO_FOR_UNSAFE to 1.  See [Defining Filter Files](settings.md#feature-file-settings)
+* Define SAFE_FILTER_FILE filter file.  This has regular expressions for safe commands.  See [Defining Filter Files](settings.md#feature-file-settings)
+* Define SAFE_SQL_FILTER_FILE filter file. This has regular expressions for safe SQL comamnds.See [Defining Filter Files](settings.md#feature-file-settings)
 * The two settings will be added to the feature file
-* The user should have access to run unsafe commads.  So UC_OSSI_ALLOW_UNSAFE role should be created and assigned to the user.  See [Role Based Settings](https://oracularis.github.io/mocaclient/#/./settings?id=role-based-settings)
+* The user should have access to run unsafe commads.  So UC_OSSI_ALLOW_UNSAFE role should be created and assigned to the user.  See [Role Based Settings](settings.md#role-based-settings)
 
 ## General Best Bractices for production systems
 Following are general best practices:
 
 * Set READ_SETTINGS_EVERY_TIME=1 
+
+<br>
+
+---
 
  
 
