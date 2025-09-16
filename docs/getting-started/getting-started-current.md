@@ -22,22 +22,25 @@ Guide for connecting to a server using the latest MOCA Client interface.
 
 **Installation Options**
   
-The following are the two options for installation: 
+The following are the three options for installation: 
 
-1. Installer
-2. Portable 
+1. EXE Installer  
+2. Portable  
+3. MSI Installer  
 
-### Download the Installer
+---
+
+### Download the EXE Installer
   
-- On download page, select **Installer** and click on **Download** button.
+- On the download page, select **Installer** and click on **Download** button.
 
   ![Install3](../.attachments/Installerwebview.png)
 
-- After clicking **"Download"**, the Installion setup will begin downloading.
+- After clicking **"Download"**, the installation setup will begin downloading.
 
   ![Install4](../.attachments/install4.png)
 
-#### Run the Installer
+#### Run the EXE Installer
    
 - Unzip the downloaded zip folder (mocaclient-setup<**version**>.zip) and open it.
  
@@ -67,9 +70,11 @@ The following are the two options for installation:
 
 - Once the installation process via the Installer is complete, you can verify it by checking the designated installation directory.
 
+---
+
 ### Download the Portable 
 
-- On download page, select **Portable** and click on **Download** button.
+- On the download page, select **Portable** and click on **Download** button.
 
   ![Install5](../.attachments/Portablewebview.png)
 
@@ -83,7 +88,7 @@ The following are the two options for installation:
    
   ![](../.attachments/run023.png)
 
-- Now double click on Run Setup and it will Download **Smart MOCA Client** using powershell.
+- Now double click on Run Setup and it will Download **Smart MOCA Client** using PowerShell.
 
   ![](../.attachments/run024.png)
   ![](../.attachments/run025.png)
@@ -91,22 +96,90 @@ The following are the two options for installation:
 #### Verify Installation
 
 Follow [Verify Installation](#verify-installation) to verify correct installation of Smart MOCA Client.
+
+---
+
+### Download the MSI Installer
   
-## Launch Smart MOCA Client
+- On the download page, select **MSI Installer** and click on **Download** button.
+
+  ![Install3](../.attachments/Installerwebview.png)
+
+- After clicking **"Download"**, the MSI setup will begin downloading.
+
+  ![Install4](../.attachments/install4.png)
+
+#### Run the MSI Installer
    
-- Once installed, launch Smart MOCA Client by double-clicking on desktop icon or search for it in the start menu.
+- Unzip the downloaded zip folder (mocaclient-msi<**version**>.zip) and open it.
+ 
+  ![](../.attachments/run001.png)
+ 
+- Now double click on (mocaclient<**version**>.msi) file and run this installer.
+
+  ![](../.attachments/run002.png)
+
+- Follow the on-screen instructions to complete the installation process.
+
+  ![](../.attachments/run003.png)
+  ![](../.attachments/run004.png)
+  ![](../.attachments/run005.png)
+  ![](../.attachments/run006.png)
+  ![](../.attachments/run007.png)
+  ![](../.attachments/run008.png)
+  ![](../.attachments/run009.png) 
+  ![](../.attachments/run010.png) 
+
+#### Verify Installation
+
+- The folder named `Oracular MOCA Client` and `SmartMOCAClient` should be created at the following path:
+
+  ![](../.attachments/run011.png)
+  ![](../.attachments/run012.png)
+
+- Once the MSI installation process is complete, you can verify it by checking the designated installation directory.
+
+---
+
+## Silent Installation Parameters
+
+| Parameter Name | Description                                                                 | Sample Value                               | Required |
+|----------------|-----------------------------------------------------------------------------|--------------------------------------------|----------|
+| `ACCEPT_EULA`  | Accepts the End User License Agreement. The installer will abort if not set. | `1` (must be provided in silent install)    | Yes      |
+| `AUTOUPDATE`   | Enables or disables automatic updates for the Smart MOCA Client.            | `YES` / `NO`                               | No       |
+| `INSTALLDIR`   | Overrides the default installation directory. If not set, AppData is used.  | `C:\Users\<User>\AppData\SmartMocaClient`  | No       |
+| `JAVA_PATH`    | Specifies the path to the Java installation directory (bin folder expected).| `C:\Program Files\Eclipse Adoptium\jdk-17` | Yes      |
+
+---
+
+### Silent Installation Examples
+
+#### EXE Installer
+
+
+```powershell
+mocaclient-setup.exe /silent ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\CustomPath\SmartMocaClient" JAVA_PATH="C:\Program Files\Eclipse Adoptium\jdk-17"
+```
+---
+
+
+
+### Launch Smart MOCA Client
+   
+- Once installed, launch Smart MOCA Client by double-clicking on the desktop icon or searching for it in the start menu.
 
   ![](../.attachments/run013.png)
 
-  <mark>**Note:** In case shortcuts are not created, following shortcut can be used to launch Smart MOCA Client.</mark>
+  <mark>**Note:** In case shortcuts are not created, the following shortcut can be used to launch Smart MOCA Client.</mark>
 
-   ![](../.attachments/run026.png)
+  ![](../.attachments/run026.png)
 
 - Once the application starts, you will see the following interface:
 
   ![](../.attachments/run014.png)
 
-Note: *Follow [Password Security](../connections/secure-server-connections.md) for an information about **Security** popup*.
+Note: *Follow [Password Security](../connections/secure-server-connections.md) for details about the **Security** popup*.
+
 
 ## Add Server
 
