@@ -106,11 +106,11 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
   ![](../.attachments/run014.png)
 
-Note: *Follow [Password Security](../connections.md) for an information about **Security** popup*.
+Note: *Follow [Password Security](../connection.md) for an information about **Security** popup*.
 
 ## Add Server
 
-Follow [Add/Update/Remove Server](../connections.md) to add server in Smart MOCA Client.
+Follow [Add/Update/Remove Server](../connection.md) to add server in Smart MOCA Client.
 
 
 ## Download `moca.jar`
