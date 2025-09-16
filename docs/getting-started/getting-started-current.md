@@ -110,7 +110,7 @@ Note: *Follow [Password Security](../connections/secure-server-connections.md) f
 
 ## Add Server
 
-Follow [Add/Update/Remove Server](../connections/add-connect-remoteserver.md) to add server in Smart MOCA Client.
+Follow [Add/Update/Remove Server](./connections/add-connect-remoteserver.md) to add server in Smart MOCA Client.
 
 
 ## Download `moca.jar`
