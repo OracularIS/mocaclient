@@ -6,15 +6,15 @@ Guide for connecting to a server using the latest MOCA Client interface.
        
 - Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
        
-  ![Start In](../.attachments/StartIn.png)
+  ![Start In](../.attachments/NewWebPage.png)
 
-- Click the **Get MOCA Client** button and complete the form that appears with your information to download the latest version of the installer.
+- Click the **Download Now** button and complete the form that appears with your information to download the latest version of the installer.
 
-  ![Install1](../.attachments/install1.png)
+  ![Install1](../.attachments/NewWebPage2.png)
 
 - After filling out the form, you will receive an email with a link to the download page.
 
-  ![Install2](../.attachments/install2.png)
+  ![Install2](../.attachments/NewWebPage3.png)
 
 - Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page.
 
@@ -34,11 +34,11 @@ The following are the three options for installation:
   
 - On the download page, select **Installer** and click on **Download** button.
 
-  ![Install3](../.attachments/Installerwebview.png)
+  ![Install3](../.attachments/NewWebPageExeInstaller.png)
 
 - After clicking **"Download"**, the installation setup will begin downloading.
 
-  ![Install4](../.attachments/install4.png)
+  ![Install4](../.attachments/NewWebPageExeDownloaded.png)
 
 #### Run the EXE Installer
    
@@ -76,11 +76,11 @@ The following are the three options for installation:
 
 - On the download page, select **Portable** and click on **Download** button.
 
-  ![Install5](../.attachments/Portablewebview.png)
+  ![Install5](../.attachments/NewWebPagePortableInstaller.png)
 
 - After clicking **"Download"**, the portable setup will begin downloading.
   
-  ![Install6](../.attachments/run022.png)
+  ![Install6](../.attachments/NewWebPageportableDownloaded.png)
 
 #### Run the Portable
 
@@ -103,32 +103,29 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
   
 - On the download page, select **MSI Installer** and click on **Download** button.
 
-  ![Install3](../.attachments/Installerwebview.png)
+  ![Install3](../.attachments/NewWebPageMSIInstaller.png)
 
 - After clicking **"Download"**, the MSI setup will begin downloading.
 
-  ![Install4](../.attachments/install4.png)
+  ![Install4](../.attachments/NewWebPageMSIDownloaded.png)
 
 #### Run the MSI Installer
    
-- Unzip the downloaded zip folder (mocaclient-msi<**version**>.zip) and open it.
+- Click on MSI file (mocaclient-setup<**version**>.msi) and open it.
  
-  ![](../.attachments/run001.png)
+  ![](../.attachments/NewDownloadsMSI.png)
  
-- Now double click on (mocaclient<**version**>.msi) file and run this installer.
+- Now double click on (mocaclient-setup<**version**>.msi) file and run this MSI file.
 
-  ![](../.attachments/run002.png)
+  ![](../.attachments/MSIInstallation1.png)
 
 - Follow the on-screen instructions to complete the installation process.
 
-  ![](../.attachments/run003.png)
-  ![](../.attachments/run004.png)
-  ![](../.attachments/run005.png)
-  ![](../.attachments/run006.png)
-  ![](../.attachments/run007.png)
-  ![](../.attachments/run008.png)
-  ![](../.attachments/run009.png) 
-  ![](../.attachments/run010.png) 
+  ![](../.attachments/MSIInstallation2.png)
+  ![](../.attachments/MSIInstallation3.png)
+  ![](../.attachments/MSIInstallation4.png)
+  ![](../.attachments/MSIInstallation5.png)
+  ![](../.attachments/MSIInstallation6.png)
 
 #### Verify Installation
 
@@ -178,7 +175,7 @@ mocaclient-setup.exe /silent ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\CustomP
 
   ![](../.attachments/run014.png)
 
-Note: *Follow [Password Security](../connections/secure-server-connections.md) for details about the **Security** popup*.
+Note: *Follow [Password Security](./connections/secure-server-connections.md) for details about the **Security** popup*.
 
 
 ## Add Server
