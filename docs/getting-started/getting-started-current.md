@@ -6,15 +6,15 @@ Guide for connecting to a server using the latest MOCA Client interface.
        
 - Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
        
-  ![Start In](../.attachments/StartIn.png)
+  ![Start In](../.attachments/NewWebPage.png)
 
-- Click the **Get MOCA Client** button and complete the form that appears with your information to download the latest version of the installer.
+- Click the **Download Now** button and complete the form that appears with your information to download the latest version of the installer.
 
-  ![Install1](../.attachments/install1.png)
+  ![Install1](../.attachments/NewWebPage2.png)
 
-- After filling out the form, you will receive an email with a link to the download page.
+- After filling out the form, you will get a message at your screen and receive an email with a link to the download page.
 
-  ![Install2](../.attachments/install2.png)
+  ![Install2](../.attachments/NewWebPage3.png)
 
 - Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page.
 
@@ -31,11 +31,11 @@ The following are the two options for installation:
   
 - On download page, select **Installer** and click on **Download** button.
 
-  ![Install3](../.attachments/Installerwebview.png)
+  ![Install3](../.attachments/NewWebPageExeInstaller.png)
 
 - After clicking **"Download"**, the Installion setup will begin downloading.
 
-  ![Install4](../.attachments/install4.png)
+  ![Install4](../.attachments/NewWebPageExeDownloaded.png)
 
 #### Run the Installer
    
@@ -71,11 +71,11 @@ The following are the two options for installation:
 
 - On download page, select **Portable** and click on **Download** button.
 
-  ![Install5](../.attachments/Portablewebview.png)
+  ![Install5](../.attachments/NewWebPagePortableInstaller.png)
 
 - After clicking **"Download"**, the portable setup will begin downloading.
   
-  ![Install6](../.attachments/run022.png)
+  ![Install6](../.attachments/NewWebPageportableDownloaded.png)
 
 #### Run the Portable
 
