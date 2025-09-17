@@ -106,7 +106,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
   ![](../.attachments/run014.png)
 
-Note: *Follow [Password Security](../connections/secure-server-connections.md) for an information about **Security** popup*.
+Note: *Follow [Password Security](./connections/secure-server-connections.md) for an information about **Security** popup*. 
 
 ## Add Server
 
