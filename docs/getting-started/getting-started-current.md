@@ -149,6 +149,29 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
 ---
 
+
+## Silent Installation via Command Line
+
+### Steps
+
+1. Open **Command Prompt** as Administrator.  
+2. Run the following command (update paths as needed):  
+
+   ```bash
+   msiexec /i "mocaclient-setup.msi" /qn ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\SmartMocaClient" JAVA_PATH="C:\Path\To\Java" /L*V install.log
+   ```
+
+### Explanation of Properties
+
+- **ACCEPT_EULA=1** → Accepts the End User License Agreement.  
+- **AUTOUPDATE=YES** → Enables automatic updates for the client.  
+- **INSTALLDIR** → Specifies the installation directory.  
+- **JAVA_PATH** → Points to the Java installation to be used by the client (automatically detected from the registry if not provided). 
+
+  ![](../.attachments/image.png)
+
+---
+
 ### Silent Installation Examples
 
 #### EXE Installer

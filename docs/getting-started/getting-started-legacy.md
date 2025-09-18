@@ -61,11 +61,11 @@ This guide walks you through downloading, installing, and launching the legacy S
 
   ![](../.attachments/dhl018.png)
 
-Note: *Follow [Password Security](../connections.md) for an information about **Security** popup*.
+Note: *Follow [Password Security](./connections/secure-server-connections.md) for an information about **Security** popup*.
 
 ## Add Server
 
-Follow [Add/Update/Remove Server](../connections.md) to add server in Smart MOCA Client.
+Follow [Add/Update/Remove Server](./connections/add-connect-remoteserver.md) to add server in Smart MOCA Client.
 
 ## Use moca.jar instead of labelzoom.jar
 
