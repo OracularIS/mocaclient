@@ -178,7 +178,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
 
 ```powershell
-mocaclient-setup.exe /silent ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\CustomPath\SmartMocaClient" JAVA_PATH="C:\Program Files\Eclipse Adoptium\jdk-17"
+mocaclient202508984.exe /VERYSILENT /NORESTART /SUPPRESSMSGBOXES /SP-
 ```
 ---
 
