@@ -145,7 +145,7 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 | `ACCEPT_EULA`  | Accepts the End User License Agreement. The installer will abort if not set. | `1` (must be provided in silent install)    | Yes      |
 | `AUTOUPDATE`   | Enables or disables automatic updates for the Smart MOCA Client.            | `YES` / `NO`                               | No       |
 | `INSTALLDIR`   | Overrides the default installation directory. If not set, AppData is used.  | `C:\Users\<User>\AppData\SmartMocaClient`  | No       |
-| `JAVA_PATH`    | Specifies the path to the Java installation directory (bin folder expected).| `C:\Program Files\Eclipse Adoptium\jdk-17` | Yes      |
+| `JAVA_PATH`    | Specifies the path to the Java installation directory (bin folder expected).| `C:\Program Files\Eclipse Adoptium\jdk-17` | No      |
 
 ---
 
@@ -161,12 +161,8 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
    msiexec /i "mocaclient-setup.msi" /qn ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\SmartMocaClient" JAVA_PATH="C:\Path\To\Java" /L*V install.log
    ```
 
-### Explanation of Properties
 
-- **ACCEPT_EULA=1** → Accepts the End User License Agreement.  
-- **AUTOUPDATE=YES** → Enables automatic updates for the client.  
-- **INSTALLDIR** → Specifies the installation directory.  
-- **JAVA_PATH** → Points to the Java installation to be used by the client (automatically detected from the registry if not provided). 
+ 
 
   ![](../.attachments/image.png)
 
@@ -178,7 +174,8 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
 
 ```powershell
-mocaclient-setup.exe /silent ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\CustomPath\SmartMocaClient" JAVA_PATH="C:\Program Files\Eclipse Adoptium\jdk-17"
+mocaclient202508984.exe /VERYSILENT /NORESTART /SUPPRESSMSGBOXES /SP-
+
 ```
 ---
 
