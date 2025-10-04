@@ -11,7 +11,7 @@ The menu in the MOCA Client application provides access to a wide range of funct
 - [Data](./menu-overview/data.md)
 - Display
 - Options
-- Source Code
+- [Source Code](./menu-overview/msa.md)
 - Moca Log
 - Scripts
 - Smart Connect

@@ -1,4 +1,4 @@
-## File Menu Overview
+# File Menu Overview
 
 The File Menu in Smart MOCA Client is designed to give you quick access to essential file operations and settings, ensuring efficient management of your projects and data.
 
