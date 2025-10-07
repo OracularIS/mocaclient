@@ -15,7 +15,13 @@ In production environments, these settings are typically used to enforce safe pr
 ## Feature File Settings
 
 Feature file settings determine the MOCA Client’s runtime behavior.
-They are read from the `MOCADEV_FEATURES.txt` at startup, or before each execution if configured via READ_SETTINGS_EVERY_TIME.  The overall syntax of this file is as follows:
+They are read from the `MOCADEV_FEATURES.txt` at startup, or before each execution if configured via READ_SETTINGS_EVERY_TIME.
+To enable the MOCA Client to utilize these feature file settings, you need to configure a variable in registry setting.
+``
+UC_MOCADEV_FEATURE=1
+``
+
+The overall syntax of this file is as follows:
 ```
 ADD <feature>=<value>
 ```
@@ -78,7 +84,7 @@ We respect following options (as defined in les_mnu_opt).
 ## Role Based Settings
 
 Roles determine what actions a user can perform within the MOCA Client.
-They are assigned by system administrators to align with user responsibilities, ensuring only authorized users can perform high-risk operations.
+They are assigned by system administrators to align with user responsibilities, ensuring only authorized users can perform high-risk operations. These roles can be defined and subsequently assigned to users via the MOCA Client or the BY portal interface.
 
 | Role Name                         | Permission / Description                                                                |
 | --------------------------------- | --------------------------------------------------------------------------------------- |
