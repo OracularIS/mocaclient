@@ -22,9 +22,8 @@ To apply MSA on a single command, you can run it directly from the editor withou
 
 1. Click the Run MSA button. The local syntax must be loaded by “mbuild” first. 
 
-
 <div style="text-align: left;">
-  <img src="../.attachments/msap/msa8.jpg"
+  <img src="./.attachments/msap/msa8.jpg"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -39,7 +38,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 1. Go to your **Moca client environment** and select MSA checks.
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/MSA.png"
+  <img src="./.attachments/msap/MSA.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -55,7 +54,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 3. You will be directed to the MSA Screen.
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/MSA2.png"
+  <img src="./.attachments/msap/MSA2.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -66,7 +65,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 4. Select a MLVL and click the Find button 
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/MSA3.png"
+  <img src="./.attachments/msap/MSA3.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -77,7 +76,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 5. Click on a row to see the syntax (if Local Syntax) 
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/msa4.jpg"
+  <img src="./.attachments/msap/msa4.jpg"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -96,7 +95,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
     - Otherwise, all commands will be checked 
 
     <div style="text-align: left;">
-     <img src="../.attachments/msap/msa5.png"
+     <img src="./.attachments/msap/msa5.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -117,7 +116,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 7. When the program finishes, the text from the command line is shown in MSA Output.
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/msa6.jpg"
+  <img src="./.attachments/msap/msa6.jpg"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -128,7 +127,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 8. The HTML is shown in MSA HTML tab.
 
 <div style="text-align: left;">
-  <img src="../.attachments/msap/msa7.png"
+  <img src="./.attachments/msap/msa7.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
