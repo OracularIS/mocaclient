@@ -54,7 +54,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 3. You will be directed to the MSA Screen.
 
 <div style="text-align: left;">
-  <img src="./.attachments/msap/MSA2.png"
+  <img src="./.attachments/msap/msa2.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -65,7 +65,7 @@ To apply MSA on a file hierarchy, you can follow the below mentioned steps.
 4. Select a MLVL and click the Find button 
 
 <div style="text-align: left;">
-  <img src="./.attachments/msap/MSA3.png"
+  <img src="./.attachments/msap/msa3.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
