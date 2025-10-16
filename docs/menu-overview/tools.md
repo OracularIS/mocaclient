@@ -10,7 +10,7 @@ Below are the components of the Tools menu along with their descriptions:
 
 ### Open Find Dialog
 
-This option allows us to find commands, policies, ddas by searching by filename or text. To find anything simply go on tab and add the filename, or command name or dda id etc, and press find.
+This option allows us to find commands, policies, DDA's by searching by filename or text. To find anything simply go on tab and add the filename, or command name or DDA id etc, and press find.
 
 ---
 ### Open New Editor Window

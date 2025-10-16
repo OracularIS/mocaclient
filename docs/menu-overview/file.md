@@ -59,24 +59,24 @@ This screen also allows us to manage connection information of servers. To edit,
 
 ### Open MSQL in new tab
 
-This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in new tab.
+This option allows us to load MSQL files into MOCA. To load a MSQL file, simply select this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in new tab.
 
 ---
 
 ### Save MSQL in current tab
 
-This option allows us to save current tab MSQL into Computer. To save a file just click this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
+This option allows us to save current tab MSQL into Computer. To save a file just select this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
 
 ---
 
 ### Load State
 
-This option allows us to load previously saved tabs from .dbs files. To load state, click this option and choose the previously saved states, and press open.
+This option allows us to load previously saved tabs from .dbs files. To load state, select this option and choose the previously saved states, and press open.
 
 ---
 
 ### Save State
-This option allows us to save tabs in. dbs format. Simply click this option and press save.
+This option allows us to save tabs in. dbs format. Simply select this option and press save.
 
 ---
 
@@ -88,7 +88,7 @@ This option allows us to load previous sessions of MOCA, so you can easily jump 
 
 ### Open Smart MOCA and SQL client User Directory
 
-By clicking this option, you can open the user directory of Smart MOCA client where all user files are placed.
+By selecting this option, you can open the user directory of Smart MOCA client where all user files are placed.
 
 ![SQLClientUserDirectory](../.attachments/file-menu/SQLClientUserDirectory.png)
 
@@ -96,7 +96,7 @@ By clicking this option, you can open the user directory of Smart MOCA client wh
 
 ### Open Smart MOCA and SQL client Shared Directory
 
-By clicking this option, you can open the shared directory of Smart MOCA client. This contains Scripts, Variable Commands, Icons, etc.
+By selecting this option, you can open the shared directory of Smart MOCA client. This contains Scripts, Variable Commands, Icons, etc.
 
 ![SQLClientSharedDirectory](../.attachments/file-menu/SQLClientSharedDirectory.png)
 

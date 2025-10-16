@@ -1,6 +1,6 @@
 # Database Trace
 
-This section provides a step-by-step guide on how to generate and interpret a MOCA Trace. MOCA Trace is a powerful tool that allows developers and testers to understand the behavior of the system when a command is executed. It provides detailed, sequential logs which make it easier to identify issues, debug problems, and ensure system reliability.
+This section provides a step-by-step guide on how to generate and interpret a MOCA Trace. MOCA Trace is a powerful tool that allows developers and testers to understand the behavior of the system when a command is executed. It provides detailed, sequential logs which makes it easier to identify issues, debug problems, and ensure system reliability.
 
 There are three primary ways to generate and read the MOCA Trace:
 
