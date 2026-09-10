@@ -158,13 +158,13 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 2. Run the following command (update paths as needed):  
 
    ```bash
-   msiexec /i "mocaclient-setup.msi" /qn ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\SmartMocaClient" JAVA_PATH="C:\Path\To\Java" /L*V install.log
+   msiexec /i "mocaclient-setup.msi" /qn ACCEPT_EULA=1 AUTOUPDATE=YES INSTALLDIR="C:\SmartMocaClient" JAVA_PATH="C:\Program Files\Java\jdk-22\bin\javaw.exe" /L*V install.log
    ```
 
 
  
 
-  ![](../.attachments/image.png)
+  ![](../.attachments/image1.png)
 
 ---
 
@@ -174,11 +174,11 @@ Follow [Verify Installation](#verify-installation) to verify correct installatio
 
 
 ```powershell
-mocaclient202508984.exe /VERYSILENT /NORESTART /SUPPRESSMSGBOXES /SP-
+mocaclient202508984.exe /VERYSILENT /NORESTART /SUPPRESSMSGBOXES /SP- /DIR="D:\SmartMocaClient"
 
 ```
 ---
-
+ ![](../.attachments/exeinstall.png)
 
 
 ### Launch Smart MOCA Client
