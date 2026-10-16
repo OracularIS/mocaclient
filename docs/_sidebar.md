@@ -27,6 +27,7 @@
 - [Moca Log](./moca-log.md)
 - [File Browser](./file-browser.md)
 - [Issue Assignment](./issue-assignment.md)
+- [Smart Viu Management Console](./smartviu-management-console.md)
 - [Rollouts](./rollouts.md)
 - [Wizards](./wizards.md)
 - [MTF](./mtf_menu.md)
