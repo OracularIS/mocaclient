@@ -33,5 +33,6 @@
 - **Generate CTL from CSV**: Enter the table name and the number of primary key columns, choose a CSV file, and a dialog will pop up with the text needed.
 - **Parse Seamles Log**: Parse logs produced by Integrator.
 - **Parse SLExp**: Parse .slexp files (Integrator exports).
+- **SmartViu Management Console**: View and export SmartViu metadata (reports, custom columns and message catalog) from a MOCA environment as CSV files, to a local directory or to a server's load directory. For more details, see the [SmartViu Management Console documentation](https://oracularis.github.io/smartviu/#/./managementconsole).
 
 
