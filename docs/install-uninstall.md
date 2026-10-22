@@ -40,12 +40,16 @@ The EXE installer starts with a setup install mode selection.
 - **Run as User:** installs Smart MOCA Client for the current user only.
 - **Run as Administrator:** installs Smart MOCA Client for all users. Windows may show a UAC approval prompt.
 
+![EXE install mode selection](./.attachments/exe-install-mode-selection.png)
+
 ### MSI Installer
 
 The MSI installer shows a **Choose installation mode** page.
 
 - **Run as User (current user only):** installs in AppData without administrator privileges.
 - **Run as Administrator (all users):** installs in ProgramData and requires administrator approval.
+
+![MSI install mode selection](./.attachments/msi-install-mode-selection.png)
 
 If Smart MOCA Client is already installed in a different installation mode, uninstall the existing version before switching between user mode and administrator mode.
 
@@ -153,6 +157,8 @@ Do not confuse MSI `/a` with administrator installation. MSI `/a` creates an adm
 | --- | --- |
 | Keep my settings and saved data | Removes application files and shortcuts, but keeps configuration and user data for future installations. |
 | Remove everything | Removes the application, settings, registry entries, and Smart MOCA Client data folders. This cannot be undone. |
+
+![Uninstall keep settings or remove everything](./.attachments/uninstall-keep-or-remove.png)
 
 ## EXE Uninstall Commands
 
