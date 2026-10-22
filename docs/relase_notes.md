@@ -17,6 +17,7 @@
 - Added MSI and EXE uninstall commands, including complete EXE uninstall with saved data removal.
 - Added troubleshooting notes for install mode switching, UAC prompts, and uninstall command behavior.
 - Added separate CMD and PowerShell examples for silent install and uninstall commands.
+- Added install and uninstall screenshots for the new setup mode and uninstall choice screens.
 
 ## Smart MOCA Client Rename & Usability Updates
 
