@@ -4,6 +4,7 @@
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
   - [Current Version](./getting-started/getting-started-current.md)
+  - [Install, Uninstall, and Silent Setup](./install-uninstall.md)
   - [Legacy Version](./getting-started/getting-started-legacy.md)
 - [Connections](./connections.md)
   - [Add/Update/Remove Server](./connections/add-connect-remoteserver.md)

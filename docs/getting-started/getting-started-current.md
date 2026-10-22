@@ -269,6 +269,22 @@ start /wait "" "%APPDATA%\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSG
 | `unins000.exe` is missing | The application may have been installed by MSI. Use the MSI uninstall command instead. |
 | PowerShell treats `/x` or `/i` as an operator | Use Command Prompt, or use PowerShell's stop-parsing token with `msiexec.exe --%`. |
 
+## Install, Uninstall, and Silent Setup
+
+Smart MOCA Client has separate CMD and PowerShell command examples for silent install and uninstall.
+
+Open the full guide here:
+
+- [Install, Uninstall, and Silent Setup](../install-uninstall.md)
+
+The guide includes:
+
+- CMD and PowerShell syntax differences.
+- EXE silent install with `/CURRENTUSER` and `/ALLUSERS`.
+- MSI silent install with `ALLUSERS`, `MSIINSTALLPERUSER`, and `INSTALLMODE`.
+- EXE uninstall commands for current-user and all-users installs.
+- MSI uninstall commands with `REMOVE_USER_DATA=0` and `REMOVE_USER_DATA=1`.
+- PowerShell examples using `&`, `$env:TEMP`, and `msiexec.exe --%`.
 ### Launch Smart MOCA Client
    
 - Once installed, launch Smart MOCA Client by double-clicking on the desktop icon or searching for it in the start menu.
