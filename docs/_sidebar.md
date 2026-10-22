@@ -3,6 +3,7 @@
 - [Home](./readme.md)
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
+  - [Install, Uninstall, and Silent Setup](./install-uninstall.md)
   - [Current Version](./getting-started/getting-started-current.md)
   - [Legacy Version](./getting-started/getting-started-legacy.md)
 - [Connections](./connections.md)

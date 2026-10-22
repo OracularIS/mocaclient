@@ -5,6 +5,7 @@ This section will guide you through the initial steps to get you up and running 
 Follow the guide below to set up and begin using the Smart MOCA Client:
 
 - [Current Version](./getting-started/getting-started-current.md) — For the latest release of Smart MOCA Client.
+- [Install, Uninstall, and Silent Setup](./install-uninstall.md) - For install modes, ProgramData installation, silent installation, and uninstall commands.
 
 **Using the legacy version?**
 
