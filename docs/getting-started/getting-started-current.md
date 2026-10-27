@@ -151,6 +151,8 @@ Smart MOCA Client supports user-mode and administrator-mode installation for bot
 - PowerShell's `--%` stop-parsing token is only for PowerShell. Do not use `--%` in CMD.
 - Run silent all-users installation and uninstall from a terminal opened with **Run as administrator**. Silent flags do not grant administrator privileges or bypass UAC.
 - Use one installer format per installation. If Smart MOCA Client was installed by MSI, uninstall with MSI. If it was installed by EXE, uninstall with the EXE uninstaller.
+- EXE/Inno Setup commands use slash switches such as `/CURRENTUSER`, `/ALLUSERS`, and `/DIR=`.
+- MSI commands use Windows Installer public properties such as `ALLUSERS=1`, `INSTALLMODE=Machine`, and `ACCEPT_EULA=1`.
 
 ## Installers at a Glance
 
@@ -173,7 +175,7 @@ Smart MOCA Client supports user-mode and administrator-mode installation.
 
 The `Oracular MOCA Client` data folder follows the selected installation mode. User mode stores data under the current user's AppData location. Administrator mode stores shared data under ProgramData.
 
-### EXE Installer
+### EXE Installer (Inno Setup)
 
 The EXE installer starts with a setup install mode selection.
 
@@ -193,7 +195,7 @@ The MSI installer shows a **Choose installation mode** page.
 
 If Smart MOCA Client is already installed in a different installation mode, uninstall the existing version before switching between user mode and administrator mode.
 
-## EXE Silent Installation
+## EXE / Inno Silent Installation
 
 ### CMD - Current User
 
@@ -318,6 +320,13 @@ These properties apply only to MSI commands run through `msiexec.exe`. Do not us
 | `INSTALLDIR="path"` | MSI install | Sets a custom MSI installation folder. |
 | `JAVA_PATH="path"` | MSI install | Specifies the Java executable path. |
 | `REMOVE_USER_DATA=0` or `REMOVE_USER_DATA=1` | MSI uninstall | Keeps settings when `0`; requests complete deletion when `1`. |
+| `ALLUSERS=2 MSIINSTALLPERUSER=1 INSTALLMODE=User` | MSI install | Selects current-user installation mode. |
+| `ALLUSERS=1 INSTALLMODE=Machine` | MSI install | Selects all-users installation mode. Run elevated. |
+| `ACCEPT_EULA=1` | MSI install | Required for silent MSI installation. |
+| `AUTOUPDATE=YES` or `AUTOUPDATE=NO` | MSI install | Enables or disables automatic updates. |
+| `INSTALLDIR="path"` | MSI install | Sets a custom MSI installation folder. |
+| `JAVA_PATH="path"` | MSI install | Specifies the Java executable path. |
+| `REMOVE_USER_DATA=0` or `REMOVE_USER_DATA=1` | MSI uninstall | Keeps settings when `0`; requests complete deletion when `1`. |
 
 Do not confuse MSI `/a` with administrator installation. MSI `/a` creates an administrative installation image; it does not select Smart MOCA Client all-users mode.
 
@@ -330,7 +339,7 @@ Do not confuse MSI `/a` with administrator installation. MSI `/a` creates an adm
 
 ![Uninstall keep settings or remove everything](../.attachments/uninstall-keep-or-remove.png)
 
-## EXE Uninstall Commands
+## EXE / Inno Uninstall Commands
 
 Run the installed uninstaller, normally `unins000.exe`, from the actual application folder. There is no `/CURRENTUSER` or `/ALLUSERS` uninstall flag; Inno remembers the installation scope.
 
