@@ -11,12 +11,11 @@
 
 ### Highlights
 
-- Added updated installation mode documentation for Run as User and Run as Administrator.
-- Documented ProgramData installation behavior for administrator/all-users installs.
-- Replaced the older silent installation section with current MSI and EXE silent install commands.
-- Added MSI and EXE uninstall commands, including complete EXE uninstall with saved data removal.
-- Added troubleshooting notes for install mode switching, UAC prompts, and uninstall command behavior.
-- Added separate CMD and PowerShell examples for silent install and uninstall commands.
+- Split installer documentation into separate MSI installation, MSI uninstallation, EXE installation, and EXE uninstallation pages.
+- Documented current-user and all-users installation behavior for MSI and EXE installers.
+- Replaced the older mixed silent setup section with command-only MSI and EXE silent install and uninstall commands.
+- Added consolidated option/default tables for MSI and EXE installation and uninstallation.
+- Corrected EXE complete silent uninstall to use `/REMOVEALL`.
 - Added install and uninstall screenshots for the new setup mode and uninstall choice screens.
 
 ## Smart MOCA Client Rename & Usability Updates
