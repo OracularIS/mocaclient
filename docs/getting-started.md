@@ -5,6 +5,10 @@ This section will guide you through the initial steps to get you up and running 
 Follow the guide below to set up and begin using the Smart MOCA Client:
 
 - [Current Version](./getting-started/getting-started-current.md) - For the latest release of Smart MOCA Client.
+- [MSI Installation](./msi-installation.md)
+- [MSI Uninstallation](./msi-uninstallation.md)
+- [EXE Installation](./exe-installation.md)
+- [EXE Uninstallation](./exe-uninstallation.md)
 
 **Using the legacy version?**
 
