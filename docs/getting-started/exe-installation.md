@@ -102,5 +102,5 @@ Silent all-users installation with a custom folder:
 
 ## Related Pages
 
-- [EXE Uninstallation](./exe-uninstallation.md)
-- [MSI Installation](./msi-installation.md)
+- [EXE Uninstallation](#/./getting-started/exe-uninstallation)
+- [MSI Installation](#/./getting-started/msi-installation)

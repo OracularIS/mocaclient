@@ -84,5 +84,5 @@ Silent all-users uninstall and remove all saved data:
 
 ## Related Pages
 
-- [EXE Installation](./exe-installation.md)
-- [MSI Uninstallation](./msi-uninstallation.md)
+- [EXE Installation](#/./getting-started/exe-installation)
+- [MSI Uninstallation](#/./getting-started/msi-uninstallation)

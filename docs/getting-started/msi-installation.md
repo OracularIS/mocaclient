@@ -97,5 +97,5 @@ msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ALLUSERS=1 INSTALLMODE=Mach
 
 ## Related Pages
 
-- [MSI Uninstallation](./msi-uninstallation.md)
-- [EXE Installation](./exe-installation.md)
+- [MSI Uninstallation](#/./getting-started/msi-uninstallation)
+- [EXE Installation](#/./getting-started/exe-installation)

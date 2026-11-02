@@ -72,5 +72,5 @@ msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart REMOVE_US
 
 ## Related Pages
 
-- [MSI Installation](./msi-installation.md)
-- [EXE Uninstallation](./exe-uninstallation.md)
+- [MSI Installation](#/./getting-started/msi-installation)
+- [EXE Uninstallation](#/./getting-started/exe-uninstallation)
