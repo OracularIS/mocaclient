@@ -15,10 +15,10 @@ function Test-ExternalTarget {
     return $Target -match '^(https?:|mailto:|tel:)'
 }
 
-function Resolve-DocsifyTarget {
+function Resolve-FileTarget {
     param(
         [string]$Target,
-        [string]$CurrentDirectory
+        [string]$BaseDirectory
     )
 
     $clean = $Target.Trim()
@@ -26,24 +26,45 @@ function Resolve-DocsifyTarget {
         $clean = $clean.Substring(1, $clean.Length - 2)
     }
 
-    if ($clean -eq "" -or $clean.StartsWith("#") -and -not $clean.StartsWith("#/")) {
+    if ($clean -eq "" -or $clean.StartsWith("#")) {
         return $null
     }
 
-    $pathPart = $clean
-    $isDocsifyRoute = $pathPart.StartsWith("#/")
-    if ($isDocsifyRoute) {
-        $pathPart = $pathPart.Substring(2)
-    }
-
-    $pathPart = ($pathPart -split '[?#]')[0]
+    $pathPart = ($clean -split '[?#]')[0]
     $pathPart = [System.Uri]::UnescapeDataString($pathPart)
-    if ($pathPart -eq "" -or $pathPart -eq ".") {
+    if ($pathPart -eq "") {
         return $null
     }
 
     $pathPart = $pathPart -replace '\\', '/'
-    if ($isDocsifyRoute -and $pathPart.StartsWith("./")) {
+
+    if ($pathPart.StartsWith("/")) {
+        return Join-Path $rootPath $pathPart.TrimStart("/")
+    }
+
+    return Join-Path $BaseDirectory $pathPart
+}
+
+function Resolve-DocsifyLinkTarget {
+    param([string]$Target)
+
+    $clean = $Target.Trim()
+    if ($clean.StartsWith("<") -and $clean.EndsWith(">")) {
+        $clean = $clean.Substring(1, $clean.Length - 2)
+    }
+
+    if ($clean -eq "" -or $clean.StartsWith("#")) {
+        return $null
+    }
+
+    $pathPart = ($clean -split '[?#]')[0]
+    $pathPart = [System.Uri]::UnescapeDataString($pathPart)
+    if ($pathPart -eq "") {
+        return $null
+    }
+
+    $pathPart = $pathPart -replace '\\', '/'
+    if ($pathPart.StartsWith("./")) {
         $pathPart = $pathPart.Substring(2)
     }
 
@@ -55,11 +76,12 @@ function Resolve-DocsifyTarget {
         return Join-Path $rootPath $pathPart.TrimStart("/")
     }
 
-    if ($isDocsifyRoute) {
-        return Join-Path $rootPath $pathPart
-    }
+    return Join-Path $rootPath $pathPart
+}
 
-    return Join-Path $CurrentDirectory $pathPart
+function Test-UnsafeDocsifyHashRoute {
+    param([string]$Target)
+    return $Target -match '^#/' -or $Target -match '[?&]id=%2f' -or $Target -match '^\.\./'
 }
 
 foreach ($file in $markdownFiles) {
@@ -70,7 +92,7 @@ foreach ($file in $markdownFiles) {
         $imageCount++
         $target = $match.Groups[1].Value.Trim()
         if (Test-ExternalTarget $target) { continue }
-        $resolved = Resolve-DocsifyTarget -Target $target -CurrentDirectory $currentDirectory
+        $resolved = Resolve-FileTarget -Target $target -BaseDirectory $currentDirectory
         if ($null -eq $resolved) { continue }
         if (-not (Test-Path -LiteralPath $resolved)) {
             $errors.Add("Missing image in $($file.FullName): $target")
@@ -81,7 +103,11 @@ foreach ($file in $markdownFiles) {
         $linkCount++
         $target = $match.Groups[1].Value.Trim()
         if (Test-ExternalTarget $target) { continue }
-        $resolved = Resolve-DocsifyTarget -Target $target -CurrentDirectory $currentDirectory
+        if (Test-UnsafeDocsifyHashRoute $target) {
+            $errors.Add("Unsafe Docsify route in $($file.FullName): $target. Use a root .md link instead.")
+            continue
+        }
+        $resolved = Resolve-DocsifyLinkTarget -Target $target
         if ($null -eq $resolved) { continue }
         if (-not (Test-Path -LiteralPath $resolved)) {
             $errors.Add("Missing link target in $($file.FullName): $target")

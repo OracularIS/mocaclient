@@ -53,14 +53,14 @@ msiexec /i "setup.msi" /qn ACCEPT_EULA=1 AUTOUPDATE=YES JAVA_PATH="C:\path\to\ja
 
 ## Common Problems
 
-For silent install issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For silent install issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Install with the MSI installer](#/./getting-started/msi-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Install with the MSI installer](/getting-started/msi-installation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-After installation, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the installation and launch Smart MOCA Client.
+After installation, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md) to verify the installation and launch Smart MOCA Client.

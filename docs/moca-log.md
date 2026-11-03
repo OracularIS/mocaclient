@@ -10,7 +10,7 @@ The **MOCA Log** section in the Smart MOCA Client provides a set of tools for an
 
 **Database Tracing** is a powerful diagnostic feature that allows users to monitor and analyze database operations in real time. It helps in tracking SQL queries, identifying performance issues, and capturing detailed logs of database activity for troubleshooting and in-depth analysis.
 
-To learn more about Database Trace Console, follow [Database Trace Console](./devops.md#database-trace-console).
+To learn more about Database Trace Console, follow [Database Trace Console](/devops.md#database-trace-console).
 
 ## Show End of Trace
 The **Show End of Trace** function allows users to quickly view the tail end of a trace file.
