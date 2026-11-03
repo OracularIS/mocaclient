@@ -76,7 +76,7 @@ Use **Portable** only when you need to extract and run the package without using
 ## Verify Installation
 
 1. Open the installation folder chosen during setup.
-2. Confirm that the `SmartMOCAClient` folder exists.
+2. Confirm that the `smartmocaclient` folder exists.
 3. Confirm that Smart MOCA Client shortcuts are available from the Start Menu or desktop.
 
 ![Installed folders](../.attachments/run011.png)

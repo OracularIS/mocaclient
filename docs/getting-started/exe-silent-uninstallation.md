@@ -24,7 +24,7 @@ Use this page to uninstall Smart MOCA Client without the setup wizard.
 Default current-user silent uninstall:
 
 ```bat
-start /wait "" "%APPDATA%\SmartMocaClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
+start /wait "" "%APPDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
 ```
 
 ## Silent Uninstall (All Users Installation)
@@ -34,7 +34,7 @@ start /wait "" "%APPDATA%\SmartMocaClient\unins000.exe" /VERYSILENT /SUPPRESSMSG
 All users silent uninstall from an elevated Command Prompt:
 
 ```bat
-start /wait "" "C:\Program Files (x86)\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
+start /wait "" "%PROGRAMDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
 ```
 
 ## Command Options

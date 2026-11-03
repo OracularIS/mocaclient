@@ -22,8 +22,8 @@ Use this page for the normal interactive EXE installation. For unattended deploy
 
 | Mode | Default folder |
 | --- | --- |
-| Run as User | `%APPDATA%\SmartMocaClient` |
-| Run as Administrator | `C:\Program Files (x86)\SmartMOCAClient` |
+| Run as User | `%APPDATA%\smartmocaclient` |
+| Run as Administrator | `%PROGRAMDATA%\smartmocaclient` |
 
 ## Install Smart MOCA Client
 
