@@ -11,3 +11,47 @@ The following items were intentionally not published as facts in the client-faci
   - `.attachments/msi-install-mode.png`
   - `.attachments/uninstall-options.png`
   - `.attachments/msi-uninstall-options.png`
+
+## 404-pages Reference Port Review
+
+Branch reviewed: `origin/404-pages`
+
+Installer source check:
+
+- Searched this checkout and all local Git refs for Inno Setup and WiX source files, including `mocadev.iss`, `setupfix.wxs`, `*.iss`, `*.wxs`, `*.wxi`, and `*.wxl`.
+- No installer source files were present in this repository checkout or local refs, so custom installer behavior could not be verified from source.
+- Because the source files were not present, custom installer options from `404-pages` were not added as client-facing facts in the published documentation.
+
+Options and switches reviewed from `404-pages`:
+
+| Option or switch | Source check result | Published docs action |
+| --- | --- | --- |
+| `/CURRENTUSER` | Could not check | Not ported from `404-pages`. |
+| `/ALLUSERS` | Could not check | Not ported from `404-pages`. |
+| `/DIR="path"` | Could not check | Already present on `main`; not newly ported. |
+| `/TASKS="desktopicon,quicklaunchicon"` | Could not check | Not ported from `404-pages`. |
+| `/VERYSILENT` | Could not check | Already present on `main`; not newly ported. |
+| `/SUPPRESSMSGBOXES` | Could not check | Already present on `main`; not newly ported. |
+| `/NORESTART` | Could not check | Already present on `main`; not newly ported. |
+| `/SP-` | Could not check | Already present on `main`; not newly ported. |
+| `/LOG="path"` | Could not check | Already present on `main`; not newly ported. |
+| `ALLUSERS` | Could not check | Not ported from `404-pages`. |
+| `MSIINSTALLPERUSER` | Could not check | Not ported from `404-pages`. |
+| `INSTALLMODE` | Could not check | Not ported from `404-pages`. |
+| `INSTALLDIR` | Could not check | Not ported from `404-pages`. |
+| `ACCEPT_EULA` | Could not check | Already present on `main`; not newly ported. |
+| `AUTOUPDATE` | Could not check | Already present on `main`; not newly ported. |
+| `JAVA_PATH` | Could not check | Already present on `main`; not newly ported. |
+| `REMOVE_USER_DATA` | Could not check | Not ported from `404-pages`. |
+| `REMOVEALL` | Could not check | Not ported from `404-pages`. |
+| `/REMOVEALL` | Could not check | Not ported from `404-pages`. |
+| `/qn` | Could not check | Already present on `main`; not newly ported. |
+| `/qf` | Could not check | Already present on `main`; not newly ported. |
+| `/x` | Could not check | Already present on `main`; not newly ported. |
+| `/i` | Could not check | Already present on `main`; not newly ported. |
+| `/l*v` or `/L*V` | Could not check | Already present on `main`; not newly ported. |
+
+Recommended follow-up:
+
+- Verify the custom options against the installer project that contains the actual EXE and MSI definitions.
+- After confirmation, port only confirmed custom options into the matching silent install or uninstall pages.
