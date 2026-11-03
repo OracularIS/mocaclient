@@ -38,15 +38,15 @@ Use the portable package when you need to extract Smart MOCA Client without usin
 
 ## Common Problems
 
-For setup issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For setup issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Current Version: Overview and Download](#/./getting-started/getting-started-current)
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Install with the MSI installer](#/./getting-started/msi-installation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Current Version: Overview and Download](/getting-started/getting-started-current.md)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Install with the MSI installer](/getting-started/msi-installation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-After setup, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the setup, launch Smart MOCA Client, and add a server.
+After setup, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md) to verify the setup, launch Smart MOCA Client, and add a server.

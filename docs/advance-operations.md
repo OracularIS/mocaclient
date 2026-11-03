@@ -31,7 +31,7 @@ The File Browser in the Smart MOCA Client provides a comprehensive set of functi
 
     ![FileNavigation](./.attachments/filenavigation.png)
 
-To learn more about File browser, follow [File Browser](./file-browser.md).
+To learn more about File browser, follow [File Browser](/file-browser.md).
 
 ---
 
@@ -66,7 +66,7 @@ Below are three methods to open files:
 
     ![Search](./.attachments/find3.png)
 
-To learn more about Oracular Editor, follow [Edit server file](./file-browser.md#edit-server-files).
+To learn more about Oracular Editor, follow [Edit server file](/file-browser.md#edit-server-files).
 
 ## Database Tracing
 
@@ -83,7 +83,7 @@ Database Tracing helps you track SQL activity in real time, making it easier to 
 
     ![Moca Trace2](./.attachments/Trace%20Openbutton.png)
 
-To learn more about Tracing, follow [Database Trace](./database-trace.md).
+To learn more about Tracing, follow [Database Trace](/database-trace.md).
 
 ---
 

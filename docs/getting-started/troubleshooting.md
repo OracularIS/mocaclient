@@ -29,7 +29,7 @@ Use this page when installation, silent installation, or uninstallation does not
 **What to do:**
 
 1. Confirm whether Smart MOCA Client was installed with the EXE installer or MSI installer.
-2. If it was installed with MSI, use [Uninstall MSI](#/./getting-started/msi-uninstallation).
+2. If it was installed with MSI, use [Uninstall MSI](/getting-started/msi-uninstallation.md).
 3. If it was installed with EXE, ask IT to check antivirus, AppLocker, or other application control policies.
 
 ## Silent Uninstall Seems to Do Nothing
@@ -62,9 +62,9 @@ Add `&` before the quoted path when running an executable from PowerShell.
 
 ## Related Pages
 
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Silent install with EXE](#/./getting-started/exe-silent-installation)
-- [Uninstall EXE](#/./getting-started/exe-uninstallation)
-- [Install with the MSI installer](#/./getting-started/msi-installation)
-- [Silent install with MSI](#/./getting-started/msi-silent-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Uninstall EXE](/getting-started/exe-uninstallation.md)
+- [Install with the MSI installer](/getting-started/msi-installation.md)
+- [Silent install with MSI](/getting-started/msi-silent-installation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)

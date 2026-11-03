@@ -41,7 +41,7 @@ This document outlines these features and their functionalities.
 
 Database Tracing helps you track SQL activity in real time, making it easier to identify performance issues and troubleshoot database operations.
 
-To learn more about Tracing, follow [Database Trace](./database-trace.md)
+To learn more about Tracing, follow [Database Trace](/database-trace.md)
 
 ---
 
@@ -50,7 +50,7 @@ To learn more about Tracing, follow [Database Trace](./database-trace.md)
 ### Issue Assignment
 The **Issue Assignment** feature in Smart MOCA Client helps manage tasks and bugs by assigning them to team members, setting priorities, and tracking progress. It streamlines issue resolution and supports efficient project management across the development lifecycle.
 
-To learn more about Issue Assignment, follow [Issue Assignment](./issue-assignment.md)
+To learn more about Issue Assignment, follow [Issue Assignment](/issue-assignment.md)
 
 ---
 
@@ -59,7 +59,7 @@ To learn more about Issue Assignment, follow [Issue Assignment](./issue-assignme
 ### Rollout
 A **Rollout** in the Smart MOCA Client is a deployment package that bundles commands, files, tables, triggers, and configurations, enabling seamless delivery of updates or new features as part of a release.
 
-To learn more about Rollouts, follow [Rollout](./rollouts.md)
+To learn more about Rollouts, follow [Rollout](/rollouts.md)
 
 ---
 
@@ -67,7 +67,7 @@ To learn more about Rollouts, follow [Rollout](./rollouts.md)
 
 The Report Viewer in the Smart MOCA Client allows users to preview and validate reports for layout, data accuracy, and formatting before finalizing or sharing, ensuring error-free output.
 
-To learn more about Report Viewer, follow [Report Preview](./advance-operations.md#report-preview)
+To learn more about Report Viewer, follow [Report Preview](/advance-operations.md#report-preview)
 
 ---
 
@@ -75,7 +75,7 @@ To learn more about Report Viewer, follow [Report Preview](./advance-operations.
 
 The Print Label Operations feature in the Smart MOCA Client simplifies label generation by allowing users to define inputs, preview output, and ensure print accuracy—ideal for manufacturing, logistics, and inventory use.
 
-To learn more about Label Viewer, follow [Print Label Operations](./advance-operations.md#print-label-operations)
+To learn more about Label Viewer, follow [Print Label Operations](/advance-operations.md#print-label-operations)
 
 ## MOCA Command Tree
 

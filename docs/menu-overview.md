@@ -4,14 +4,14 @@ The menu in the MOCA Client application provides access to a wide range of funct
 
 ### Main Components
 
-- [File](./menu-overview/file.md)
-- [Edit](./menu-overview/edit.md)
-- [Tools](./menu-overview/tools.md)
-- [MTF](./menu-overview/mtf.md)
-- [Data](./menu-overview/data.md)
+- [File](/menu-overview/file.md)
+- [Edit](/menu-overview/edit.md)
+- [Tools](/menu-overview/tools.md)
+- [MTF](/menu-overview/mtf.md)
+- [Data](/menu-overview/data.md)
 - Display
 - Options
-- [Source Code](./menu-overview/msa.md)
+- [Source Code](/menu-overview/msa.md)
 - Moca Log
 - Scripts
 - Smart Connect

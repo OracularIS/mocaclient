@@ -53,7 +53,7 @@ Use **Portable** only when you need to extract and run the package without using
 
    ![EXE installer download option](../.attachments/NewWebPageExeInstaller.png)
 
-3. Follow [Install with the EXE installer](#/./getting-started/exe-installation).
+3. Follow [Install with the EXE installer](/getting-started/exe-installation.md).
 
 ### MSI Installer
 
@@ -62,7 +62,7 @@ Use **Portable** only when you need to extract and run the package without using
 
    ![MSI installer download option](../.attachments/NewWebPageMSIInstaller.png)
 
-3. Follow [Install with the MSI installer](#/./getting-started/msi-installation).
+3. Follow [Install with the MSI installer](/getting-started/msi-installation.md).
 
 ### Portable
 
@@ -71,7 +71,7 @@ Use **Portable** only when you need to extract and run the package without using
 
    ![Portable download option](../.attachments/NewWebPagePortableInstaller.png)
 
-3. Follow [Portable setup](#/./getting-started/portable).
+3. Follow [Portable setup](/getting-started/portable.md).
 
 ## Verify Installation
 
@@ -99,7 +99,7 @@ When the application starts, the Smart MOCA Client window appears.
 
 After launching Smart MOCA Client, add a server connection before downloading `moca.jar` or running MOCA commands.
 
-Follow [Add, update, or remove a server](../connections/add-connect-remoteserver.md).
+Follow [Add, update, or remove a server](/connections/add-connect-remoteserver.md).
 
 ## Download `moca.jar`
 
@@ -131,11 +131,11 @@ If you skipped the prompt during server connection, select **Tools > Download mo
 
 ## Related Pages
 
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Silent install with EXE](#/./getting-started/exe-silent-installation)
-- [Uninstall EXE](#/./getting-started/exe-uninstallation)
-- [Install with the MSI installer](#/./getting-started/msi-installation)
-- [Silent install with MSI](#/./getting-started/msi-silent-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
-- [Portable setup](#/./getting-started/portable)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Uninstall EXE](/getting-started/exe-uninstallation.md)
+- [Install with the MSI installer](/getting-started/msi-installation.md)
+- [Silent install with MSI](/getting-started/msi-silent-installation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)
+- [Portable setup](/getting-started/portable.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
