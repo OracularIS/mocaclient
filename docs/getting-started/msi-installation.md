@@ -29,14 +29,35 @@ Use this page for the normal interactive MSI installation. For unattended deploy
 
 ## Install Smart MOCA Client
 
-1. Open the folder that contains `setup.msi`.
-2. Double-click `setup.msi`.
-3. Choose **Run as User (recommended)** or **Run as Administrator**.
+1. On **Choose installation mode**, click **Next** to continue with **Run as User (current user only)** selected.
 
-   ![MSI install mode](../.attachments/msi-install-mode.png)
+   **Run as User** installs Smart MOCA Client for the current user only and needs no administrator rights. **Run as Administrator** installs for all users and Windows will ask for administrator approval (UAC).
 
-4. Follow the setup wizard.
-5. Select **Finish** when installation completes.
+   ![MSI installer installation mode screen with Run as User selected](../.attachments/msi-install-mode.png)
+
+2. On **Welcome to the Smart MOCA Client Setup Wizard**, click **Next**.
+
+   ![MSI installer welcome screen with Next button](../.attachments/MSIInstallation1.png)
+
+3. On **End-User License Agreement**, click **Next** after **I accept the terms in the License Agreement** is selected.
+
+   ![MSI installer license agreement screen with acceptance checkbox selected](../.attachments/MSIInstallation2.png)
+
+4. On **Custom Setup**, click **Next** to install the Smart MOCA Client files.
+
+   ![MSI installer custom setup screen showing Smart MOCA Client Files and Next button](../.attachments/MSIInstallation3.png)
+
+5. On **Ready to install Smart MOCA Client**, click **Install**.
+
+   ![MSI installer ready to install screen with Install button](../.attachments/MSIInstallation4.png)
+
+6. On **Installing Smart MOCA Client**, wait while the MSI installer installs Smart MOCA Client.
+
+   ![MSI installer progress screen showing validating install status](../.attachments/MSIInstallation5.png)
+
+7. On **Completed the Smart MOCA Client Setup Wizard**, click **Finish**.
+
+   ![MSI installer completion screen with Finish button](../.attachments/MSIInstallation6.png)
 
 ## What You Should See When It Worked
 

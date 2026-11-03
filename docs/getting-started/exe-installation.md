@@ -27,17 +27,39 @@ Use this page for the normal interactive EXE installation. For unattended deploy
 
 ## Install Smart MOCA Client
 
-1. Extract the downloaded installer package.
-2. Open the extracted folder.
-3. Double-click `setup.exe`.
-4. Choose **Run as User (recommended)** or **Run as Administrator**.
+1. On **Select Setup Install Mode**, click **Run as User (recommended)**.
 
-   ![EXE install mode](../.attachments/exe-install-mode.png)
+   **Run as User** installs Smart MOCA Client for the current user only and needs no administrator rights. **Run as Administrator** installs for all users and Windows will ask for administrator approval (UAC).
 
-5. Follow the setup wizard.
-6. Select **Finish** when installation completes.
+   ![EXE installer install mode selection screen with Run as User and Run as Administrator options](../.attachments/exe-install-mode-selection.png)
 
-> **Note:** If you choose **Run as Administrator**, setup restarts with elevated permissions. After that, continue through the same setup wizard.
+2. On **Third Party Licenses and agreements**, click **Next** after **I accept the terms** is selected.
+
+   ![EXE installer third party licenses screen with I accept the terms selected](../.attachments/dhl010.png)
+
+3. On **Select Destination Location**, click **Next** to use the folder shown.
+
+   ![EXE installer destination location screen with the installation folder and Next button](../.attachments/dhl011.png)
+
+4. On **Select Start Menu Folder**, click **Next** to use the Smart MOCA Client folder shown.
+
+   ![EXE installer Start Menu folder screen with Smart MOCA Client and Next button](../.attachments/dhl012.png)
+
+5. On **Select Additional Tasks**, click **Next** to create the selected shortcuts.
+
+   ![EXE installer additional tasks screen with desktop and Quick Launch shortcuts selected](../.attachments/dhl013.png)
+
+6. On **Ready to Install**, click **Install**.
+
+   ![EXE installer ready to install screen with destination, Start Menu folder, shortcuts, and Install button](../.attachments/dhl014.png)
+
+7. On **Installing**, wait while the EXE installer copies the files.
+
+   ![EXE installer progress screen showing Smart MOCA Client files being extracted](../.attachments/dhl015.png)
+
+8. On **Completing the Smart MOCA Client Setup Wizard**, click **Finish**.
+
+   ![EXE installer completion screen with Finish button](../.attachments/dhl006.png)
 
 ## What You Should See When It Worked
 
