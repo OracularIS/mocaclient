@@ -12,6 +12,24 @@ The following items were intentionally not published as facts in the client-faci
   - `.attachments/uninstall-options.png`
   - `.attachments/msi-uninstall-options.png`
 
+## Silent install/uninstall: needs confirmation
+
+Installer source files such as `mocadev.iss`, `setupfix.wxs`, `*.iss`, and `*.wxs` were not present in this repository checkout, so the following EXE installer details could not be confirmed from source.
+
+| Option or behavior | What I assumed | What must be tested |
+| --- | --- | --- |
+| `PrivilegesRequiredOverridesAllowed=commandline` | Not published as confirmed. | Confirm whether the EXE installer enables command-line privilege overrides. |
+| `/ALLUSERS` | Not published. | Confirm whether it installs for all users when used with the EXE installer. |
+| `/CURRENTUSER` | Not published. | Confirm whether it installs for the current user when used with the EXE installer. |
+| Silent uninstall data-removal default | Not published as confirmed. | Confirm whether silent uninstall keeps settings or removes everything by default. |
+| Silent uninstall remove-everything switch | Not published. | Confirm whether the EXE uninstaller supports a silent switch for removing all saved data. |
+| `/VERYSILENT` | Used because it was already documented for the EXE installer. | Confirm against the installer project. |
+| `/SUPPRESSMSGBOXES` | Used because it was already documented for the EXE installer. | Confirm against the installer project. |
+| `/NORESTART` | Used because it was already documented for the EXE installer. | Confirm against the installer project. |
+| `/SP-` | Used because it was already documented for `setup.exe`. | Confirm against the installer project. |
+| `/DIR` | Used because it was already documented for the EXE installer. | Confirm against the installer project. |
+| `/LOG` | Used because it was already documented for the EXE installer and uninstaller. | Confirm against the installer project. |
+
 ## 404-pages Reference Port Review
 
 Branch reviewed: `origin/404-pages`

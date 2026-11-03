@@ -8,6 +8,7 @@
   - Installation: EXE
     - [Install with EXE](./getting-started/exe-installation.md)
     - [Silent Install](./getting-started/exe-silent-installation.md)
+    - [Silent Uninstall](./getting-started/exe-silent-uninstallation.md)
     - [Uninstall EXE](./getting-started/exe-uninstallation.md)
   - Installation: MSI
     - [Install with MSI](./getting-started/msi-installation.md)

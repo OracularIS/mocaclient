@@ -8,7 +8,7 @@
 > | Administrator rights | Not needed for **Run as User**. Needed for **Run as Administrator**. |
 > | Time needed | About 5 minutes |
 
-Use this page for the normal interactive EXE installation. For unattended deployment, use [Silent install with EXE](#/./getting-started/exe-silent-installation).
+Use this page for the normal interactive EXE installation. For unattended deployment, use [Silent install with EXE](/getting-started/exe-silent-installation.md).
 
 ## Before You Begin
 
@@ -69,15 +69,16 @@ Use this page for the normal interactive EXE installation. For unattended deploy
 
 ## Common Problems
 
-For installation issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For installation issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Silent install with EXE](#/./getting-started/exe-silent-installation)
-- [Uninstall EXE](#/./getting-started/exe-uninstallation)
-- [Portable setup](#/./getting-started/portable)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Silent uninstall with EXE](/getting-started/exe-silent-uninstallation.md)
+- [Uninstall EXE](/getting-started/exe-uninstallation.md)
+- [Portable setup](/getting-started/portable.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-After installation, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the installation, launch Smart MOCA Client, and add a server.
+After installation, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md) to verify the installation, launch Smart MOCA Client, and add a server.
