@@ -23,11 +23,39 @@ msiexec.exe /i "mocaclient-setup.msi"
 
 This opens the MSI wizard. The default mode is **Run as User**, which installs Smart MOCA Client for the current user.
 
+1. On **Choose installation mode**, click **Next** to continue with **Run as User (current user only)** selected.
+
+   **Run as User** installs Smart MOCA Client for the current user only and does not need administrator rights. **Run as Administrator** installs for all users, and Windows will ask for administrator approval.
+
+   ![MSI installer installation mode screen with Run as User selected](../.attachments/msi-install-mode-selection.png)
+
+2. On **Welcome to the Smart MOCA Client Setup Wizard**, click **Next**.
+
+   ![MSI installer welcome screen with Next button](../.attachments/MSIInstallation1.png)
+
+3. On **End-User License Agreement**, click **Next** after **I accept the terms in the License Agreement** is selected.
+
+   ![MSI installer license agreement screen with acceptance checkbox selected](../.attachments/MSIInstallation2.png)
+
+4. On **Custom Setup**, click **Next** to install the Smart MOCA Client files.
+
+   ![MSI installer custom setup screen showing Smart MOCA Client Files and Next button](../.attachments/MSIInstallation3.png)
+
+5. On **Ready to install Smart MOCA Client**, click **Install**.
+
+   ![MSI installer ready to install screen with Install button](../.attachments/MSIInstallation4.png)
+
+6. On **Installing Smart MOCA Client**, wait while the setup wizard installs Smart MOCA Client.
+
+   ![MSI installer progress screen showing validating install status](../.attachments/MSIInstallation5.png)
+
+7. On **Completed the Smart MOCA Client Setup Wizard**, click **Finish**.
+
+   ![MSI installer completion screen with Finish button](../.attachments/MSIInstallation6.png)
+
 ### Custom Installation
 
 To install for all users, select **Run as Administrator (all users)** in the wizard. Windows requests administrator approval when installation starts.
-
-![MSI install mode selection](../.attachments/msi-install-mode-selection.png)
 
 Use a custom installation directory only when you need Smart MOCA Client installed outside the default folder.
 
