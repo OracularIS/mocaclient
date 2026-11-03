@@ -74,6 +74,7 @@ For installation issues, see [Troubleshooting](/getting-started/troubleshooting.
 ## Related Pages
 
 - [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Silent uninstall with EXE](/getting-started/exe-silent-uninstallation.md)
 - [Uninstall EXE](/getting-started/exe-uninstallation.md)
 - [Portable setup](/getting-started/portable.md)
 - [Troubleshooting](/getting-started/troubleshooting.md)
