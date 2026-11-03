@@ -8,7 +8,7 @@
 > | Administrator rights | Needed if Smart MOCA Client was installed with **Run as Administrator** |
 > | Time needed | About 5 minutes |
 
-Use this page only when Smart MOCA Client was installed with the EXE installer. If it was installed with MSI, use [Uninstall MSI](#/./getting-started/msi-uninstallation).
+Use this page only when Smart MOCA Client was installed with the EXE installer. If it was installed with MSI, use [Uninstall MSI](/getting-started/msi-uninstallation.md).
 
 ## Before You Begin
 
@@ -30,31 +30,23 @@ Use this page only when Smart MOCA Client was installed with the EXE installer. 
 3. Select **Uninstall**.
 4. Wait for the uninstall to finish.
 
-## Silent Uninstall
-
-Use `start /wait` because the EXE uninstaller restarts itself:
-
-```bat
-start /wait "" "<install folder>\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_uninstall.log"
-```
-
 ## What You Should See When It Worked
 
 - Smart MOCA Client shortcuts are removed.
 - The application files are removed.
-- The uninstall log is created when you use the silent command.
 
 ## Common Problems
 
-For uninstall issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For uninstall issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Silent install with EXE](#/./getting-started/exe-silent-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Silent uninstall with EXE](/getting-started/exe-silent-uninstallation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-If you plan to reinstall, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current).
+If you plan to reinstall, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md).
