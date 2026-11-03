@@ -1,76 +1,66 @@
-# MSI Uninstallation
+# Uninstall MSI
 
-## Overview
+> **At a glance**
+>
+> | Item | Details |
+> | --- | --- |
+> | Applies to | Installations created by the MSI installer |
+> | Administrator rights | Needed if Smart MOCA Client was installed with **Run as Administrator** |
+> | Time needed | About 5 minutes |
 
-Use MSI uninstallation only for Smart MOCA Client installations that were installed with the MSI installer.
+Use this page only when Smart MOCA Client was installed with the MSI installer. If it was installed with EXE, use [Uninstall EXE](#/./getting-started/exe-uninstallation).
 
-The MSI product code is `{2DC3A291-5F00-4794-8955-BF3E6F8A7956}`.
+## Before You Begin
 
-## Prerequisites
+- Close Smart MOCA Client.
+- Back up anything you cannot afford to lose.
+- Decide whether to keep saved settings or remove everything.
 
-- Use the same Windows account for a current-user installation.
-- Use administrator rights for an all-users installation.
-- Back up saved data before choosing complete removal.
+> **Warning:** **Remove everything** permanently deletes settings and Oracular MOCA Client data, including saved scripts and history. This cannot be undone.
 
-## Uninstallation
+## Uninstall Smart MOCA Client
 
-### Default Uninstallation
+1. Open **Apps & features**, or run the MSI uninstall command with UI.
+2. Choose one uninstall option:
+   - **Keep my settings and saved data (recommended):** removes the application folder except the `config` folder and removes shortcuts. It does not touch the `Oracular MOCA Client` folder.
+   - **Remove everything:** removes the application, settings, registry entries, and all Oracular MOCA Client data.
 
-```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}"
-```
+   ![MSI uninstall options](../.attachments/msi-uninstall-options.png)
 
-The wizard asks whether to keep settings and saved data or remove everything.
+3. Select **Uninstall**.
+4. Wait for the uninstall to finish.
 
-![Uninstall keep settings or remove everything](../.attachments/uninstall-keep-or-remove.png)
+## Uninstall Commands
 
-### Silent Uninstallation
-
-```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart
-```
-
-This silently removes application files and shortcuts, while keeping configuration and Oracular MOCA Client data.
-
-Silently remove everything:
-
-```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart REMOVE_USER_DATA=1
-```
-
-Create a verbose uninstallation log:
+Run silent MSI uninstall:
 
 ```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart /L*V "%TEMP%\smc-msi-uninstall.log"
+msiexec /x {2DC3A291-5F00-4794-8955-BF3E6F8A7956} /qn /l*v "%TEMP%\smc_uninstall.log"
 ```
 
-## Uninstallation Options
-
-| Option | Default | Description |
-| --- | --- | --- |
-| `REMOVE_USER_DATA` | `0` | Controls cleanup during MSI uninstall. `0` keeps settings and saved data. `1` removes application files, settings, Oracular MOCA Client data, and Oracular Automated Testing data. |
-| `REMOVEALL` | Not set | Optional alias for complete cleanup. Use `REMOVEALL=1` only when you want the same result as `REMOVE_USER_DATA=1`. |
-| `/qn` | Not used | Runs without installer UI. |
-| `/norestart` | Not used | Prevents automatic restart. |
-| `/L*V "path"` | Not used | Writes a verbose Windows Installer log file. |
-
-Do not pass installation-only properties such as `ACCEPT_EULA`, `AUTOUPDATE`, `INSTALLDIR`, or `JAVA_PATH` during uninstall.
-
-## Examples
-
-Silent uninstall and keep saved data:
+Run MSI uninstall with full UI:
 
 ```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart REMOVE_USER_DATA=0
+msiexec /x {2DC3A291-5F00-4794-8955-BF3E6F8A7956} /qf /norestart /l*v "%TEMP%\uninstall-full.log"
 ```
 
-Silent uninstall and remove all saved data:
+## What You Should See When It Worked
 
-```bat
-msiexec.exe /x "{2DC3A291-5F00-4794-8955-BF3E6F8A7956}" /qn /norestart REMOVE_USER_DATA=1
-```
+- Smart MOCA Client shortcuts are removed.
+- The application files are removed.
+- The uninstall log is created when you use one of the command-line options.
+
+## Common Problems
+
+For uninstall issues, see [Troubleshooting](#/./getting-started/troubleshooting).
 
 ## Related Pages
 
-- [MSI Installation](#/./getting-started/msi-installation)
-- [EXE Uninstallation](#/./getting-started/exe-uninstallation)
+- [Install with the MSI installer](#/./getting-started/msi-installation)
+- [Silent install with MSI](#/./getting-started/msi-silent-installation)
+- [Uninstall EXE](#/./getting-started/exe-uninstallation)
+- [Troubleshooting](#/./getting-started/troubleshooting)
+
+## Next Steps
+
+If you plan to reinstall, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current).

@@ -1,101 +1,60 @@
-# MSI Installation
+# Install with the MSI Installer
 
-## Overview
+> **At a glance**
+>
+> | Item | Details |
+> | --- | --- |
+> | Applies to | MSI installer |
+> | Administrator rights | Not needed for **Run as User**. Needed for **Run as Administrator**. |
+> | Time needed | About 5 minutes |
 
-Use the MSI installer when you need Windows Installer deployment, managed installation properties, or enterprise software distribution.
+Use this page for the normal interactive MSI installation. For unattended deployment, use [Silent install with MSI](#/./getting-started/msi-silent-installation).
 
-The MSI installer supports current-user and all-users installation modes. Do not install the MSI version over an EXE installation; uninstall the EXE version first.
+## Before You Begin
 
-## Prerequisites
+- Download the MSI installer package.
+- Close any running Smart MOCA Client windows.
+- Choose the installation mode:
+  - **Run as User (recommended):** installs for the current user only. No administrator privileges are needed.
+  - **Run as Administrator:** installs for all users. Windows asks for administrator approval.
 
-- Windows 7 or later.
-- Java 8 or newer.
-- The `mocaclient-setup.msi` installer.
-- Administrator rights only when installing for all users.
+> **Note:** The MSI installer will not install again if Smart MOCA Client is already installed. It tells you at the start.
 
-## Installation
+## Default Installation Folders
 
-### Default Installation
+| Mode | Default folder |
+| --- | --- |
+| Run as User | `%APPDATA%\SmartMocaClient` |
+| Run as Administrator | `C:\Program Files (x86)\SmartMOCAClient` |
 
-```bat
-msiexec.exe /i "mocaclient-setup.msi"
-```
+## Install Smart MOCA Client
 
-This opens the MSI wizard. The default mode is **Run as User**, which installs Smart MOCA Client for the current user.
+1. Open the folder that contains `setup.msi`.
+2. Double-click `setup.msi`.
+3. Choose **Run as User (recommended)** or **Run as Administrator**.
 
-### Custom Installation
+   ![MSI install mode](../.attachments/msi-install-mode.png)
 
-To install for all users, select **Run as Administrator (all users)** in the wizard. Windows requests administrator approval when installation starts.
+4. Follow the setup wizard.
+5. Select **Finish** when installation completes.
 
-![MSI install mode selection](../.attachments/msi-install-mode-selection.png)
+## What You Should See When It Worked
 
-Use a custom installation directory only when you need Smart MOCA Client installed outside the default folder.
+- Smart MOCA Client is installed in the selected installation folder.
+- Smart MOCA Client shortcuts are available from the Start Menu or desktop.
+- Smart MOCA Client opens from the shortcut.
 
-```bat
-msiexec.exe /i "mocaclient-setup.msi" INSTALLDIR="D:\SmartMOCAClient"
-```
+## Common Problems
 
-### Silent Installation
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ACCEPT_EULA=1
-```
-
-This installs silently with the MSI defaults: current-user mode, automatic updates enabled, and the default current-user installation folder.
-
-Install silently for all users:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ALLUSERS=1 INSTALLMODE=Machine ACCEPT_EULA=1
-```
-
-Install silently with a custom folder:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ACCEPT_EULA=1 INSTALLDIR="D:\SmartMOCAClient"
-```
-
-Install silently with a specific Java executable:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ACCEPT_EULA=1 JAVA_PATH="C:\Program Files\Java\jdk-22\bin\javaw.exe"
-```
-
-Create a verbose installation log:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ACCEPT_EULA=1 /L*V "%TEMP%\smc-msi-install.log"
-```
-
-## Installation Options
-
-| Option | Default | Description |
-| --- | --- | --- |
-| `ALLUSERS` | `2` | Windows Installer installation context. With `MSIINSTALLPERUSER=1`, this selects current-user mode. Use `ALLUSERS=1` for all-users mode. |
-| `MSIINSTALLPERUSER` | `1` | Enables per-user MSI installation. Use with `ALLUSERS=2` for current-user mode. |
-| `INSTALLMODE` | `User` | Smart MOCA Client installation mode. Use `User` for current-user mode or `Machine` for all-users mode. |
-| `INSTALLDIR` | `%APPDATA%\SmartMOCAClient` for current-user mode; `%PROGRAMDATA%\SmartMOCAClient` for all-users mode. A saved install path is reused when present. | Installation directory for Smart MOCA Client application files. |
-| Oracular MOCA Client data folder | Resolved interactive user's `%APPDATA%\Oracular MOCA Client`. | Saved Smart MOCA Client data. This is not changed by `INSTALLDIR`. |
-| Oracular Automated Testing data folder | Resolved interactive user's `%APPDATA%\Oracular Automated Testing`. | Automated testing data used by Smart MOCA Client. This is not changed by `INSTALLDIR`. |
-| `ACCEPT_EULA` | Not set | Required for silent MSI installation. Use `ACCEPT_EULA=1`. |
-| `AUTOUPDATE` | `YES` in current-user mode; `NO` in all-users mode. | Controls the generated Smart MOCA Client update check setting. Use `YES` or `NO`. |
-| `JAVA_PATH` | Auto-detected Java 8 or newer `javaw.exe`; a saved value is reused when present. | Java executable used by installed shortcuts. The folder must also contain `java.exe`. |
-
-## Examples
-
-Current-user installation with explicit defaults:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ALLUSERS=2 MSIINSTALLPERUSER=1 INSTALLMODE=User ACCEPT_EULA=1 AUTOUPDATE=YES
-```
-
-All-users installation with custom folder, Java path, and automatic updates disabled:
-
-```bat
-msiexec.exe /i "mocaclient-setup.msi" /qn /norestart ALLUSERS=1 INSTALLMODE=Machine ACCEPT_EULA=1 AUTOUPDATE=NO INSTALLDIR="D:\SmartMOCAClient" JAVA_PATH="C:\Program Files\Java\jdk-22\bin\javaw.exe"
-```
+For installation issues, see [Troubleshooting](#/./getting-started/troubleshooting).
 
 ## Related Pages
 
-- [MSI Uninstallation](#/./getting-started/msi-uninstallation)
-- [EXE Installation](#/./getting-started/exe-installation)
+- [Silent install with MSI](#/./getting-started/msi-silent-installation)
+- [Uninstall MSI](#/./getting-started/msi-uninstallation)
+- [Install with the EXE installer](#/./getting-started/exe-installation)
+- [Troubleshooting](#/./getting-started/troubleshooting)
+
+## Next Steps
+
+After installation, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the installation, launch Smart MOCA Client, and add a server.

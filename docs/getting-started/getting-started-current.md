@@ -1,158 +1,141 @@
-# Get Started with Smart MOCA Client - Current
+# Current Version: Overview and Download
 
-Guide for connecting to a server using the latest MOCA Client interface.
+Smart MOCA Client is a Windows desktop client for connecting to MOCA environments, managing server connections, and working with MOCA tools.
+
+Use this page to download the current version, choose the right installer, verify the installation, launch Smart MOCA Client, add a server, and download `moca.jar`.
+
+## System Requirements
+
+| Requirement | Minimum |
+| --- | --- |
+| Operating system | Windows 7 or later |
+| Processor | Intel Core i3 or equivalent |
+| Memory | 4 GB RAM |
+| Storage | 500 MB available space |
+| Java | Java SE 8 or later |
 
 ## Download Smart MOCA Client
-       
-- Visit the [Smart IS](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/) website and navigate to **Our Products > MOCA Client.**
-       
-  ![Start In](../.attachments/NewWebPage.png)
 
-- Click the **Download Now** button and complete the form that appears with your information to download the latest version of the installer.
+1. Open the [Smart IS MOCA Client page](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/).
 
-  ![Install1](../.attachments/NewWebPage2.png)
+   ![Smart IS MOCA Client product page](../.attachments/NewWebPage.png)
 
-- After filling out the form, you will receive an email with a link to the download page.
+2. Select **Download Now** and complete the download request form.
 
-  ![Install2](../.attachments/NewWebPage3.png)
+   ![Download form](../.attachments/NewWebPage2.png)
 
-- Now open an email you received from Smart IS and Select the **Download MOCA Client** link provided in the email to navigate to the download page.
+3. Open the email from Smart IS and select **Download MOCA Client**.
 
-  ![](../.attachments/run027.png)
+   ![Download email link](../.attachments/run027.png)
+
+## Which Installer Should I Choose?
+
+For most users, choose the **EXE installer**. It is the simplest option for a normal desktop installation.
+
+Use the **MSI installer** when your IT team deploys software with Windows Installer tools or needs MSI command-line options.
+
+Use **Portable** only when you need to extract and run the package without using a standard installer.
+
+| Option | Best for | Administrator rights | Silent install |
+| --- | --- | --- | --- |
+| EXE installer | Individual users and normal desktop setup | Not needed for **Run as User**. Needed for **Run as Administrator**. | Yes |
+| MSI installer | IT-managed deployment | Not needed for **Run as User**. Needed for **Run as Administrator**. | Yes |
+| Portable | Extract-and-run use cases | Depends on where files are extracted | No standard installer command |
+
+> **Note:** Use one installer type per computer. If Smart MOCA Client was installed with the EXE installer, uninstall it with the EXE uninstaller. If it was installed with the MSI installer, uninstall it with MSI.
 
 ## Download Options
-  
-The download page provides these options:
 
-1. EXE Installer
-2. Portable
-3. MSI Installer
+### EXE Installer
 
-Use one installer format for each installation. If Smart MOCA Client was installed with the EXE installer, uninstall it with the EXE uninstaller. If it was installed with the MSI installer, uninstall it with MSI.
+1. On the download page, select **Installer**.
+2. Select **Download**.
 
-## EXE Installer
-  
-- On the download page, select **Installer** and click on **Download** button.
+   ![EXE installer download option](../.attachments/NewWebPageExeInstaller.png)
 
-  ![Install3](../.attachments/NewWebPageExeInstaller.png)
+3. Follow [Install with the EXE installer](#/./getting-started/exe-installation).
 
-- After clicking **"Download"**, the installation setup will begin downloading.
+### MSI Installer
 
-  ![Install4](../.attachments/NewWebPageExeDownloaded.png)
+1. On the download page, select **MSI Installer**.
+2. Select **Download**.
 
-- Follow [EXE Installation](./exe-installation.md) to install Smart MOCA Client with the EXE installer.
-- Follow [EXE Uninstallation](./exe-uninstallation.md) to remove an EXE installation.
+   ![MSI installer download option](../.attachments/NewWebPageMSIInstaller.png)
 
----
+3. Follow [Install with the MSI installer](#/./getting-started/msi-installation).
 
-## Portable
+### Portable
 
-- On the download page, select **Portable** and click on **Download** button.
+1. On the download page, select **Portable**.
+2. Select **Download**.
 
-  ![Install5](../.attachments/NewWebPagePortableInstaller.png)
+   ![Portable download option](../.attachments/NewWebPagePortableInstaller.png)
 
-- After clicking **"Download"**, the portable setup will begin downloading.
-  
-  ![Install6](../.attachments/NewWebPageportableDownloaded.png)
-
-### Run the Portable
-
-- Unzip the downloaded zip folder (mocaclient-portable<**version**>.zip) and open it.
-   
-  ![](../.attachments/run023.png)
-
-- Now double click on Run Setup and it will Download **Smart MOCA Client** using PowerShell.
-
-  ![](../.attachments/run024.png)
-  ![](../.attachments/run025.png)
-
-### Verify Portable Installation
-
-Follow [Verify Installation](#verify-installation) to verify correct installation of Smart MOCA Client.
-
----
-
-## MSI Installer
-  
-- On the download page, select **MSI Installer** and click on **Download** button.
-
-  ![Install3](../.attachments/NewWebPageMSIInstaller.png)
-
-- After clicking **"Download"**, the MSI setup will begin downloading.
-
-  ![Install4](../.attachments/NewWebPageMSIDownloaded.png)
-
-- Follow [MSI Installation](./msi-installation.md) to install Smart MOCA Client with the MSI installer.
-- Follow [MSI Uninstallation](./msi-uninstallation.md) to remove an MSI installation.
+3. Follow [Portable setup](#/./getting-started/portable).
 
 ## Verify Installation
 
-- The folder named `Oracular MOCA Client` and `SmartMOCAClient` should be created at the following path:
+1. Open the installation folder chosen during setup.
+2. Confirm that the `SmartMOCAClient` folder exists.
+3. Confirm that Smart MOCA Client shortcuts are available from the Start Menu or desktop.
 
-  ![](../.attachments/run011.png)
-  ![](../.attachments/run012.png)
+![Installed folders](../.attachments/run011.png)
 
-- Once installation is complete, you can verify it by checking the designated installation directory.
-
----
+> **Tip:** If shortcuts are not created, open the application from the installation folder or ask your IT administrator to recreate the shortcut.
 
 ## Launch Smart MOCA Client
-   
-- Once installed, launch Smart MOCA Client by double-clicking on the desktop icon or searching for it in the start menu.
 
-  ![](../.attachments/run013.png)
+1. Open the Windows Start Menu.
+2. Search for **Smart MOCA Client**.
+3. Select **Smart MOCA Client**.
 
-  <mark>**Note:** In case shortcuts are not created, the following shortcut can be used to launch Smart MOCA Client.</mark>
+![Smart MOCA Client shortcut](../.attachments/run013.png)
 
-  ![](../.attachments/run026.png)
+When the application starts, the Smart MOCA Client window appears.
 
-- Once the application starts, you will see the following interface:
+![Smart MOCA Client main window](../.attachments/run014.png)
 
-  ![](../.attachments/run014.png)
+## Add a Server
 
-Note: *Follow [Password Security](../connections/secure-server-connections.md) for details about the **Security** popup*.
+After launching Smart MOCA Client, add a server connection before downloading `moca.jar` or running MOCA commands.
 
-
-## Add Server
-
-Follow [Add/Update/Remove Server](../connections/add-connect-remoteserver.md) to add server in Smart MOCA Client.
-
+Follow [Add, update, or remove a server](../connections/add-connect-remoteserver.md).
 
 ## Download `moca.jar`
 
-Following are the methods to download `moca.jar` in Smart MOCA Client:
+Smart MOCA Client can download `moca.jar` after you connect to a server.
 
-1. Download upon Server Connection
-2. Download via Tools Menu
+### Download During First Server Connection
 
+1. Connect to a server.
+2. When Smart MOCA Client detects that `moca.jar` is missing, select **Download and Use the moca.jar from this environment**.
 
-### Download upon Server Connection
+   ![Download moca.jar prompt](../.attachments/run015.png)
 
-- Upon the first server connection, the Smart MOCA Client detects the absence of `moca.jar` and following popup appears:
+3. Wait for the download to finish.
 
-  ![](../.attachments/run015.png)
+   ![moca.jar download progress](../.attachments/run016.png)
 
-- Click on the **Download and Use the `moca.jar` from this environment** button and the system will begin downloading the moca.pending_jar file .
+4. Restart Smart MOCA Client.
+5. Confirm the application is using `moca.jar` from **Help > About Smart MOCA and SQL Client**.
 
-  ![](../.attachments/run016.png)
-  ![](../.attachments/run017.png)
+   ![Verify moca.jar](../.attachments/run019.png)
 
-- Navigate to the directory and ensure that the **moca.pending_jar** file has been successfully downloaded.
+### Download from the Tools Menu
 
-  ![](../.attachments/run018.png)
+If you skipped the prompt during server connection, select **Tools > Download moca.jar**.
 
-- Now click on **OK** button and **restart** Smart MOCA Client. The system will automatically rename **moca.pending_jar** to **moca.jar** and will use `moca.jar` instead of labelzoom.jar.
+![Download moca.jar from Tools menu](../.attachments/run021.png)
 
-  ![](../.attachments/run020.png)
+> **Note:** `moca.jar` must be compatible with the Java version used by Smart MOCA Client.
 
-- Finally, verify the usage of `moca.jar` by navigating **Help --> About Smart MOCA and SQL Client**.
+## Related Pages
 
-  ![](../.attachments/run019.png)
-
-### Download via Tools Menu
-
-- If you have skipped [Download upon Server Connection](#download-upon-server-connection), then you can download the `moca.jar` later by navigating to **Tools --> Download moca.jar**.
-
-  ![](../.attachments/run021.png)
-
-<mark>**Note:** *moca.jar should be compatible with current java version.*</mark>
+- [Install with the EXE installer](#/./getting-started/exe-installation)
+- [Silent install with EXE](#/./getting-started/exe-silent-installation)
+- [Uninstall EXE](#/./getting-started/exe-uninstallation)
+- [Install with the MSI installer](#/./getting-started/msi-installation)
+- [Silent install with MSI](#/./getting-started/msi-silent-installation)
+- [Uninstall MSI](#/./getting-started/msi-uninstallation)
+- [Portable setup](#/./getting-started/portable)
+- [Troubleshooting](#/./getting-started/troubleshooting)
