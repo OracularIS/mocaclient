@@ -51,14 +51,14 @@ setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR="C:\path" /LOG="%TE
 
 ## Common Problems
 
-For silent install issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For silent install issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Uninstall EXE](#/./getting-started/exe-uninstallation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Uninstall EXE](/getting-started/exe-uninstallation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-After installation, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the installation and launch Smart MOCA Client.
+After installation, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md) to verify the installation and launch Smart MOCA Client.

@@ -8,7 +8,7 @@
 > | Administrator rights | Not needed for **Run as User**. Needed for **Run as Administrator**. |
 > | Time needed | About 5 minutes |
 
-Use this page for the normal interactive MSI installation. For unattended deployment, use [Silent install with MSI](#/./getting-started/msi-silent-installation).
+Use this page for the normal interactive MSI installation. For unattended deployment, use [Silent install with MSI](/getting-started/msi-silent-installation.md).
 
 ## Before You Begin
 
@@ -46,15 +46,15 @@ Use this page for the normal interactive MSI installation. For unattended deploy
 
 ## Common Problems
 
-For installation issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For installation issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Silent install with MSI](#/./getting-started/msi-silent-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Silent install with MSI](/getting-started/msi-silent-installation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-After installation, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current) to verify the installation, launch Smart MOCA Client, and add a server.
+After installation, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md) to verify the installation, launch Smart MOCA Client, and add a server.

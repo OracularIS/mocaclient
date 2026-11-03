@@ -2,4 +2,4 @@
 
 To connect to a server, first add the server information in Smart MOCA Client.
 
-Follow [Add, update, or remove a server](./add-connect-remoteserver.md).
+Follow [Add, update, or remove a server](/connections/add-connect-remoteserver.md).

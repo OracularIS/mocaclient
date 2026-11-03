@@ -8,7 +8,7 @@
 > | Administrator rights | Needed if Smart MOCA Client was installed with **Run as Administrator** |
 > | Time needed | About 5 minutes |
 
-Use this page only when Smart MOCA Client was installed with the EXE installer. If it was installed with MSI, use [Uninstall MSI](#/./getting-started/msi-uninstallation).
+Use this page only when Smart MOCA Client was installed with the EXE installer. If it was installed with MSI, use [Uninstall MSI](/getting-started/msi-uninstallation.md).
 
 ## Before You Begin
 
@@ -46,15 +46,15 @@ start /wait "" "<install folder>\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NO
 
 ## Common Problems
 
-For uninstall issues, see [Troubleshooting](#/./getting-started/troubleshooting).
+For uninstall issues, see [Troubleshooting](/getting-started/troubleshooting.md).
 
 ## Related Pages
 
-- [Install with the EXE installer](#/./getting-started/exe-installation)
-- [Silent install with EXE](#/./getting-started/exe-silent-installation)
-- [Uninstall MSI](#/./getting-started/msi-uninstallation)
-- [Troubleshooting](#/./getting-started/troubleshooting)
+- [Install with the EXE installer](/getting-started/exe-installation.md)
+- [Silent install with EXE](/getting-started/exe-silent-installation.md)
+- [Uninstall MSI](/getting-started/msi-uninstallation.md)
+- [Troubleshooting](/getting-started/troubleshooting.md)
 
 ## Next Steps
 
-If you plan to reinstall, return to [Current Version: Overview and Download](#/./getting-started/getting-started-current).
+If you plan to reinstall, return to [Current Version: Overview and Download](/getting-started/getting-started-current.md).
