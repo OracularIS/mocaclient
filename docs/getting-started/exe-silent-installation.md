@@ -48,7 +48,7 @@ setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR="C:\path" /LOG="%TE
 By default, the current-user installation goes to:
 
 ```text
-%APPDATA%\SmartMocaClient
+%APPDATA%\smartmocaclient
 ```
 
 ## All Users Installation (Administrator)
@@ -70,7 +70,7 @@ Windows may ask for administrator approval before setup can install for all user
 By default, the all-users installation goes to:
 
 ```text
-C:\Program Files (x86)\SmartMOCAClient
+%PROGRAMDATA%\smartmocaclient
 ```
 
 ## Command Options
@@ -81,7 +81,7 @@ C:\Program Files (x86)\SmartMOCAClient
 | `/SUPPRESSMSGBOXES` | Suppresses setup message boxes where possible. | Not used: setup may show message boxes. | Default installation, All users installation |
 | `/NORESTART` | Prevents setup from restarting Windows automatically. | Not used: setup may restart Windows if required. | Default installation, All users installation |
 | `/SP-` | Skips the setup startup prompt. | Not used: setup may show the startup prompt. | Default installation, All users installation |
-| `/DIR="C:\path"` | Installs Smart MOCA Client to a custom folder. | Current user folder or all-users folder, depending on the installation type. | Custom folder installation |
+| `/DIR="C:\path"` | Installs Smart MOCA Client to a custom folder. | `%APPDATA%\smartmocaclient` for current-user installation, or `%PROGRAMDATA%\smartmocaclient` for all-users installation. | Custom folder installation |
 | `/LOG="%TEMP%\smc_exe_install.log"` | Writes an installation log file. | Not used: no log is written. | Default installation, All users installation |
 
 ## Check That the Installation Worked
