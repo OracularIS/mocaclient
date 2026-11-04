@@ -2,7 +2,7 @@
 
 This feature helps maintain clean and standardized code, reducing errors and improving collaboration among developers. Users can format their code automatically according to predefined style guidelines. 
 
-![CodeFormat](../.attachments/codeformat.png)
+![CodeFormat](../.attachments/codeformat.png ':class=wide')
 
 - **SQL Format**: SQL format can be switch using this option.
 
@@ -12,4 +12,4 @@ This feature helps maintain clean and standardized code, reducing errors and imp
 
 Use menu option Options->Format in real-time?
 
-![CodeFormatReal](../.attachments/formatreal.png)
+![CodeFormatReal](../.attachments/formatreal.png ':class=wide')

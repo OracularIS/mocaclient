@@ -20,33 +20,74 @@ Use this page only when Smart MOCA Client was installed with the MSI installer. 
 
 ## Uninstall Smart MOCA Client
 
-1. Open **Apps & features**, or run the MSI uninstall command with UI.
-2. Choose one uninstall option:
+You can start the MSI uninstall in any of these ways:
+
+- Open **Apps & features** and uninstall **Smart MOCA Client**.
+- Open the Start Menu folder **Smart MOCA Client**, then select **Uninstall Smart MOCA Client**.
+- Run `Uninstall.cmd` from the install folder:
+  - User install: `%APPDATA%\SmartMOCAClient\Uninstall.cmd`
+  - Administrator install: `C:\ProgramData\SmartMOCAClient\Uninstall.cmd`
+
+When the uninstall wizard opens:
+
+1. Choose one uninstall option:
    - **Keep my settings and saved data (recommended):** removes the application folder except the `config` folder and removes shortcuts. It does not touch the `Oracular MOCA Client` folder.
    - **Remove everything:** removes the application, settings, registry entries, and all Oracular MOCA Client data.
 
    ![MSI uninstall options](../.attachments/msi-uninstall-options.png)
 
-3. Select **Uninstall**.
-4. Wait for the uninstall to finish.
+2. Select **Uninstall**.
+3. Wait for the uninstall to finish.
 
 ## Uninstall Commands
 
-Run silent MSI uninstall:
+Use `Uninstall.cmd` when it is available. It starts the Smart MOCA Client MSI uninstall and passes through any options you add.
+
+Run normal uninstall with the wizard:
 
 ```bat
-msiexec /x {2DC3A291-5F00-4794-8955-BF3E6F8A7956} /qn /l*v "%TEMP%\smc_uninstall.log"
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd"
 ```
 
-Run MSI uninstall with full UI:
+Run silent uninstall with the recommended option, **Keep my settings and saved data**:
 
 ```bat
-msiexec /x {2DC3A291-5F00-4794-8955-BF3E6F8A7956} /qf /norestart /l*v "%TEMP%\uninstall-full.log"
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd" /qn /norestart
 ```
+
+Run silent uninstall with the recommended option and a log file:
+
+```bat
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd" /qn /norestart /l*v "%TEMP%\smc_uninstall_keep.log"
+```
+
+Run silent uninstall and **Remove everything**:
+
+```bat
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd" /qn REMOVEALL=1 /norestart /l*v "%TEMP%\smc_uninstall_full.log"
+```
+
+For an Administrator install, use the ProgramData launcher path instead:
+
+```bat
+"C:\ProgramData\SmartMOCAClient\Uninstall.cmd" /qn /norestart /l*v "%TEMP%\smc_uninstall_keep.log"
+```
+
+Command parameters:
+
+| Parameter | Meaning |
+| --- | --- |
+| `/qn` | Runs silently with no UI. If `REMOVEALL=1` is not included, the uninstall keeps settings and saved data. |
+| `/qf` | Shows the full uninstall UI. |
+| `/norestart` | Prevents Windows Installer from restarting Windows automatically. |
+| `/l*v "path"` | Writes a verbose uninstall log to the selected path. |
+| `REMOVEALL=1` | Selects **Remove everything** for silent uninstall. |
 
 ## What You Should See When It Worked
 
 - Smart MOCA Client shortcuts are removed.
+- The Start Menu uninstall shortcut is removed.
+- `Uninstall.cmd` is removed with the application files.
 - The application files are removed.
 - The uninstall log is created when you use one of the command-line options.
 

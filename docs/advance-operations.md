@@ -10,18 +10,18 @@ The File Browser in the Smart MOCA Client provides a comprehensive set of functi
 
 - Navigate to **Data** --> **Edit Server Files** or press **F2** to launch **File Browser**. 
 
-  ![FileBrowser](./.attachments/filebrowser.png)
+  ![FileBrowser](./.attachments/filebrowser.png ':class=wide')
 
 - File Browser will get open where you can see all the directories and files.
 
 - Within this window, users can easily view and manage **Files**, **Folders**, **Commands**, **Reports**, **Logs**, and more.
 
-  ![FileBrowser1](./.attachments/filebrowser1.png)
+  ![FileBrowser1](./.attachments/filebrowser1.png ':class=wide')
 
 ### File Structure
 
 - The start directory is $LESDIR/src/cmdsrc.
-- Within this directory, you’ll find key subfolders such as: 
+- Within this directory, youâ€™ll find key subfolders such as: 
 
     - **usrint:** Contains all custom commands developed by users for project-specific enhancements or extensions.
 
@@ -29,7 +29,7 @@ The File Browser in the Smart MOCA Client provides a comprehensive set of functi
 
     - **usrint.mlvl / varint.mlvl:** These define the command levels and execution sequences. For example, you can determine which custom or standard command runs first during a transaction or trigger.
 
-    ![FileNavigation](./.attachments/filenavigation.png)
+    ![FileNavigation](./.attachments/filenavigation.png ':class=wide')
 
 To learn more about File browser, follow [File Browser](/file-browser.md).
 
@@ -45,26 +45,26 @@ Below are three methods to open files:
     - Enter **#cmd** followed by the file name. 
     - Once the file appears, right-click and select **"Open as file on server"** to launch it in the editor.
 
-    ![Oracular editor](./.attachments/cmd-command.png)
+    ![Oracular editor](./.attachments/cmd-command.png ':class=wide')
 
 2. **Using the Edit Server Files Option** 
-    - Navigate to **Data → Edit Server Files** or press **F2** to open the File Browser.
+    - Navigate to **Data â†’ Edit Server Files** or press **F2** to open the File Browser.
 
-    ![FileBrowser](./.attachments/filebrowser.png)
+    ![FileBrowser](./.attachments/filebrowser.png ':class=wide')
 
     - In the File Browser, browse through the directories and double-click on any command to open it in the editor.
 
-    ![FileNavigation](./.attachments/File-browser_3.png)
+    ![FileNavigation](./.attachments/File-browser_3.png ':class=wide')
 
 3. **Using the Tools Menu** 
 
-    - Go to **Tools → Open Find Dialog.**
+    - Go to **Tools â†’ Open Find Dialog.**
 
-    ![Tools server](./.attachments/tools-server-file.png)
+    ![Tools server](./.attachments/tools-server-file.png ':class=wide')
 
   - In the dialog box, search by **command name**, **path**, or **file name**, then click **Find** to locate and open the file.
 
-    ![Search](./.attachments/find3.png)
+    ![Search](./.attachments/find3.png ':class=wide')
 
 To learn more about Oracular Editor, follow [Edit server file](/file-browser.md#edit-server-files).
 
@@ -103,11 +103,11 @@ The .csv and .ctl file must reside on the server in db/data/load
 
 The Client-side Load feature provides several options for inserting, updating, loading, and unloading data within the current tab of the client interface.
 
-- **MLoad current tab**: Allows you to load the data in the .csv’s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will displayed in a popup box.
+- **MLoad current tab**: Allows you to load the data in the .csvâ€™s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will displayed in a popup box.
 
 - **MUnload current tab**: This works the same as MLoad, but removes the data instead.
 
-- **MLoad with current tab as CTL**: Uses the tab’s text as though it were a .ctl file and processes each line of the file through it. This is useful for loading large CSVs as the entire file is not loaded, just line-by-line. The progress is shown in the status bar.
+- **MLoad with current tab as CTL**: Uses the tabâ€™s text as though it were a .ctl file and processes each line of the file through it. This is useful for loading large CSVs as the entire file is not loaded, just line-by-line. The progress is shown in the status bar.
 
 - **Get MLoad/MUnload commands**: Used for easily generating a script to load/unload.
 
@@ -123,7 +123,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> DB Compare. The DB Compare window will get open.
 
-      ![Compare](./.attachments/DBCompare_1.png)
+      ![Compare](./.attachments/DBCompare_1.png ':class=wide')
 
     - Now choose both servers and specify information on the basis of which you want comparison.
 
@@ -135,7 +135,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Cmdsrc Compare. The Command Compare window will get open.
 
-      ![Compare2](./.attachments/DBCompare_2.png) 
+      ![Compare2](./.attachments/DBCompare_2.png ':class=wide') 
 
     - Now choose both servers and press 'Find' button. It will show the missing files on both servers in comparison to each other.
 
@@ -147,11 +147,11 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Compare. The Integrator Compare window will get open.
 
-      ![Compare4](./.attachments/DBCompare_3.png) 
+      ![Compare4](./.attachments/DBCompare_3.png ':class=wide') 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will show the missing objects on both servers in comparison to each other.
 
-      ![Compare5](./.attachments/compare6.png)
+      ![Compare5](./.attachments/compare6.png ':class=wide')
 
     - Review the comparison results to analyze discrepancies and ensure data consistency.
 
@@ -159,7 +159,7 @@ The Compare feature includes several specific options for different types of com
        
     - Navigate to Addons --> Smart Innovations --> Compare --> Integrator Migrator. The Integrator Migrator window will get open.
 
-      ![Compare6](./.attachments/DBCompare_4.png) 
+      ![Compare6](./.attachments/DBCompare_4.png ':class=wide') 
 
     - Now choose both servers and type of integrator object and then press 'Start' button. It will migrate object from one server to another server.
 
@@ -175,26 +175,26 @@ The RP Console in the Smart MOCA Client is a powerful tool designed for managing
 
 - Navigate to **Addons --> Smart Innovations --> RP Console Tools**. The Console window will get open.
 
- ![RPConsole](./.attachments/RpConsole.png)
+ ![RPConsole](./.attachments/RpConsole.png ':class=wide')
 
 - The RP Console has an information regarding several segments: Connections, Sessions, DB Connections, and Native Processes.
 
- ![RPConsole](./.attachments/RPConsole1.png)
+ ![RPConsole](./.attachments/RPConsole1.png ':class=wide')
 
 ---
 
 ## Report Preview
 
-The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool designed to facilitate the previewing of reports generated during report operations. This functionality allows users to review, verify, and validate the report’s layout, data content, and formatting before finalizing, publishing, or sharing it. By enabling a thorough preview, users can ensure accuracy and completeness, minimizing the risk of errors in the final output.
+The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool designed to facilitate the previewing of reports generated during report operations. This functionality allows users to review, verify, and validate the reportâ€™s layout, data content, and formatting before finalizing, publishing, or sharing it. By enabling a thorough preview, users can ensure accuracy and completeness, minimizing the risk of errors in the final output.
 
 ### Accessing Report Preview
 
 - To open the Report Preview tool, navigate to the top menu and select:
-    - **Addons → Smart Innovations → Report Preview**.
+    - **Addons â†’ Smart Innovations â†’ Report Preview**.
 
 - This action will open the **Report Preview** window, where you can access and interact with available reports in your environment.
 
-  ![ReportPreview](./.attachments/ReportPreview_1.png)
+  ![ReportPreview](./.attachments/ReportPreview_1.png ':class=wide')
 
 ### Selecting and Previewing Reports
 
@@ -216,9 +216,9 @@ The Report Viewer in the Smart MOCA Client is a robust and user-friendly tool de
 
 - This preview allows you to carefully review formatting, headers, footers, pagination, and the accuracy of the included data.
 
-- If any adjustments are needed—such as correcting parameters, modifying layout, or updating content—you can return to the configuration screen, make changes, and re-preview the report before final submission or export.
+- If any adjustments are neededâ€”such as correcting parameters, modifying layout, or updating contentâ€”you can return to the configuration screen, make changes, and re-preview the report before final submission or export.
 
-  ![ReportPreview2](./.attachments/reportpreview1.png)
+  ![ReportPreview2](./.attachments/reportpreview1.png ':class=wide')
 
 ---
 
@@ -231,7 +231,7 @@ It is especially useful in manufacturing, logistics, and inventory environments 
 ### Accessing the Print Label Operations
 
 - To access the label printing interface, navigate to the top menu:
-    - **Addons** → **Smart Innovations** → **Print Label Operations**
+    - **Addons** â†’ **Smart Innovations** â†’ **Print Label Operations**
 
 - This will open the Labels window, where you can see a list of all available labels along with their:
 
@@ -240,7 +240,7 @@ It is especially useful in manufacturing, logistics, and inventory environments 
     - Description
     - Default Printer
 
-  ![PrintLabel](./.attachments/printlabel_1.png)
+  ![PrintLabel](./.attachments/printlabel_1.png ':class=wide')
 
 ### Opening a Label for Printing
 
@@ -248,11 +248,11 @@ It is especially useful in manufacturing, logistics, and inventory environments 
 
 - This will open the Print Label Operations window specific to that label.
 
-  ![PrintLabel1](./.attachments/printlabel2.png)
+  ![PrintLabel1](./.attachments/printlabel2.png ':class=wide')
 
 ### Generating and Previewing a Label
 
-- In the Print Label Operations window, you’ll be prompted to enter specific arguments or commands required for generating the label. These arguments may include data such as:
+- In the Print Label Operations window, youâ€™ll be prompted to enter specific arguments or commands required for generating the label. These arguments may include data such as:
 
     - Item codes
     - Batch numbers
@@ -298,12 +298,12 @@ The ZPL Viewer can be accessed through multiple avenues within the Smart MOCA Cl
 
 - By clicking 'No', ZPL viewer window will get open where you can see label output. You can also click the 'Display' button to generate and view the label preview.
 
-    ![ZPLViewer2](./.attachments/zpl3.png)
+    ![ZPLViewer2](./.attachments/zpl3.png ':class=wide')
 
 By utilizing the ZPL Viewer, users can efficiently preview and adjust ZPL label outputs, reducing errors and ensuring high-quality label printing in their workflows.
 
 Note: You can also use any online ZPL viewer like `Labelary` where you can see preview by pasting .out content in text window.
 
-![ZPLViewer4](./.attachments/zpl4.png)
+![ZPLViewer4](./.attachments/zpl4.png ':class=wide')
 
 ---

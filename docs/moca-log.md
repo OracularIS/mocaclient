@@ -4,7 +4,7 @@ The **MOCA Log** section in the Smart MOCA Client provides a set of tools for an
 
 - To access the log tools, click on **MOCA Log** from the main toolbar to open the **Log Menu**.
 
-    ![Moca Trace14](./.attachments/Moca_log_1.png)
+    ![Moca Trace14](./.attachments/Moca_log_1.png ':class=wide')
 
 ## Database Trace Console
 
@@ -17,27 +17,27 @@ The **Show End of Trace** function allows users to quickly view the tail end of 
 
 - This is particularly useful when monitoring the most recent entries in a log to troubleshoot live or recent events.
 
-    ![Moca Log](./.attachments/moca_log_3.png)
+    ![Moca Log](./.attachments/moca_log_3.png ':class=wide')
 
     **How to Use:**
     
     - Enter the name of the trace file in the input field.
     - Click on OK to load and view the most recent portion of the file.
 
-    ![Moca Log](./.attachments/moca_log_7.png)
+    ![Moca Log](./.attachments/moca_log_7.png ':class=wide')
 
 ## Parse Log
 The **Parse Log** tool opens a dedicated window for parsing a selected trace or log file. 
 - Within this interface, users can configure parsing options, such as excluding certain default selections, to tailor the analysis output.
 
-    ![Moca Log](./.attachments/moca_log_4.png)
+    ![Moca Log](./.attachments/moca_log_4.png ':class=wide')
 
     **Steps:**
     - Uncheck default selections (e.g., unnecessary checkboxes) to refine the parsing criteria.
     - Open the trace file for parsing based on the updated options.
 
-    ![Moca Trace3](./.attachments/traceenabled.png)
-    ![Moca Trace4](./.attachments/Traceenabled2.png)
+    ![Moca Trace3](./.attachments/traceenabled.png ':class=wide')
+    ![Moca Trace4](./.attachments/Traceenabled2.png ':class=wide')
 
     **Purpose:**
 
@@ -50,7 +50,7 @@ The **Open Web Zip File** option enables users to open a .zip file containing lo
 
 - Opens ZIP files with logs or traces from external sources.
 
-    ![Moca Log](./.attachments/moca_log_5.png)
+    ![Moca Log](./.attachments/moca_log_5.png ':class=wide')
 
     **Usage:**
 
@@ -67,14 +67,14 @@ The Change Trace Prefix tool allows users to modify the prefix of a trace file.
 
 - This feature is helpful for organizing trace files by naming conventions or distinguishing between multiple logs during troubleshooting.
 
-    ![Moca Log](./.attachments/moca_log_6.png)
+    ![Moca Log](./.attachments/moca_log_6.png ':class=wide')
 
     **How to Use:**
 
     - Enter the name of the trace file for which the prefix needs to be changed.
     - Click on OK to apply the new prefix.
 
-    ![Moca Log](./.attachments/moca_log_7.png)
+    ![Moca Log](./.attachments/moca_log_7.png ':class=wide')
 
     **Advantages:**
 

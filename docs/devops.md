@@ -19,9 +19,9 @@ This document outlines these features and their functionalities.
   - Enter a **trace filename** (note: providing the full path to the log directory is not required).
   - After entering the filename, click **Insert into DB**.
 
-  ![DBTrace1](./.attachments/trace6.png)
+  ![DBTrace1](./.attachments/trace6.png ':class=wide')
 
-  ![DBTrace2](./.attachments/trace8.png)
+  ![DBTrace2](./.attachments/trace8.png ':class=wide')
 
 - This action triggers the Log/Load into DB script, which performs the following:
 
@@ -34,7 +34,7 @@ This document outlines these features and their functionalities.
   - Click the Load Recent button to populate the trace selection dropdown.
   - This dropdown will display traces from the current day by default, allowing for quick access to the most recent entries.
    
-  ![DBTrace](./.attachments/trace7.png)
+  ![DBTrace](./.attachments/trace7.png ':class=wide')
 
 
 ### Moca Log and Trace
@@ -73,7 +73,7 @@ To learn more about Report Viewer, follow [Report Preview](/advance-operations.m
 
 ## Label Viewer
 
-The Print Label Operations feature in the Smart MOCA Client simplifies label generation by allowing users to define inputs, preview output, and ensure print accuracy—ideal for manufacturing, logistics, and inventory use.
+The Print Label Operations feature in the Smart MOCA Client simplifies label generation by allowing users to define inputs, preview output, and ensure print accuracyâ€”ideal for manufacturing, logistics, and inventory use.
 
 To learn more about Label Viewer, follow [Print Label Operations](/advance-operations.md#print-label-operations)
 
@@ -83,7 +83,7 @@ Feature to view the hierarchy of MOCA commands.
 
 - Navigate to **Addons --> Smart Innovations --> View Moca Command Tree**. The 'Command Tree Viewer' containing text area to enter code and 'Generate' button to generate tree.
 
-  ![CommandTree](./.attachments/commandtree.png)
+  ![CommandTree](./.attachments/commandtree.png ':class=wide')
 
 - Now enter block of code and press 'Generate' button. At bottom window, tree will be generated.
 

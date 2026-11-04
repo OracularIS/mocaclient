@@ -20,16 +20,16 @@ Use the portable package when you need to extract Smart MOCA Client without usin
 1. On the download page, select **Portable**.
 2. Select **Download**.
 
-   ![Portable download option](../.attachments/NewWebPagePortableInstaller.png)
+   ![Portable download option](../.attachments/NewWebPagePortableInstaller.png ':class=wide')
 
 3. Extract the downloaded `mocaclient-portable<version>.zip` file.
 
-   ![Extract portable package](../.attachments/run023.png)
+   ![Extract portable package](../.attachments/run023.png ':class=wide')
 
 4. Open the extracted folder.
 5. Run the included setup launcher.
 
-   ![Portable setup launcher](../.attachments/run024.png)
+   ![Portable setup launcher](../.attachments/run024.png ':class=wide')
 
 ## What You Should See When It Worked
 

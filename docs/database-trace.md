@@ -25,7 +25,7 @@ There are three primary ways to generate and read the MOCA Trace:
 
 - You can manually write and execute a MOCA command that includes the trace file name to directly open the trace log.
 
-    ![Moca Trace12](./.attachments/MocaCommandtrace.png)
+    ![Moca Trace12](./.attachments/MocaCommandtrace.png ':class=wide')
 
 - Once the command is executed, the trace will open automatically.
 
@@ -35,7 +35,7 @@ There are three primary ways to generate and read the MOCA Trace:
 
 - Click on the **Log** button to open an existing trace file from your system.
 
-    ![Moca Trace13](./.attachments/Logbuttonfortrace.png)
+    ![Moca Trace13](./.attachments/Logbuttonfortrace.png ':class=wide')
 
 - A file dialog will appear. Browse and select the desired trace file, then click **Open**.
 
@@ -51,12 +51,12 @@ There are three primary ways to generate and read the MOCA Trace:
 
 - Click on the **Clear** button to remove previously stored data or settings.
 
-    ![Moca Trace3](./.attachments/traceenabled.png)
-    ![Moca Trace4](./.attachments/Traceenabled2.png)
+    ![Moca Trace3](./.attachments/traceenabled.png ':class=wide')
+    ![Moca Trace4](./.attachments/Traceenabled2.png ':class=wide')
 
 - After clearing the checkboxes, click **OK** to proceed to the main trace view.
 
-    ![Moca Trace5](./.attachments/OpenTracepage.png)
+    ![Moca Trace5](./.attachments/OpenTracepage.png ':class=wide')
 
 ### Main Components of the Trace Window
 
@@ -70,11 +70,11 @@ There are three primary ways to generate and read the MOCA Trace:
     - **Arguments (Not Null):** Shows only those arguments which have assigned values.
     - **All Messages:** Displays all system messages generated during execution.
 
-    ![Moca Trace6](./.attachments/Explainopentracepage.png)
+    ![Moca Trace6](./.attachments/Explainopentracepage.png ':class=wide')
 
 ### Additional Trace Tools
 
-- At the bottom of the Trace window, you’ll find additional buttons for in-depth analysis:
+- At the bottom of the Trace window, youâ€™ll find additional buttons for in-depth analysis:
 
     - **Comp Lvl:** View or adjust trace component levels.
     - **RF:** Related to RF functionality.
@@ -86,7 +86,7 @@ There are three primary ways to generate and read the MOCA Trace:
     - **Find Clause:** Helps locate the root cause of failure.
     - **Select in Tree:** Highlights the selected command in the execution hierarchy tree.
 
-    ![Moca Trace6](./.attachments/Opentracepagebuttons.png)
+    ![Moca Trace6](./.attachments/Opentracepagebuttons.png ':class=wide')
 
 **Examples:**
 - **CMDs:** Displays all executed commands and the number of times each was called.
@@ -95,11 +95,11 @@ There are three primary ways to generate and read the MOCA Trace:
 
 - **Comp lvls:** Allows you to check or uncheck trace levels based on your analysis needs.
 
-    ![Moca Trace9](./.attachments/opentracepagebuttonexplain2.png)
+    ![Moca Trace9](./.attachments/opentracepagebuttonexplain2.png ':class=wide')
 
 - **Errors** and **Top-lvl Error:** Lists all errors and top-level failures that occurred during execution.
 
-    ![Moca Trace10](./.attachments/opentracepagebuttonexplain3.png)
+    ![Moca Trace10](./.attachments/opentracepagebuttonexplain3.png ':class=wide')
 
 - **Parse**, **Find Cause** and **Select Tree:**
 
@@ -107,7 +107,7 @@ There are three primary ways to generate and read the MOCA Trace:
     - **Find Cause:** Pinpoints the exact cause of failure.
     - **Select Tree:** Displays the command's execution tree in the log window.
 
-    ![Moca Trace11](./.attachments/opentracepagebuttonexplain4.png)
+    ![Moca Trace11](./.attachments/opentracepagebuttonexplain4.png ':class=wide')
 
 # Moca Log
 

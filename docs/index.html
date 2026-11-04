@@ -9,6 +9,30 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+  <style>
+    .markdown-section img {
+      display: block;
+      max-width: 520px;
+      max-width: min(520px, 100%);
+      width: auto;
+      height: auto;
+      margin: 1rem auto;
+      border: 1px solid #d8dee4;
+      border-radius: 6px;
+    }
+
+    .markdown-section img.wide {
+      max-width: 640px;
+      max-width: min(640px, 100%);
+    }
+
+    @media (max-width: 390px) {
+      .markdown-section img,
+      .markdown-section img.wide {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -93,6 +117,5 @@
       });
     });
   </script>
-</body>
 </body>
 </html>

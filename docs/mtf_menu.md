@@ -2,7 +2,7 @@
 
 The MTF in Smart MOCA Client provides tools for managing various tasks related to MTF (Multi-Tasking Facility) operations. 
 
-![Wizard_1](./.attachments/mtf_1.png)
+![Wizard_1](./.attachments/mtf_1.png ':class=wide')
 
 ## MTF Menu Components
 
@@ -86,5 +86,5 @@ The SSH MTF tool allows users to initiate SSH (Secure Shell) sessions directly f
 - Allows for secure file transfers using SCP/SFTP protocols.
 - Can be used for remote configuration, monitoring, or troubleshooting tasks.
 
-SSH is a best-practice standard for remote system access, offering confidentiality, integrity, and secure authentication—making this tool ideal for production environments and sensitive operations.
+SSH is a best-practice standard for remote system access, offering confidentiality, integrity, and secure authenticationâ€”making this tool ideal for production environments and sensitive operations.
 

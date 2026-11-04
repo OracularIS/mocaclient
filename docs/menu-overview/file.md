@@ -2,7 +2,7 @@
 
 The File Menu in Smart MOCA Client is designed to give you quick access to essential file operations and settings, ensuring efficient management of your projects and data.
 
-![FileMenu](../.attachments/file-menu/FileMenu.png)
+![FileMenu](../.attachments/file-menu/FileMenu.png ':class=wide')
 
 ## Components
 
@@ -12,7 +12,7 @@ Below is an overview of the components available under the File Menu, each servi
 
 This screen is used to maintain groups for connections.
 
-![ConnectionGroups](../.attachments/file-menu/ConnectionGroups.png)
+![ConnectionGroups](../.attachments/file-menu/ConnectionGroups.png ':class=wide')
 
 a. Adding New Connection Group
 - For adding a new connection group, simply press on Add button, and add the name of group in dialog box and press OK.
@@ -28,22 +28,22 @@ a. Adding New Connection Group
     ![AddConnection2](../.attachments/file-menu/AddConnection2.png)
 
 b. Add Connection 
-- For adding a new connection, simply press on Add Connection button, enter your connection information and press “Add/Update” button.
+- For adding a new connection, simply press on Add Connection button, enter your connection information and press â€œAdd/Updateâ€ button.
 
     ![AddConnection3](../.attachments/file-menu/AddConnection3.png)
 
 c. Edit Selected Connection 
-- To edit connection, select the connection and press “Edit selected connection” button. After editing the connection, press “Add/Update” button.
+- To edit connection, select the connection and press â€œEdit selected connectionâ€ button. After editing the connection, press â€œAdd/Updateâ€ button.
 
     ![AddConnection4](../.attachments/file-menu/AddConnection4.png)
 
 d. Add Selected to Group 
-- To add connection to group, select the connection and press “Add Selected To Group” button. After choosing group, press “OK” button.
+- To add connection to group, select the connection and press â€œAdd Selected To Groupâ€ button. After choosing group, press â€œOKâ€ button.
 
     ![AddSelectedtoGroup](../.attachments/file-menu/AddSelectedtoGroup.png)
 
 e. Remove Selected from Group 
-- To remove connection from group, select the connection and press “Remove Selected from Group” button. After choosing group, press “OK” button.
+- To remove connection from group, select the connection and press â€œRemove Selected from Groupâ€ button. After choosing group, press â€œOKâ€ button.
 
     ![RemoveSelectedfromGroup](../.attachments/file-menu/RemoveSelectedfromGroup.png)
 
@@ -51,21 +51,21 @@ e. Remove Selected from Group
 
 ### Edit Servers
 
-This screen also allows us to manage connection information of servers. To edit, simply add your desired information and press “Add/Update” button.
+This screen also allows us to manage connection information of servers. To edit, simply add your desired information and press â€œAdd/Updateâ€ button.
 
-![EditServers](../.attachments/file-menu/EditServers.png)
+![EditServers](../.attachments/file-menu/EditServers.png ':class=wide')
 
 ---
 
 ### Open MSQL in new tab
 
-This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press “open “and it will load up your file in new tab.
+This option allows us to load MSQL files into MOCA. To load a MSQL file, simply press this option after making connection and choose your MSQL file. Then press â€œopen â€œand it will load up your file in new tab.
 
 ---
 
 ### Save MSQL in current tab
 
-This option allows us to save current tab MSQL into Computer. To save a file just click this option and give your desired name and press “save”. It will save the code of the current tab into your computer. 
+This option allows us to save current tab MSQL into Computer. To save a file just click this option and give your desired name and press â€œsaveâ€. It will save the code of the current tab into your computer. 
 
 ---
 
@@ -106,7 +106,7 @@ By clicking this option, you can open the shared directory of Smart MOCA client.
 
 This option allows us to print table results using printer.
 
-![PrintTable](../.attachments/file-menu/PrintTable.png)
+![PrintTable](../.attachments/file-menu/PrintTable.png ':class=wide')
 
 ---
 

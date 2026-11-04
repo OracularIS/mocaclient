@@ -4,9 +4,9 @@ The **Issue Assignment** feature in the Smart MOCA Client is a powerful and stru
 
 This interface plays a critical role in maintaining accountability and streamlining team collaboration by organizing work items in a centralized environment.
 
-![IssueAssignment](./.attachments/issue.png)
+![IssueAssignment](./.attachments/issue.png ':class=wide')
 
-![Issue1](./.attachments/newissue1.png)
+![Issue1](./.attachments/newissue1.png ':class=wide')
 
 ## Main Components
 
@@ -27,7 +27,7 @@ This section forms the foundational information of an issue and is essential for
 The Data tab provides a robust interface to track and review changes made to database tables that are associated with the issue. It allows users to:
 
 - View inserted, updated, or deleted records.
-- Understand the impact of the issue on the system’s data layer.
+- Understand the impact of the issue on the systemâ€™s data layer.
 - Ensure that database-related concerns are being properly logged and monitored.
 
 This is particularly valuable for troubleshooting data integrity issues and validating whether database transactions are aligned with expected application behavior.
@@ -41,7 +41,7 @@ The Files tab enables tracking of any file-level changes relevant to the issue. 
 
 Users can compare changes, maintain version control, and document all file modifications in one place. This ensures that development efforts are clearly recorded and facilitates rollback or audit when necessary.
 
-![Issue2](./.attachments/newissue2.png)
+![Issue2](./.attachments/newissue2.png ':class=wide')
 
 ### 4. Seamles
 The Seamles tab (typically associated with Seamless Integrations) is specifically tailored to capture changes made within the Integrator module of the application. It is used to:
