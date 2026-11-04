@@ -91,6 +91,9 @@ foreach ($file in $markdownFiles) {
     foreach ($match in [regex]::Matches($content, '!\[[^\]]*\]\(([^)]+)\)')) {
         $imageCount++
         $target = $match.Groups[1].Value.Trim()
+        if ($target -match '^(.*?)\s+(''|"").*$') {
+            $target = $matches[1].Trim()
+        }
         if (Test-ExternalTarget $target) { continue }
         $resolved = Resolve-FileTarget -Target $target -BaseDirectory $currentDirectory
         if ($null -eq $resolved) { continue }

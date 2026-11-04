@@ -2,7 +2,7 @@
 
 Smart Moca Client Editor" feature, details the keybindings and the functionalities available through the right-click popup menu within the text editor. Each menu option is explained with its behavior and conditions for usage.
 
-![SmartEditor](../.attachments/editor.png)
+![SmartEditor](../.attachments/editor.png ':class=wide')
 
 ## Functional Keys for Editor
 
@@ -25,7 +25,7 @@ Smart Moca Client Editor" feature, details the keybindings and the functionaliti
 
 Right-click on the text area with some cells selected to access various options for inserting table data as text. 
 
-![SmartEditor](../.attachments/popupmenu.png)
+![SmartEditor](../.attachments/popupmenu.png ':class=wide')
 
 Each function operates on the selected cells as described below:
 
@@ -83,5 +83,5 @@ These are scripts that show up for use when right clicking the grid for certain 
   ![Variable Commands](../.attachments/variablecommand.png)
 
 - When right-clicking in the grid, if there are scripts in Var Commands\<varnam>, they will show up as menu items as seen above. 
-- When you select the item, the tab’s text area will be filled in with the script, using the selected value.
-- Columns can be designated as aliases of a different column by creating a file named “alias.txt” in the directory and specifying the column name to look for the scripts. For example, the “dstsub” directory will have a alias.txt file containing “subnum”.
+- When you select the item, the tabâ€™s text area will be filled in with the script, using the selected value.
+- Columns can be designated as aliases of a different column by creating a file named â€œalias.txtâ€ in the directory and specifying the column name to look for the scripts. For example, the â€œdstsubâ€ directory will have a alias.txt file containing â€œsubnumâ€.

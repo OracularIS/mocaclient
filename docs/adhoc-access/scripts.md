@@ -31,12 +31,12 @@ Creating and adding new scripts to the Smart MOCA Client is straightforward.
 
    - Navigate to the Script Editor from the Scripts menu and select "Script Editor" to open the editor interface.
   
-      ![script](../.attachments/script2.png)
+      ![script](../.attachments/script2.png ':class=wide')
 
    - In the editor window, type your script (i.e. MOCA commands or any custom script logic). The editor supports syntax highlighting and real-time error checking to ensure your scripts are accurate.
    - After writing your script, Assign a name to your script in text box, choose group from the provided list and press Save button.
 
-      ![script](../.attachments/script3.png)
+      ![script](../.attachments/script3.png ':class=wide')
 
 ## Viewing Script Directory Content
 
@@ -54,6 +54,6 @@ The Script Editor enables users to save their scripts as macros, making them eas
 - Write your script in the editor.and press "Save as Macro" button to save script as macro.
 - Assign a shortcut key or a macro name for quick execution in pop up.
 
-  ![script](../.attachments/script4.png)
+  ![script](../.attachments/script4.png ':class=wide')
   
 - Macros can be executed using the assigned shortcut or by selecting them from the macros menu.

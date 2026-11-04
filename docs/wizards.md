@@ -11,7 +11,7 @@ Smart MOCA Wizards enable the creation of **Data Driven Applications (DDAs)** fo
         2. **Label Wizard:** This tool allows us to generate csv for new labels.
         3. **Report Wizard:** This tool allows us to generate csv files for new reports.
 
-    ![Wizard_1](./.attachments/wizards_1.png)
+    ![Wizard_1](./.attachments/wizards_1.png ':class=wide')
 
 
 ### DDA Wizard
@@ -23,7 +23,7 @@ Facilitates the creation of CSV files for new Data Driven Applications by enteri
 
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **DDA Wizard**.
-        ![Wizard_5](./.attachments/wizards_5.png)
+        ![Wizard_5](./.attachments/wizards_5.png ':class=wide')
     - A new window will open, providing a form where you can input the required information for your new DDA.
 
 
@@ -34,7 +34,7 @@ Facilitates the creation of CSV files for new Data Driven Applications by enteri
     - **Command:** Defines the controller command that executes the desired backend logic.
     - **Group:** Categorizes the DDA for organization and access control.
 
-    ![Wizard_2](./.attachments/wizard_2.png)
+    ![Wizard_2](./.attachments/wizard_2.png ':class=wide')
 
 - **Add the DDA:**
     - Once all the required fields are filled out, click on the **Add** button to generate the CSV file and create the DDA entry.
@@ -47,18 +47,18 @@ Designed to export structured CSVs for defining new labels within the applicatio
 
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **Label Wizard**.
-        ![Wizard_6](./.attachments/wizards_6.png)
+        ![Wizard_6](./.attachments/wizards_6.png ':class=wide')
     - A new dialog will open prompting you to fill in the label details.
 
 - **Enter the Required Details:**
 
     - **Destination:** The target module or system where the labels will be used.
     - **Name:** A unique identifier for the label.
-    - **Description:** A brief explanation of the label’s purpose.
+    - **Description:** A brief explanation of the labelâ€™s purpose.
     - **Type:** Specifies the type of label (e.g., static, dynamic, etc.).
     - **File Upload:** Upload label definition files such as .label or .msql files.
 
-    ![Wizard_3](./.attachments/wizard_3.png)
+    ![Wizard_3](./.attachments/wizard_3.png ':class=wide')
 
 - **Upload the Label Data:**
     - After entering the information and attaching the relevant files, click the Upload button to create the CSV file and import the label definitions into the system.
@@ -71,7 +71,7 @@ Streamlines the setup of new reports by generating corresponding CSV files for e
 #### Steps for Report Wizard
 - **Open the Wizard:**
     - Navigate to **Tools** > **Wizard** > **Report Wizard**.
-        ![Wizard_7](./.attachments/wizards_7.png)
+        ![Wizard_7](./.attachments/wizards_7.png ':class=wide')
     - A new window will open where you can input the necessary report details.
 
 - **Enter the Required Details:**
@@ -80,7 +80,7 @@ Streamlines the setup of new reports by generating corresponding CSV files for e
     - **Description:** A brief explanation of what the report contains or is intended to show.
     - **File Upload:** Attach the file containing the report definition (typically a CSV, XML, or compatible configuration file).
 
-    ![Wizard_4](./.attachments/wizard_4.png)
+    ![Wizard_4](./.attachments/wizard_4.png ':class=wide')
 
 - **Upload the Report:**
     - After filling in the necessary information and uploading the appropriate file, click the Upload button to generate the report configuration in the system.

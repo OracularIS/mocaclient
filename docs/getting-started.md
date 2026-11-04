@@ -1,18 +1,17 @@
 # Get started with Smart Moca Client
 
-This section will guide you through the initial steps to get you up and running with our powerful and intuitive software. 
+This section will guide you through the initial steps to get you up and running with our powerful and intuitive software.
 
 Follow the guide below to set up and begin using the Smart MOCA Client:
 
 - [Current Version](/getting-started/getting-started-current.md) - For the latest release of Smart MOCA Client.
-- [Portable](/getting-started/portable.md)
-- [Install with the EXE installer](/getting-started/exe-installation.md)
-- [Silent install with EXE](/getting-started/exe-silent-installation.md)
-- [Uninstall EXE](/getting-started/exe-uninstallation.md)
-- [Install with the MSI installer](/getting-started/msi-installation.md)
-- [Silent install with MSI](/getting-started/msi-silent-installation.md)
-- [Uninstall MSI](/getting-started/msi-uninstallation.md)
 - [Troubleshooting](/getting-started/troubleshooting.md)
+
+## Install Smart MOCA Client
+
+- [Install with the EXE installer](/getting-started/exe-installation.md) - For individual users and normal desktop setup.
+- [Install with the MSI installer](/getting-started/msi-installation.md) - For IT-managed or enterprise deployment.
+- [Portable setup](/getting-started/portable.md) - For restricted environments where no standard installation is needed.
 
 **Using the legacy version?**
 

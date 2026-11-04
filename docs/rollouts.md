@@ -1,6 +1,6 @@
 # Rollouts
 
-A **Rollout** in the **Smart MOCA Client** is a structured package that consolidates all essential elements such as commands, files, tables, triggers, and configurations—that are required to be deployed as part of a release or system update.
+A **Rollout** in the **Smart MOCA Client** is a structured package that consolidates all essential elements such as commands, files, tables, triggers, and configurationsâ€”that are required to be deployed as part of a release or system update.
 
 ## Accessing Rollouts from MOCA
 - To begin working with rollouts in MOCA:
@@ -11,7 +11,7 @@ A **Rollout** in the **Smart MOCA Client** is a structured package that consolid
         2. **Rollout Merger:** Combines multiple rollout files into a single consolidated package, preserving their order and dependencies.
         3. **Rollout Log Parser:** Enables parsing of rollout log files for identifying and analyzing errors or inconsistencies in deployment.
 
-    ![Rollout1](./.attachments/Rollout.png)
+    ![Rollout1](./.attachments/Rollout.png ':class=wide')
 
 ### Rollout Generator
 
@@ -29,7 +29,7 @@ The Rollout Generator provides a user-friendly interface to create rollout packa
 - **Generate the Rollout:**
     - Click the Generate button. A new rollout package will be created and stored in the following location: SmartMocaClient\config\swm
 
-    ![Rollout3](./.attachments/Rollouts_2.png)
+    ![Rollout3](./.attachments/Rollouts_2.png ':class=wide')
 
 ### Rollout Merger
 
@@ -73,9 +73,9 @@ The Rollout DB interface allows for direct management of rollout entries, includ
 
 #### Accessing Rollout DB
 
-- Navigate to Addons → Smart Innovations → Rollouts to open the Rollout DB management window.
+- Navigate to Addons â†’ Smart Innovations â†’ Rollouts to open the Rollout DB management window.
 
-    ![Rollout6](./.attachments/Rollouts_5.png)
+    ![Rollout6](./.attachments/Rollouts_5.png ':class=wide')
 
 #### Available Actions in Rollout DB
 
@@ -85,12 +85,12 @@ The Rollout DB interface allows for direct management of rollout entries, includ
 - **Build Remote:** Deploy rollout changes to a remote environment.
 - **Remove Selected:** Unlink or delete selected rollout entries from the system.
 
-    ![Rollout7](./.attachments/Rollouts_6.png)
+    ![Rollout7](./.attachments/Rollouts_6.png ':class=wide')
 
 #### Manual Rollout Creation
 
 - Enter the **Name** of the new rollout in the input field.
 - Click **OK** to save and add it to the rollout database.
 
-    ![Rollout8](./.attachments/Rollouts_7.png)
+    ![Rollout8](./.attachments/Rollouts_7.png ':class=wide')
 

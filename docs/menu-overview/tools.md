@@ -2,7 +2,7 @@
 
 The Tools menu in Smart MOCA Client provides a comprehensive set of utilities and functionalities to enhance productivity and streamline various tasks related to development, deployment, and integration. 
 
-![tool1](../.attachments/tool-menu/tool1.png)
+![tool1](../.attachments/tool-menu/tool1.png ':class=wide')
 
 ## Components
 

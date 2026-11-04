@@ -2,7 +2,7 @@
 
 The Data menu in Smart MOCA Client provides tools for managing and manipulating data at different levels. 
 
-![data1](../.attachments/data-menu/data1.png)
+![data1](../.attachments/data-menu/data1.png ':class=wide')
 
 ## Components
 
@@ -14,7 +14,7 @@ Below are the components of the Data menu categorized based on their functionali
 
 This function is developed to provide a way of reading the files on a remote server if we do not have telnet access. The start directory is $LESDIR/src/cmdsrc.
 
-![OpenEditor](../.attachments/data-menu/openeditor.png)
+![OpenEditor](../.attachments/data-menu/openeditor.png ':class=wide')
 
 ### Load Grid from CSV
 
@@ -30,11 +30,11 @@ Saves the table to a .csv file with each row in its own file.
 
 ### Save Grid to Table CSVs by Table Columns
 
-Save all rows to separate CSVs, using first column as filename. Only columns returned in ‘list table columns’ are included.
+Save all rows to separate CSVs, using first column as filename. Only columns returned in â€˜list table columnsâ€™ are included.
 
 ### Save Grid to Table CSVs by Content
 
-This option allows us to save all rows to separate CSVs, using first column as filename. All columns with data are added to the file (allows you to have wh_id even if the table doesn’t have it)
+This option allows us to save all rows to separate CSVs, using first column as filename. All columns with data are added to the file (allows you to have wh_id even if the table doesnâ€™t have it)
 
 ---
 
@@ -50,7 +50,7 @@ Generates insert statements and execute them on the current tab. If it already e
 
 ### MLoad current tab
 
-Generated sl_change_gen_maint commands and execute them on current tab to load the data in the .csv’s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will be displayed in a popup box.
+Generated sl_change_gen_maint commands and execute them on current tab to load the data in the .csvâ€™s selected into the environment of the current tab. Filenames are expected to be the table name to load, have the table name after 2 underscores (i.e. USR-DDA__dda_mst.csv), or have the table name then a dash (i.e prtmst-30870.csv). Any errors will be displayed in a popup box.
 
 ### MUnLoad current tab
 
@@ -58,11 +58,11 @@ Generated sl_remove_gen_maint commands and works same as MLoad, but removes the 
 
 ### Load CSV with current tab as script
 
-Execute each row of .csv through the script in current tab. Uses the tab’s text as though it were a .ctl file and processes each line of the file through it. This is useful for loading large CSVs as the entire file is not loaded, just line-by-line. The progress is shown in the status bar.
+Execute each row of .csv through the script in current tab. Uses the tabâ€™s text as though it were a .ctl file and processes each line of the file through it. This is useful for loading large CSVs as the entire file is not loaded, just line-by-line. The progress is shown in the status bar.
 
 ### Load CSV with local CTL script
 
-Choose a .ctl script on your computer and process each line of a .csv file through it. It is same as “Load CSV with current tab as script”, but the script comes from the file you chose rather than the current tab’s text.
+Choose a .ctl script on your computer and process each line of a .csv file through it. It is same as â€œLoad CSV with current tab as scriptâ€, but the script comes from the file you chose rather than the current tabâ€™s text.
 
 ### Get MLoad Commands
 
@@ -106,9 +106,9 @@ Copies publish data commands to the clipboard for an active table.
 
 ### DB Backup/Restore
 
-It is used for copying selected tables to .zip or restore from .zip. It opens a dialog of tables to include/exclude from the backup, then writes them in CSV form to a ZIP file when you click “Start Backup”. You can also restore a backup made previously by optionally truncating the existing table and inserting the rows in the file.
+It is used for copying selected tables to .zip or restore from .zip. It opens a dialog of tables to include/exclude from the backup, then writes them in CSV form to a ZIP file when you click â€œStart Backupâ€. You can also restore a backup made previously by optionally truncating the existing table and inserting the rows in the file.
 
-![Backup&Restore](./../.attachments/data-menu/Backup&Restore.png)
+![Backup&Restore](./../.attachments/data-menu/Backup&Restore.png ':class=wide')
 
 ### Generate CTL from CSV
 

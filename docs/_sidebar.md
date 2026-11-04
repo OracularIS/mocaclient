@@ -4,18 +4,21 @@
 - [Why Use Moca Client?](./why-mocaclient.md)
 - [Getting Started](./getting-started.md)
   - [Current Version](./getting-started/getting-started-current.md)
-  - [Portable](./getting-started/portable.md)
-  - Installation: EXE
-    - [Install with EXE](./getting-started/exe-installation.md)
-    - [Silent Install](./getting-started/exe-silent-installation.md)
-    - [Silent Uninstall](./getting-started/exe-silent-uninstallation.md)
-    - [Uninstall EXE](./getting-started/exe-uninstallation.md)
-  - Installation: MSI
-    - [Install with MSI](./getting-started/msi-installation.md)
-    - [Silent Install](./getting-started/msi-silent-installation.md)
-    - [Uninstall MSI](./getting-started/msi-uninstallation.md)
   - [Troubleshooting](./getting-started/troubleshooting.md)
   - [Legacy Version](./getting-started/getting-started-legacy.md)
+- Installation
+  - EXE
+    - [Install with the EXE installer](./getting-started/exe-installation.md)
+    - [Silent Install with EXE](./getting-started/exe-silent-installation.md)
+    - [Uninstall EXE](./getting-started/exe-uninstallation.md)
+    - [Silent Uninstall with EXE](./getting-started/exe-silent-uninstallation.md)
+  - MSI
+    - [Install with the MSI installer](./getting-started/msi-installation.md)
+    - [Silent Install with MSI](./getting-started/msi-silent-installation.md)
+    - [Uninstall MSI](./getting-started/msi-uninstallation.md)
+    - [Silent Uninstall with MSI](./getting-started/msi-silent-uninstallation.md)
+  - Portable
+    - [Portable Setup](./getting-started/portable.md)
 - [Connections](./connections.md)
   - [Add/Update/Remove Server](./connections/add-connect-remoteserver.md)
   - [Secure Server Connections](./connections/secure-server-connections.md)
@@ -28,7 +31,6 @@
   - [Command History](./adhoc-access/command-history.md)
   - [Find Dialogs](./adhoc-access/find-dialogs.md)
   - [Scripts](./adhoc-access/scripts.md)
-  - [Tracing](./database-trace.md)
   - [Controlling Adhoc Access](./adhoc-access/controlling-adhocaccess.md)
   - [Use Cases](./adhoc-access/use-cases.md)
 - [Keyboard Shortcuts](./moca_client_shortcuts.md)

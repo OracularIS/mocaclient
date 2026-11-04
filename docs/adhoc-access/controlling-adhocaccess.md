@@ -8,7 +8,7 @@ This section outlines how to use sys_audit and other security measures to monito
 
 The sys_audit system is designed to log and monitor all ad-hoc commands executed by users. This helps in keeping track of who is executing which commands, and when. This is directly supported by the `LOG_TO_SYS_AUDIT` setting, which forces audit logging even if auditing is disabled at the policy level.
 
-  ![sysaudit](../.attachments/adhoc4.png)
+  ![sysaudit](../.attachments/adhoc4.png ':class=wide')
 
 Here's how you can utilize sys_audit for monitoring:
 

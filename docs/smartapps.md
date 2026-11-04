@@ -18,45 +18,45 @@ By following the steps outlined in this documentation, users can easily generate
 - Visit [Smart Apps Portal](https://apps.smart-is.com/).
 - Now "Sign Up, if you don't have an account or log in with Microsoft or Google". 
 
-  ![Register](./.attachments/smart1.png)
+  ![Register](./.attachments/smart1.png ':class=wide')
 
 ### Generating Your App Key
 
 - From the Smart Connect menu, select the "Cloud Connect" option and press **Open in Browser** button. This will open a new browser tab and redirect you to the Smart Apps portal.
   
-  ![SmartApp](./.attachments/SmartMOCAConnect.png)
+  ![SmartApp](./.attachments/SmartMOCAConnect.png ':class=wide')
 
 - Now enter your login credentials to access your smart app account.
 
-  ![ProfilePage](./.attachments/profile.png)
+  ![ProfilePage](./.attachments/profile.png ':class=wide')
 
 - Once logged in, navigate to your profile page. This is usually found in the user menu, accessible by clicking on your username or profile icon.
 
-  ![ProfileNavigation](./.attachments/ProfileNavigation.png)
+  ![ProfileNavigation](./.attachments/ProfileNavigation.png ':class=wide')
 
 - Click on "Add" button to generate key. 
   
-  ![GenerateAppKey](./.attachments/appkey1.png)
+  ![GenerateAppKey](./.attachments/appkey1.png ':class=wide')
 
 - Now give description to your app key and click on "Generate" button. 
 
-  ![GenerateAppKey1](./.attachments/appkey2.png)
+  ![GenerateAppKey1](./.attachments/appkey2.png ':class=wide')
 
 - This action will generate a new one-time generated app key containing all your license information. Once the app key is generated, copy it to your clipboard.
 
-  ![GenerateAppKey2](./.attachments/appkey3.png)
+  ![GenerateAppKey2](./.attachments/appkey3.png ':class=wide')
 
 ### Using the App Key in Smart MOCA Client
 
 - Go to the Smart Connect --> Cloud Connect from dropdown menu and enter key which is generated from website and press **Save Key** button.
 
-  ![AppKeyUsage](./.attachments/SmartMOCAConnect1.png)
+  ![AppKeyUsage](./.attachments/SmartMOCAConnect1.png ':class=wide')
 
 - Smart MOCA Client will now have access to all the licensed features and add-ons associated with your account.
 
 - Without key or wrong key, you may seem below error on accessing some addon features like WH Migrator:
 
-  ![AppKeyError](./.attachments/smart8.png)
+  ![AppKeyError](./.attachments/smart8.png ':class=wide')
 ---
 
 ## Troubleshooting

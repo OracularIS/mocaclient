@@ -8,7 +8,7 @@ The Find Dialogs feature in Smart MOCA Client provides powerful search capabilit
 
   - Navigate to Edit --> [Find/Replace](/menu-overview/edit.md) or use the shortcut Ctrl+F.
 
-    ![Find/Replace](../.attachments/find1.png)
+    ![Find/Replace](../.attachments/find1.png ':class=wide')
 
 2. **Advanced Find**
 
@@ -16,11 +16,11 @@ The Find Dialogs feature in Smart MOCA Client provides powerful search capabilit
 
   - Navigate to Tools --> [Open Find Dialog](/menu-overview/tools.md) to open Find window.
 
-    ![Open Find Dialogue](../.attachments/find2.png)
-    ![Search](../.attachments/find3.png)
+    ![Open Find Dialogue](../.attachments/find2.png ':class=wide')
+    ![Search](../.attachments/find3.png ':class=wide')
 
 3. **Right-click on File**
 
    Find commands and their path by right-clicking on files within the application.
 
-   ![Open Find Dialogue](../.attachments/find4.png)
+   ![Open Find Dialogue](../.attachments/find4.png ':class=wide')

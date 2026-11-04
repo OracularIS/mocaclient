@@ -18,15 +18,15 @@ Use this page to download the current version, choose the right installer, verif
 
 1. Open the [Smart IS MOCA Client page](https://www.smart-is.com/what-we-do/smart-product/smart-is-moca-client/).
 
-   ![Smart IS MOCA Client product page](../.attachments/NewWebPage.png)
+   ![Smart IS MOCA Client product page](../.attachments/NewWebPage.png ':class=wide')
 
 2. Select **Download Now** and complete the download request form.
 
-   ![Download form](../.attachments/NewWebPage2.png)
+   ![Download form](../.attachments/NewWebPage2.png ':class=wide')
 
 3. Open the email from Smart IS and select **Download MOCA Client**.
 
-   ![Download email link](../.attachments/run027.png)
+   ![Download email link](../.attachments/run027.png ':class=wide')
 
 ## Which Installer Should I Choose?
 
@@ -51,7 +51,7 @@ Use **Portable** only when you need to extract and run the package without using
 1. On the download page, select **Installer**.
 2. Select **Download**.
 
-   ![EXE installer download option](../.attachments/NewWebPageExeInstaller.png)
+   ![EXE installer download option](../.attachments/NewWebPageExeInstaller.png ':class=wide')
 
 3. Follow [Install with the EXE installer](/getting-started/exe-installation.md).
 
@@ -60,7 +60,7 @@ Use **Portable** only when you need to extract and run the package without using
 1. On the download page, select **MSI Installer**.
 2. Select **Download**.
 
-   ![MSI installer download option](../.attachments/NewWebPageMSIInstaller.png)
+   ![MSI installer download option](../.attachments/NewWebPageMSIInstaller.png ':class=wide')
 
 3. Follow [Install with the MSI installer](/getting-started/msi-installation.md).
 
@@ -69,7 +69,7 @@ Use **Portable** only when you need to extract and run the package without using
 1. On the download page, select **Portable**.
 2. Select **Download**.
 
-   ![Portable download option](../.attachments/NewWebPagePortableInstaller.png)
+   ![Portable download option](../.attachments/NewWebPagePortableInstaller.png ':class=wide')
 
 3. Follow [Portable setup](/getting-started/portable.md).
 
@@ -79,7 +79,7 @@ Use **Portable** only when you need to extract and run the package without using
 2. Confirm that the `smartmocaclient` folder exists.
 3. Confirm that Smart MOCA Client shortcuts are available from the Start Menu or desktop.
 
-![Installed folders](../.attachments/run011.png)
+![Installed folders](../.attachments/run011.png ':class=wide')
 
 > **Tip:** If shortcuts are not created, open the application from the installation folder or ask your IT administrator to recreate the shortcut.
 
@@ -110,22 +110,22 @@ Smart MOCA Client can download `moca.jar` after you connect to a server.
 1. Connect to a server.
 2. When Smart MOCA Client detects that `moca.jar` is missing, select **Download and Use the moca.jar from this environment**.
 
-   ![Download moca.jar prompt](../.attachments/run015.png)
+   ![Download moca.jar prompt](../.attachments/run015.png ':class=wide')
 
 3. Wait for the download to finish.
 
-   ![moca.jar download progress](../.attachments/run016.png)
+   ![moca.jar download progress](../.attachments/run016.png ':class=wide')
 
 4. Restart Smart MOCA Client.
 5. Confirm the application is using `moca.jar` from **Help > About Smart MOCA and SQL Client**.
 
-   ![Verify moca.jar](../.attachments/run019.png)
+   ![Verify moca.jar](../.attachments/run019.png ':class=wide')
 
 ### Download from the Tools Menu
 
 If you skipped the prompt during server connection, select **Tools > Download moca.jar**.
 
-![Download moca.jar from Tools menu](../.attachments/run021.png)
+![Download moca.jar from Tools menu](../.attachments/run021.png ':class=wide')
 
 > **Note:** `moca.jar` must be compatible with the Java version used by Smart MOCA Client.
 
