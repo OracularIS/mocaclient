@@ -65,6 +65,7 @@ For silent install issues, see [Troubleshooting](/getting-started/troubleshootin
 ## Related Pages
 
 - [Install with the MSI installer](/getting-started/msi-installation.md)
+- [Silent Uninstall with MSI](/getting-started/msi-silent-uninstallation.md)
 - [Uninstall MSI](/getting-started/msi-uninstallation.md)
 - [Troubleshooting](/getting-started/troubleshooting.md)
 

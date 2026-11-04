@@ -58,6 +58,7 @@ For uninstall issues, see [Troubleshooting](/getting-started/troubleshooting.md)
 
 - [Install with the MSI installer](/getting-started/msi-installation.md)
 - [Silent install with MSI](/getting-started/msi-silent-installation.md)
+- [Silent Uninstall with MSI](/getting-started/msi-silent-uninstallation.md)
 - [Uninstall EXE](/getting-started/exe-uninstallation.md)
 - [Troubleshooting](/getting-started/troubleshooting.md)
 

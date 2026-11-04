@@ -13,6 +13,7 @@
   - Installation: MSI
     - [Install with MSI](./getting-started/msi-installation.md)
     - [Silent Install](./getting-started/msi-silent-installation.md)
+    - [Silent Uninstall](./getting-started/msi-silent-uninstallation.md)
     - [Uninstall MSI](./getting-started/msi-uninstallation.md)
   - [Troubleshooting](./getting-started/troubleshooting.md)
   - [Legacy Version](./getting-started/getting-started-legacy.md)

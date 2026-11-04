@@ -30,6 +30,18 @@ Installer source files such as `mocadev.iss`, `setupfix.wxs`, `*.iss`, and `*.wx
 | `/DIR` | Used because it was already documented for the EXE installer. | Confirm against the installer project. |
 | `/LOG` | Used because it was already documented for the EXE installer and uninstaller. | Confirm against the installer project. |
 
+## MSI silent uninstall: needs confirmation
+
+Installer source files such as `setupfix.wxs`, `*.wxs`, `*.wxi`, and `*.wxl` were not present in this repository checkout, so the following MSI uninstall details could not be confirmed from source.
+
+| Item | What I assumed | What must be tested |
+| --- | --- | --- |
+| winget display name | Published as `Smart MOCA Client` because the requested page text uses that name. | Confirm that winget lists the application with exactly this display name. |
+| Current-user winget uninstall | Published as the silent uninstall method because the requested page text uses winget. | Confirm that winget can uninstall a current-user MSI installation. |
+| First winget run | Not mentioned on the published page. | Confirm whether Windows asks the user to accept winget source agreements before the command can run silently. |
+| Silent uninstall data behavior | Published with the same keep/remove descriptions as the existing MSI uninstall page, without stating a default. | Confirm whether silent uninstall keeps settings or removes everything by default. |
+| Administrator installation folder | Current docs say `%PROGRAMDATA%\smartmocaclient`; earlier docs said `C:\Program Files (x86)\SmartMOCAClient`. | Confirm the correct administrator install folder in the MSI installer source. |
+
 ## 404-pages Reference Port Review
 
 Branch reviewed: `origin/404-pages`
