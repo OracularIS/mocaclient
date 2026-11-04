@@ -12,6 +12,7 @@ Use this page to remove Smart MOCA Client without the uninstall wizard.
 
 ## Before You Begin
 
+- Close Smart MOCA Client.
 - Open Command Prompt.
 - If Smart MOCA Client was installed in Administrator mode, open Command Prompt with **Run as administrator**.
 - If it was installed for the current user, run the command as the same Windows user.
@@ -20,17 +21,44 @@ Use this page to remove Smart MOCA Client without the uninstall wizard.
 
 ## Silent Uninstall
 
+Use `Uninstall.cmd` from the install folder when it is available. It starts the MSI uninstall and passes through the options you add.
+
+### Current User Installation
+
+Silent uninstall with the recommended option, **Keep my settings and saved data**:
+
 ```bat
-winget uninstall --name "Smart MOCA Client" --silent
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd" /qn /norestart /l*v "%TEMP%\smc_msi_uninstall_keep.log"
+```
+
+Silent uninstall and **Remove everything**:
+
+```bat
+"%APPDATA%\SmartMOCAClient\Uninstall.cmd" /qn REMOVEALL=1 /norestart /l*v "%TEMP%\smc_msi_uninstall_full.log"
+```
+
+### Administrator Installation
+
+Silent Administrator uninstall with the recommended option, **Keep my settings and saved data**:
+
+```bat
+"C:\ProgramData\SmartMOCAClient\Uninstall.cmd" /qn /norestart /l*v "%TEMP%\smc_msi_admin_uninstall_keep.log"
+```
+
+Silent Administrator uninstall and **Remove everything**:
+
+```bat
+"C:\ProgramData\SmartMOCAClient\Uninstall.cmd" /qn REMOVEALL=1 /norestart /l*v "%TEMP%\smc_msi_admin_uninstall_full.log"
 ```
 
 ## Command Options
 
 | Option | What It Does | Default | Used In |
 | --- | --- | --- | --- |
-| `winget uninstall` | Removes an installed application. | None. | Silent uninstall |
-| `--name "Smart MOCA Client"` | Finds the installed application by its name. | None. | Silent uninstall |
-| `--silent` | Runs without prompts. | Not used: winget may ask for confirmation. | Silent uninstall |
+| `/qn` | Runs silently with no uninstall UI. | Not used: the uninstall wizard is shown. | All silent uninstall commands |
+| `/norestart` | Prevents Windows Installer from restarting Windows automatically. | Not used: Windows may restart if required. | All silent uninstall commands |
+| `/l*v "path"` | Writes a verbose uninstall log file. | Not used: no verbose log is written. | All silent uninstall commands |
+| `REMOVEALL=1` | Selects **Remove everything**. | Not used: uninstall keeps settings and saved data. | Remove everything commands |
 
 ## What Is Kept or Removed
 
@@ -44,6 +72,7 @@ winget uninstall --name "Smart MOCA Client" --silent
 - The command finishes without opening a window.
 - Smart MOCA Client no longer appears in **Settings > Apps > Installed apps**.
 - The Start Menu shortcut is gone.
+- The uninstall log is created at the path you selected.
 
 ## Common Problems
 

@@ -32,7 +32,7 @@ Use this page to run the EXE installer without the setup wizard.
 Default current-user silent installation:
 
 ```bat
-setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG="%TEMP%\smc_exe_install.log"
+setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER /LOG="%TEMP%\smc_exe_install.log"
 ```
 
 ### Install to a Custom Folder
@@ -40,7 +40,7 @@ setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG="%TEMP%\smc_exe_ins
 Current-user silent installation to a custom folder:
 
 ```bat
-setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR="C:\path" /LOG="%TEMP%\smc_exe_install.log"
+setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER /DIR="C:\path" /LOG="%TEMP%\smc_exe_install.log"
 ```
 
 ### Where the Files Go
@@ -48,7 +48,7 @@ setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR="C:\path" /LOG="%TE
 By default, the current-user installation goes to:
 
 ```text
-%APPDATA%\smartmocaclient
+%APPDATA%\SmartMOCAClient
 ```
 
 ## All Users Installation (Administrator)
@@ -58,7 +58,7 @@ By default, the current-user installation goes to:
 All users silent installation from an elevated Command Prompt:
 
 ```bat
-setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG="%TEMP%\smc_exe_install.log"
+setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /ALLUSERS /LOG="%TEMP%\smc_exe_admin_install.log"
 ```
 
 ### About the Windows UAC Prompt
@@ -70,7 +70,7 @@ Windows may ask for administrator approval before setup can install for all user
 By default, the all-users installation goes to:
 
 ```text
-%PROGRAMDATA%\smartmocaclient
+%PROGRAMDATA%\SmartMOCAClient
 ```
 
 ## Command Options
@@ -81,13 +81,15 @@ By default, the all-users installation goes to:
 | `/SUPPRESSMSGBOXES` | Suppresses setup message boxes where possible. | Not used: setup may show message boxes. | Default installation, All users installation |
 | `/NORESTART` | Prevents setup from restarting Windows automatically. | Not used: setup may restart Windows if required. | Default installation, All users installation |
 | `/SP-` | Skips the setup startup prompt. | Not used: setup may show the startup prompt. | Default installation, All users installation |
-| `/DIR="C:\path"` | Installs Smart MOCA Client to a custom folder. | `%APPDATA%\smartmocaclient` for current-user installation, or `%PROGRAMDATA%\smartmocaclient` for all-users installation. | Custom folder installation |
+| `/CURRENTUSER` | Selects current-user installation. | Current user is the recommended install mode. | Default installation |
+| `/ALLUSERS` | Selects all-users installation. Run from an elevated Command Prompt. | Not used: setup installs for the current user. | All users installation |
+| `/DIR="C:\path"` | Installs Smart MOCA Client to a custom folder. | `%APPDATA%\SmartMOCAClient` for current-user installation, or `%PROGRAMDATA%\SmartMOCAClient` for all-users installation. | Custom folder installation |
 | `/LOG="%TEMP%\smc_exe_install.log"` | Writes an installation log file. | Not used: no log is written. | Default installation, All users installation |
 
 ## Check That the Installation Worked
 
 - The command finishes without opening the setup wizard.
-- The log file is created at `%TEMP%\smc_exe_install.log`.
+- The log file is created at the path you selected.
 - Smart MOCA Client opens from the installed shortcut.
 
 ## Common Problems

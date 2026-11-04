@@ -19,22 +19,38 @@ Use this page to uninstall Smart MOCA Client without the setup wizard.
 
 ## Silent Uninstall (Default Installation)
 
-### Command
+### Keep Settings and Saved Data
 
-Default current-user silent uninstall:
+Default current-user silent uninstall keeps settings and saved data:
 
 ```bat
-start /wait "" "%APPDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
+start /wait "" "%APPDATA%\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall_keep.log"
+```
+
+### Remove Everything
+
+Current-user silent uninstall and remove everything:
+
+```bat
+start /wait "" "%APPDATA%\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /REMOVE_USER_DATA=1 /LOG="%TEMP%\smc_exe_uninstall_full.log"
 ```
 
 ## Silent Uninstall (All Users Installation)
 
-### Command
+### Keep Settings and Saved Data
 
-All users silent uninstall from an elevated Command Prompt:
+All users silent uninstall from an elevated Command Prompt keeps settings and saved data:
 
 ```bat
-start /wait "" "%PROGRAMDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_uninstall.log"
+start /wait "" "%PROGRAMDATA%\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="%TEMP%\smc_exe_admin_uninstall_keep.log"
+```
+
+### Remove Everything
+
+All users silent uninstall from an elevated Command Prompt and remove everything:
+
+```bat
+start /wait "" "%PROGRAMDATA%\SmartMOCAClient\unins000.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /REMOVE_USER_DATA=1 /LOG="%TEMP%\smc_exe_admin_uninstall_full.log"
 ```
 
 ## Command Options
@@ -44,6 +60,7 @@ start /wait "" "%PROGRAMDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRES
 | `/VERYSILENT` | Runs uninstall without showing wizard pages. | Not used: the uninstall wizard is shown. | Default uninstall, All users uninstall |
 | `/SUPPRESSMSGBOXES` | Suppresses uninstall message boxes where possible. | Not used: uninstall may show message boxes. | Default uninstall, All users uninstall |
 | `/NORESTART` | Prevents the uninstaller from restarting Windows automatically. | Not used: uninstall may restart Windows if required. | Default uninstall, All users uninstall |
+| `/REMOVE_USER_DATA=1` | Selects **Remove everything**. | Not used: uninstall keeps settings and saved data. | Remove everything commands |
 | `/LOG="%TEMP%\smc_exe_uninstall.log"` | Writes an uninstall log file. | Not used: no log is written. | Default uninstall, All users uninstall |
 
 ## What Is Kept or Removed
@@ -53,13 +70,11 @@ start /wait "" "%PROGRAMDATA%\smartmocaclient\unins000.exe" /VERYSILENT /SUPPRES
 | Keep my settings and saved data | Removes the application folder except the `config` folder and removes shortcuts. | The `config` folder and the `Oracular MOCA Client` data folder stay. |
 | Remove everything | Removes the application, settings, registry entries, and Oracular MOCA Client data. | No Smart MOCA Client folders are intentionally kept. |
 
-> **Note:** This checkout does not include the installer source that confirms a silent command-line switch for choosing **Keep my settings and saved data** or **Remove everything**.
-
 ## Check That the Uninstall Worked
 
 - Smart MOCA Client shortcuts are removed.
 - The application files are removed from the installation folder.
-- The log file is created at `%TEMP%\smc_exe_uninstall.log`.
+- The log file is created at the path you selected.
 
 ## Common Problems
 
