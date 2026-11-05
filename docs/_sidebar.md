@@ -9,13 +9,13 @@
 - Installation
   - EXE
     - [Install with the EXE installer](./getting-started/exe-installation.md)
-    - [Silent Install with EXE](./getting-started/exe-silent-installation.md)
     - [Uninstall EXE](./getting-started/exe-uninstallation.md)
+    - [Silent Install with EXE](./getting-started/exe-silent-installation.md)
     - [Silent Uninstall with EXE](./getting-started/exe-silent-uninstallation.md)
   - MSI
     - [Install with the MSI installer](./getting-started/msi-installation.md)
-    - [Silent Install with MSI](./getting-started/msi-silent-installation.md)
     - [Uninstall MSI](./getting-started/msi-uninstallation.md)
+    - [Silent Install with MSI](./getting-started/msi-silent-installation.md)
     - [Silent Uninstall with MSI](./getting-started/msi-silent-uninstallation.md)
   - Portable
     - [Portable Setup](./getting-started/portable.md)
